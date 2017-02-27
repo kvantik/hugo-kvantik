@@ -1,0 +1,12 @@
+﻿<tr>
+	<td align="right" class="img">
+	<a class="img_download" href={{template "issue/pdf_path.html" .}} target="_blank"><img src={{template "issue/image_path.html" .}} align="right"/></a>
+	</td>
+	<td  class="ogl">
+<ul>
+{{range .Params.slogans}}
+<li> {{.|markdownify}} </li>
+{{end}}
+</ul>
+	</td>
+</tr>
