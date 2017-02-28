@@ -2,6 +2,7 @@ baseurl = "http://www.kvantik.com/"
 title = "Квантик"
 #copyright = "(c) 2015 yourname."
 languageCode = "ru-ru"
+defaultContentLanguage = "ru"
 
 #canonifyurls = true
 #metaDataFormat = "toml"
@@ -58,34 +59,6 @@ SectionPagesMenu = "lazy"
     youtube = ""  # Your Youtube channel ID
 
 
-
-[menu]
-   [[menu.main]]
-    name = "Главная"
-#    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
-#    identifier = "home"
-    url = "/"
-  [[menu.main]]
-    name = "Контакты"
-    weight = 2
-    url = "/contacts/"
-  [[menu.main]]
-    name = "Выпуски"
-    weight = 2
-    url = "/issue/"
-  [[menu.main]]
-    name = "Конкурс"
-    weight = 2
-    url = "/konkurs/"
-  [[menu.main]]
-    name = "Как купить?"
-    weight = 3
-    url = "/buy/"
-  [[menu.main]]
-    name = "Подписка"
-    weight = 3
-    url = "/subscription/"
 
 [params.carousel]
     enable = true

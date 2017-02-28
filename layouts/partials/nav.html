@@ -22,7 +22,7 @@
                 <ul class="nav navbar-nav navbar-right">
 		    {{$Page := .}}
                     {{ range .Site.Menus.main }}
-                    <li {{if ($Page.IsMenuCurrent "main" .)}}class="active"{{end}}>
+                    <li {{if or ($Page.IsMenuCurrent "main" .) ($Page.HasMenuCurrent "main" .)}}class="active"{{end}}>
                         <a href="{{.URL}}">{{ .Name }}</a>
                     </li>
                     {{ end }}
