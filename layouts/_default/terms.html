@@ -1,0 +1,11 @@
+{{define "content"}}
+<section id="menu">
+    <ul>
+   {{ $data := .Data }}
+   {{ $page := . }}
+    {{ range $key, $value := .Data.Terms }}
+      <li><a href="{{ $page.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
+    {{ end }}
+    </ul>
+</section>
+{{end}}

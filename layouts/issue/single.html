@@ -1,4 +1,10 @@
 {{define "content"}}
+
+{{partial "issue-gallery" .}}
+
+{{partial "pswp-root" .}}
+
+
 {{$pdf := (printf "%sissues/%s/%s.pdf" .Site.BaseURL (string .Params.year) .Params.month) }}
 <object data="{{$pdf}}" type="application/pdf" width="100%" height="600px">
 <iframe src="{{$pdf}}" width="100%" height="100%" style="border: none;">

@@ -1,0 +1,12 @@
+{{define "content"}}
+	
+<section>
+  <ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+
+{{end}}

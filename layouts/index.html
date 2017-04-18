@@ -1,69 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  {{ partial "head.html" . }}
-
-  <body>
-
-    <div id="all">
-
-        <header>
-
-          {{ partial "nav.html" . }}
-
-        </header>
-
-        {{ partial "breadcrumbs.html" . }}
+{{ define "content"}}
 
         {{ partial "carousel.html" . }}
 
+        <div id="content container row col-md-12">
 
-        <div id="content">
-            {{ if isset .Params "id" }}
-
-              {{ partial .Params.id . }}
-
-            {{ else }}
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-12">
 
                         <div>
                           <!-- { .Content } -->
                         </div>
 
-
                         <table>
-			{{range where .Site.Pages "Section" "issue"}}
-			{{.Render "slogans"}}
-			{{end}}
+						{{range where .Site.Pages "Section" "issue"}}
+						{{.Render "slogans"}}
+						{{end}}
                         </table>
 
-
-
-                    </div>
-
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container -->
-
-            {{ end }}
-        </div>
+	    </div>
         <!-- /#content -->
 
         {{ partial "testimonials.html" . }}
+{{end}}
 
-        {{ partial "footer.html" . }}
-
-    </div>
-    <!-- /#all -->
-
-    {{ partial "scripts.html" . }}
-
-  </body>
-</html>

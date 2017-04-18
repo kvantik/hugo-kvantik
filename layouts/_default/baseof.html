@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru"> {{/* .Language? */}}
 
-  {{ partial "head.html" . }}
+  {{ partial "head" . }}
 
   <body>
 
@@ -9,21 +9,22 @@
 
         <header>
 
-          {{ partial "nav.html" . }}
+          {{ partial "nav" . }}
 
         </header>
 
-        {{ partial "breadcrumbs.html" . }}
+        {{ partial "breadcrumbs" . }}
 
 
 	{{ block "content" . }} {{end}}
 
     </div>
+
     <!-- /#all -->
 
-    {{ partial "footer.html" . }}
+    {{ partial "footer" . }}
 
-    {{ partial "scripts.html" . }}
+    {{ partial "scripts" . }}
 
   </body>
 </html>

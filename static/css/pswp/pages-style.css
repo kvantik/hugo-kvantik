@@ -1,0 +1,17 @@
+.pages-gallery {
+  width: 100%;
+  float: left;
+}
+.pages-gallery img {
+  width: 100%;
+  height: auto;
+}
+.pages-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.pages-gallery figcaption {
+  display: none;
+}

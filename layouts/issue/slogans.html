@@ -1,4 +1,5 @@
-﻿<tr>
+﻿{{if isset .Params "slogans"}}
+<tr>
 	<td align="right" class="img">
 	<a class="img_download" href={{template "issue/single_path.html" .}}><img src={{template "issue/image_path.html" .}} align="right"/></a>
 	</td>
@@ -10,3 +11,6 @@
 </ul>
 	</td>
 </tr>
+{{else}}
+{{printf "%#v" .Kind}}
+{{end}}

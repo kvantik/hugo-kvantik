@@ -33,14 +33,13 @@
   {{ end }}
 
 
-  <!-- Custom stylesheet - for your changes -->
-  <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
+<!-- CSS PhotoSwipe -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pswp/photoswipe.css"> 
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pswp/default-skin.css"> 
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pswp/pages-style.css"> 
 
-  <!-- Responsivity for older IE -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Custom stylesheets -->
+  <link href="{{ .Site.BaseURL }}css/nav.css" rel="stylesheet">
 
   <!-- Favicon, apple touch icon removed-->
   <link rel="icon" type="image/png" href="{{.Site.BaseURL}}img/icon_256.png" />
@@ -50,6 +49,13 @@
 
   <link href="{{ .Site.BaseURL }}css/owl.carousel.css" rel="stylesheet">
   <link href="{{ .Site.BaseURL }}css/owl.theme.css" rel="stylesheet">
+
+  <!-- Responsivity for older IE -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 

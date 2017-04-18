@@ -1,0 +1,24 @@
+{{ printf "%#v" .Params.year }}
+{{$issuePath := (delimit (slice .Params.year "/" .Params.month "/") "" )}}
+{{$pagesDir := (delimit (slice "static/issue/" $issuePath) "" )}}
+{{ printf "%#v"  $pagesDir }}
+
+
+  <div class="pages-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+	{{ range (readDir $pagesDir) }}
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="{{delimit (slice $.Site.BaseURL "issue/" $issuePath .Name) ""}}" itemprop="contentUrl" data-size="2632x3012">
+          <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+    </figure>
+    
+	{{end}}
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
+          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      <figcaption itemprop="caption description">Image caption 4</figcaption>
+    </figure>
+</div>
