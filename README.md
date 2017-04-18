@@ -1,2 +1,2 @@
-# appernetic-hugo-project
-Hugo Project
+# hugo-kvantik
+Source and content for a future site of Kvantik.
