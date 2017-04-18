@@ -1,4 +1,4 @@
-baseurl = "http://www.kvantik.com/"
+baseurl = "http://kvantik.netlify.com/"
 title = "Квантик"
 #copyright = "(c) 2015 yourname."
 languageCode = "ru-ru"
