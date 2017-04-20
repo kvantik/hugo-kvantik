@@ -3,7 +3,8 @@ backend:
   repo: aperep/hugo-kvantik
   branch: master
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
+media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/uploads"
 
 publish_mode: editorial_workflow
 
