@@ -1,6 +1,50 @@
 +++
-draft = true
 title = "Контакты"
 date = "2017-02-09T14:58:00+03:00"
 menu =  "main"
 +++
+
+
+# С нами просто связаться 
+
+Наш контактный e-mail: {{< mail "kvantik" "mccme.ru" >}}  
+
+Адрес математического конкурса: {{< mail "matkonkurs" "kvantik.com" >}}  
+
+Наш почтовый адрес: 119002, Москва, Б. Власьевский пер., д. 11, журнал «Квантик».  
+
+
+«Квантик» в социальных сетях: 
+
+[![ЖЖ](/img/social/lj_h.png "Живой журнал")](http://kvantik12.livejournal.com/)
+[![ВКонтакте](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)
+[![Фейсбук](/img/social/fb_h.png "Фейсбук")](http://facebook.com/kvantik12)
+[![Одноклассники](/img/social/ok_h.png "Одноклассники")](http://ok.ru/kvantik12)
+[![Твиттер](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)
+[![Инстаграм](/img/social/ig_h.png "Инстаграм")](http://instagram.com/kvantik12/)
+[![Ютуб](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)
+
+# Выходная информация
+*Главный редактор:* Сергей Дориченко  
+
+*Редакция:* Виктор Дрёмов, Вадим Квачёв, Дарья Кожемякина, Алёна Котко, Ирина Маховая, Андрей Меньщиков, Александр Перепечко, Максим Прасолов, Ольга Хвостикова  
+
+*Главный художник:* Yustas-07  
+
+*Вёрстка:* Ирина Гумерова, Рафида Шагеева  
+
+Формат 84х108/16. Тираж 7000 экземпляров.  
+
+Журнал "Квантик" зарегистрирован в Федеральной службе по надзору в сфере связи, информационных технологий и массовых коммуникаций.
+Свидетельство о регистрации ПИ №ФС77-44928 от 4 мая 2011 г.
+
+# Наши партнёры
+
+
+[![](/img/partners/nkj-logo.gif)](http://www.nkj.ru/subscribe/)
+[![](/img/partners/ileo.png)](http://www.ileonardo.ru/)
+[![](/img/partners/etudes-logo.png)](http://www.etudes.ru/)
+[![](/img/partners/Robot-logo.png)](http://robots.croc.ru/junior/)
+[![](/img/partners/formulo_org.png)](http://www.formulo.org/)
+[![](/img/partners/lan.jpg)](http://www.e.lanbook.com/)
+[![](/img/partners/osdlogo.png)](http://www.osd.ru/)
