@@ -1,0 +1,28 @@
+{{define "content"}}
+
+{{/* .Content */}}
+
+<table class="table-striped table-responsive table-bordered">
+<tr>
+<th>Название интернет-магазина (ссылка на сайт)</th>
+<th>Что можно купить (ссылка)</th>
+<th>Способы доставки</th>
+</tr>
+
+{{range $i, $e := .Params.store_categories}}
+<tr><td colspan="3"><b>{{add $i 1}}. {{ .title }}</b></td></tr>
+{{range (index (index $.Site.Data.buy .name) .name)}}
+<tr>
+<td>{{.name | markdownify}}</td>
+<td>{{.sells | markdownify}}</td>
+<td>{{.delivery | markdownify}}</td>
+</tr>
+{{end}}
+{{end}}
+
+</table>
+
+
+{{range .Params.retail}}{{end}}
+
+{{end}}
