@@ -10,15 +10,11 @@ publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "buy" # Used in routes, ie.: /admin/collections/:slug/edit
-    extension: "yaml"
+    extension: "toml"
     label: "store" # Used in the UI, ie.: "New Post"
     folder: "data/buy" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-	widget: list
     fields: # The fields each document in this collection have
-      - {label: "Название", name: "name", widget: "markdown"}
-      - {label: "Продаёт", name: "sells", widget: "markdown"}
-      - {label: "Доставка", name: "delivery", widget: "markdown"}
       - label: "Список онлайн-магазинов данной категории"
         name: "store" 
         widget: "list"
