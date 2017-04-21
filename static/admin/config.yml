@@ -9,12 +9,17 @@ public_folder: "/img/uploads"
 publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
+  - name: "buy" # Used in routes, ie.: /admin/collections/:slug/edit
+    extension: "toml"
+    label: "store" # Used in the UI, ie.: "New Post"
+    folder: "data/buy" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Foo", name: "foo", widget: "foo"}
+      - {label: "abroad", name: "abroad", widget: "markdown"}
+      - {label: "store", name: "store", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "name", name: "name", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+	
