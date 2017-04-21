@@ -15,11 +15,11 @@ collections: # A list of collections the CMS should be able to edit
     folder: "data/buy" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "abroad", name: "abroad", widget: "markdown"}
-      - {label: "store", name: "store", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "name", name: "name", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - label: "Список онлайн-магазинов данной категории"
+        name: "store" 
+        widget: "list"
+        fields:
+          - {label: "Название", name: "name", widget: "markdown"}
+          - {label: "Продаёт", name: "sells", widget: "markdown"}
+          - {label: "Доставка", name: "delivery", widget: "markdown"}
 	
