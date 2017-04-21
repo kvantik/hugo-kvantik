@@ -10,7 +10,7 @@ publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "buy" # Used in routes, ie.: /admin/collections/:slug/edit
-    extension: "toml"
+    extension: "yaml"
     label: "store" # Used in the UI, ie.: "New Post"
     folder: "data/buy" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
