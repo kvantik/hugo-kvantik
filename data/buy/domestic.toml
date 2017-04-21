@@ -1,191 +1,43 @@
-+++
-[[store]]
-name = ''' 
-[Магазин «Математическая книга» издательства МЦНМО](http://biblio.mccme.ru/shop/order)
-'''
-sells = '''
-*   [Журналы](http://biblio.mccme.ru/shop/detail/journals/152)
-*   [Альманахи](http://biblio.mccme.ru/shop/price/all?field_bookcreators_value=&field_titleplusizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&field_isbn_value=&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)
-*   [Набор плакатов с задачами](http://biblio.mccme.ru/shop/price/all?field_bookcreators_value=&field_titleplusizdanie_value=%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B&field_isbn_value=&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)
-*   [Календари загадок Квантика](http://biblio.mccme.ru/shop/price/all?order=field_book_year_value&sort=desc&field_bookcreators_value=&field_titleplusizdanie_value=Календарь&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)
-'''
-delivery = '''
-*   Доставка почтой только по России
-*   Самовывоз: Москва (Большой Власьевский пер., д.11)
-'''
+---
+store:
+  - name: " \r\n[Магазин «Математическая книга» издательства МЦНМО](http://biblio.mccme.ru/shop/order)\r\n"
+    sells: "*   [Журналы](http://biblio.mccme.ru/shop/detail/journals/152)\r\n*   [Альманахи](http://biblio.mccme.ru/shop/price/all?field_bookcreators_value=&field_titleplusizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&field_isbn_value=&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n*   [Набор плакатов с задачами](http://biblio.mccme.ru/shop/price/all?field_bookcreators_value=&field_titleplusizdanie_value=%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B&field_isbn_value=&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n*   [Календари загадок Квантика](http://biblio.mccme.ru/shop/price/all?order=field_book_year_value&sort=desc&field_bookcreators_value=&field_titleplusizdanie_value=Календарь&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n"
+    delivery: "*   Доставка почтой только по России\r\n*   Самовывоз: Москва (Большой Власьевский пер., д.11)\r\n"
+  - name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
+    sells: "*   [Журналы](http://www.kvantik.ru/collection/zhurnaly)\r\n*   [Альманахи](http://www.kvantik.ru/collection/almanahi)\r\n"
+    delivery: "*   Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва и другие регионы России\r\n*   Курьерская доставка: Москва, другие регионы России\r\n"
+  - name: "[\"МИР ШКОЛЬНИКА\" интернет-магазин школьной литературы *](http://www.uchebnik.com/)\r\n"
+    sells: "*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=журнал+Квантик&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=Квантик.+Альманах&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Плакаты](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=Познавательные+плакаты)\r\n"
+    delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r\n*   Пункты выдачи: Москва, Подмосковье, другие города России\r\n*   Доставка почтой: по России\r\n"
+  - name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)\r\n*   [Набор плакатов с задачами](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)\r\n*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)\r\n"
+    delivery: "*   Курьерская доставка: Москва, Санкт-Петербург, другие регионы России (указанные на сайте магазина);\r\n*   Доставка почтой: по России\r\n"
+  - name: "[\"Книжная лавка\"](http://www.book-stock.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.book-stock.ru/search/results.html?keywords=%EA%E2%E0%ED%F2%E8%EA.+%E0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Плакаты (комплект №1)](http://www.book-stock.ru/catalog/2066/2422202.html)\r\n*   [Плакаты (комплект №2)](http://www.book-stock.ru/catalog/9211/2189416.html)\r\n*   [Календарь-2016](http://www.book-stock.ru/catalog/10855/2127348.html)\r\n"
+    delivery: "*   Доставка в розничные книжные магазины «Галилео»\r\n*   Доставка службами PickPoint и IML: по всей России\r\n*   Доставка почтой: по России\r\n"
+  - name: "[SETBOOK.RU](http://www.setbook.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.setbook.ru/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA&x=0&y=0)\r\n*   [Набор плакатов с задачами](http://www.setbook.ru/advanced_search_result.php?keywords=%EF%EB%E0%EA%E0%F2%FB%2C+%EA%E2%E0%ED%F2%E8%EA&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=21&y=12)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.ru/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.ru/books/2545483.html)\r\n"
+    delivery: "*   Курьерская доставка: Москва, Санкт-Петербург;\r\n*   Пункты выдачи: более, чем в 20 регионах России;\r\n*   Доставка почтой: по России\r\n"
+  - name: "[Библион](http://www.biblion.ru/)\r\n"
+    sells: "*   [Журналы и Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)\r\n*   [Набор плакатов с задачами](http://www.biblion.ru/product/1127354/)\r\n*   [Календари](http://www.biblion.ru/search/?query=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA&search=%CD%E0%E9%F2%E8)\r\n"
+    delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз из офиса \"Библиона\" в Москве и из офиса курьерской компании в Санкт-Петербурге;\r\n*   Почтовая доставка по России;\r\n*   Экспресс-доставка по России через \"ЕМС Гарантпост\"\r\n"
+  - name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.book-stock.ru/search/results.html?keywords=%EA%E2%E0%ED%F2%E8%EA.+%E0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r\n"
+    delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской области;\r\n*   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург (Железнодорожный проспект);\r\n*   Почтовая доставка по России\r\n"
+  - name: "[100book КНИГИ](http://www.100book.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.100book.ru/flaer/?q=%CA%E2%E0%ED%F2%E8%EA)\r\n*   [Плакаты (комплект №1)](http://www.100book.ru/flaer/?fel=6956877)\r\n*   [Плакаты (комплект №2)](http://www.100book.ru/flaer/?fel=6197460)\r\n*   [Календарь-2016](http://www.100book.ru/flaer/?fel=6019305)\r\n"
+    delivery: "*   Курьерская доставка по Москве, Московской области, Санкт-Петербургу, Нижнему Новгороду, Ростову-на-Дону, Батайску, Аксаю;\r\n*   Самовывоз: более 50 городов России;\r\n*   Почтовая доставка по России\r\n"
+  - name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r\n*   [Календарь загадок на 2016 год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvantik-2016-235253.html)\r\n*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-618675.html)\r\n"
+    delivery: "*   Курьерская доставка в 450 городов России;\r\n*   Самовывоз в 59 городах России;\r\n*   Почтовая доставка по России (во все населённые пункты)\r\n"
+  - name: "[TOTbook.ru Интернет-магазин научной книги](http://www.totbook.ru/)\r\n"
+    sells: "*   [Журналы](http://www.totbook.ru/search/?sections=&q=Квантик.Журнал&search=Найти)\r\n*   [Альманахи](http://www.totbook.ru/search/?sections=&q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&search=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8)\r\n*   [Наборы плакатов с задачами](http://www.totbook.ru/catalog/228/8823/)\r\n"
+    delivery: "*   Курьерская доставка: Москва и другие города России;\r\n*   Самовывоз: Москва, Санкт-Петербург и другие города России;\r\n*   Доставка в регионы: Почтой России\r\n"
+  - name: "[COLONIALES](https://coloniales.ru)\r\n"
+    sells: "*   [Альманахи](https://coloniales.ru/search?controller=search&orderby=position&orderway=desc&search_query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&submit_search=)\r\n*   [Плакаты](https://coloniales.ru/prochee/20557-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-2-9785443906362.html)\r\n*   [Календарь загадок на 2016 год](https://coloniales.ru/prochee/20278-kalendar-zagadok-2016-god-9785443906348.html?search_query=Kvantik&results=7)\r\n"
+    delivery: "*   г. Пермь (курьерская доставка) и другие регионы\r\n"
+  - name: "[Спринтер.ру](http://www.sprinter.ru)\r\n"
+    sells: "*   [Альманахи](http://www.sprinter.ru/Search/?t1=&t2=&t3=&query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Плакаты](http://www.sprinter.ru/shop/goods/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-quotkvantikquot-komplekt-2-2189416/)\r\n"
+    delivery: "*   Набор доступных способов доставки зависит от региона доставки (см. на сайте магазина)\r\n"
+---
 
-[[store]]
-name = '''
-[Интернет-магазин "КВАНТИК"](http://www.kvantik.ru)
-'''
-sells = '''
-*   [Журналы](http://www.kvantik.ru/collection/zhurnaly)
-*   [Альманахи](http://www.kvantik.ru/collection/almanahi)
-'''
-delivery = '''
-*   Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва и другие регионы России
-*   Курьерская доставка: Москва, другие регионы России
-'''
-
-[[store]]
-name = '''
-["МИР ШКОЛЬНИКА" интернет-магазин школьной литературы *](http://www.uchebnik.com/)
-'''
-sells = '''
-*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=журнал+Квантик&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)
-*   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=Квантик.+Альманах&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)
-*   [Плакаты](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=Познавательные+плакаты)
-'''
-delivery = '''
-*   Курьерская доставка: Москва и ближайшее Подмосковье
-*   Пункты выдачи: Москва, Подмосковье, другие города России
-*   Доставка почтой: по России
-'''
-
-[[store]]
-name = '''
-[COMBOOK.RU](http://www.combook.ru/)
-'''
-sells = '''
-*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)
-*   [Набор плакатов с задачами](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
-*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
-'''
-delivery = '''
-*   Курьерская доставка: Москва, Санкт-Петербург, другие регионы России (указанные на сайте магазина);
-*   Доставка почтой: по России
-'''
-
-[[store]]
-name = '''
-["Книжная лавка"](http://www.book-stock.ru/)
-'''
-sells = '''
-*   [Альманахи](http://www.book-stock.ru/search/results.html?keywords=%EA%E2%E0%ED%F2%E8%EA.+%E0%EB%FC%EC%E0%ED%E0%F5)
-*   [Плакаты (комплект №1)](http://www.book-stock.ru/catalog/2066/2422202.html)
-*   [Плакаты (комплект №2)](http://www.book-stock.ru/catalog/9211/2189416.html)
-*   [Календарь-2016](http://www.book-stock.ru/catalog/10855/2127348.html)
-'''
-delivery = '''
-*   Доставка в розничные книжные магазины «Галилео»
-*   Доставка службами PickPoint и IML: по всей России
-*   Доставка почтой: по России
-'''
-
-[[store]]
-name = '''
-[SETBOOK.RU](http://www.setbook.ru/)
-'''
-sells = '''
-*   [Альманахи](http://www.setbook.ru/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA&x=0&y=0)
-*   [Набор плакатов с задачами](http://www.setbook.ru/advanced_search_result.php?keywords=%EF%EB%E0%EA%E0%F2%FB%2C+%EA%E2%E0%ED%F2%E8%EA&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=21&y=12)
-*   [Календарь загадок на 2016 год](http://www.setbook.ru/books/3669414.html)
-*   [Календарь загадок на 2015 год](http://www.setbook.ru/books/2545483.html)
-'''
-delivery = '''
-*   Курьерская доставка: Москва, Санкт-Петербург;
-*   Пункты выдачи: более, чем в 20 регионах России;
-*   Доставка почтой: по России
-'''
-
-[[store]]
-name = '''
-[Библион](http://www.biblion.ru/)
-'''
-sells = '''
-*   [Журналы и Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)
-*   [Набор плакатов с задачами](http://www.biblion.ru/product/1127354/)
-*   [Календари](http://www.biblion.ru/search/?query=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA&search=%CD%E0%E9%F2%E8)
-'''
-delivery = '''
-*   Курьерская доставка по Москве и Санкт-Петербургу;
-*   Самовывоз из офиса "Библиона" в Москве и из офиса курьерской компании в Санкт-Петербурге;
-*   Почтовая доставка по России;
-*   Экспресс-доставка по России через "ЕМС Гарантпост"
-'''
-
-[[store]]
-name = '''
-[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)
-'''
-sells = '''
-*   [Альманахи](http://www.book-stock.ru/search/results.html?keywords=%EA%E2%E0%ED%F2%E8%EA.+%E0%EB%FC%EC%E0%ED%E0%F5)
-*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)
-'''
-delivery = '''
-*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской области;
-*   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург (Железнодорожный проспект);
-*   Почтовая доставка по России
-'''
-
-[[store]]
-name = '''
-[100book КНИГИ](http://www.100book.ru/)
-'''
-sells = '''
-*   [Альманахи](http://www.100book.ru/flaer/?q=%CA%E2%E0%ED%F2%E8%EA)
-*   [Плакаты (комплект №1)](http://www.100book.ru/flaer/?fel=6956877)
-*   [Плакаты (комплект №2)](http://www.100book.ru/flaer/?fel=6197460)
-*   [Календарь-2016](http://www.100book.ru/flaer/?fel=6019305)
-'''
-delivery = '''
-*   Курьерская доставка по Москве, Московской области, Санкт-Петербургу, Нижнему Новгороду, Ростову-на-Дону, Батайску, Аксаю;
-*   Самовывоз: более 50 городов России;
-*   Почтовая доставка по России
-'''
-
-[[store]]
-name = '''
-[Книжный магазин Указка](http://www.ukazka.ru/)
-'''
-sells = '''
-*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)
-*   [Календарь загадок на 2016 год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvantik-2016-235253.html)
-*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-618675.html)
-'''
-delivery = '''
-*   Курьерская доставка в 450 городов России;
-*   Самовывоз в 59 городах России;
-*   Почтовая доставка по России (во все населённые пункты)
-'''
-
-[[store]]
-name = '''
-[TOTbook.ru Интернет-магазин научной книги](http://www.totbook.ru/)
-'''
-sells = '''
-*   [Журналы](http://www.totbook.ru/search/?sections=&q=Квантик.Журнал&search=Найти)
-*   [Альманахи](http://www.totbook.ru/search/?sections=&q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&search=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8)
-*   [Наборы плакатов с задачами](http://www.totbook.ru/catalog/228/8823/)
-'''
-delivery = '''
-*   Курьерская доставка: Москва и другие города России;
-*   Самовывоз: Москва, Санкт-Петербург и другие города России;
-*   Доставка в регионы: Почтой России
-'''
-
-[[store]]
-name = '''
-[COLONIALES](https://coloniales.ru)
-'''
-sells = '''
-*   [Альманахи](https://coloniales.ru/search?controller=search&orderby=position&orderway=desc&search_query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&submit_search=)
-*   [Плакаты](https://coloniales.ru/prochee/20557-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-2-9785443906362.html)
-*   [Календарь загадок на 2016 год](https://coloniales.ru/prochee/20278-kalendar-zagadok-2016-god-9785443906348.html?search_query=Kvantik&results=7)
-'''
-delivery = '''
-*   г. Пермь (курьерская доставка) и другие регионы
-'''
-
-[[store]]
-name = '''
-[Спринтер.ру](http://www.sprinter.ru)
-'''
-sells = '''
-*   [Альманахи](http://www.sprinter.ru/Search/?t1=&t2=&t3=&query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5)
-*   [Плакаты](http://www.sprinter.ru/shop/goods/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-quotkvantikquot-komplekt-2-2189416/)
-'''
-delivery = '''
-*   Набор доступных способов доставки зависит от региона доставки (см. на сайте магазина)
-'''
-+++
