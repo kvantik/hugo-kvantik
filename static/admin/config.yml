@@ -11,7 +11,7 @@ publish_mode: editorial_workflow
 collections: # A list of collections the CMS should be able to edit
   - name: "buy" # Used in routes, ie.: /admin/collections/:slug/edit
     extension: "yaml"
-    label: "store" # Used in the UI, ie.: "New Post"
+    label: "Магазины" # Used in the UI, ie.: "New Post"
     folder: "data/buy" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -22,4 +22,22 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Название", name: "name", widget: "markdown"}
           - {label: "Продаёт", name: "sells", widget: "markdown"}
           - {label: "Доставка", name: "delivery", widget: "markdown"}
-	
+  - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
+    extension: "md"
+    label: "Статьи" # Used in the UI, ie.: "New Post"
+    folder: "content/article" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+       - {label: "Название", name: "title", widget: "markdown"}
+
+  - name: "pages"
+    label: "Страницы"
+    editor:
+      preview: false
+    files:
+      - name: "subscription"
+        label: "Подписка"
+        description: "Подписка!"
+        file: "content/subscription.md"
+        fields: # The fields each document in this collection have
+           - {label: "содержимое", name: "body", widget: "markdown"}
