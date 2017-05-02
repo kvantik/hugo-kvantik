@@ -76,3 +76,5 @@ SectionPagesMenu = "lazy"
     search = true
 
 
+[blackfriday]
+  angledQuotes = true
