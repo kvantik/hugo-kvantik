@@ -1,5 +1,7 @@
 {{define "content"}}
 
+<h1> Выпуск №{{.Params.month | int | string}} {{.Params.year}}-го года </h1>
+
 {{partial "issue-gallery" .}}
 
 {{partial "pswp-root" .}}

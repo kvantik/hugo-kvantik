@@ -4,7 +4,9 @@
    {{ $data := .Data }}
    {{ $page := . }}
     {{ range $key, $value := .Data.Terms }}
-      <li><a href="{{ $page.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
+      <li><a href="{{ $page.Site.LanguagePrefix }}/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key | humanize | title}}</a> {{ len $value }}
+        {{/* printf " key %#v \n" $key */}}
+      </li>
     {{ end }}
     </ul>
 </section>

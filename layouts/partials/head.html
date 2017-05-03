@@ -33,14 +33,10 @@
   {{ end }}
 
 
-{{if isset .Params "categories" }}
-{{if in .Params.categories "issue"}}
 <!-- CSS PhotoSwipe -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pswp/photoswipe.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pswp/default-skin.css"> 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/pswp/pages-style.css"> 
-{{end}}
-{{end}}
 
   <!-- Custom stylesheets -->
   <link href="{{ .Site.BaseURL }}css/nav.css" rel="stylesheet">
