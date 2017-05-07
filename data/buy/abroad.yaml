@@ -46,7 +46,21 @@ store:
     sells: "*   Журналы\r\n*   Альманахи\r\n*   Плакаты\r\n"
   - delivery: "*   Доставка в страны Европы, указанные на сайте магазина\r\n"
     name: "[SetBook.Европа](http://www.setbook.net/)\r\n"
-    sells: "*   [Альманахи](http://www.setbook.net/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=19&y=4)\r\n*   [Набор плакатов с задачами](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&x=21&y=7)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.kz/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.kz/books/2545483.html)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.setbook.net/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=19&y=4)
+
+      *   [Набор плакатов с
+      задачами](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&x=21&y=7)
+
+      *   [Календарь загадок на 2017
+      год](http://www.setbook.kz/books/4341442.html)
+
+      *   [Календарь загадок на 2016
+      год](http://www.setbook.kz/books/3669414.html)
+
+      *   [Календарь загадок на 2015
+      год](http://www.setbook.kz/books/2545483.html)
   - delivery: "*   Финляндия и другие страны\r\n"
     name: "[Ruslania](https://ruslania.com/)\r\n"
     sells: "*   [Альманахи](https://ruslania.com/site/search?q=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&e=0)\r\n*   [Набор плакатов с задачами](https://ruslania.com/books/497660/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty)\r\n*   [Календарь загадок на 2015 год](https://ruslania.com/books/501237/kalendar-zagadok-2015-na-spirali)\r\n"
@@ -84,6 +98,7 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
 
