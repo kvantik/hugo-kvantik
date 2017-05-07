@@ -36,7 +36,9 @@ store:
     sells: "*   [Альманахи](http://www.setbook.ru/books/?detailed=%EA%E2%E0%ED%F2%E8%EA%20%E0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Набор плакатов с задачами](http://www.setbook.ru/advanced_search_result.php?keywords=%EF%EB%E0%EA%E0%F2%FB%2C+%EA%E2%E0%ED%F2%E8%EA&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=21&y=12)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.ru/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.ru/books/2545483.html)\r\n"
   - delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз из офиса \"Библиона\" в Москве и из офиса курьерской компании в Санкт-Петербурге;\r\n*   Почтовая доставка по России;\r\n*   Экспресс-доставка по России через \"ЕМС Гарантпост\"\r\n"
     name: "[Библион](http://www.biblion.ru/)\r\n"
-    sells: "*   [Журналы и Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)\r\n*   [Набор плакатов с задачами](http://www.biblion.ru/product/1127354/)\r\n*   [Календари](http://www.biblion.ru/search/?query=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA&search=%CD%E0%E9%F2%E8)\r\n"
+    sells: >
+      *   [Журналы и
+      Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)
   - delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской области;\r\n*   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург (Железнодорожный проспект);\r\n*   Почтовая доставка по России\r\n"
     name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
     sells: "*   [Альманахи](http://www.book-stock.ru/search/results.html?keywords=%EA%E2%E0%ED%F2%E8%EA.+%E0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r\n"
@@ -56,6 +58,7 @@ store:
     name: "[Спринтер.ру](http://www.sprinter.ru)\r\n"
     sells: "*   [Альманахи](http://www.sprinter.ru/Search/?t1=&t2=&t3=&query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Плакаты](http://www.sprinter.ru/shop/goods/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-quotkvantikquot-komplekt-2-2189416/)\r\n"
 ---
+
 
 
 
