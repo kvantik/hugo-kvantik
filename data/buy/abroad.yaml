@@ -7,14 +7,40 @@ store:
       Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?D1=4&B1=Go&Find=%EA%E2%E0%ED%F2%E8%EA&Pr1=1&Cr=Catalog&Chstr=)
 
       *   [Плакаты (комплект №2)](http://www.bookshop.ua/a13578098/)
-
-      *   [Календарь загадок на 2015 год](http://www.bookshop.ua/a10039061/)
   - delivery: "*   Курьером по Минску\r\n*   Доставка почтой по Белоруссии\r\n"
     name: "[SetBook.Белоруссия](http://www.setbook.by/)\r\n"
-    sells: "*   [Альманахи](http://www.setbook.by/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=27&y=10)\r\n*   [Набор плакатов с задачами](http://www.setbook.by/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=0&y=0)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.by/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.by/books/2545483.html)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.setbook.by/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=27&y=10)
+
+      *   [Наборы плакатов с
+      задачами](http://www.setbook.by/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=0&y=0)
+
+      *   [Календарь загадок на 2017
+      год](http://www.setbook.by/books/4341442.html)
+
+      *   [Календарь загадок на 2016
+      год](http://www.setbook.by/books/3669414.html)
+
+      *   [Календарь загадок на 2015
+      год](http://www.setbook.by/books/2545483.html)
   - delivery: "*   Доставка по Казахстану (выполняет ФГУП «Почта России»)\r\n"
     name: "[SetBook.Казахстан](http://www.setbook.kz/)\r\n"
-    sells: "*   [Альманахи](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=20&y=9)\r\n*   [Набор плакатов с задачами](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&x=19&y=9)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.kz/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.kz/books/2545483.html)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=20&y=9)
+
+      *   [Наборы плакатов с
+      задачами](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&x=19&y=9)
+
+      *   [Календарь загадок на 2017
+      год](http://www.setbook.kz/books/4341442.html)
+
+      *   [Календарь загадок на 2016
+      год](http://www.setbook.kz/books/3669414.html)
+
+      *   [Календарь загадок на 2015
+      год](http://www.setbook.kz/books/2545483.html)
   - delivery: "Доставка в республику Беларусь:\r\n\r\n*   Курьерская доставка SPSR Express и DPD  \r\n\r\nДоставка по всему миру:\r\n\r\n*   Курьерская доставка DHL Express\r\n*   Международная доставка Spring Global Mail\r\n*   Служба экспресс-доставки TNT Express\r\n"
     name: "[OZONru International](http://ozonru.com/)\r\n"
     sells: "*   Журналы\r\n*   Альманахи\r\n*   Плакаты\r\n"
@@ -58,5 +84,6 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
