@@ -75,12 +75,24 @@ store:
 
       *   [Календарь загадок на 2016
       год](https://ruslania.com/books/1113498/kalendar-zagadok-2016-na-spirali)
-  - delivery: "Доставка по Израилю:\r\n\r\n*   Пункты выдачи OZON;\r\n*   Курьерская доставка;\r\n*   Доставка почтой\r\n"
-    name: "[OZONru Israel](http://ozonru.co.il/)\r\n"
-    sells: "*   [Журналы и Альманахи](http://ozonru.co.il/search/?q=Квантик&s=Поиск)\r\n*   [Набор плакатов с задачами](http://ozonru.co.il/catalog/edlitera_1155046_1139701_1140444/1588508/)\r\n*   [Календарь загадок на 2016 год](http://ozonru.co.il/catalog/new_goods/1613312/)\r\n*   [Календарь загадок на 2015 год](http://ozonru.co.il/catalog/family_1071510_12130/1535814/)\r\n*   [Календарь загадок на 2014 год](http://ozonru.co.il/catalog/nonfiction_1137929_1139114/1535812/)\r\n"
   - delivery: "*   Доставка по США и другие страны через US Postal Service\r\n"
     name: "[SetBook.США и Канада](http://www.setbook.us/)\r\n"
-    sells: "*   [Альманахи](http://www.setbook.us/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=24&y=8)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.us/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.us/books/2545483.html)\r\n*   Плакаты\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.setbook.us/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=24&y=8)
+
+      *   [Календарь загадок на 2017
+      год](http://www.setbook.us/books/4341442.html)
+
+      *   [Календарь загадок на 2016
+      год](http://www.setbook.us/books/3669414.html)
+
+      *   [Календарь загадок на 2015
+      год](http://www.setbook.us/books/2545483.html)
+
+      *   [Плакаты (комплект №1)](http://www.setbook.us/books/3859762.html)
+
+      *   [Плакаты (комплект №2)](http://www.setbook.us/books/3719323.html)
   - delivery: "*   США, Канада и другие страны\r\n"
     name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
     sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)\r\n*   [Наборы плакатов с задачами](http://www.vasha-kniga.com/productdetail.asp?productid=849396)\r\n*   [Календарь загадок на 2016 год](http://www.vasha-kniga.com/productdetail.asp?productid=884100)\r\n*   [Календарь загадок на 2015 год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)\r\n"
@@ -109,6 +121,7 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
 
