@@ -54,7 +54,18 @@ store:
       год](http://www.bgshop.ru/Details.aspx?id=10057359)
   - delivery: "Доставка по России:\r\n\r\n*   Курьерская доставка;\r\n*   Самовывоз;\r\n*   Доставка почтой России;\r\nМеждународная доставка:\r\n\r\n*   Курьерская служба \"TNT Express\"\r\n"
     name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
-    sells: "*   [Альманахи](http://my-shop.ru/shop/search/a/sort/z/page/1.html?f14_39=0&f14_16=6&f14_6=квантик&t=0&next=1&kp=9&flags=25)\r\n*   Плакаты\r\n*   [Календарь загадок на 2016 год](http://my-shop.ru/shop/books/2127348.html)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://my-shop.ru/shop/search/a/sort/z/page/1.html?f14_39=0&f14_16=6&f14_6=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&t=0&next=1&kp=2&flags=19&menu_catid=0)
+
+      *   [Плакаты (комплект
+      №1)](http://my-shop.ru/shop/books/2422202.html?b45=1_11)
+
+      *   [Плакаты (комплект
+      №2)](http://my-shop.ru/shop/books/2189416.html?b45=1_12)
+
+      *   [Календарь загадок на 2017
+      год](http://my-shop.ru/shop/books/2557410.html?b45=1_8)
   - delivery: "Доставка по России:\r\n\r\n*   Курьерская доставка: Москва и окрестности, Зеленоград, Санкт-Петербург и окрестности, Нижний Новгород;\r\n*   Самовывоз: Москва, Зеленоград, Московская область, Санкт-Петербург, Нижний Новгород, другие регионы России;\r\n*   Почтовая доставка по России;\r\n*   Экспресс-доставка по России и в Казахстан курьерской службой СДЕК\r\n"
     name: "[Учёный кот](http://www.intelkot.ru/)\r\n"
     sells: "*   [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)\r\n*   [Альманахи](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%C0%EB%FC%EC%E0%ED%E0%F5+%CA%E2%E0%ED%F2%E8%EA&event=simple&cl=search)\r\n*   [Набор плакатов с задачами](http://www.intelkot.ru/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty/)\r\n*   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)\r\n"
@@ -62,6 +73,7 @@ store:
     name: "[books.ru](http://www.books.ru/)\r\n"
     sells: "*   [Альманахи](http://www.books.ru/search.php?s%5Bquery%5D=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&x=0&y=0&s%5Bgo%5D=1&s%5Btype_of_addon%5D=all)\r\n*   [Набор плакатов с задачами](http://www.books.ru/books/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty-4250932/?show=1)\r\n*   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)\r\n"
 ---
+
 
 
 
