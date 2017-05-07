@@ -41,9 +41,6 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.setbook.kz/books/2545483.html)
-  - delivery: "Доставка в республику Беларусь:\r\n\r\n*   Курьерская доставка SPSR Express и DPD  \r\n\r\nДоставка по всему миру:\r\n\r\n*   Курьерская доставка DHL Express\r\n*   Международная доставка Spring Global Mail\r\n*   Служба экспресс-доставки TNT Express\r\n"
-    name: "[OZONru International](http://ozonru.com/)\r\n"
-    sells: "*   Журналы\r\n*   Альманахи\r\n*   Плакаты\r\n"
   - delivery: "*   Доставка в страны Европы, указанные на сайте магазина\r\n"
     name: "[SetBook.Европа](http://www.setbook.net/)\r\n"
     sells: >
@@ -63,7 +60,21 @@ store:
       год](http://www.setbook.kz/books/2545483.html)
   - delivery: "*   Финляндия и другие страны\r\n"
     name: "[Ruslania](https://ruslania.com/)\r\n"
-    sells: "*   [Альманахи](https://ruslania.com/site/search?q=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&e=0)\r\n*   [Набор плакатов с задачами](https://ruslania.com/books/497660/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty)\r\n*   [Календарь загадок на 2015 год](https://ruslania.com/books/501237/kalendar-zagadok-2015-na-spirali)\r\n"
+    sells: >
+      *  
+      [Альманахи](https://ruslania.com/site/search?q=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&e=0)
+
+      *   [Плакаты (комплект
+      №1)](https://ruslania.com/books/924666/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-1)
+
+      *   [Плакаты (комплект
+      №2)](https://ruslania.com/books/924667/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-2)
+
+      *   [Календарь загадок на 2017
+      год](https://ruslania.com/books/979228/kalendar-zagadok-2017-2018-na-spirali)
+
+      *   [Календарь загадок на 2016
+      год](https://ruslania.com/books/1113498/kalendar-zagadok-2016-na-spirali)
   - delivery: "Доставка по Израилю:\r\n\r\n*   Пункты выдачи OZON;\r\n*   Курьерская доставка;\r\n*   Доставка почтой\r\n"
     name: "[OZONru Israel](http://ozonru.co.il/)\r\n"
     sells: "*   [Журналы и Альманахи](http://ozonru.co.il/search/?q=Квантик&s=Поиск)\r\n*   [Набор плакатов с задачами](http://ozonru.co.il/catalog/edlitera_1155046_1139701_1140444/1588508/)\r\n*   [Календарь загадок на 2016 год](http://ozonru.co.il/catalog/new_goods/1613312/)\r\n*   [Календарь загадок на 2015 год](http://ozonru.co.il/catalog/family_1071510_12130/1535814/)\r\n*   [Календарь загадок на 2014 год](http://ozonru.co.il/catalog/nonfiction_1137929_1139114/1535812/)\r\n"
@@ -98,6 +109,7 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
 
