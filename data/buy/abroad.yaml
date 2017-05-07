@@ -95,7 +95,18 @@ store:
       *   [Плакаты (комплект №2)](http://www.setbook.us/books/3719323.html)
   - delivery: "*   США, Канада и другие страны\r\n"
     name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
-    sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)\r\n*   [Наборы плакатов с задачами](http://www.vasha-kniga.com/productdetail.asp?productid=849396)\r\n*   [Календарь загадок на 2016 год](http://www.vasha-kniga.com/productdetail.asp?productid=884100)\r\n*   [Календарь загадок на 2015 год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)
+
+      *  [Плакаты (комплект
+      №2)](http://www.vasha-kniga.com/productdetail.asp?productid=889692)
+
+      *   [Календарь загадок на 2017
+      год](http://www.vasha-kniga.com/productdetail.asp?productid=970558)
+
+      *   [Календарь загадок на 2015
+      год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
   - delivery: "*   США, Канада и другие страны\r\n"
     name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
     sells: "*   Альманахи\r\n*   [Наборы плакатов с задачами](http://www.bookmazecity.com/productdetail.asp?productid=717545)\r\n*   [Календарь загадок на 2016 год](http://www.bookmazecity.com/productdetail.asp?productid=749488)\r\n*   [Календарь загадок на 2015 год](http://www.bookmazecity.com/productdetail.asp?productid=712598)\r\n"
@@ -121,6 +132,7 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
 
