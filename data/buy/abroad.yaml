@@ -143,7 +143,21 @@ store:
       год](http://www.amazon.com/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X/ref=sr_1_4?ie=UTF8&qid=1446897512&sr=8-4&keywords=kvantik)
   - delivery: "*   Канада и другие страны\r\n"
     name: "[amazon.ca](http://www.amazon.ca/)\r\n"
-    sells: "*   [Альманахи](http://www.amazon.ca/s/ref=nb_sb_noss/185-9835538-5694827?url=search-alias%3Daps&field-keywords=kvantik)\r\n*   [Набор плакатов с задачами](http://www.amazon.ca/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482)\r\n*   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.amazon.ca/s/ref=nb_sb_noss/185-9835538-5694827?url=search-alias%3Daps&field-keywords=kvantik)
+
+      *   [Плакаты (комплект
+      №1)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906356/ref=sr_1_15/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-15&keywords=kvantik)
+
+      *   [Плакаты (комплект
+      №2)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906364/ref=sr_1_14/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-14&keywords=kvantik)
+
+      *   [Календарь загадок на 2016
+      год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-13&keywords=kvantik)
+
+      *   [Календарь загадок на 2015
+      год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
   - delivery: "*   Великобритания и другие страны\r\n"
     name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)\r\n"
@@ -157,6 +171,7 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
 
