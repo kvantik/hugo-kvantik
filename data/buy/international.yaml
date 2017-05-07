@@ -71,8 +71,20 @@ store:
     sells: "*   [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)\r\n*   [Альманахи](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%C0%EB%FC%EC%E0%ED%E0%F5+%CA%E2%E0%ED%F2%E8%EA&event=simple&cl=search)\r\n*   [Набор плакатов с задачами](http://www.intelkot.ru/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty/)\r\n*   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)\r\n"
   - delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз: Москва, Санкт-Петербург и другие города России;\r\n*   Доставка в постаматы: Балашиха, Красногорск, Лобня, Люберцы, Мытищи, Одинцово, Щербинка\r\n*   Доставка в регионы России: Почтой России, службами EMS Почта России\r\n*   Международная доставка: Почтой России\r\n"
     name: "[books.ru](http://www.books.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.books.ru/search.php?s%5Bquery%5D=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&x=0&y=0&s%5Bgo%5D=1&s%5Btype_of_addon%5D=all)\r\n*   [Набор плакатов с задачами](http://www.books.ru/books/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty-4250932/?show=1)\r\n*   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.books.ru/search.php?s%5Bquery%5D=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&x=0&y=0&s%5Bgo%5D=1&s%5Btype_of_addon%5D=all)
+
+      *   [Плакаты (комплект
+      №1)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt--1-4339060/?show=1)
+
+      *   [Плакаты (комплект
+      №2)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala--kvantik--komplekt-2-4339061/?show=1)
+
+      *   [Календарь загадок на 2015
+      год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)
 ---
+
 
 
 
