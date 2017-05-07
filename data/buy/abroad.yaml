@@ -109,7 +109,14 @@ store:
       год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
   - delivery: "*   США, Канада и другие страны\r\n"
     name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
-    sells: "*   Альманахи\r\n*   [Наборы плакатов с задачами](http://www.bookmazecity.com/productdetail.asp?productid=717545)\r\n*   [Календарь загадок на 2016 год](http://www.bookmazecity.com/productdetail.asp?productid=749488)\r\n*   [Календарь загадок на 2015 год](http://www.bookmazecity.com/productdetail.asp?productid=712598)\r\n"
+    sells: >
+      *   Альманахи
+
+      *   [Календарь загадок на 2017
+      год](http://www.bookmazecity.com/productdetail.asp?productid=900834)
+
+      *   [Календарь загадок на 2015
+      год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
   - delivery: "*   США, Канада и другие страны\r\n"
     name: "[KNIGOMANIA - сеть магазинов русской книги в Канаде](http://www.knigomania.com/)\r\n"
     sells: "*   Альманахи\r\n*   [Наборы плакатов с задачами](http://www.knigomania.com/productdetail.asp?productid=712401)\r\n*   [Календарь загадок на 2016 год](http://www.knigomania.com/productdetail.asp?productid=746373)\r\n*   [Календарь загадок на 2015 год](http://www.knigomania.com/productdetail.asp?productid=708228)\r\n"
@@ -132,6 +139,7 @@ store:
     name: "[amazon.es](http://www.amazon.es/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
 ---
+
 
 
 
