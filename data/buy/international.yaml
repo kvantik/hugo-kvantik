@@ -25,7 +25,21 @@ store:
       год](http://www.ozon.ru/context/detail/id/27676491/)
   - delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (Нахимовский проспект);\r\n*   Доставка Почтой России по всей территории России и за рубеж\r\n"
     name: "[Магазин научной книги URSS.ru *](http://urss.ru/)\r\n"
-    sells: "*   [Журналы и Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=Квантик)\r\n*   [Набор плакатов с задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=194866)\r\n*   [Календарь загадок на 2015 год](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=196098)\r\n*   [Календарь загадок на 2014 год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)\r\n"
+    sells: >
+      *   [Журналы и
+      Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=Квантик)
+
+      *   [Наборы плакатов с
+      задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=194866)
+
+      *   [Календарь загадок на 2017
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=223682)
+
+      *   [Календарь загадок на 2015
+      год](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=196098)
+
+      *   [Календарь загадок на 2014
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)
   - delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (ул. Новый Арбат);\r\n*   Доставка почтой: по России;\r\n*   Международная доставка компанией TNT\r\n"
     name: "[Московский Дом Книги *](http://info.mdk-arbat.ru/)\r\n"
     sells: "*   [Альманахи](http://info.mdk-arbat.ru/catalog?kw=%EA%E2%E0%ED%F2%E8%EA)\r\n*   [Набор плакатов с задачами](http://info.mdk-arbat.ru/bookcard?book_id=3335591)\r\n"
@@ -84,6 +98,7 @@ store:
       *   [Календарь загадок на 2015
       год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)
 ---
+
 
 
 
