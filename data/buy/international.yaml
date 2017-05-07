@@ -31,7 +31,24 @@ store:
     sells: "*   [Альманахи](http://info.mdk-arbat.ru/catalog?kw=%EA%E2%E0%ED%F2%E8%EA)\r\n*   [Набор плакатов с задачами](http://info.mdk-arbat.ru/bookcard?book_id=3335591)\r\n"
   - delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (метро Лубянка);\r\n*   Доставка почтой: по России;\r\n*   Экспресс-доставка по России компаниями \"TNT\" и \"DHL\";\r\n*   Международная доставка службой «DHL»\r\n"
     name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: "*   Альманахи и журналы\r\n*   [Набор плакатов с задачами](http://www.bgshop.ru/Details.aspx?id=10125251)\r\n*   [Календарь загадок на 2016 год](http://www.bgshop.ru/Details.aspx?id=10228163)\r\n*   [Календарь загадок на 2015 год](http://www.bgshop.ru/Details.aspx?id=10139388)\r\n*   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)\r\n"
+    sells: >
+      *   [Альманахи и
+      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&page=1)
+
+      *   [Набор плакатов с
+      задачами](http://www.bgshop.ru/Details.aspx?id=10125251)
+
+      *   [Календарь загадок на 2017
+      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
+
+      *   [Календарь загадок на 2016
+      год](http://www.bgshop.ru/Details.aspx?id=10228163)
+
+      *   [Календарь загадок на 2015
+      год](http://www.bgshop.ru/Details.aspx?id=10139388)
+
+      *   [Календарь загадок на 2014
+      год](http://www.bgshop.ru/Details.aspx?id=10057359)
   - delivery: "Доставка по России:\r\n\r\n*   Курьерская доставка;\r\n*   Самовывоз;\r\n*   Доставка почтой России;\r\nМеждународная доставка:\r\n\r\n*   Курьерская служба \"TNT Express\"\r\n"
     name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
     sells: "*   [Альманахи](http://my-shop.ru/shop/search/a/sort/z/page/1.html?f14_39=0&f14_16=6&f14_6=квантик&t=0&next=1&kp=9&flags=25)\r\n*   Плакаты\r\n*   [Календарь загадок на 2016 год](http://my-shop.ru/shop/books/2127348.html)\r\n"
@@ -42,6 +59,7 @@ store:
     name: "[books.ru](http://www.books.ru/)\r\n"
     sells: "*   [Альманахи](http://www.books.ru/search.php?s%5Bquery%5D=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&x=0&y=0&s%5Bgo%5D=1&s%5Btype_of_addon%5D=all)\r\n*   [Набор плакатов с задачами](http://www.books.ru/books/zanimatelnye-zadachi-ot-zhurnala-kvantik-poznavatelnye-plakaty-4250932/?show=1)\r\n*   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)\r\n"
 ---
+
 
 
 
