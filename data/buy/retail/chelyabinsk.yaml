@@ -1,3 +1,4 @@
+---
 title: Челябинск
 shops:
   - name: Магазин «Библио-Глобус»
@@ -5,3 +6,4 @@ shops:
     address: >
       ул. Молдавская, д.16,
       www.biblio-globus.ru
+---
