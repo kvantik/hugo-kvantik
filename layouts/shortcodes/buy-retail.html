@@ -4,21 +4,23 @@
 <th>Контактная информация</th>
 </tr>
 
-{{range ($.Site.Data.buy.retail)}}
+{{range sort ($.Site.Data.buy.retail) "order"}}
 <tr><td colspan="2" bgcolor="#ccddff"><b>{{ .title }}</b></td></tr>
 {{range where .shops "available" "!=" "0"}}
 <tr>
 <td>&#9679; {{.name | markdownify}}</td>
 <td>{{.address | markdownify}}</td>
 </tr>
-       {{range .branches}}
+
+    {{if eq .branches  nil}}{{else}}
+
+    {{range where .branches "available" "!=" "0"}}
     <tr>
-    <td>    - {{.name | markdownify}}</td>
+    <td> - {{.name | markdownify}}</td>
     <td>{{.address | markdownify}}</td>
     </tr>
-       {{end}}
-    {{if isset . "branches"}}
-<tr><td colspan="2"><b>Branch</b></td></tr>
+    {{end}}
+
     {{end}}
 
 {{end}}

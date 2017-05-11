@@ -4,11 +4,15 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta name="google-site-verification" content="{{.Site.Params.google}}" />
+  <meta name='yandex-verification' content='{{.Site.Params.yandex}}' />
+
+  {{partial "yandex.metrika" .}}
 
   <title>{{ .Title }}</title>
 
   <meta name="author" content="{{ .Site.Author.name }}" />
-  <meta name="keywords" content="">
+  <meta name="keywords" content="{{.Site.Params.keywords}}">
 
   {{ if .Description }}
   <meta name="description" content="{{ .Description }}">

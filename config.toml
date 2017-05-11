@@ -32,6 +32,12 @@ SectionPagesMenu = "lazy"
 
 
 [params]
+# counters and validation
+    metrika = "42527479"
+    google = "gpnmRBIcASh3f0jqFcHwKTpb3L3N2yC19zi9kxdRF6A"
+    yandex = "415534175552468d"
+    keywords = "kvantik, квантик, журнал для школьников, занимательная математика"
+
 #    viewMorePostLink = "/blog/"
     author = "Alexander"
 
@@ -55,8 +61,8 @@ SectionPagesMenu = "lazy"
     highlight = "default"
 
     # Sidebar social links.
-    facebook = "kvantik12" # Your Facebook profile ID
-    youtube = ""  # Your Youtube channel ID
+    facebook = "kvantik12"
+    youtube = "kvantik12" 
 
 
 
@@ -78,3 +84,4 @@ SectionPagesMenu = "lazy"
 
 [blackfriday]
   angledQuotes = true
+  fractions = false
