@@ -12,15 +12,13 @@
 <td>{{.address | markdownify}}</td>
 </tr>
 
-    {{if eq .branches  nil}}{{else}}
-
-    {{range where .branches "available" "!=" "0"}}
+    {{with .branches}}
+    {{range where . "available" "!=" "0"}}
     <tr>
     <td> - {{.name | markdownify}}</td>
     <td>{{.address | markdownify}}</td>
     </tr>
     {{end}}
-
     {{end}}
 
 {{end}}
