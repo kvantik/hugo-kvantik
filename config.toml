@@ -1,13 +1,12 @@
 baseurl = "http://kvantik.netlify.com/"
 title = "Квантик"
-#copyright = "(c) 2015 yourname."
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 
 #canonifyurls = true
 #metaDataFormat = "toml"
 
-theme = "universal"
+#theme = "universal"
 
 favicon = "img/icon_256.png"
 
@@ -32,6 +31,7 @@ SectionPagesMenu = "lazy"
 
 
 [params]
+    copyright = "(c) 2017 [МЦНМО](http://mccme.ru)"
 # counters and validation
     metrika = 42527479 # does not work well, see partial template
     google = "gpnmRBIcASh3f0jqFcHwKTpb3L3N2yC19zi9kxdRF6A"
