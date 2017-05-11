@@ -1,6 +1,7 @@
 ---
 store:
-  - available: 1
+  - avaiable: '1'
+    available: 1
     delivery: "*   Курьерская доставка службой Оzon;\r\n*   Пункты выдачи (самовывоз) во многих городах России, а также в Республике Беларусь;\r\n*   Доставка в почтоматы: Logibox, Pick Point, QIWI Post;\r\n*   Доставка в регионы России: Почтой России, службами EMS Почта России, DHL Express и SPSR Express;\r\n*   Международная доставка: Почтой России, Spring Global Mail, службами доставки DHL Express store и TNT Express; EMS Почта России (в города Казахстана), SPSR Express (в города Беларуси), DPD (в Республиках Беларусь и Казахстан)\r\n"
     name: "[OZON.RU](http://www.ozon.ru/)\r\n"
     sells: >
@@ -158,6 +159,7 @@ store:
       *   [Календарь загадок на 2015
       год](https://www.books.ru/books/kalendar-zagadok-2015-na-spirali-4250931/?show=1)
 ---
+
 
 
 
