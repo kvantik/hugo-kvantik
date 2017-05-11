@@ -6,7 +6,7 @@ defaultContentLanguage = "ru"
 #canonifyurls = true
 #metaDataFormat = "toml"
 
-#theme = "universal"
+theme = "universal"
 
 favicon = "img/icon_256.png"
 
