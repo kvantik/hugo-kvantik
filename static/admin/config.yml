@@ -9,10 +9,10 @@ public_folder: "/img/uploads"
 publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "buy" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "buy-online" # Used in routes, ie.: /admin/collections/:slug/edit
     extension: "yaml"
-    label: "Магазины" # Used in the UI, ie.: "New Post"
-    folder: "data/buy" # The path to the folder where the documents are stored
+    label: "Онлайн-магазины" # Used in the UI, ie.: "New Post"
+    folder: "data/buy/online" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - label: "Список онлайн-магазинов данной категории"
@@ -24,6 +24,30 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Доставка", name: "delivery", widget: "markdown"}
           - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
           - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
+
+  - name: "buy-retail" # Used in routes, ie.: /admin/collections/:slug/edit
+    extension: "yaml"
+    label: "Розничные магазины" # Used in the UI, ie.: "New Post"
+    folder: "data/buy/retail" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - label: "Список розничных магазинов данной категории"
+        name: "shops" 
+        widget: "list"
+        fields:
+          - {label: "Название", name: "name", widget: "markdown"}
+          - {label: "Контакты", name: "address", widget: "markdown"}
+          - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
+          - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
+          - label: "Подразделения"
+            name: "branches"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Название", name: "name", widget: "markdown"}
+              - {label: "Контакты", name: "address", widget: "markdown"}
+              - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
+              - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
 
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
     extension: "md"
