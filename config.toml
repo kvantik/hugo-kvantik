@@ -33,7 +33,7 @@ SectionPagesMenu = "lazy"
 
 [params]
 # counters and validation
-    metrika = "42527479"
+    metrika = 42527479 # does not work well, see partial template
     google = "gpnmRBIcASh3f0jqFcHwKTpb3L3N2yC19zi9kxdRF6A"
     yandex = "415534175552468d"
     keywords = "kvantik, квантик, журнал для школьников, занимательная математика"
