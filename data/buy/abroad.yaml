@@ -1,6 +1,6 @@
 ---
 store:
-  - available: 1
+  - available: '1'
     delivery: "Доставка по Украине:\r\n\r\n*   Курьерская доставка;\r\n*   Служба доставки \"Новая почта\" (в том числе самовывоз);\r\n*   Доставка почтой Украины\r\nДоставка Авиапочтой за пределы Украины\r\n"
     dump: ""
     name: "[bookshop](http://www.bookshop.ua/)\r\n"
@@ -9,7 +9,7 @@ store:
       Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?D1=4&B1=Go&Find=%EA%E2%E0%ED%F2%E8%EA&Pr1=1&Cr=Catalog&Chstr=)
 
       *   [Плакаты (комплект №2)](http://www.bookshop.ua/a13578098/)
-  - available: 1
+  - available: '1'
     delivery: "*   Курьером по Минску\r\n*   Доставка почтой по Белоруссии\r\n"
     dump: ""
     name: "[SetBook.Белоруссия](http://www.setbook.by/)\r\n"
@@ -28,7 +28,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.setbook.by/books/2545483.html)
-  - available: 1
+  - available: '1'
     delivery: "*   Доставка по Казахстану (выполняет ФГУП «Почта России»)\r\n"
     dump: ""
     name: "[SetBook.Казахстан](http://www.setbook.kz/)\r\n"
@@ -47,7 +47,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.setbook.kz/books/2545483.html)
-  - available: 1
+  - available: '1'
     delivery: "*   Доставка в страны Европы, указанные на сайте магазина\r\n"
     dump: ""
     name: "[SetBook.Европа](http://www.setbook.net/)\r\n"
@@ -66,7 +66,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.setbook.kz/books/2545483.html)
-  - available: 1
+  - available: '1'
     delivery: "*   Финляндия и другие страны\r\n"
     dump: ""
     name: "[Ruslania](https://ruslania.com/)\r\n"
@@ -85,7 +85,7 @@ store:
 
       *   [Календарь загадок на 2016
       год](https://ruslania.com/books/1113498/kalendar-zagadok-2016-na-spirali)
-  - available: 1
+  - available: '1'
     delivery: "*   Доставка по США и другие страны через US Postal Service\r\n"
     dump: ""
     name: "[SetBook.США и Канада](http://www.setbook.us/)\r\n"
@@ -105,7 +105,7 @@ store:
       *   [Плакаты (комплект №1)](http://www.setbook.us/books/3859762.html)
 
       *   [Плакаты (комплект №2)](http://www.setbook.us/books/3719323.html)
-  - available: 1
+  - available: '1'
     delivery: "*   США, Канада и другие страны\r\n"
     dump: ""
     name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
@@ -121,7 +121,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
-  - available: 1
+  - available: '1'
     delivery: "*   США, Канада и другие страны\r\n"
     dump: ""
     name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
@@ -133,7 +133,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
-  - available: 1
+  - available: '1'
     delivery: "*   США, Канада и другие страны\r\n"
     dump: ""
     name: "[KNIGOMANIA - сеть магазинов русской книги в Канаде](http://www.knigomania.com/)\r\n"
@@ -145,7 +145,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.knigomania.com/productdetail.asp?productid=708228)
-  - available: 1
+  - available: '1'
     delivery: "*   США и другие страны\r\n"
     dump: ""
     name: "[amazon.com](http://www.amazon.com/)\r\n"
@@ -161,7 +161,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.amazon.com/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X/ref=sr_1_4?ie=UTF8&qid=1446897512&sr=8-4&keywords=kvantik)
-  - available: 1
+  - available: '1'
     delivery: "*   Канада и другие страны\r\n"
     dump: ""
     name: "[amazon.ca](http://www.amazon.ca/)\r\n"
@@ -180,7 +180,7 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
-  - available: 1
+  - available: '1'
     delivery: "*   Великобритания и другие страны\r\n"
     dump: ""
     name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
@@ -193,7 +193,7 @@ store:
 
       *   [Календарь загадок на 2016
       год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-13&keywords=kvantik)
-  - available: 1
+  - available: '1'
     delivery: "*   Германия и другие страны\r\n"
     dump: ""
     name: "[amazon.de](http://www.amazon.de/)\r\n"
@@ -206,12 +206,12 @@ store:
 
       *   [Календарь загадок на 2016
       год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
-  - available: 1
+  - available: '1'
     delivery: "*   Италия и другие страны\r\n"
     dump: ""
     name: "[amazon.it](http://www.amazon.it/)\r\n"
     sells: "*   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)\r\n"
-  - available: 1
+  - available: '1'
     delivery: "*   Испания и другие страны\r\n"
     dump: ""
     name: "[amazon.es](http://www.amazon.es/)\r\n"

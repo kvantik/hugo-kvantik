@@ -22,6 +22,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Название", name: "name", widget: "markdown"}
           - {label: "Продаёт", name: "sells", widget: "markdown"}
           - {label: "Доставка", name: "delivery", widget: "markdown"}
+          - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
+          - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
+
   - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
     extension: "md"
     label: "Статьи" # Used in the UI, ie.: "New Post"
