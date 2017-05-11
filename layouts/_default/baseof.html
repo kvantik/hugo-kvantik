@@ -14,7 +14,21 @@
 
 
         {{ partial "breadcrumbs" . }}
-	{{ block "content" . }} {{end}}
+	
+
+    {{ block "content" . }}
+
+    <div class="container">
+    <div class="row">
+
+
+    {{.Content}}
+
+
+    </div>
+    </div>
+
+     {{end}}
 
     {{ partial "footer" . }}
 

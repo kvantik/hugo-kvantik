@@ -1,0 +1,19 @@
+<table class="table table-striped table-responsive table-bordered" style="table-layout:fixed;">
+<tr>
+<th>Название интернет-магазина (ссылка на сайт)</th>
+<th>Что можно купить (ссылка)</th>
+<th>Способы доставки</th>
+</tr>
+
+{{range sort ($.Site.Data.buy.online) "order"}}
+<tr><td colspan="3"><b>{{.order}}. {{ .title }}</b></td></tr>
+{{range where .store "available" "!=" "0"}}
+<tr>
+<td>{{.name | markdownify}}</td>
+<td>{{.sells | markdownify}}</td>
+<td>{{.delivery | markdownify}}</td>
+</tr>
+{{end}}
+{{end}}
+
+</table>
