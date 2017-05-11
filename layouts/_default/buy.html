@@ -15,7 +15,7 @@
 
 {{range $i, $e := .Params.store_categories}}
 <tr><td colspan="3"><b>{{add $i 1}}. {{ .title }}</b></td></tr>
-{{range (index (index $.Site.Data.buy .name) "store")}}
+{{range where (index (index $.Site.Data.buy .name) "store") "available" "!=" "0"}}
 <tr>
 <td>{{.name | markdownify}}</td>
 <td>{{.sells | markdownify}}</td>
