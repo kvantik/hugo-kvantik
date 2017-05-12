@@ -48,3 +48,6 @@ menu =  "main"
 [![](/img/partners/formulo_org.png)](http://www.formulo.org/)
 [![](/img/partners/lan.jpg)](http://www.e.lanbook.com/)
 [![](/img/partners/osdlogo.png)](http://www.osd.ru/)
+
+
+{{< formspree "put-email-here" >}}
