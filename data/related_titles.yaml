@@ -4,43 +4,43 @@ almanacs:
   description: Материалы всех журналов собраны в альманахах по полугодиям. Каждый альманах включает материалы 6 журналов.
   issues:
     - ref: http://biblio.mccme.ru/node/5383/shop
-      img: img/альманахи/almanac-1.jpg
+      img: img/related_titles/almanac-1.jpg
     - ref: http://biblio.mccme.ru/node/5306/shop
-      img: img/альманахи/almanac-2.jpg
+      img: img/related_titles/almanac-2.jpg
     - ref: http://biblio.mccme.ru/node/5384/shop
-      img: img/альманахи/almanac-3.jpg
+      img: img/related_titles/almanac-3.jpg
     - ref: http://biblio.mccme.ru/node/5526/shop
-      img: img/альманахи/almanac-4.jpg
+      img: img/related_titles/almanac-4.jpg
     - ref: http://biblio.mccme.ru/node/5311/shop
-      img: img/альманахи/almanac-5.jpg
+      img: img/related_titles/almanac-5.jpg
     - ref: http://biblio.mccme.ru/node/5394/shop
-      img: img/альманахи/almanac-6.jpg
+      img: img/related_titles/almanac-6.jpg
     - ref: http://biblio.mccme.ru/node/5554/shop
-      img: img/альманахи/almanac-7.jpg
+      img: img/related_titles/almanac-7.jpg
     - ref: http://biblio.mccme.ru/node/5625/shop
-      img: img/альманахи/almanac-8.jpg
+      img: img/related_titles/almanac-8.jpg
     - ref: ''
-      img: img/альманахи/almanac-9.jpg
+      img: img/related_titles/almanac-9.jpg
 
 calendars:
   title: Календари
   description: Настенный перекидной календарь загадок с решениями. На каждой странице &ndash; календарь на месяц и задача-картинка.
   issues:
     - ref: http://biblio.mccme.ru/node/3438/shop
-      img: img/календари/calendar_2014.jpg
+      img: img/related_titles/calendar_2014.jpg
     - ref: http://biblio.mccme.ru/node/5263/shop
-      img: img/календари/calendar_2015.jpg
+      img: img/related_titles/calendar_2015.jpg
     - ref: http://biblio.mccme.ru/node/5486/shop
-      img: img/календари/calendar_2016.jpg
+      img: img/related_titles/calendar_2016.jpg
     - ref: http://biblio.mccme.ru/node/5730/shop
-      img: img/календари/calendar_2017.jpg
+      img: img/related_titles/calendar_2017.jpg
 
 posters:
   title: Постеры
   description: В каждом комплекте 10 плакатов с занимательными задачами для школьных кабинетов математики и физики.
   issues:
     - ref: http://biblio.mccme.ru/node/5487/shop
-      img: img/плакаты/posters-1.jpg
+      img: img/related_titles/posters-1.jpg
     - ref: http://biblio.mccme.ru/node/5506/shop
-      img: img/плакаты/posters-2.jpg
+      img: img/related_titles/posters-2.jpg
 ---
