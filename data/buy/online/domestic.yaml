@@ -1,6 +1,5 @@
 ---
 order: 1
-title: Российские интернет-магазины с доставкой только по России
 store:
   - available: '1'
     delivery: "*   Доставка почтой только по России\r\n*   Самовывоз: Москва (Большой Власьевский пер., д.11)\r\n"
@@ -11,10 +10,16 @@ store:
       *   Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва
       и другие регионы России
     name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
-    sells: |-
+    sells: >-
       * [Журналы](http://www.kvantik.ru/collection/zhurnaly)
+
       * [Альманахи](http://www.kvantik.ru/collection/almanahi)
-      * [Календари](http://www.kvantik.ru/collection/kalendar)
+
+      * [Календарь загадок на 2017
+      год](http://www.kvantik.ru/collection/kalendar)
+
+      * [Головоломки Владимира
+      Красноухова](http://www.kvantik.ru/collection/golovolomki)
   - available: '1'
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r\n*   Пункты выдачи: Москва, Подмосковье, другие города России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"МИР ШКОЛЬНИКА\" интернет-магазин школьной литературы *](http://www.uchebnik.com/)\r\n"
@@ -22,7 +27,15 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва, Санкт-Петербург, другие регионы России (указанные на сайте магазина);\r\n*   Доставка почтой: по России\r\n"
     name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)\r\n*   [Набор плакатов с задачами](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)\r\n*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)
+
+      *  
+      [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
+
+      *  
+      [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
   - available: '1'
     delivery: "*   Доставка в розничные книжные магазины «Галилео»\r\n*   Доставка службами PickPoint и IML: по всей России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"Книжная лавка\"](http://www.book-stock.ru/)\r\n"
@@ -41,7 +54,18 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва, Санкт-Петербург;\r\n*   Пункты выдачи: более, чем в 20 регионах России;\r\n*   Доставка почтой: по России\r\n"
     name: "[SETBOOK.RU](http://www.setbook.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.setbook.ru/books/?detailed=%EA%E2%E0%ED%F2%E8%EA%20%E0%EB%FC%EC%E0%ED%E0%F5)\r\n*   [Набор плакатов с задачами](http://www.setbook.ru/advanced_search_result.php?keywords=%EF%EB%E0%EA%E0%F2%FB%2C+%EA%E2%E0%ED%F2%E8%EA&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=21&y=12)\r\n*   [Календарь загадок на 2016 год](http://www.setbook.ru/books/3669414.html)\r\n*   [Календарь загадок на 2015 год](http://www.setbook.ru/books/2545483.html)\r\n"
+    sells: >
+      *  
+      [Альманахи](http://www.setbook.ru/books/?detailed=%EA%E2%E0%ED%F2%E8%EA%20%E0%EB%FC%EC%E0%ED%E0%F5)
+
+      *  
+      [Плакаты](http://www.setbook.ru/advanced_search_result.php?keywords=%EF%EB%E0%EA%E0%F2%FB%2C+%EA%E2%E0%ED%F2%E8%EA&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=21&y=12)
+
+      *   [Календарь загадок на 2016
+      год](http://www.setbook.ru/books/3669414.html)
+
+      *   [Календарь загадок на 2015
+      год](http://www.setbook.ru/books/2545483.html)
   - available: '1'
     delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз из офиса \"Библиона\" в Москве и из офиса курьерской компании в Санкт-Петербурге;\r\n*   Почтовая доставка по России;\r\n*   Экспресс-доставка по России через \"ЕМС Гарантпост\"\r\n"
     name: "[Библион](http://www.biblion.ru/)\r\n"
@@ -97,7 +121,9 @@ store:
 
       *   [Календарь загадок на 2017
       год](http://www.sprinter.ru/shop/goods/kalendar-zagadok-2017-god-ot-zhurnala-kvantik-2557410/)
+title: Российские интернет-магазины с доставкой только по России
 ---
+
 
 
 
