@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru"> {{/* .Language? */}}
 
-  {{ partial "head" . }}
+  {{ partialCached "head" . }}
 
   <body>
 
@@ -30,9 +30,9 @@
 
      {{end}}
 
-    {{ partial "footer" . }}
+    {{ partialCached "footer" . }}
 
-    {{ partial "scripts" . }}
+    {{ partialCached "scripts" . }}
 
   </body>
 </html>

@@ -1,15 +1,16 @@
 {{$issuePath := (delimit (slice .Params.year "-" .Params.month "/") "" )}}
 {{$pagesDir := (delimit (slice "static/issue/" $issuePath) "" )}}
 
-{{$firstpage := (add .Params.first_page_pdf 2)}}
+
+{{ $firstpage := (add (int .Params.first_page) 2) }}
 
   <div class="pages-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-	{{ range (seq $firstpage (add $firstpage .Params.npages))}}
+	{{ range (seq $firstpage (add $firstpage (int .Params.npages)))}}
 	{{$page := string .}}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="{{delimit (slice $.Site.BaseURL "issue/" $issuePath $page ".jpg") ""}}" itemprop="contentUrl" data-size="1575x2008">
-          <img src="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "tn/" $page ".jpg") ""}}" itemprop="thumbnail" alt="{{ $page }}" />
+      <a href="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "gallery/" $page ".jpg") ""}}" itemprop="contentUrl" data-size="1575x2008">
+          <img src="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "thumbnails/" $page ".jpg") ""}}" itemprop="thumbnail" alt="{{ $page }}" />
       </a>
     </figure>
 	{{end}}

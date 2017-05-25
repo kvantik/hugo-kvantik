@@ -1,0 +1,9 @@
+{{define "content"}}
+
+{{range .Paginator.Pages}}
+
+{{.Render "slogans"}}
+{{printf "%#v\n" .Permalink}}
+{{end}}
+
+{{end}}

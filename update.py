@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import re
+import os
+import datetime
 
 import sh
 

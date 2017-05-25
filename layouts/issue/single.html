@@ -1,6 +1,6 @@
 {{define "content"}}
 
-<h1> Выпуск №{{.Params.month | int | string}} {{.Params.year}}-го года </h1>
+<h1> Выпуск №{{trim .Params.month "0-"}} {{.Params.year}}-го года </h1>
 
 {{partial "issue-gallery" .}}
 

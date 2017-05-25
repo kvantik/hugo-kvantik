@@ -1,16 +1,29 @@
-﻿{{if isset .Params "slogans"}}
-<tr>
-	<td align="right" class="img">
-	<a class="img_download" href={{template "issue/single_path.html" .}}><img src={{template "issue/image_path.html" .}} align="right"/></a>
-	</td>
-	<td  class="ogl">
+﻿{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
+
+
+<div class="slogan clearfix">
+
+<div class="card" style="float:left; margin-right:25px;">
+    <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
+   <img class="img-fluid" src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" style="width:18em;">
+    </a>
+    <div class="card-block">
+    <h4 class="card-title">
+    {{if (and (isset .Params "sample") .Params.sample)}}
+    Полная версия. 
+    {{else}}
+    Примеры статей.
+    {{end}}
+    №{{.Params.month}} ({{.Params.year}})
+    </h4> 
+  </div>
+</div>
+
 <ul>
-{{range .Params.slogans}}
-<li> {{.|markdownify}} </li>
-{{end}}
+{{if isset .Params "orphan_slogans"}}
+{{range .Params.orphan_slogans}}
+<li>  {{.|markdownify}} </li>
+{{end}}{{end}}
 </ul>
-	</td>
-</tr>
-{{else}}
-{{printf "%#v" .Kind}}
-{{end}}
+
+</div>

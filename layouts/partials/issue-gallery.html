@@ -1,13 +1,13 @@
 {{$issuePath := (delimit (slice .Params.year "-" .Params.month "/") "" )}}
-{{$pagesDir := (delimit (slice "static/issue/" $issuePath) "" )}}
+{{$pagesDir := (delimit (slice "static/issue/" $issuePath "gallery/") "" )}}
 
 
   <div class="pages-gallery" itemscope itemtype="http://schema.org/ImageGallery">
 
-	{{ range where (readDir $pagesDir) "Name" "!=" "tn" }}
+	{{ range (readDir $pagesDir) }}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="{{delimit (slice $.Site.BaseURL "issue/" $issuePath .Name) ""}}" itemprop="contentUrl" data-size="1575x2008">
-          <img src="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "tn/" .Name) ""}}" itemprop="thumbnail" alt="{{ .Name }}" />
+      <a href="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "gallery/" .Name) ""}}" itemprop="contentUrl" data-size="1575x2008">
+          <img src="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "thumbnails/" .Name) ""}}" itemprop="thumbnail" alt="{{ .Name }}" />
       </a>
     </figure>
     
