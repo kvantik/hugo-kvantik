@@ -19,7 +19,7 @@ SectionPagesMenu = "lazy"
 
 
 [taxonomies]
-  author = "authors" # can an article have multiple authors/illustrators?
+  author = "authors"
   illustrator = "illustrators"
   issue = "issues"
   rubric = "rubrics"
