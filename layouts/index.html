@@ -14,9 +14,10 @@
                         </div>
 
                         <table>
-						{{range where .Site.Pages "Section" "issue"}}
+						{{range first 5 (where .Site.Pages "Section" "issue") }}
 						{{.Render "slogans"}}
 						{{end}}
+						Предыдущие выпуски смотрите в соответствующем разделе (в процессе строительства).
                         </table>
 
 	    </div>
