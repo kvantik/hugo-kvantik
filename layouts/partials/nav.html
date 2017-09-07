@@ -22,9 +22,23 @@
                 <ul class="nav navbar-nav navbar-right">
 		    {{$Page := .}}
                     {{ range .Site.Menus.main }}
-                    <li {{if or ($Page.IsMenuCurrent "main" .) ($Page.HasMenuCurrent "main" .)}}class="active"{{end}}>
-                        <a href="{{.URL}}">{{ .Name }}</a>
-                    </li>
+		      {{if .HasChildren}}
+			<li class="dropdown {{if $Page.HasMenuCurrent "main" .}}active{{end}}">
+				<a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">
+					{{.Name}}<b class="caret"></b></a>
+			<ul class="dropdown-menu">
+			{{range .Children}}
+				<li class="{{if $Page.IsMenuCurrent "main" .}}active{{end}}"> 
+					<a href="{{.URL}}"> {{.Name}} </a>
+				</li>
+			{{end}}
+			</ul>	
+			</li>
+			{{else}}
+                          <li {{if or ($Page.IsMenuCurrent "main" .) ($Page.HasMenuCurrent "main" .)}}class="active"{{end}}>
+                             <a href="{{.URL}}">{{ .Name }}</a>			  
+                          </li>
+		      {{end}}
                     {{ end }}
                 </ul>
             </div>
