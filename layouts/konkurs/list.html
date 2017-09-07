@@ -1,0 +1,8 @@
+{{define "content"}}
+{{.Content}}
+    <ul>
+    {{ range .Data.Pages }}
+        {{.Render "li"}}
+    {{ end }}
+    </ul>
+{{end}}
