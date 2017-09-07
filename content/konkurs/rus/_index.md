@@ -3,5 +3,6 @@ title: Конкурс по русскому языку
 date: 2017-02-09T14:59:53+03:00
 menu:
   main:
-    parent: konkurs
+    parent: Конкурсы
+    name: Русский язык
 ---
