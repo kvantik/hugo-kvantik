@@ -5,7 +5,7 @@ Source and content for a future site of Kvantik.
 
 
 Сайт создан с помощью генератора [Hugo](http://gohugo.io) и темы [Universal](http://themes.gohugo.io/theme/hugo-universal-theme/).
-На демо-сайте темы можно посмотреть возможные шаблоны, которые легко подключить.
+На [сайте](http://universal.ondrejsvestka.cz) темы можно посмотреть шаблоны и элементы, которые легко использовать.
 
 Собирается автоматически с помощью [Netlify](http://netlify.com) и доступен по адресу http://kvantik.netlify.com
 
