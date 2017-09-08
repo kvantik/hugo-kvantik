@@ -5,11 +5,9 @@
 {{$tours := index .Site.Data.konkurs .Title}}
 {{range (sort $tours "tour.number" "desc")}}
 <h3>{{.tour.title}} </h3>
-    <div class="list-group">
     {{range sort .tour.problems "number" "asc"}}
         {{template "problem" .}} 
     {{end}}
-    </div>
 {{end}}
 
 </div>
@@ -18,13 +16,15 @@
 
 
 {{define "problem"}}
- <li class="list-group-item">
-<span class="h6">{{.number}}.</span>
-{{if (string .author | chomp) "!=" ""}}<em>({{.author}})</em> {{end}}
-{{.problem | markdownify}}
-{{range .images}}
-<img src="{{.}}" alt="picture" class="img-responsive" />
-{{end}}
-
-</li>
+<div class="media">
+  <div class="media-body">
+    <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
+    <p>{{.problem | markdownify}}</p>
+  </div>
+  <div class="media-right">
+    {{range .images}}
+    <img src="{{.}}" alt="picture" class="media-object" style="height:200px" />
+    {{end}}
+  </div>
+</div>
 {{end}}
