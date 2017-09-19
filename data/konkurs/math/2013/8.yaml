@@ -1,7 +1,7 @@
 ---
 tour:
   number: 8
-  orphan_images: [73271_original.jpg]
+  image_art: 73271_original.jpg
   problems:
   - image_art: ''
     image_scheme: ''

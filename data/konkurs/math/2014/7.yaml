@@ -1,6 +1,7 @@
 ---
 tour:
   number: 7
+  image_art: concurs-14-07-picture.png
   problems:
   - image_art: ''
     image_scheme: ''
@@ -27,7 +28,7 @@ tour:
     images: []
     number: 35
     problem: Докажите, что у правильной пятиконечной звезды, изображённой на рисунке, закрашена ровно половина площади.
-  - image_art: concurs-14-07-picture.png
+  - image_art: ''
     image_scheme: ''
     images: []
     number: 31

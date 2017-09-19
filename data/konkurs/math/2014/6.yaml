@@ -1,8 +1,9 @@
 ---
 tour:
   number: 6
+  image_art: concurs-14-06-picture.png
   problems:
-  - image_art: concurs-14-06-picture.png
+  - image_art: ''
     image_scheme: ''
     images: []
     number: 26

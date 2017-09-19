@@ -1,20 +1,19 @@
 ---
 tour:
   number: 9
-  orphan_images: [76109_original.jpg, 75605_original.jpg]
   problems:
   - image_art: ''
     image_scheme: ''
     images: []
     number: 41
     problem: Какая цифра встречается реже всего при записи первых ста натуральных чисел? А какая — чаще всего?
-  - image_art: ''
+  - image_art: 76109_original.jpg
     image_scheme: ''
     images: []
     number: 42
     problem: 'У хозяйки было два клетчатых коврика: 6×6 клеток и 8×8 клеток. Она решила сделать из них один коврик 10×10 клеток.
       Может ли она добиться этого, разрезав каждый коврик не более чем на две части и не повредив ни одной клеточки?'
-  - image_art: ''
+  - image_art: 75605_original.jpg
     image_scheme: ''
     images: []
     number: 43

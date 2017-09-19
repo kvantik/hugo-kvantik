@@ -1,7 +1,6 @@
 ---
 tour:
   number: 3
-  orphan_images: [53708_original.jpg]
   problems:
   - image_art: ''
     image_scheme: ''
@@ -9,7 +8,7 @@ tour:
     number: 11
     problem: Умный продавец получил для продажи несколько пачек конвертов по 100 конвертов в пачке. Десять конвертов он отсчитывает
       за десять секунд. У продавца попросили 60 конвертов. Сможет ли он отсчитать их быстрее, чем за минуту?
-  - image_art: ''
+  - image_art: 53708_original.jpg
     image_scheme: ''
     images: []
     number: 12
