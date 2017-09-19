@@ -3,21 +3,21 @@ tour:
   number: 11
   problems:
   - author: Алексей Канель-Белов
-    image_art: concurs-17-07-zad52a.png
-    image_scheme: concurs-17-07-zad51.png
+    image_art: concurs-17-07-zad51.png
+    image_scheme: ''
     images: []
     number: 51
     problem: ' Известно, что в некотором **84 году количество сред равнялось количеству пятниц. Верно ли, что при этом и число
       четвергов такое же?'
   - author: Александр Толмачёв
     image_art: concurs-17-07-zad52.png
-    image_scheme: ''
+    image_scheme: concurs-17-07-zad52a.png
     images: []
     number: 52
     problem: ' Какое наименьшее количество клеток надо отметить на доске 9х9 так, чтобы среди любых четырёх клеток, образующих
       фигуру на рисунке, была хотя бы одна отмеченная клетка? (Фигуру можно поворачивать и переворачивать.)'
-  - image_art: concurs-17-07-zad54a.png
-    image_scheme: concurs-17-07-zad53.png
+  - image_art: concurs-17-07-zad53.png
+    image_scheme: ''
     images: []
     number: 53
     problem: 'В стране лжецов и рыцарей (рыцари всегда говорят правду, лжецы всегда лгут) десяти жителям выдали различные
@@ -26,7 +26,7 @@ tour:
       ответили 2 человека. Сколько было лжецов и какие у них были числа?'
   - author: Михаил Евдокимов
     image_art: concurs-17-07-zad54.png
-    image_scheme: ''
+    image_scheme: concurs-17-07-zad54a.png
     images: []
     number: 54
     problem: ' Разрежьте бумажную клетчатую фигуру на рисунке по линиям сетки на несколько одинаковых, каждая из которых состоит
