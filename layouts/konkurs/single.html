@@ -22,11 +22,10 @@
   <div class="media-body">
     <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
     <p>{{.problem | markdownify}}</p>
+    {{with .image_scheme}} {{if . "!=" ''}}<img src="{{.}}" alt="picture" class="media-object" style="height:100px" />{{end}}{{end}}
   </div>
   <div class="media-right">
-    {{range .images}}
-    <img src="{{.}}" alt="picture" class="media-object" style="height:200px" />
-    {{end}}
+    <img src="{{.image_art}}" alt="picture" class="media-object" style="height:200px" />
   </div>
 </div>
 {{end}}
