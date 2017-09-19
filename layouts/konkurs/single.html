@@ -2,7 +2,7 @@
 <div class="container">
 <div class="row" style="max-width:900px; margin:auto;">
 
-{{$type := "math"}}
+{{$type := (index (split .File.Dir "/") 1)}}
 
 {{$tours := index (index .Site.Data.konkurs $type) .Title}}
 {{range (sort $tours "tour.number" "desc")}}
