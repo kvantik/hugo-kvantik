@@ -2,7 +2,7 @@
 <div class="container">
 <div class="row">
 
-{{$type = "math"}}
+{{$type := "math"}}
 
 {{$tours := index (index .Site.Data.konkurs $type) .Title}}
 {{range (sort $tours "tour.number" "desc")}}
