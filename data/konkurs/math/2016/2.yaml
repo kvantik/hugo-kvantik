@@ -3,8 +3,8 @@ tour:
   number: 2
   problems:
   - author: Дмитрий Шноль
-    image_art: concurs-16-02-zad8.png
-    image_scheme: ''
+    image_art: ''
+    image_scheme: concurs-16-02-zad8.png
     images: []
     number: 8
     problem: " Четырёхугольник, изо­бражённый на рисунке, можно разрезать одним прямолинейным разрезом на 3 треугольника.\
@@ -28,8 +28,8 @@ tour:
       капель, а диаметр возникшей огромной капли в 5 раз больше диаметра каждой из маленьких капель. Сколько было маленьких
       капель? Считайте, что все капли строго шарообразные.'
   - author: Николай Авилов
-    image_art: concurs-16-02-zad6a.png
-    image_scheme: concurs-16-02-zad6b.png
+    image_art: concurs-16-02-zad6b.png
+    image_scheme: concurs-16-02-zad6a.png
     images: []
     number: 6
     problem: ' Шесть кузнечиков сидят в вершинах двух квадратов с общей стороной, как показано на рисунке. Три кузнечика прыгнули

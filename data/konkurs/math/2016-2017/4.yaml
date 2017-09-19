@@ -3,8 +3,8 @@ tour:
   number: 4
   problems:
   - author: Михаил Евдокимов
-    image_art: concurs-16-12-zad16a.png
-    image_scheme: concurs-16-12-zad16b.png
+    image_art: concurs-16-12-zad16b.png
+    image_scheme: concurs-16-12-zad16a.png
     images: []
     number: 16
     problem: ' Можно ли из одинаковых кирпичей-уголков, каждый из ко­торых склеен из трёх кубиков 1x1x1, сло­жить куб 3x3x3?'

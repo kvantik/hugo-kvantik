@@ -2,13 +2,13 @@
 tour:
   number: 3
   problems:
-  - image_art: concurs-16-11-zad11.png
+  - image_art: ''
     image_scheme: ''
     images: []
     number: 11
     problem: Напишите десять чисел так, чтобы каждое следующее число было не меньше предыдущего, сумма их квадратов равнялась
       2, и третье по счёту число было как можно больше.
-  - image_art: ''
+  - image_art: concurs-16-11-zad11.png
     image_scheme: ''
     images: []
     number: 12

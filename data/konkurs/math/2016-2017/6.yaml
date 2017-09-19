@@ -3,8 +3,8 @@ tour:
   number: 6
   problems:
   - author: Егор Бакаев
-    image_art: concurs-17-02-zad26.png
-    image_scheme: ''
+    image_art: ''
+    image_scheme: concurs-17-02-zad26.png
     images: []
     number: 26
     problem: ' Разрежьте фигурку на рисунке на три части, равные по площади и периметру.'

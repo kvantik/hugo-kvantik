@@ -3,8 +3,8 @@ tour:
   number: 7
   problems:
   - author: Алексей Воропаев
-    image_art: concurs-16-07-zad32a.png
-    image_scheme: concurs-16-07-zad32b.png
+    image_art: concurs-16-07-zad32b.png
+    image_scheme: concurs-16-07-zad32a.png
     images: []
     number: 32
     problem: " а) На рисунке изображена салфетка из 13 клеток. Какое наибольшее количество неперекрывающихся доминошек 1x2\
