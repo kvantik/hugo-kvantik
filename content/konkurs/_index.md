@@ -4,4 +4,5 @@ title: Конкурсы
 menu: 
   main:
     name: Конкурсы
+    weight: 1
 ---

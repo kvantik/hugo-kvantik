@@ -1,6 +1,8 @@
 ---
 date: '2017-06-09T14:58:23+03:00'
-menu: main
+menu: 
+  main:
+    parent: Тест
 title: Статьи
 ---
 
