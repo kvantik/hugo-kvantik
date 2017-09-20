@@ -1,0 +1,7 @@
+.box-simple ul {
+ list-style-type: none;
+ padding: 0;
+}
+.box-simple ol {
+ text-align: left;
+}

@@ -1,10 +1,10 @@
-        <section class="bar no-mb {{.Get 0}}">
+        <section class="bar no-mb {{.Get "type"}}">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        {{if .IsNamedParams}}{{ with .Get "title"}} <h1>{{.}}</h1> {{ end }}{{end}}
+                        {{ with .Get "title"}} <h1>{{.}}</h1> {{ end }}
 
-                        <div style="font-size: large;">{{.Inner | markdownify}}</div>
+                        <p class="lead">{{.Inner | markdownify}}</p>
 
                     </div>
                 </div>
