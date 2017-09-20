@@ -1,3 +1,35 @@
+{{define "content"}}
 {{ partial "carousel.html" . }}
-        {{ partial "testimonials.html" . }}
+{{ partial "testimonials.html" . }}
 
+{{$tours := index (index .Site.Data.konkurs "math") "2015"}}
+{{$tours_sorted := (sort $tours "tour.number" "desc")}}
+
+<div class="container">
+<div class="row" style="max-width:900px; margin:auto;">
+<div class="col-md-12">
+<div class="tabs">
+                      <ul class="nav nav-tabs">
+                      {{range $tours_sorted}}
+                      
+                          <li class="active"><a href="#tab4-1" data-toggle="tab"><i class="icon-star"></i>First tab</a>
+                          </li>
+                          <li class=""><a href="#tab4-2" data-toggle="tab">Second tab</a>
+                          </li>
+                      {{end}}
+                      </ul>
+                      <div class="tab-content">
+                          <div class="tab-pane active" id="tab4-1">
+                                This is tab one.
+                          </div>
+                          <div class="tab-pane" id="tab4-2">
+                                            This is tab two.
+                          </div>
+                      </div>
+                      <!-- /.tab-content -->
+</div>
+</div>
+</div>
+</div>
+
+{{end}}
