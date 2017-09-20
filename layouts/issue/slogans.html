@@ -1,30 +1,31 @@
 ﻿{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
 
+<div class="media">
 
-<div class="slogan clearfix">
+  <div class="media-left">
+  <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
+    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />
+  </a>
+  </div>
 
-<div class="card" style="float:left; margin-right:25px;">
+  <div class="media-body">
+    <h4 class="media-heading">
     <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
-   <img class="img-fluid" src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" style="width:18em;">
-    </a>
-    <div class="card-block">
-    <h4 class="card-title">
+    Выпуск №{{.Params.month}} {{.Params.year}}г.    
     {{if (and (isset .Params "sample") .Params.sample)}}
     Полная версия. 
     {{else}}
     Примеры статей.
     {{end}}
-    №{{.Params.month}} ({{.Params.year}})
-    </h4> 
+    </h4>
+    </a>
+    <ul style="padding-top: 10px;">
+    {{if isset .Params "orphan_slogans"}}
+    {{range .Params.orphan_slogans}}
+    <li>  {{.|markdownify}} </li>
+    {{end}}{{end}}
+    </ul>
   </div>
-</div>
-
-
-<ul style="padding-top: 10px;">
-{{if isset .Params "orphan_slogans"}}
-{{range .Params.orphan_slogans}}
-<li>  {{.|markdownify}} </li>
-{{end}}{{end}}
-</ul>
 
 </div>
+

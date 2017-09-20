@@ -14,12 +14,12 @@
 
 
 <!-- contentboxes -->
-<div class="row same-height-row">
+<div class="row same-height-row" style="margin-top:20px;">
 {{range .Params.boxes}}
-           <div class="col-md-4">
+           <div class="col-md-3">
             <div class="box-simple box-white same-height">
              <a {{with .url}}href="{{.}}"{{end}}>
-               <div class="icon">  <i class="fa fa-desktop"></i>   </div>
+               <div class="icon">  <i class="fa fa-{{with .icon}}{{.}}{{else}}desktop{{end}}"></i>   </div>
                {{with .title}}<h3>{{.}}</h3>{{end}}
              </a>
                 {{with .text}}<p>{{. | markdownify}}</p>{{end}}

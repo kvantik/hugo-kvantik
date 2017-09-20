@@ -5,14 +5,6 @@ date = "2017-02-09T14:57:52+03:00"
  weight = -1
  
 [[boxes]]
-text = '''
-- [альманахи](http://kvantik.com/arch.htm#alm)
-- [плакаты с задачами-картинками](http://kvantik.com/arch.htm#plakaty)
-- [календари](http://kvantik.com/arch.htm#kalendary)
-'''
-title = "Также"
-url = "http://kvantik.com/arch.htm"
-[[boxes]]
 text = "Занятия проходят по четвергам с 17:00 до 18:00."
 title = "Онлайн-кружок"
 url = "http://kvantik.com/online.html"
@@ -20,6 +12,16 @@ url = "http://kvantik.com/online.html"
 title = "Интернет-магазин"
 text = "Здесь вы можете купить свежие номера и все альманахи."
 url = "http://www.kvantik.ru"
+icon = "shopping-basket"
+[[boxes]]
+text = '''
+- [альманахи](http://kvantik.com/arch.htm#alm)
+- [плакаты с задачами-картинками](http://kvantik.com/arch.htm#plakaty)
+- [календари](http://kvantik.com/arch.htm#kalendary)
+'''
+title = "Также"
+url = "http://kvantik.com/arch.htm"
+icon = "book"
 +++
 
 {{< block type="background-pentagon" title="Добро пожаловать!" >}}
