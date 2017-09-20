@@ -1,9 +1,9 @@
 ---
 date: "2017-02-25T12:22:56+03:00"
-title: Карусель
+title: Блоки для главной
 menu: 
   main:
     parent: Тест
 ---
 
-{{< carousel >}}
+{{< blocks >}}
