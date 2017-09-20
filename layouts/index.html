@@ -2,15 +2,16 @@
 {{ define "content"}}
 
 
-<div class="container">
-<div class="row">
 
-        <div>
 
 
                         <div>
                           {{ .Content }}
                         </div>
+
+
+<div class="container">
+<div class="row">
 
                         <table>
 						{{range first 5 (where .Site.Pages "Section" "issue") }}
@@ -19,7 +20,6 @@
 						Предыдущие выпуски смотрите в соответствующем разделе (в процессе строительства).
                         </table>
 
-	    </div>
         <!-- /#content -->
 
 </div>
