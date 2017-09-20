@@ -1,4 +1,4 @@
-baseurl = "http://kvantik.netlify.com/"
+baseurl = "https://kvantik.netlify.com/"
 title = "Квантик"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
