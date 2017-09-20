@@ -4,5 +4,5 @@ title: Блоки для главной
 layout: blocks
 menu: 
   main:
-    parent: Тест
+    parent: test
 ---

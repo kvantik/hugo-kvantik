@@ -4,5 +4,5 @@ title: Рубрикатор
 layout: taxonomy
 menu: 
   main:
-    parent: Тест
+    parent: test
 ---

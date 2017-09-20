@@ -4,5 +4,5 @@ title = "В разработке"
 [menu.main]
  weight = 100
  name = "В разработке"
- identifier = "Тест"
+ identifier = "test"
 +++
