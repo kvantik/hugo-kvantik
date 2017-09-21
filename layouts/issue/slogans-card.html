@@ -1,0 +1,26 @@
+﻿{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
+
+<div class="media">
+
+  <div class="media-left">
+  <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
+    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />
+  </a>
+  </div>
+
+  <div class="media-body">
+    <h4 class="media-heading">
+    <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
+    Выпуск №{{.Params.month}} {{.Params.year}}г.    
+    {{if (and (isset .Params "sample") .Params.sample)}}
+    Полная версия. 
+    {{else}}
+    Примеры статей.
+    {{end}}
+    </h4>
+    </a>
+    {{.Render "slogans"}}
+  </div>
+
+</div>
+

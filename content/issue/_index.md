@@ -4,5 +4,4 @@ title: Выпуски
 menu: 
   main:
     weight: 2
-    parent: test
 ---

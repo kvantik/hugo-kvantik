@@ -7,12 +7,13 @@
     </a>
     <div class="card-block">
     <h4 class="card-title">
-    {{if (and (isset .Params "sample") .Params.sample)}}
-    Полная версия. 
-    {{else}}
+    №{{.Params.month}}
+    {{if eq .Params.year "2017"}} 
     Примеры статей.
+    {{else}}
+    Полная версия. 
     {{end}}
-    №{{.Params.month}} ({{.Params.year}})
+     <!-- ({{.Params.year}})  (and (isset .Params "sample") (eq .Params.sample false))-->
     </h4> 
   </div>
 </div>

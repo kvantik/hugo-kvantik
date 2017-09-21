@@ -3,8 +3,10 @@
 
 
   <div class="pages-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-	{{ range (readDir $pagesDir) }}
+  {{$pages := 2}}
+  {{$files := (readDir $pagesDir)}}
+<!--  {{printf "%+v" ((index $files 1).Name)}} -->
+	{{ range (sort (readDir $pagesDir) "Name")}}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <a href="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "gallery/" .Name) ""}}" itemprop="contentUrl" data-size="1575x2008">
           <img src="{{delimit (slice $.Site.BaseURL "issue/" $issuePath "thumbnails/" .Name) ""}}" itemprop="thumbnail" alt="{{ .Name }}" />

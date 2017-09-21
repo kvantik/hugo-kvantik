@@ -1,9 +1,30 @@
 {{define "content"}}
+{{.Content}}
 
-{{range .Paginator.Pages}}
+{{$dirs := readDir "content/issue"}}
 
-{{.Render "slogans"}}
-{{printf "%#v\n" .Permalink}}
-{{end}}
+
+<div class="container">
+<div class="row">
+<div class="tabs">
+  <ul class="nav nav-pills nav-justified"> 
+  {{range $dirs}}
+  {{with .Name}}{{if ne . "_index.md"}}
+  <li class="{{if eq . "2012"}}active{{end}}"><a href="#tab-{{.}}" data-toggle="tab">{{.}} г.</a></li>
+  {{end}}{{end}}
+  {{end}}
+  </ul>
+  <div class="tab-content tab-content-inverse">
+  {{range $dirs}}
+  {{with .Name}}{{if (hasPrefix . "20")}}
+  <div class="tab-pane {{if eq . "2012"}}active{{end}} clearfix" id="tab-{{.}}">
+    {{range (where (where $.Site.AllPages "Section" "issue") "Params.year" .).Reverse}}{{.Render "card"}}{{end}}
+  </div>
+  {{end}}{{end}}
+  {{end}}  
+  </div>
+</div>
+</div>
+</div>
 
 {{end}}
