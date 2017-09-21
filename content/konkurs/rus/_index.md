@@ -4,7 +4,7 @@ date: 2017-02-09T14:59:53+03:00
 menu:
   main:
     parent: Конкурсы
-    name: Русский язык
+    name: "по русскому языку"
 latest: 
   year: "2017"
   tour: "3"

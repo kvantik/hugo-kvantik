@@ -4,7 +4,7 @@ title: Наш конкурс по математике
 menu: 
   main:
     parent: Конкурсы
-    name: Математика
+    name: "по математике"
 latest: 
   year: "2017-2018"
   tour: "1"

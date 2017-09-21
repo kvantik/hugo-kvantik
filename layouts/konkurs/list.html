@@ -1,14 +1,17 @@
 {{define "content"}}
 {{.Content}}
-    <ul>
+{{if isset .Params "latest"}}
+<div class="container"> <div class="row"> <div class="col-md-12">
+ <p class="lead">Наши конкурсы {{.Params.menu.main.name}} за разные годы:
     {{ range .Data.Pages }}
         {{.Render "li"}}
     {{ end }}
-    </ul>
-    {{if isset .Params "latest"}}{{template "latest" .}}{{end}}
+  </p>
+
+ <p class="lead"> Ниже последний тур, присылайте решения до {{.Params.latest.deadline}}!</p>
+</div></div></div>
+{{template "latest" .}}{{end}}
 {{end}}
-
-
 
 {{define "latest"}}
 {{$type :=  index (split .File.Dir "/") 1}}
