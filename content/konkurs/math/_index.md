@@ -5,4 +5,8 @@ menu:
   main:
     parent: Конкурсы
     name: Математика
+latest: 
+  year: "2017-2018"
+  tour: "1"
+  deadline: "1 октября"
 ---

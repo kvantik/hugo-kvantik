@@ -7,7 +7,7 @@
     </a>
     <div class="card-block">
     <h4 class="card-title">
-    №{{.Params.month}}
+    Выпуск №{{if eq .Params.month "10"}}10{{else}}{{trim .Params.month "0-"}}{{end}}.
     {{if eq .Params.year "2017"}} 
     Примеры статей.
     {{else}}

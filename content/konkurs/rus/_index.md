@@ -5,4 +5,8 @@ menu:
   main:
     parent: Конкурсы
     name: Русский язык
+latest: 
+  year: "2017"
+  tour: "3"
+  deadline: "15 сентября"
 ---

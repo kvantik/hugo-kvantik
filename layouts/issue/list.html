@@ -2,7 +2,7 @@
 {{.Content}}
 
 {{$dirs := readDir "content/issue"}}
-
+{{$pages := .Data.Pages}}
 
 <div class="container">
 <div class="row">
@@ -10,7 +10,7 @@
   <ul class="nav nav-pills nav-justified"> 
   {{range $dirs}}
   {{with .Name}}{{if ne . "_index.md"}}
-  <li class="{{if eq . "2012"}}active{{end}}"><a href="#tab-{{.}}" data-toggle="tab">{{.}} г.</a></li>
+  <li class="{{if eq . "2012"}}active{{end}}"><a href="#tab-{{.}}" data-toggle="tab">{{.}}</a></li>
   {{end}}{{end}}
   {{end}}
   </ul>
@@ -18,7 +18,7 @@
   {{range $dirs}}
   {{with .Name}}{{if (hasPrefix . "20")}}
   <div class="tab-pane {{if eq . "2012"}}active{{end}} clearfix" id="tab-{{.}}">
-    {{range (where (where $.Site.AllPages "Section" "issue") "Params.year" .).Reverse}}{{.Render "card"}}{{end}}
+    {{range (where $pages "Params.year" .).Reverse}}{{.Render "card"}}{{end}}
   </div>
   {{end}}{{end}}
   {{end}}  
