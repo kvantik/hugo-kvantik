@@ -6,7 +6,7 @@ date = "2017-02-09T14:57:52+03:00"
  
 [[boxes]]
 text = "по математике, присылайте решения до 1-го числа!"
-title = "Конкурс"
+title = "Наш конкурс"
 url = "/konkurs/math/"
 icon = "lightbulb-o"
 [[boxes]]
@@ -24,7 +24,7 @@ text = '''
 - [плакаты с задачами-картинками](http://kvantik.com/arch.htm#plakaty)
 - [календари](http://kvantik.com/arch.htm#kalendary)
 '''
-title = "А также"
+title = "Издания"
 url = "http://kvantik.com/arch.htm"
 icon = "book"
 +++
