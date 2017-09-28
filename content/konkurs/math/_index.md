@@ -5,6 +5,8 @@ menu:
   main:
     parent: Конкурсы
     name: "по математике"
+aliases:
+  - /concurs/
 latest: 
   year: "2017-2018"
   tour: "1"
