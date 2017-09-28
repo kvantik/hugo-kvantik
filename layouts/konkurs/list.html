@@ -1,11 +1,10 @@
 {{define "content"}}
 {{.Content}}
 <div class="container"> <div class="row" style="max-width:900px; margin:auto;"> <div class="col-md-12">
- <p class="lead">Наши конкурсы {{.Params.menu.main.name}} за разные годы:
+ <p class="lead">Наши конкурсы {{.Params.menu.main.name}} за разные годы: </p>
     {{ range .Data.Pages }}
         {{.Render "li"}}
     {{ end }}
-  </p>
 
 {{if isset .Params "latest"}}
  <p class="lead"> Ниже последний тур, присылайте решения до {{.Params.latest.deadline}}!</p>
