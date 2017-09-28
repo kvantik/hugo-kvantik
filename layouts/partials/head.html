@@ -9,7 +9,9 @@
 
   {{partial "yandex.metrika" .}}
 
-  <title>{{ .Site.Title }}</title>
+  <title>{{ block "title" . }}
+      {{ .Site.Title }}
+    {{ end }}</title>
 
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="keywords" content="{{.Site.Params.keywords}}">
