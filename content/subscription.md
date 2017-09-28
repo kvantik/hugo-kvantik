@@ -4,6 +4,8 @@ menu:
   main:
     weight: 4
 title: Подписка
+aliases:
+    - /podpiska/
 ---
 
 
