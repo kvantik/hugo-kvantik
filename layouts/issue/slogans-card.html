@@ -1,15 +1,8 @@
-﻿{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
+{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
 
-<div class="media">
 
-  <div class="media-left">
-  <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
-    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />
-  </a>
-  </div>
-
-  <div class="media-body">
-    <h4 class="media-heading">
+<div class="row">
+   <h4 class="media-heading">
     <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
     Журнал №{{.Params.month}} {{.Params.year}}г.    
     {{if (and (isset .Params "sample") .Params.sample)}}
@@ -17,10 +10,13 @@
     {{else}}
     Примеры статей.
     {{end}}
+      </a>
     </h4>
-    </a>
-    {{.Render "slogans"}}
-  </div>
-
+    
+  <div class="col-md-4">
+    <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
+    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />
+  </a>
+  <div>
+  <div class="col-md-4">  {{.Render "slogans"}}</div>
 </div>
-
