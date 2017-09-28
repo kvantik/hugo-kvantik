@@ -1,15 +1,8 @@
-﻿{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
+{{$dir := string (delimit (slice .Params.year "-" .Params.month) "")}}
 
 <div class="media">
 
-  <div class="media-left">
-  <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
-    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />
-  </a>
-  </div>
-
-  <div class="media-body">
-    <h4 class="media-heading">
+    <h4 class="media-heading text-center">
     <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
     Журнал №{{.Params.month}} {{.Params.year}}г.    
     {{if (and (isset .Params "sample") .Params.sample)}}
@@ -17,10 +10,18 @@
     {{else}}
     Примеры статей.
     {{end}}
-    </h4>
     </a>
+    </h4>
+
+<!--  <div class="media-left">-->
+  <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
+    <img class="pull-left img-responsive" alt="Обложка" src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" style="max-width: 18em;">
+<!--    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />-->
+  </a>
+
+
+  <div class="media-body" style="min-width: 20em;">
     {{.Render "slogans"}}
   </div>
 
 </div>
-
