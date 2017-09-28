@@ -38,4 +38,3 @@ icon = "book"
 {{< /block >}}
 
 
-{{< boxes >}}
