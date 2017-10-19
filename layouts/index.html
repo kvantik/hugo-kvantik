@@ -12,7 +12,7 @@
 
             <div class="heading"><h2>Новости</h2></div>
 
-    {{range (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
+    {{range where .Site.Pages "Section" "news"}}
     {{.Render "short"}}
     {{end}}
 
