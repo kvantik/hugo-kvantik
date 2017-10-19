@@ -51,4 +51,4 @@ date = "2017-02-09T14:58:00+03:00"
 [![](/img/partners/osdlogo.png)](http://www.osd.ru/)
 
 
-{{< formspree "put-email-here" >}}
+{{< formspree "kvantik@mccme.ru" >}}
