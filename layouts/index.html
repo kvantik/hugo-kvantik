@@ -14,7 +14,6 @@
 
     {{range (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
     {{.Render "short"}}
-    {{.}}
     {{end}}
 
 </div>
