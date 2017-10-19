@@ -5,5 +5,5 @@ title = "В разработке"
  weight = 100
  name = "В разработке"
  identifier = "test"
- parent = "none"
+ hidden = true
 +++

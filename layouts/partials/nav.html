@@ -21,8 +21,8 @@
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
 		    {{$Page := .}}
-                    {{ range .Site.Menus.main.ByWeight }}
-		      {{if .HasChildren}}
+                    {{ range .Site.Menus.main.ByWeight}}
+		      {{if .hidden "!=" true}}{{if .HasChildren}}
 			<li class="dropdown {{if $Page.HasMenuCurrent "main" .}}active{{end}}">
 				<a href="javascript: void(0)" class="dropdown-toggle" data-toggle="dropdown">
 					{{.Name}}<b class="caret"></b></a>
@@ -39,7 +39,7 @@
                              <a href="{{.URL}}">{{ .Name }}</a>			  
                           </li>
 		      {{end}}
-                    {{ end }}
+                    {{ end }}{{else}}{{printf "%#v" .}}{{end}}
                 </ul>
             </div>
             <!--/.nav-collapse -->
