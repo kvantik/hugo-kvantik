@@ -15,8 +15,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "data/buy/online" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - label: "Список онлайн-магазинов данной категории"
-        name: "store" 
+      - name: "store" 
         widget: "list"
         fields:
           - {label: "Название", name: "name", widget: "markdown"}
@@ -46,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Название", name: "name", widget: "markdown"}
               - {label: "Контакты", name: "address", widget: "markdown"}
-              - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
+              - {label: "Введите 1, чтобы отобразить на сайте", name: "available", widget: "number"}
               - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
 
   - name: "news"
@@ -55,8 +54,24 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-       - {label: "Название", name: "title", widget: "text"}
+       - {label: "Название", name: "title", widget: "string"}
        - {label: "Содержание", name: "body", widget: "markdown"}
+
+  - name: "partners"
+    label: "Партнёры"
+    editor:
+      preview: false
+    files:
+      - label: "Список партнёров"
+        name: "partners"
+        file: "data/partners.yaml"
+        fields:
+          - label: "Партнёр"
+            name: "partner"
+            widget: "list"
+            fields:
+              - {label: "Ссылка", name: "url", widget: "string"}
+              - {label: "Логотип", name: "logo", widget: "image"}
 
   - name: "pages"
     label: "Страницы"
