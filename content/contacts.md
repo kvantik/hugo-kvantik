@@ -41,14 +41,6 @@ date = "2017-02-09T14:58:00+03:00"
 
 # Наши партнёры
 
-
-[![](/img/partners/nkj-logo.gif)](http://www.nkj.ru/subscribe/)
-[![](/img/partners/ileo.png)](http://www.ileonardo.ru/)
-[![](/img/partners/etudes-logo.png)](http://www.etudes.ru/)
-[![](/img/partners/Robot-logo.png)](http://robots.croc.ru/junior/)
-[![](/img/partners/formulo_org.png)](http://www.formulo.org/)
-[![](/img/partners/lan.jpg)](http://www.e.lanbook.com/)
-[![](/img/partners/osdlogo.png)](http://www.osd.ru/)
-
+{{< partners >}}
 
 {{< formspree "kvantik@mccme.ru" >}}
