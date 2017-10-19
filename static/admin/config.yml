@@ -49,13 +49,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
               - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
 
-  - name: "article" # Used in routes, ie.: /admin/collections/:slug/edit
+  - name: "news"
     extension: "md"
-    label: "Статьи" # Used in the UI, ie.: "New Post"
-    folder: "content/article" # The path to the folder where the documents are stored
+    label: "Новости"
+    folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-       - {label: "Название", name: "title", widget: "markdown"}
+       - {label: "Название", name: "title", widget: "text"}
+       - {label: "Содержание", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Страницы"
