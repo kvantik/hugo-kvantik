@@ -9,6 +9,20 @@
 <section class="bar background-white no-mb">
 <div class="container" >
 <div class="row">
+
+            <div class="heading"><h2>Новости</h2></div>
+
+    {{range (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
+    {{.Render "short"}}
+    {{.}}
+
+</div>
+</div>
+</section>
+
+<section class="bar background-white no-mb">
+<div class="container" >
+<div class="row">
 						{{range first 1 (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
 						{{.Render "slogans-card"}}
 						{{end}}
