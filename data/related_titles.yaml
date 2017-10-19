@@ -1,4 +1,3 @@
----
 almanacs:
   title: Альманахи
   description: Материалы всех журналов собраны в альманахах по полугодиям. Каждый альманах включает материалы 6 журналов.
@@ -43,4 +42,3 @@ posters:
       img: img/related_titles/posters-1.jpg
     - ref: http://biblio.mccme.ru/node/5506/shop
       img: img/related_titles/posters-2.jpg
----
