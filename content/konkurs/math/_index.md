@@ -9,6 +9,6 @@ aliases:
   - /concurs/
 latest: 
   year: "2017-2018"
-  tour: "1"
-  deadline: "1 октября"
+  tour: "3"
+  deadline: "1 декабря"
 ---
