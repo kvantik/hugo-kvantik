@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Арабские монеты: график годов выпуска</title>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="todolist.css"/>
+  </head>
+
+  <body>
+    <div id="title"></div>
+<div id="explanation">
+Здесь вы можете оценить год переселения Мухаммеда по набору монет при помощи метода линейной регрессии.
+</div>
+  <h2 style="margin:20px;">Выберите монеты для построения:</h2>
+<table id="coins">
+    <thead>
+        <tr>
+            <th>✔</th>
+            <th>Журнал и монета</th>
+            <th>Страна</th>
+            <th>Номинал</th>
+            <th>Григорианский</th>
+            <th>Арабский</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>&#10004;</td>
+            <td>№10, монета 1</td>
+            <td>Объединённые Арабские Эмираты</td>
+            <td>50 филсов</td>
+            <td>2013</td>
+            <td>1434</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№10, монета 2</td>
+            <td>Мальдивские острова</td>
+            <td>10 лаари</td>
+            <td>2001</td>
+            <td>1422</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№10, монета 3</td>
+            <td>Египет</td>
+            <td>5 мильемов</td>
+            <td>1917</td>
+            <td>1335</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 1</td>
+            <td>Йемен</td>
+            <td>1 риал</td>
+            <td>1993</td>
+            <td>1414</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 2</td>
+            <td>Мальдивские острова</td>
+            <td>5 лаари</td>
+            <td>1990</td>
+            <td>1411</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 3</td>
+            <td>Объединённые Арабские Эмираты</td>
+            <td>50 филсов</td>
+            <td>1998</td>
+            <td>1419</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 4</td>
+            <td>Египет</td>
+            <td>5 мильемов</td>
+            <td>1967</td>
+            <td>1386</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 5</td>
+            <td>Марокко</td>
+            <td>1 франк (Мохамед V)</td>
+            <td>1945</td>
+            <td>1364</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 6</td>
+            <td>Египет</td>
+            <td>10 пиастров</td>
+            <td>1992</td>
+            <td>1413</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 7</td>
+            <td>Египет</td>
+            <td>25 пиастров</td>
+            <td>1993</td>
+            <td>1413</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 8</td>
+            <td>Египет</td>
+            <td>20 мильемов</td>
+            <td>1958</td>
+            <td>1378</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 9</td>
+            <td>Кувейт</td>
+            <td>100 филсов</td>
+            <td>1998</td>
+            <td>1418</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№9, монета 10</td>
+            <td>Тунис</td>
+            <td>100 миллимов</td>
+            <td>1993</td>
+            <td>1414</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№8, монета 1</td>
+            <td>Марокко</td>
+            <td>5 сантимов</td>
+            <td>1974</td>
+            <td>1394</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№8, монета 2</td>
+            <td>Египет</td>
+            <td>5 мильемов</td>
+            <td>1973</td>
+            <td>1393</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№8, монета 3</td>
+            <td>Египет</td>
+            <td>2 пиастра</td>
+            <td>1980</td>
+            <td>1400</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№8, монета 4</td>
+            <td>Мавритания</td>
+            <td>10 ouguiya </td>
+            <td>1974</td>
+            <td>1394</td>
+        </tr>
+        <tr>
+            <td>&#10004;</td>
+            <td>№8, монета 5</td>
+            <td>Египет</td>
+            <td>10 пиастров</td>
+            <td>1967</td>
+            <td>1387</td>
+        </tr>
+    </tbody>
+</table>
+    <div id="explanation2">     
+    <text id="equation"></text>
+    </div>
+    <div id="graph-wrapper">
+   </div>
+  </body>
+
+
+  <script type="text/javascript" src="table-parser.js"></script>
+  <script type="text/javascript" src="jquery.tablesorter.min.js"></script> 
+  <script type="text/javascript" src="regression.js"></script>
+
+</html>
