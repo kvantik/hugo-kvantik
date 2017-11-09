@@ -18,7 +18,6 @@ aliases:
 или [через интернет]({{< relref "#internet" >}}) на сайте [vipishi.ru](http://vipishi.ru).
 Жители дальнего зарубежья могут воспользоваться сервисом [nasha-pressa.de](http://nasha-pressa.de/index.php?com=items&task=show&item=4246).
 
-Также вы можете подписаться на [электронную версию журнала]({{< relref "#online" >}}).
 
 ## Подписка на Почте России {#pochta}
 
