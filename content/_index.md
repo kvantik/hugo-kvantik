@@ -20,12 +20,12 @@ url = "http://www.kvantik.ru"
 icon = "shopping-basket"
 [[boxes]]
 text = '''
-- [альманахи](http://kvantik.com/arch.htm#alm)
-- [плакаты с задачами-картинками](http://kvantik.com/arch.htm#plakaty)
-- [календари](http://kvantik.com/arch.htm#kalendary)
+- альманахи
+- плакаты с задачами-картинками
+- календари
 '''
 title = "Издания"
-url = "http://kvantik.com/arch.htm"
+url = "/related_titles/"
 icon = "book"
 +++
 
