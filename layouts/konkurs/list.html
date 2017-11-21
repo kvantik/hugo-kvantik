@@ -2,7 +2,7 @@
 {{.Content}}
 <div class="container"> <div class="row" style="max-width:900px; margin:auto;"> <div class="col-md-12">
  <p class="lead">Наши конкурсы {{.Params.menu.main.name}} за разные годы: <br/>
-    {{ range .Data.Pages }}
+    {{ range sort .Data.Pages "Title"}}
         {{.Render "li"}}
     {{ end }}
 </p>

@@ -4,4 +4,5 @@ title: Журналы
 menu: 
   main:
     weight: 2
+    parent: titles
 ---
