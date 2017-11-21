@@ -30,14 +30,15 @@ function loadApp() {
 			autoCenter: true
 	});
 
+
+}
+
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['/js/turn.js'],
+	yep: ['/js/turn.min.js'],
 	nope: ['/js/turn.html4.min.js'],
 	both: ['/css/turnjs.basic.css'],
 	complete: loadApp
 });
-
-}
 
 </script>

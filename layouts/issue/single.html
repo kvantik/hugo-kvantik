@@ -12,7 +12,12 @@
 </div>
 </section>
 
-{{partial "issue-gallery-turn" .}}
+<div>{{ with  .OutputFormats.Get "magazine" -}}
+<a href="{{ .Permalink }}">{{ .Name }}</a>
+{{- end }}</div>
+{{range .OutputFormats}}
+{{printf "%#v" .}}
+{{end}}
 
 <div class="container">
 <div class="row">

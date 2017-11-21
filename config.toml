@@ -23,8 +23,23 @@ SectionPagesMenu = "lazy"
   illustrator = "illustrators"
   issue = "issues"
   rubric = "rubrics"
-  
 
+#[mediaTypes]
+#[mediaTypes."text/magazine"]
+#suffix = "htm"
+
+#[outputFormats]
+#[outputFormats.magazine]
+#Name = "magazine"
+#mediaType = "text/magazine"
+#path = "view"
+#baseName = "magazine"
+#isHTML = true
+#IsPlainText = false
+#Rel = "canonical"
+
+#[outputs]
+#  page = ["HTML", "magazine", "AMP"]
 
 [permalinks]
     post = "/:year/:month/:slug/"
