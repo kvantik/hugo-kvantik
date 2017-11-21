@@ -142,7 +142,7 @@ def make_sheet(gc, year, month):
 
 gc = pygsheets.authorize(service_file='local/kvantik-gspread.json')
 for year in range(2017, 2018):
-    for month in range(6, 10):
+    for month in range(10, 11):
         make_sheet(gc, str(year), str(month).zfill(2))
         print(year, month)
 print('All done')

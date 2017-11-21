@@ -7,6 +7,6 @@ menu:
     name: "по русскому языку"
 latest: 
   year: "2017"
-  tour: "3"
-  deadline: "15 сентября"
+  tour: "4"
+  deadline: "1 декабря"
 ---

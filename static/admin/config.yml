@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: aperep/hugo-kvantik
-  branch: master
+  branch: cms-test
 
 media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/uploads"
