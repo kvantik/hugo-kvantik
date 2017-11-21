@@ -29,6 +29,15 @@ function loadApp() {
 			gradients: true,
 			autoCenter: true
 	});
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['/js/turn.js'],
+	nope: ['/js/turn.html4.min.js'],
+	both: ['/css/turnjs.basic.css'],
+	complete: loadApp
+});
+
 }
 
 </script>
