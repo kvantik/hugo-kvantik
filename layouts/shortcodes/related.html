@@ -1,7 +1,7 @@
 {{$collection := (index .Site.Data.related_titles (.Get 0))}}
 
 <h1>{{$collection.title}}</h1>
-<p>{{$collection.description}}</p>
+<p>{{$collection.description | markdownify}}</p>
 <div class="clearfix">
 
 {{range (index $collection "issues")}}

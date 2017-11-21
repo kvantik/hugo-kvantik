@@ -21,7 +21,7 @@ almanacs:
 
 calendars:
   title: Календари
-  description: Настенный перекидной календарь загадок с решениями. На каждой странице &ndash; календарь на месяц и задача-картинка.
+  description: Настенный перекидной календарь загадок с решениями. На каждой странице – календарь на месяц и задача-картинка.
   issues:
     - ref: http://biblio.mccme.ru/node/3438/shop
       img: img/related_titles/calendar_2014.jpg
