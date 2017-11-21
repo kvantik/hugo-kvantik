@@ -18,12 +18,10 @@ almanacs:
       img: img/related_titles/almanac-7.jpg
     - ref: http://biblio.mccme.ru/node/5625/shop
       img: img/related_titles/almanac-8.jpg
-    - ref: ''
-      img: img/related_titles/almanac-9.jpg
 
 calendars:
   title: Календари
-  description: Настенный перекидной календарь загадок с решениями. На каждой странице &ndash; календарь на месяц и задача-картинка.
+  description: Настенный перекидной календарь загадок с решениями. На каждой странице – календарь на месяц и задача-картинка.
   issues:
     - ref: http://biblio.mccme.ru/node/3438/shop
       img: img/related_titles/calendar_2014.jpg

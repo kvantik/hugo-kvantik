@@ -1,0 +1,17 @@
+{{$collection := (index .Site.Data.related_titles (.Get 0))}}
+
+<h1>{{$collection.title}}</h1>
+<p>{{$collection.description | markdownify}}</p>
+<div class="clearfix">
+
+{{range (index $collection "issues")}}
+
+<div style="float:left; margin:20px; height:330px;">
+    <a href="{{.ref}}">
+   <img class="img-fluid" src="/{{.img}}" alt="{{.img}}" style="width:18em;">
+    </a>
+</div>
+
+{{end}}
+
+</div>
