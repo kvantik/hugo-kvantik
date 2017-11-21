@@ -15,7 +15,9 @@ collections: # A list of collections the CMS should be able to edit
     folder: "data/buy/online" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - name: "store" 
+      - {label: "Тип", name: "title", widget: "hidden"}
+      - label: "Список онлайн-магазинов"
+        name: "store" 
         widget: "list"
         fields:
           - {label: "Название", name: "name", widget: "markdown"}
@@ -30,7 +32,8 @@ collections: # A list of collections the CMS should be able to edit
     folder: "data/buy/retail" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - label: "Список розничных магазинов данной категории"
+      - {label: "Тип", name: "title", widget: "hidden"}
+      - label: "Список розничных магазинов"
         name: "shops" 
         widget: "list"
         fields:

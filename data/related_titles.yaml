@@ -18,8 +18,6 @@ almanacs:
       img: img/related_titles/almanac-7.jpg
     - ref: http://biblio.mccme.ru/node/5625/shop
       img: img/related_titles/almanac-8.jpg
-    - ref: ''
-      img: img/related_titles/almanac-9.jpg
 
 calendars:
   title: Календари
