@@ -1,0 +1,34 @@
+{{$issuePath := (delimit (slice .Params.year "/" .Params.month "/") "" )}}
+{{$pagesDir := (delimit (slice "static/issue/" $issuePath "gallery/") "" )}}
+
+
+<script src="{{ .Site.BaseURL }}js/jquery.min.1.7.js"></script> 
+<script src="{{ .Site.BaseURL }}js/modernizr.2.5.3.min.js"></script> 
+
+
+<div class="flipbook-viewport">
+	<div class="container">
+		<div class="flipbook">
+    	{{ range (sort (readDir $pagesDir) "Name")}}
+			<div style="background-image:url({{delimit (slice $.Site.BaseURL "issue/" $issuePath "gallery/" .Name) ""}})"></div>
+        {{end}}
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+function loadApp() {
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			width:922,
+			height:600,
+			elevation: 50,
+			gradients: true,
+			autoCenter: true
+	});
+}
+
+</script>
