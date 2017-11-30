@@ -5,7 +5,7 @@ import os
 import re
 import datetime
 import itertools
-from subprocess import call, check_call
+from subprocess import call, check_output
 import ruamel.yaml as yaml
 
 def makedir(d):
@@ -16,16 +16,18 @@ def extract(filename):
     directory = 'local/konkurs/'+os.path.splitext(os.path.basename(filename))[0] + '/'
     makedir(directory)
     print('Extracting images from PDF file...' )
-    call('bash -c "pdfimages -f 34 -l 35 -list {0}"'.format(filename), shell=True)
+    images = check_output('bash -c "pdfimages -f 34 -l 35 -list {0}"'.format(filename), shell=True).split()
+    masks = [int(images[i-1]) for i,s in enumerate(images) if s==b'smask'] 
+    print(masks)
     call('bash -c "pdfimages -f 34 -l 35 -png {0} {1}raw"'.format(filename,directory), shell=True)
-
     raw_file = lambda i : '{0}raw-{1:0>3}.png'.format(directory,i)
-    for i in itertools.count(0,2):
-        print(i)
-        if not os.path.exists(raw_file(i)):
+
+    for m in masks:
+        #print(i)
+        if not os.path.exists(raw_file(m)):
             break
-        call('bash -c " composite -compose CopyOpacity {1} {0} {2}"'.format(raw_file(i), raw_file(i+1), directory+""+str(i//2)+'.png'), shell=True)
-        call('bash -c " rm {0} {1}"'.format(raw_file(i), raw_file(i+1)), shell=True)
+        call('bash -c " composite -compose CopyOpacity {1} {0} {2}"'.format(raw_file(m-1), raw_file(m), directory+""+str(m-1)+'.png'), shell=True)
+#        call('bash -c " rm {0} {1}"'.format(raw_file(i), raw_file(i+1)), shell=True)
     
     text_file = directory+'konkurs.txt'
     call('bash -c "pdf2txt -o {0} -p 34,35 {1} "'.format(text_file,filename), shell=True)
@@ -54,4 +56,4 @@ def extract(filename):
         text.writelines(problems)
 
 
-extract('local/2017-11.pdf')
+extract('local/pdfs/2017-12.pdf')
