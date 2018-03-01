@@ -3,8 +3,16 @@
         {{$page := . -}}    
         {{- range .Site.Menus.main.ByWeight -}}
 		      {{- if ne .Identifier "test" -}}        
-        <a {{if $page.IsMenuCurrent "main" .}}class="active"{{else}}href="{{.URL}}"{{end}}>{{.Name}}</a>
+        <a {{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .)}}class="active"{{else}}href="{{.URL}}"{{end}}>{{.Name}}</a>
 		{{- end}}{{end -}}
     </div>
 
+
+{{- if eq .Section "konkurs" }}
+<div class="menusmall" style="width:909px;">
+        {{- range .Site.Menus.main.ByWeight -}}{{- if eq .Identifier "konkurs" -}}        
+        {{- range .Children -}}
+        <a {{if $page.IsMenuCurrent "main" .}}class="active"{{else}}href="{{.URL}}"{{end}}>{{.Name}}</a>
+		{{- end}}{{end -}}{{end -}}
+</div>    {{end}}
 

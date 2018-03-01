@@ -124,7 +124,7 @@ hr		{
 .menu a:hover {	color:#fc7c0b; }
 
 .menu a.active {text-decoration:none; color:#fff; background:#fc7c0b; font-weight:900;}
-	
+
 .menusmall   {
 		width:910px;
 		position:relative;
@@ -141,6 +141,7 @@ hr		{
 		}
 		
 .menusmall a:hover {	color:#fc7c0b; }
+.menusmall a.active {text-decoration:none; color:#fff; background:#fc7c0b; font-weight:900;}
 
 
 .content {

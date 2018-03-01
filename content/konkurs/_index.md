@@ -5,4 +5,6 @@ menu:
   main:
     name: Конкурсы
     weight: 1
+    identifier: konkurs
+    url: "/konkurs/math/"
 ---
