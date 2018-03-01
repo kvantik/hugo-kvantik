@@ -14,11 +14,12 @@
     {{end}}
 
             <div class="heading"><h2>Последние выпуски</h2></div>
-
-						{{range first 1 (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
+                        <table>
+						{{range first 3 (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
 						{{.Render "slogans-card"}}
 						{{end}}
-						<h4 class="text-center"> {{ "[Прошлые выпуски.](/issue)" | markdownify}} </h4>
+                        </table>
+						<h4 class="text-center"> {{ "[Предыдущие выпуски здесь.](/issue)" | markdownify}} </h4>
 
 
 {{end}}

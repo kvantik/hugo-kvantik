@@ -1,27 +1,23 @@
-{{$dir := string (delimit (slice .Params.year "/" .Params.month) "")}}
+{{$issue := string (delimit (slice .Params.year "-" .Params.month) "")}}
 
-<div class="media">
+<tr>
 
-    <h3 class="media-heading text-center">
-    <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
-    Журнал №{{.Params.month}} {{.Params.year}}г.    
+	<td align="right" class="img">
+    <figure>
+	<a class="img_download" href="issue/{{$issue}}{{if (and (isset .Params "sample") .Params.sample)}}_sample{{end}}.pdf" target="_blank"><img src="{{.Site.BaseURL}}issue/{{$issue}}.jpg" align="right" width="300"/></a>
+  <figcaption style=""><b> Журнал №{{strings.TrimLeft "0" .Params.month}} {{.Params.year}}г.    
     {{if (and (isset .Params "sample") .Params.sample)}}
     Полная версия. 
     {{else}}
     Примеры статей.
-    {{end}}
-    </a>
-    </h3>
+    {{end}}</b></figcaption>
+    </figure>
+	</td>
 
-<!--  <div class="media-left">-->
-  <a href="{{.Site.BaseURL}}issue/{{.Params.year}}/{{.Params.month}}">
-    <img class="pull-left img-responsive" alt="Обложка" src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" style="max-width: 18em;">
-<!--    <img src="{{.Site.BaseURL}}issue/{{$dir}}/cover.jpg" alt="Обложка" class="media-object" style="width:18em;" />-->
-  </a>
+	<td  class="ogl">
 
-
-  <div class="media-body" style="min-width: 20em;">
     {{.Render "slogans"}}
-  </div>
+	</td>
 
-</div>
+</tr>
+
