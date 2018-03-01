@@ -55,5 +55,7 @@ def extract(filename):
         text.writelines(tour_template(firstnum))
         text.writelines(problems)
 
-
-extract('local/pdfs/2017-12.pdf')
+print('Номер выпуска?')
+num=int(input())
+#print('local/pdfs/2018-{:0>2}.pdf'.format(num))
+extract('local/pdfs/2018-{:0>2}.pdf'.format(num))
