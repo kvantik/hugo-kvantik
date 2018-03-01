@@ -3,12 +3,15 @@
 
   {{ partial "head" . }}
 
-  <body>
+  <body id="all">
+    <div class="containr">
 
 
         <header>
-
-          {{ partial "nav" . }}
+        	<div class="head">
+            	<a href="index.html"><img src="{{ .Site.BaseURL }}img/logo_1.png"/></a>
+            </div>
+          {{ partial "nav" . }}
 
         </header>
 
@@ -18,15 +21,7 @@
 
     {{ block "content" . }}
 
-    <div class="container">
-    <div class="row">
-
-
     {{.Content}}
-
-
-    </div>
-    </div>
 
      {{end}}
 
@@ -34,5 +29,6 @@
 
     {{ partialCached "scripts" . }}
 
+    </div>
   </body>
 </html>

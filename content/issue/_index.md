@@ -1,8 +1,4 @@
 ---
 date: "2017-09-25T12:22:56+03:00"
 title: Журналы
-menu: 
-  main:
-    weight: 2
-    parent: titles
 ---

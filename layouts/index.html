@@ -6,9 +6,6 @@
                         </div>
         <!-- /#content -->
 
-<section class="bar background-white no-mb">
-<div class="container" >
-<div class="row">
 
             <div class="heading"><h2>Новости</h2></div>
 
@@ -16,22 +13,13 @@
     {{.Render "short"}}
     {{end}}
 
-</div>
-</div>
-</section>
+            <div class="heading"><h2>Последние выпуски</h2></div>
 
-<section class="bar background-white no-mb">
-<div class="container" >
-<div class="row">
 						{{range first 1 (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
 						{{.Render "slogans-card"}}
 						{{end}}
 						<h4 class="text-center"> {{ "[Прошлые выпуски.](/issue)" | markdownify}} </h4>
-</div>
-</div>
-</section>
 
-{{template "boxes" .}}
 
 {{end}}
 
