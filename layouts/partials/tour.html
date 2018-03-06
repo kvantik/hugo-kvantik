@@ -1,0 +1,18 @@
+ <h2 style="text-align:center;">{{.tour.title}} </h2>
+ {{with .tour.image_art}}<img src="{{.}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
+    {{range sort .tour.problems "number" "asc"}}
+        {{template "problem" .}} 
+    {{end}}
+
+{{define "problem"}}
+<div class="media">
+  <div class="media-body">
+    <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
+    <p>{{.problem | markdownify}}</p>
+    {{with .image_scheme}} <img src="{{.}}" alt="Чертёж" class="media-object" style="max-height:120px; max-width:200px;" />{{end}}
+  </div>
+  <div class="media-right">
+    {{with .image_art}}<img src="{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}
+  </div>
+</div>
+{{end}}

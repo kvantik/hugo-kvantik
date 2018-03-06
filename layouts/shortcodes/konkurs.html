@@ -1,0 +1,5 @@
+{{if eq (.Get 0) "deadline"}}
+{{- .Page.Params.latest.deadline -}}
+{{else if eq (.Get 0) "tour"}}
+{{- index (slice "0" "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X" "XI" "XII" "XIII" "XIV" "XV" "XVI" "XVII") (int .Page.Params.latest.tour) -}}
+{{end}}
