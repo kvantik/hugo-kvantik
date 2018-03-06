@@ -5,6 +5,7 @@ menu:
   main:
     parent: konkurs
     name: "по русскому языку"
+    weight: 2
 latest: 
   year: "2017"
   tour: "4"

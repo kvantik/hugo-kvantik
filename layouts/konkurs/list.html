@@ -1,65 +1,8 @@
 {{define "content"}}
 {{.Content}}
-{{if isset .Params "latest"}}{{template "latest" .}}{{end}}
+{{$currentpath := (split .Page.Path "/")}}
+{{$desiredpath := (delimit (slice (index $currentpath 0) (index $currentpath 1) .Params.latest.year) "/")}}
+{{$desiredpath := string (delimit (slice $desiredpath "md") ".")}}
+{{with (.Site.GetPage "page" "konkurs/math/2017-2018.md")}}{{.Render "tours"}}{{end}}
 {{end}}
 
-
-
-{{define "latest"}}
-{{$type :=  index (split .File.Dir "/") 1}}
-{{$tour :=  index (index (index .Site.Data.konkurs $type) .Params.latest.year) .Params.latest.tour}}
-{{$year := .Params.latest.year}}
-{{$problems := (sort $tour.tour.problems "number" "asc")}}
-<div style="width:900px">
-<h1 style="text-align:center;">{{$tour.tour.title}} </h1>
-{{if isset $tour.tour "image_art"}}<img src="{{$year}}/{{$tour.tour.image_art}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
-
-<div style="float:right;width:28%">
-{{range $i,$p := $problems}}
-{{if not (modBool $i 2)}}{{with .image_art}}
-<center>
-<img src="{{$year}}/{{.}}" width="100%" style="margin-top: 0px; margin-bottom: 0px; margin-left: 10px; margin-right: 0px;float:left" >
-</center>
-{{end}}{{end}}
-{{end}}
-</div>
-
-<div style="float:left;width:30%;margin-right:10px;">
-{{range $i,$p := $problems}}
-{{if (modBool $i 2)}}{{with .image_art}}
-<center>
-<img src="{{$year}}/{{.}}" width="100%" style="margin-top: 20px; margin-bottom: 0px; margin-left: 0px; margin-right: 10px;float:left" >
-</center>
-{{end}}{{end}}
-{{end}}
-</div>
-
-<div style=" display: inline-block; width: 37%;">{{range $problems}}
-<div>
-    <p>
-    <b>{{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </b>
-    {{.problem | markdownify}}
-    </p>
-    {{with .image_scheme}} <img src="{{$year}}/{{.}}" alt="Чертёж" class="media-object" style="max-height:120px; max-width:200px;" />{{end}}
-</div>
-{{end}}
-</div>
-
-</div>
-{{end}}
-
-
-
-
-{{define "unused"}}
-<div class="container"> <div class="row" style="max-width:900px; margin:auto;"> <div class="col-md-12">
- <p class="lead">Наши конкурсы {{.Params.menu.main.name}} за разные годы: <br/>
-    {{ range sort .Data.Pages "Title"}}
-        {{.Render "li"}}
-    {{ end }}
-</p>
-{{if isset .Params "latest"}}
- <p class="lead"> Ниже последний тур, присылайте решения до {{.Params.latest.deadline}}!</p>
-{{end}}
-</div></div></div>
-{{end}}

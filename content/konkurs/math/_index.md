@@ -5,6 +5,7 @@ menu:
   main:
     parent: konkurs
     name: "по математике"
+    weight: 1
 aliases:
   - /concurs/
 latest: 

@@ -1,0 +1,76 @@
+{{$konkurstype :=  index (split .File.Dir "/") 1}}
+{{$tours := index (index .Site.Data.konkurs $konkurstype) .Title}}
+{{$page := .}}
+
+<div class="container">
+<div class="row" style="max-width:900px; margin:auto;">
+
+{{range (sort $tours "tour.number" "desc")}}
+{{$problems := (sort .tour.problems "number" "asc")}}
+<div style="width:900px">
+<h1 style="text-align:center;">{{.tour.title}} </h1>
+{{with .tour.image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
+
+<div style="float:right;width:28%">
+{{range $i,$p := $problems}}
+{{if not (modBool $i 2)}}{{with .image_art}}
+<center>
+<img src="{{$page.URL}}{{.}}" width="100%" style="margin-top: 0px; margin-bottom: 0px; margin-left: 10px; margin-right: 0px;float:left" >
+</center>
+{{end}}{{end}}
+{{end}}
+</div>
+
+<div style="float:left;width:30%;margin-right:10px;">
+{{range $i,$p := $problems}}
+{{if (modBool $i 2)}}{{with .image_art}}
+<center>
+<img src="{{$page.URL}}{{.}}" width="100%" style="margin-top: 20px; margin-bottom: 0px; margin-left: 0px; margin-right: 10px;float:left" >
+</center>
+{{end}}{{end}}
+{{end}}
+</div>
+
+<div style=" display: inline-block; width: 37%;">{{range $problems}}
+<div>
+    <p>
+    <b>{{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </b>
+    {{.problem | markdownify}}
+    </p>
+    {{with .image_scheme}} <img src="{{$page.URL}}{{.}}" alt="Чертёж" class="media-object" style="max-height:120px; max-width:200px;" />{{end}}
+</div>
+{{end}}
+</div>
+
+</div>
+{{end}}
+
+</div>
+</div>
+
+
+
+
+
+
+
+{{define "tour"}}
+ <h2 style="text-align:center;">{{.tour.title}} </h2>
+ {{with .tour.image_art}}<img src="{{.}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
+    {{range sort .tour.problems "number" "asc"}}
+        {{template "problem" .}} 
+    {{end}}
+{{end}}
+
+{{define "problem"}}
+<div class="media">
+  <div class="media-body">
+    <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
+    <p>{{.problem | markdownify}}</p>
+    {{with .image_scheme}} <img src="{{.}}" alt="Чертёж" class="media-object" style="max-height:120px; max-width:200px;" />{{end}}
+  </div>
+  <div class="media-right">
+    {{with .image_art}}<img src="{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}
+  </div>
+</div>
+{{end}}
