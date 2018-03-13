@@ -37,6 +37,8 @@ th, td {
     padding: 5px;
 }
 
+.noborder {border:0;}
+
 td		{	width:400px;}
 td.img	{	width:33%; 
 			text-align:center;			
