@@ -2,13 +2,13 @@
 
 <h1>{{$collection.title}}</h1>
 <p>{{$collection.description | markdownify}}</p>
-<div class="clearfix">
+<div class="clearfix" style=" margin-bottom: 10px;">
 
 {{range (index $collection "issues")}}
 
-<div style="float:left; margin:20px; height:330px;">
+<div style="float:left; margin:20px; height:300px;">
     <a href="{{.ref}}">
-   <img class="img-fluid" src="/{{.img}}" alt="{{.img}}" style="width:18em;">
+   <img class="img-fluid" src="/{{.img}}" alt="{{.img}}">
     </a>
 </div>
 

@@ -9,3 +9,13 @@ title = "Архив"
     weight = 2
 +++
 
+
+# Журналы
+
+
+{{<issue-cards >}}
+
+{{<related "almanacs">}}
+{{<related "posters">}}
+{{<related "calendars">}}
+

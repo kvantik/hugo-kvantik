@@ -26,9 +26,16 @@ a:hover {  	color:#fc7c0b; 	}
 	
 i 		{ 	color:#666;}
 
-table 	{	border:0;
-			width:95%;			
+table 	{	width:95%;			
 		}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
 
 td		{	width:400px;}
 td.img	{	width:33%; 

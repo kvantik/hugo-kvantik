@@ -1,0 +1,11 @@
+
+{{$years := (slice "2012" "2013" "2014" "2015" "2016" "2017" "2018")}}
+{{$pages := .Site.Pages}}
+
+  {{range (sort $years "value" "desc")}}
+  <h2 style="text-align: center; clear:both; padding-top: 15pt;"> {{.}} год</h2> 
+  <div>
+    {{range (where $pages "Params.year" .).Reverse}}{{.Render "card"}}{{end}}
+  </div>
+  {{end}}  
+
