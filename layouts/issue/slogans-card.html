@@ -2,7 +2,7 @@
 
 <tr class="noborder">
 
-	<td align="right" class="img">
+	<td align="right" class="img noborder">
     <figure>
 	<a class="img_download" href="issue/{{$issue}}{{if (and (isset .Params "sample") .Params.sample)}}_sample{{end}}.pdf" target="_blank"><img src="{{.Site.BaseURL}}issue/{{$issue}}.jpg" align="right" width="300"/></a>
   <figcaption style=""><b> Журнал №{{strings.TrimLeft "0" .Params.month}} {{.Params.year}}г.    
@@ -14,7 +14,7 @@
     </figure>
 	</td>
 
-	<td  class="ogl">
+	<td  class="ogl noborder">
 
     {{.Render "slogans"}}
 	</td>

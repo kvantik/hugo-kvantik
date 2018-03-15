@@ -14,7 +14,7 @@
     {{end}}
 
             <div class="heading"><h2>Последние выпуски</h2></div>
-                        <table>
+                        <table class="noborder">
 						{{range first 3 (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
 						{{.Render "slogans-card"}}
 						{{end}}

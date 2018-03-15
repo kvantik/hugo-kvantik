@@ -1,10 +1,13 @@
-+++
-title = "Как купить?"
-date = "2017-02-09T14:58:05+03:00"
-[menu.main]
-  weight = 10
-aliases = ["/kupit/"]
-+++
+---
+date: '2017-02-09T14:58:23+03:00'
+menu:
+  main:
+    weight: 10
+title: Как купить?
+aliases:
+    - /kupit/
+    - /kupit.html
+---
 
 # Как купить «Квантик»?
 

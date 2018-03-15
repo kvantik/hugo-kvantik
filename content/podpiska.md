@@ -6,6 +6,7 @@ menu:
 title: Подписка
 aliases:
     - /podpiska/
+    - /subscription/
 ---
 
 
