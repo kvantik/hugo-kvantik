@@ -5,7 +5,6 @@ menu:
     weight: 4
 title: Подписка
 aliases:
-    - /podpiska/
     - /subscription/
 ---
 
