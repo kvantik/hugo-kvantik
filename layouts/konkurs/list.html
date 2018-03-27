@@ -1,8 +1,12 @@
 {{define "content"}}
 {{.Content}}
-{{$currentpath := (split .Page.Path "/")}}
-{{$desiredpath := (delimit (slice (index $currentpath 0) (index $currentpath 1) .Params.latest.year) "/")}}
-{{$desiredpath := string (delimit (slice $desiredpath "md") ".")}}
+{{$konkurstype :=  index (split .File.Dir "/") 1}}
+
+{{if eq $konkurstype "math"}}
 {{with (.Site.GetPage "page" "konkurs/math/2017-2018.md")}}{{.Render "tours"}}{{end}}
+{{else}}
+{{with (.Site.GetPage "page" "konkurs/rus/2018.md")}}{{.Render "tours"}}{{end}}
+{{end}}
+
 {{end}}
 

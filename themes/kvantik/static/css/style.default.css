@@ -47,6 +47,12 @@ td.ogl	{	width:65%;	}
 td.top	{	vertical-align: top;
 			width:20%;  }
 
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 	
 hr		{
 			clear:both;

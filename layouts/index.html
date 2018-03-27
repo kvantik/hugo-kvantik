@@ -19,7 +19,11 @@
 						{{.Render "slogans-card"}}
 						{{end}}
                         </table>
-						<h4 class="text-center"> {{ "[Предыдущие выпуски здесь.](/issue)" | markdownify}} </h4>
+						<h4 class="text-center"> Все выпуски по годам: 
+                        {{range (where (where .Site.Pages "Section" "issue") "Kind" "section") }}
+                        {{if in .URL "20"}}<a href="{{.URL}}">{{index (split .URL "/") 2}}</a>,{{end}}
+                        {{end}}...
+                        </h4>
 
 
 {{end}}

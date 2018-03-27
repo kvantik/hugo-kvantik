@@ -1,30 +1,21 @@
 {{define "content"}}
+
 {{.Content}}
 
-{{$dirs := readDir "content/issue"}}
-{{$pages := .Data.Pages}}
+						<h4 class="text-center"> Все выпуски по годам: 
+                        {{range (where (where .Site.Pages "Section" "issue") "Kind" "section") }}
+                        {{if in .URL "20"}}<a href="{{.URL}}">{{index (split .URL "/") 2}}</a>,{{end}}
+                        {{end}}...
+                        </h4>
 
-<div class="container">
-<div class="row">
-<div class="tabs">
-  <ul class="nav nav-pills nav-justified"> 
-  {{range $dirs}}
-  {{with .Name}}{{if ne . "_index.md"}}
-  <li class="{{if eq . "2012"}}active{{end}}"><a href="#tab-{{.}}" data-toggle="tab">{{.}}</a></li>
-  {{end}}{{end}}
-  {{end}}
-  </ul>
-  <div class="tab-content tab-content-inverse">
-  {{range $dirs}}
-  {{with .Name}}{{if (hasPrefix . "20")}}
-  <div class="tab-pane {{if eq . "2012"}}active{{end}} clearfix" id="tab-{{.}}">
-    {{range (where $pages "Params.year" .).Reverse}}{{.Render "card"}}{{end}}
-  </div>
-  {{end}}{{end}}
-  {{end}}  
-  </div>
-</div>
-</div>
-</div>
+{{$year := index (split .URL "/") 2}}
+
+<table class="noborder">
+{{range (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
+{{if in .URL $year}}
+{{.Render "slogans-card"}} 
+{{end}}
+{{end}}
+</table>
 
 {{end}}

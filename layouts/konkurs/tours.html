@@ -7,7 +7,7 @@
 
 {{range (sort $tours "tour.number" "desc")}}
 {{$problems := (sort .tour.problems "number" "asc")}}
-<div style="width:900px">
+<div style="width:900px;" class="clearfix">
 <h1 style="text-align:center;">{{.tour.title}} </h1>
 {{with .tour.image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
 
@@ -31,7 +31,8 @@
 {{end}}
 </div>
 
-<div style=" display: inline-block; width: 37%;">{{range $problems}}
+<div style=" display: inline-block; width: 37%;">
+{{range $problems}}
 <div>
     <p>
     <b>{{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </b>
