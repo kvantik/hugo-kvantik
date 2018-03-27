@@ -1,17 +1,7 @@
-{{$issue := string (delimit (slice .Params.year "-" .Params.month) "")}}
-
 <tr class="noborder">
 
 	<td align="right" class="img noborder">
-    <figure>
-	<a class="img_download" href="issue/{{$issue}}{{if (and (isset .Params "sample") .Params.sample)}}_sample{{end}}.pdf" target="_blank"><img src="{{.Site.BaseURL}}issue/{{$issue}}.jpg" align="right" width="300"/></a>
-  <figcaption style=""><b> Журнал №{{strings.TrimLeft "0" .Params.month}} {{.Params.year}}г.    
-    {{if (and (isset .Params "sample") .Params.sample)}}
-    Полная версия. 
-    {{else}}
-    Примеры статей.
-    {{end}}</b></figcaption>
-    </figure>
+    {{.Render "card-shared"}}
 	</td>
 
 	<td  class="ogl noborder">

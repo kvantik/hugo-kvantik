@@ -1,0 +1,12 @@
+{{$issue := string (delimit (slice .Params.year "-" .Params.month) "")}}
+<div class="gallery">
+    <a target="_blank" href="{{.Site.BaseURL}}issue/pdf/{{$issue}}{{if (and (isset .Params "sample") (eq .Params.sample true) )}}_sample{{end}}.pdf">
+      <img src="{{.Site.BaseURL}}issue/cover/{{$issue}}.jpg" alt="Обложка" width="150">
+    </a>
+    <div class="desc"><b> Журнал №{{strings.TrimLeft "0" .Params.month}} {{.Params.year}}г.    <br/>
+    {{if (and (isset .Params "sample") (eq .Params.sample true) )}}
+    Примеры статей.
+    {{else}}
+    Полная версия. 
+    {{end}}</b></div>
+  </div>

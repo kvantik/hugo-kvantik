@@ -1,15 +1,3 @@
-{{$issue := string (delimit (slice .Params.year "-" .Params.month) "")}}
-
 <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="issue/{{$issue}}{{if (and (isset .Params "sample") .Params.sample)}}_sample{{end}}.pdf">
-      <img src="{{.Site.BaseURL}}issue/{{$issue}}.jpg" alt="Обложка" width="150">
-    </a>
-    <div class="desc"><b> Журнал №{{strings.TrimLeft "0" .Params.month}} {{.Params.year}}г.    
-    {{if (and (isset .Params "sample") .Params.sample)}}
-    Полная версия. 
-    {{else}}
-    Примеры статей.
-    {{end}}</b></div>
-  </div>
+    {{.Render "card-shared"}}
 </div>
