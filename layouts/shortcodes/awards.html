@@ -1,0 +1,3 @@
+{{range $.Site.Data.awards.award}}
+<a href="{{.url}}"><img src="{{.logo}}" alt="{{with .name}}{{.}}{{else}}Награда{{end}}"></a>
+{{end}}

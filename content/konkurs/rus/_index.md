@@ -23,7 +23,7 @@ latest:
 [2015]({{< ref "konkurs/rus/2015.md" >}}).
 
 
-Решения {{< konkurs tour >}} тура ждём по адресу {{< mail ruskonkurs "kvantik.org" >}} не позднее {{< konkurs deadline >}}.
+Решения **{{< konkurs tour >}} тура** ждём по адресу {{< mail ruskonkurs "kvantik.org" >}} не позднее **{{< konkurs deadline >}}**.
 
 Победителей ждут призы. Желаем успеха!
 
