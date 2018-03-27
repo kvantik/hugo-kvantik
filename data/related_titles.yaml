@@ -18,6 +18,11 @@ almanacs:
       img: img/related_titles/almanac-7.jpg
     - ref: http://biblio.mccme.ru/node/5625/shop
       img: img/related_titles/almanac-8.jpg
+    - ref: http://biblio.mccme.ru/node/5767/shop
+      img: img/related_titles/almanac-9.jpg
+    - ref: http://biblio.mccme.ru/node/5981/shop
+      img: img/related_titles/almanac-10.jpg
+    
 
 calendars:
   title: Календари
@@ -31,12 +36,16 @@ calendars:
       img: img/related_titles/calendar_2016.jpg
     - ref: http://biblio.mccme.ru/node/5730/shop
       img: img/related_titles/calendar_2017.jpg
+    - ref: http://biblio.mccme.ru/node/6018/shop
+      img: img/related_titles/calendar_2018.jpg
 
 posters:
-  title: Постеры
+  title: Плакаты
   description: В каждом комплекте 10 плакатов с занимательными задачами для школьных кабинетов математики и физики.
   issues:
     - ref: http://biblio.mccme.ru/node/5487/shop
       img: img/related_titles/posters-1.jpg
     - ref: http://biblio.mccme.ru/node/5506/shop
       img: img/related_titles/posters-2.jpg
+    - ref: http://biblio.mccme.ru/node/5863/shop
+      img: img/related_titles/posters-3.jpg

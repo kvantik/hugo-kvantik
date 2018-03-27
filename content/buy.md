@@ -9,11 +9,11 @@ aliases:
     - /kupit.html
 ---
 
-# Как купить «Квантик»?
+## Как купить «Квантик»?
 
-## В нашем [интернет-магазине](http://kvantik.ru)
+#### В нашем [интернет-магазине](http://kvantik.ru)
 
-## В магазине [«Математическая книга»](http://biblio.mccme.ru/shop/contacts)
+#### В магазине [«Математическая книга»](http://biblio.mccme.ru/shop/contacts)
 
  Журналы, альманахи, плакаты с задачами и календари загадок можно купить в нём по издательским ценам. Что сейчас есть в продаже, вы можете посмотреть [здесь](http://biblio.mccme.ru/shop/detail/journals/152) и [здесь](http://biblio.mccme.ru/shop/price/all?order=field_book_year_value&sort=desc&field_bookcreators_value=&field_titleplusizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=).  
 
@@ -38,13 +38,13 @@ aliases:
 3. Оплатите сумму Вашего заказа по квитанции Сбербанка или по указанным в квитанции реквизитам через онлайн-банкинг.
 4. После того, как оплата поступит на счет МЦНМО, Вам отправят заказ почтой.
 
-## Журналы, Альманахи, плакаты с задачами и календари загадок можно купить в интернет-магазинах: 
+### Журналы, альманахи, плакаты с задачами и календари загадок можно купить в интернет-магазинах: 
 
 {{< buy-online >}}
 
 * В интернет-магазины, отмеченные звездочкой, "Квантик" поставляется напрямую из издательства. В таких магазинах отсутствующие в продаже на данный момент номера журнала, альманаха, календари и плакаты можно купить под заказ.
 
-## Розничные магазины, где может продаваться продукция «Квантика» и [книги издательства МЦНМО](http://biblio.mccme.ru/books?order=field_book_year_value&sort=desc):
+#### Розничные магазины, где может продаваться продукция «Квантика» и [книги издательства МЦНМО](http://biblio.mccme.ru/books?order=field_book_year_value&sort=desc):
 
 {{< buy-retail >}}
 
