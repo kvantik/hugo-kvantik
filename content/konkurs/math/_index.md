@@ -10,8 +10,8 @@ aliases:
   - /concurs/
 latest: 
   year: "2017-2018"
-  tour: "3"
-  deadline: "1 декабря"
+  tour: "7"
+  deadline: "1 мая"
 ---
 
 Приглашаем всех попробовать свои силы в нашем
