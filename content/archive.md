@@ -5,6 +5,7 @@ categories = [
 ]
 date = "2017-02-25T00:50:59+03:00"
 title = "Архив"
+tocmenu = true
 [menu.main]
     weight = 2
 +++
@@ -22,7 +23,7 @@ title = "Архив"
 # Календари {#calendars}
 {{<related "calendars">}}
 
-# Журналы
+# Журналы {#issues}
 
 {{<issue-cards 2018>}}
 {{<issue-cards 2017>}}
@@ -33,13 +34,13 @@ title = "Архив"
 {{<issue-cards 2012>}}
 
 
-## Своими руками
+# Своими руками {#DIY}
 
 - [Флексор с инструкцией](/extra/flexor.pdf)
 - [Заготовка для флексагона-полоски](/extra/flexagon_short.pdf)
 - [Квадратный флексагон с инструкцией](/extra/flexagon_square.pdf)
 
-## Видео
+# Видео {#video}
 
 - [Архив онлайн-кружка «Квантика»](/online)
 - [Видео](http://www.youtube.com/playlist?list=PLrjlKdQ24UtJOU_hY7W1OVtUhEIgy4Miw) к статьям рубрики «Четыре стихии Эмпедокла»

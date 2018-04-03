@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body{
+html,  body{
 		position:relative;
 		margin:0;
 		padding:0;
@@ -229,4 +229,37 @@ hr		{
 		}
 		
 .footer img { border:none; 	}	
+
+
+
+
+#TableOfContents ul {
+    list-style-type: none;
+    margin-left: 150px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#TableOfContents li {
+    float: left;
+    padding: 5px;
+}
+
+#TableOfContents li::after {
+    padding-left: 10px;
+    content: " – ";
+}
+
+#TableOfContents li:last-child::after {
+    padding-left: 0;
+    content: "";
+}
+
+#TableOfContents li a {
+    text-align: center;
+    text-decoration: none;
+}
+
+#TableOfContents li a:hover {
+}
 

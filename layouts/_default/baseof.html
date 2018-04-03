@@ -4,20 +4,30 @@
   {{ partial "head" . }}
 
   <body id="all">
-    <div class="containr">
+    <div class="containr">
+
 
 
         <header>
-        	<div class="head">
-            	<a href="{{.Site.BaseURL}}"><img src="{{ .Site.BaseURL }}img/logo_1.png"/></a>
-            </div>
-          {{ partial "nav" . }}
+        	<div class="head">
+
+            	<a href="{{.Site.BaseURL}}"><img src="{{ .Site.BaseURL }}img/logo_1.png"/></a>
+
+            </div>
+
+
+          {{ partial "nav" . }}
 
         </header>
 
 
         {{ partial "breadcrumbs" . }}
 	
+    {{if eq (.Param "tocmenu") true}}
+    <p align="center">
+        {{.TableOfContents}}
+    </p>
+    {{end}}
 
     {{ block "content" . }}
 
