@@ -1,11 +1,14 @@
 {{define "content"}}
+
+
+
        <section class="bar background-pentagon no-mb">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Страница 404 </h1>
 
-                        <p class="lead">{{markdownify "Вы обратились на несуществующую страницу.\n\n Возможно, Вы хотели пройти по ссылке на наш старый сайт http://old.kvantik.com/\n\n В таком случае добавьте 'old.' к Вашей ссылке."| }}
+                        <p class="lead">{{markdownify "Вы обратились на несуществующую страницу.\n\n Возможно, Вы хотели пройти по ссылке на [предыдущую]( http://old.kvantik.com/) версию сайта.\n\n В таком случае добавьте 'old.' к Вашей ссылке: <a id='old404' href=''>nsr</a>."| }} 
 </p>
 
                     </div>
@@ -13,4 +16,10 @@
             </div>
         </section>
 
+ <script type="text/javascript">
+   var locationObj = document.location.pathname;
+   var e = document.getElementById('old404');
+    e.href = "http://old.kvantik.com"+locationObj;
+    e.innerHTML = e.href;
+ </script>
 {{end}}
