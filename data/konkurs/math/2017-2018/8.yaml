@@ -1,5 +1,6 @@
 ---
 tour:
+  deadline: '1 мая'
   number: 8
   problems:
   - author: Михаил Евдокимов
