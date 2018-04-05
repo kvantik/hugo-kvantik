@@ -11,25 +11,6 @@ store:
 
       *   [Плакаты (комплект №2)](http://www.bookshop.ua/a13578098/)
   - available: '1'
-    delivery: "*   Курьером по Минску\r\n*   Доставка почтой по Белоруссии\r\n"
-    dump: ''
-    name: "[SetBook.Белоруссия](http://www.setbook.by/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.setbook.by/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=27&y=10)
-
-      *   [Наборы плакатов с
-      задачами](http://www.setbook.by/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=0&y=0)
-
-      *   [Календарь загадок на 2017
-      год](http://www.setbook.by/books/4341442.html)
-
-      *   [Календарь загадок на 2016
-      год](http://www.setbook.by/books/3669414.html)
-
-      *   [Календарь загадок на 2015
-      год](http://www.setbook.by/books/2545483.html)
-  - available: '1'
     delivery: "* Доставка курьером по Минску\n* Доставка автокурьером\_по регионам Республики Беларусь\n* Самовывоз: Минск и другие регионы Беларуси\n* Доставка почтой"
     name: Читатель.by
     sells: >
@@ -48,25 +29,6 @@ store:
 
       *   [Наборы плакатов с
       задачами](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&x=19&y=9)
-
-      *   [Календарь загадок на 2017
-      год](http://www.setbook.kz/books/4341442.html)
-
-      *   [Календарь загадок на 2016
-      год](http://www.setbook.kz/books/3669414.html)
-
-      *   [Календарь загадок на 2015
-      год](http://www.setbook.kz/books/2545483.html)
-  - available: '1'
-    delivery: "*   Доставка в страны Европы, указанные на сайте магазина\r\n"
-    dump: ''
-    name: "[SetBook.Европа](http://www.setbook.net/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.setbook.net/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=19&y=4)
-
-      *   [Набор плакатов с
-      задачами](http://www.setbook.kz/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&x=21&y=7)
 
       *   [Календарь загадок на 2017
       год](http://www.setbook.kz/books/4341442.html)
@@ -123,26 +85,6 @@ store:
 
       *   [Календарь загадок на 2015
       год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
-  - available: '1'
-    delivery: "*   Доставка по США и другие страны через US Postal Service\r\n"
-    dump: ''
-    name: "[SetBook.США и Канада](http://www.setbook.us/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.setbook.us/advanced_search_result.php?keywords=%EA%E2%E0%ED%F2%E8%EA%2C+%E0%EB%FC%EC%E0%ED%E0%F5&x=24&y=8)
-
-      *   [Календарь загадок на 2017
-      год](http://www.setbook.us/books/4341442.html)
-
-      *   [Календарь загадок на 2016
-      год](http://www.setbook.us/books/3669414.html)
-
-      *   [Календарь загадок на 2015
-      год](http://www.setbook.us/books/2545483.html)
-
-      *   [Плакаты (комплект №1)](http://www.setbook.us/books/3859762.html)
-
-      *   [Плакаты (комплект №2)](http://www.setbook.us/books/3719323.html)
   - available: '1'
     delivery: "*   США и другие страны\r\n"
     dump: ''

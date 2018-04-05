@@ -50,22 +50,7 @@ store:
 
       *   [Календарь загадок на 2017
       год](http://www.book-stock.ru/catalog/kalendar_zagadok_2017_god_ot_zhurnala_kvantik_moskovskij_centr_nepreryvnogo_2017.html)
-  - available: '1'
-    delivery: "*   Курьерская доставка: Москва, Санкт-Петербург;\r\n*   Пункты выдачи: более, чем в 20 регионах России;\r\n*   Доставка почтой: по России\r\n"
-    name: "[SETBOOK.RU](http://www.setbook.ru/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.setbook.ru/books/?detailed=%EA%E2%E0%ED%F2%E8%EA%20%E0%EB%FC%EC%E0%ED%E0%F5)
-
-      *  
-      [Плакаты](http://www.setbook.ru/advanced_search_result.php?keywords=%EF%EB%E0%EA%E0%F2%FB%2C+%EA%E2%E0%ED%F2%E8%EA&categories_id=&manufacturers=&series=&authors=&pfrom=&pto=&year_from=&year_to=&sort=&per_page=10&x=21&y=12)
-
-      *   [Календарь загадок на 2016
-      год](http://www.setbook.ru/books/3669414.html)
-
-      *   [Календарь загадок на 2015
-      год](http://www.setbook.ru/books/2545483.html)
-  - available: '1'
+  - available: '0'
     delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз из офиса \"Библиона\" в Москве и из офиса курьерской компании в Санкт-Петербурге;\r\n*   Почтовая доставка по России;\r\n*   Экспресс-доставка по России через \"ЕМС Гарантпост\"\r\n"
     name: "[Библион](http://www.biblion.ru/)\r\n"
     sells: >
