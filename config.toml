@@ -1,4 +1,4 @@
-baseurl = "https://kvantik.org/"
+baseurl = "https://kvantik.netlify.com/"
 title = "«Квантик» - журнал для любознательных"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
