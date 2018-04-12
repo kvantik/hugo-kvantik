@@ -1,8 +1,7 @@
 {{$issue := string (delimit (slice .Params.year "-" .Params.month) "")}}
 <div class="gallery">
-    <a target="_blank" href="/issue/pdf/{{$issue}}{{if (and (isset .Params "sample") (eq .Params.sample true) )}}_sample{{end}}.pdf">
+    <a target="_blank" href="/issue/pdf/{{$issue}}{{if (and (isset .Params "sample") (eq .Params.sample true) )}}_sample{{end}}.pdf" style="display:block;">
       <img src="/issue/cover/{{$issue}}.jpg" alt="Обложка" width="150">
-    </a>
     <div class="desc"><b> 
     {{if (and (isset .Params "sample") (eq .Params.sample true) )}}
     Примеры статей.
@@ -11,4 +10,5 @@
     {{end}}
     №{{strings.TrimLeft "0" .Params.month}} ({{.Params.year}})    <br/>
     </b></div>
-  </div>
+    </a>
+</div>
