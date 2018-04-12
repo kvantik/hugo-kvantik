@@ -23,11 +23,11 @@
 
   <!-- Theme stylesheet, if possible do not edit this stylesheet -->
   {{ if and (isset .Site.Params "style") .Site.Params.style }}
-    <link href="{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="/css/style.{{ .Site.Params.style }}.css" rel="stylesheet" id="theme-stylesheet">
   {{ else }}
-    <link href="{{ .Site.BaseURL }}css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
   {{ end }}
-    <link href="{{ .Site.BaseURL }}css/gallery.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="/css/gallery.css" rel="stylesheet" id="theme-stylesheet">
 
 
   <!-- Custom stylesheets -->
@@ -48,6 +48,6 @@
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .URL }}/" />
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" />
+  <meta property="og:image" content="/{{ .Site.Params.logo }}" />
 
 </head>
