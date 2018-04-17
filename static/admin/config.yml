@@ -63,10 +63,11 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "buy-retail" # Used in routes, ie.: /admin/collections/:slug/edit
     extension: "yaml"
-    label: "Розничные магазины" # Used in the UI, ie.: "New Post"
-    folder: "data/buy/retail" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+    label: "Розничные магазины" 
+    label_singular: "регион" 
+    folder: "data/buy/retail"
+    create: true 
+    fields:
       - {label: "Заголовок", name: "title", widget: "string"}
       - label: "Список розничных магазинов"
         name: "shops" 
