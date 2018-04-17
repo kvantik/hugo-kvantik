@@ -3,20 +3,55 @@ backend:
   repo: aperep/hugo-kvantik
   branch: oldstyle
 
-media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/img/uploads"
+media_folder: "static/img/partners" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/partners"
 
 publish_mode: editorial_workflow
 
+display_url: http://kvantik.org
+
 collections: # A list of collections the CMS should be able to edit
-  - name: "buy-online" # Used in routes, ie.: /admin/collections/:slug/edit
-    extension: "yaml"
-    label: "Онлайн-магазины" # Used in the UI, ie.: "New Post"
-    folder: "data/buy/online" # The path to the folder where the documents are stored
+
+  - name: "news"
+    extension: "md"
+    label: "Новости"
+    label_singular: "новость"
+    folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Тип", name: "title", widget: "hidden"}
+       - {label: "Название", name: "title", widget: "string"}
+       - {label: "Содержание", name: "body", widget: "markdown"}
+
+  - name: "partners"
+    label: "Партнёры"
+    label_singular: "Партнёр"
+    media_folder: "static/img/partners"
+    public_folder: "/img/partners"
+    files:
+      - label: "Список партнёров"
+        name: "partners"
+        file: "data/partners.yaml"
+        fields:
+          - label: "Партнёры"
+            label_singular: "Партнёр"
+            name: "partner"
+            widget: "list"
+            fields:
+              - {label: "Ссылка", name: "url", widget: "string"}
+              - {label: "Логотип", name: "logo", widget: "image"}
+              - {label: "Название", name: "name", widget: "string", required: false}
+
+
+
+  - name: "buy-online" # Used in routes, ie.: /admin/collections/:slug/edit
+    extension: "yaml"
+    label: "Онлайн-магазины"
+    label_singular: "онлайн-магазин"
+    folder: "data/buy/online" 
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string"}
       - label: "Список онлайн-магазинов"
+        label_singular: "онлайн-магазин"
         name: "store" 
         widget: "list"
         fields:
@@ -32,7 +67,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "data/buy/retail" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Тип", name: "title", widget: "hidden"}
+      - {label: "Заголовок", name: "title", widget: "string"}
       - label: "Список розничных магазинов"
         name: "shops" 
         widget: "list"
@@ -50,32 +85,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Контакты", name: "address", widget: "markdown"}
               - {label: "Введите 1, чтобы отобразить на сайте", name: "available", widget: "number"}
               - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
-
-  - name: "news"
-    extension: "md"
-    label: "Новости"
-    folder: "content/news" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-       - {label: "Название", name: "title", widget: "string"}
-       - {label: "Содержание", name: "body", widget: "markdown"}
-
-  - name: "partners"
-    label: "Партнёры"
-    editor:
-      preview: false
-    files:
-      - label: "Список партнёров"
-        name: "partners"
-        file: "data/partners.yaml"
-        fields:
-          - label: "Партнёр"
-            name: "partner"
-            widget: "list"
-            fields:
-              - {label: "Ссылка", name: "url", widget: "string"}
-              - {label: "Логотип", name: "logo", widget: "image"}
-              - {label: "Название", name: "name", widget: "string", required: false}
 
   - name: "pages"
     label: "Страницы"
