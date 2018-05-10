@@ -11,6 +11,29 @@
 <h1 style="text-align:center;">{{.tour.title}} </h1>
 {{with .tour.image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
 
+{{range $problems}}
+<div class="media">
+  {{if not (modBool 2 2)}}
+  <div class="media-left">
+    {{with .image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}
+  </div>
+  {{end}}
+  <div class="media-body">
+    <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
+    <p>{{.problem | markdownify}}</p>
+    {{with .image_scheme}} <img src="{{$page.URL}}{{.}}" alt="Чертёж" class="media-object" style="max-height:120px; max-width:200px;" />{{end}}
+  </div>
+  {{if (modBool 2 2)}}
+  <div class="media-right">
+    {{with .image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}
+  </div>
+  {{end}}
+</div>
+{{end}}
+
+
+
+
 <div style="float:right;width:28%">
 {{range $i,$p := $problems}}
 {{if not (modBool $i 2)}}{{with .image_art}}
