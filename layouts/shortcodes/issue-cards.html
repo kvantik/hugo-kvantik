@@ -1,7 +1,7 @@
 {{$pages := .Site.Pages}}
 
   <h2 style="text-align: center; clear:both; padding-top: 15pt;"> {{.Get 0}} год</h2> 
-  <div>
+  <div class="clearfix">
     {{range (where $pages "Params.year" (.Get 0) ).Reverse}}{{.Render "card"}}{{end}}
   </div>
 
