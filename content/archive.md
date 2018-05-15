@@ -26,6 +26,10 @@ tocmenu = true
 
 {{<related "almanacs">}}
 
+# Библиотечка {#biblio}
+
+{{<related "biblio">}}
+
 # Плакаты {#posters}
 
 {{<related "posters">}}

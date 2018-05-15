@@ -49,3 +49,11 @@ posters:
       img: img/related_titles/posters-2.jpg
     - ref: http://biblio.mccme.ru/node/5863/shop
       img: img/related_titles/posters-3.jpg
+
+
+biblio:
+  title: Библиотечка
+  description: Библиотечка «Квантика» --- это книги, выходящие по материалам и в добавление к журналу.
+  issues:
+    - ref: http://biblio.mccme.ru/node/6165/shop
+      img: img/related_titles/biblio-1.jpg

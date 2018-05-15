@@ -263,3 +263,41 @@ hr		{
 #TableOfContents li a:hover {
 }
 
+
+.media {
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 15px;
+    
+}
+
+.media-body {
+    display: table-cell;
+    vertical-align: top;
+    width: 10000px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media-heading {
+    margin-top: 0;
+    matgin-botton: 5px;
+}
+
+.media-right {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.media-left {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.media-object {
+    display: block;
+    vertical-align: middle;
+}
+
