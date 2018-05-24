@@ -6,7 +6,10 @@ import pdf2konkurs
 
 
 
+
 if __name__ == "__main__":
+
+# подготовка черновиков для проверки и использования:
     print('Данный скрипт возьмёт pdf вида local/pdfs/2018-XX.pdf и выведет обложку и конкурс в папку local/2018-XX')
     print('Номер выпуска?')
     num=int(input())
@@ -14,16 +17,12 @@ if __name__ == "__main__":
     pdf2konkurs.extract('local/pdfs/2018-{:0>2}.pdf'.format(num))
     cover.get_cover('local/pdfs/2018-{:0>2}.pdf'.format(num))    
 
-# take issue and complete/preview/both from arguments
+# fetch issue info from spreadsheet and generate .md
 
-# gspread fetch issue info
+# предложить проверить сгенерированные файлы
 
-# git pull
+# предложить git pull и проверить ветку
 
-# generate issue and articles .md pages
-
-# take pdf from somewhere (argument for starters) and generate pages' images to static
-
-# remove temporary files
+# скопировать файлы куда надо
 
 # git add, commit, push
