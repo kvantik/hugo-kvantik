@@ -12,8 +12,12 @@ def makedir(d):
         if not os.path.exists(d):
             os.makedirs(d)        
 
+def to_roman(i):
+    return ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'IV', 'V'][i]
+
 def extract(filename):
-    directory = 'local/konkurs/'+os.path.splitext(os.path.basename(filename))[0] + '/'
+    issue_name = os.path.splitext(os.path.basename(filename))[0]
+    directory = 'local/'+issue_name + '/konkurs/'
     makedir(directory)
     print('Extracting images from PDF file...' )
     images = check_output('bash -c "pdfimages -f 34 -l 35 -list {0}"'.format(filename), shell=True).split()
@@ -40,22 +44,27 @@ def extract(filename):
     firstnum = int(re.match( r'\d+', problems[0].strip() ).group(0))
     print(firstnum)
 
-    def tour_template(firstnum):
-        template = ['tour: {}\n'.format(firstnum//5+1),'  number:\n','  problems:\n']    
-        for i in range(firstnum, firstnum+5):
+    
+    template = ['tour:\n',
+                    '  number: {}\n'.format(firstnum//5+1),
+                    '  title: {} тур\n'.format(to_roman(firstnum//5+1)),
+                    '  problems:\n']    
+    for i in range(firstnum, firstnum+5):
             template.append("""
-  - image_art: ''
+  - author:
+    image_art: {0}.png
     image_scheme: ''
-    number: {}
+    number: {0}
     problem: ''
             """.format(i))
-        template.append('\n')
-        return template
+    template.append('\n')
+
     with open(text_file,'w') as text:        
-        text.writelines(tour_template(firstnum))
+        text.writelines(template)
         text.writelines(problems)
 
-print('Номер выпуска?')
-num=int(input())
-#print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-extract('local/pdfs/2018-{:0>2}.pdf'.format(num))
+if __name__ == "__main__":
+    print('Номер выпуска?')
+    num=int(input())
+    #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
+    extract('local/pdfs/2018-{:0>2}.pdf'.format(num))
