@@ -1,24 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import re
-import os
-import datetime
+import cover
+import pdf2konkurs
 
-import sh
 
-# take issue and complete/preview/both from arguments
 
-# gspread fetch issue info
 
-# git pull
+if __name__ == "__main__":
 
-# generate issue and articles .md pages
+# подготовка черновиков для проверки и использования:
+    print('Данный скрипт возьмёт pdf вида local/pdfs/2018-XX.pdf и выведет обложку и конкурс в папку local/2018-XX')
+    print('Номер выпуска?')
+    num=int(input())
+    #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
+    pdf2konkurs.extract('local/pdfs/2018-{:0>2}.pdf'.format(num))
+    cover.get_cover('local/pdfs/2018-{:0>2}.pdf'.format(num))    
 
-# take pdf from somewhere (argument for starters) and generate pages' images to static
+# fetch issue info from spreadsheet and generate .md
 
-# remove temporary files
+# предложить проверить сгенерированные файлы
+
+# предложить git pull и проверить ветку
+
+# скопировать файлы куда надо
 
 # git add, commit, push

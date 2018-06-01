@@ -10,3 +10,5 @@ Source and content for a future site of Kvantik.
 Собирается автоматически с помощью [Netlify](http://netlify.com) и доступен по адресу http://kvantik.netlify.com
 
 Редактирование сайта онлайн возможно с помощью [NetlifyCMS](http://netlifycms.org) по адресу http://kvantik.netlify.com/admin
+
+Подробнее смотрите в [вики](https://github.com/aperep/hugo-kvantik/wiki).
