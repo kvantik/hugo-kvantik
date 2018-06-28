@@ -6,7 +6,7 @@ import re
 import datetime
 import itertools
 from subprocess import call, check_output
-import ruamel.yaml as yaml
+#import ruamel.yaml as yaml
 
 def makedir(d):
         if not os.path.exists(d):
@@ -15,15 +15,21 @@ def makedir(d):
 def to_roman(i):
     return ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'IV', 'V'][i]
 
-def extract(filename):
+def extract(filename, type='math'):
     issue_name = os.path.splitext(os.path.basename(filename))[0]
     directory = 'local/'+issue_name + '/konkurs/'
     makedir(directory)
+    if type == 'math':
+        konkurs_pages = '-f 34 -l 35'
+    else:
+        page = input('Введите страницу номера согласно нумерации журнала:')
+        page = int(page)+2
+        konkurs_pages = '-f {0} -l {0}'.format(page)        
     print('Extracting images from PDF file...' )
-    images = check_output('bash -c "pdfimages -f 34 -l 35 -list {0}"'.format(filename), shell=True).split()
+    images = check_output('bash -c "pdfimages {} -list {}"'.format(konkurs_pages, filename), shell=True).split()
     masks = [int(images[i-1]) for i,s in enumerate(images) if s==b'smask'] 
     print(masks)
-    call('bash -c "pdfimages -f 34 -l 35 -png {0} {1}raw"'.format(filename,directory), shell=True)
+    call('bash -c "pdfimages {} -png {} {}raw"'.format(konkurs_pages, filename,directory), shell=True)
     raw_file = lambda i : '{0}raw-{1:0>3}.png'.format(directory,i)
 
     for m in masks:
@@ -34,13 +40,21 @@ def extract(filename):
 #        call('bash -c " rm {0} {1}"'.format(raw_file(i), raw_file(i+1)), shell=True)
     
     text_file = directory+'konkurs.txt'
-    call('bash -c "pdf2txt -o {0} -p 34,35 {1} "'.format(text_file,filename), shell=True)
+    if type == 'math':
+        call('bash -c "pdf2txt -o {0} -p 34,35 {1} "'.format(text_file,filename), shell=True)
+    else:
+        call('bash -c "pdf2txt -o {} -p {} {} "'.format(text_file, page, filename), shell=True)
     with open(text_file,'r') as text:
         problems = text.readlines()
-    tour_string_num = next(i for i, string in enumerate(problems) if "ТУР" in string)
+    if type == 'math':
+        tour_string_num = next(i for i, string in enumerate(problems) if ("ТУР" in string))
+    else:
+        tour_string_num = [i for i, string in enumerate(problems) if ("тур" in string)][0]
+    print(problems[tour_string_num])
     problems = problems[tour_string_num+1:]
-    while(problems[0].strip()==''):
+    while(bool(re.search(r'\d', problems[0]))==False):
         problems.pop(0)
+    print(problems)
     firstnum = int(re.match( r'\d+', problems[0].strip() ).group(0))
     print(firstnum)
 
@@ -66,5 +80,8 @@ def extract(filename):
 if __name__ == "__main__":
     print('Номер выпуска?')
     num=int(input())
+    type = input('Тип конкурса (ввод для math): ')
+    if type =='':
+        type ='math'
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    extract('local/pdfs/2018-{:0>2}.pdf'.format(num))
+    extract('local/pdfs/2018-{:0>2}.pdf'.format(num), type=type)
