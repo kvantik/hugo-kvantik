@@ -1,4 +1,3 @@
-﻿
 {{$table := "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?single=true&output=csv&gid=" }}
 
 
@@ -9,14 +8,10 @@
 {{ $data := getCSV "," $table $sheet }}
 
 {{$month := strings.TrimLeft "0" .Params.month}}
-
-
-<h4 style="margin-left:20px;"> Читайте в номере: </h4> 
-    <ul>
 {{range $data}}
 {{if ( eq (index . 0) $month )}}
 {{with (index . 8)}}
-    <li>  {{.|markdownify}} </li>
+{{.| safeHTML}} 
 {{end}}
 {{end}}{{end}}
-    </ul>
+
