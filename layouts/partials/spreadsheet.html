@@ -1,5 +1,5 @@
-﻿
 {{$table := "https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?single=true&output=csv&gid=" }}
+
 
 {{$sheets := dict "2018" "1216387229" "2017" "2108776824" "2016" "1051356883" "2015" "155630517" "2014" "1893976624" "2013" "1675122960" "2012" "640477208" }}
 
@@ -8,14 +8,10 @@
 {{ $data := getCSV "," $table $sheet }}
 
 {{$month := strings.TrimLeft "0" .Params.month}}
-
-
-<h4 style="margin-left:20px;"> Читайте в номере: </h4> 
-    <ul>
 {{range $data}}
 {{if ( eq (index . 0) $month )}}
 {{with (index . 8)}}
-    <li>  {{.|markdownify}} </li>
+{{.| safeHTML}} 
 {{end}}
 {{end}}{{end}}
-    </ul>
+
