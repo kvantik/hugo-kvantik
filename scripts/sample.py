@@ -18,8 +18,8 @@ def make_sample(num, issue_pdf):
         os.makedirs(directory)
     with requests.Session() as s:
         content = s.get(CSV_URL).content.decode('utf-8')
-        table = list(csv.reader(content.splitlines(), delimiter=','))
-    articles = [(int(t[1]), int(t[2])) for t in table if (t[0]=='7') and t[9].strip()=='да']
+        table = list(csv.DictReader(content.splitlines(), delimiter=','))
+    articles = [(int(t['Первая страница']), int(t['Всего страниц'])) for t in table if (t['Выпуск']==str(num)) and t['входит в сэмпл?'].strip()=='да']
     pages = [set(range(a[0]+2, a[0]+a[1]+2)) for a in articles]
     pages = {2,3}.union(*pages)
     pages = [str(i) for i in sorted(pages)]
