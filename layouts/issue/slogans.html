@@ -10,7 +10,7 @@
 {{$month := strings.TrimLeft "0" .Params.month}}
 
 
-<h4 style="margin-left:20px;"> Читайте в номере: </h4> 
+<h4 style="margin-left:20px;">  В этом номере: </h4> 
     <ul>
 {{range $data}}
 {{if ( eq (index . 0) $month )}}
