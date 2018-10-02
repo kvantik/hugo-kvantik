@@ -16,15 +16,15 @@ def to_roman(i):
     return ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'IV', 'V'][i]
 
 def extract(filename, type='math'):
-    issue_name = os.path.splitext(os.path.basename(filename))[0]
-    directory = 'local/'+issue_name + '/konkurs/'
+    issue_name = os.path.splitext(os.path.basename(filename))[0]  # example: issue_name = 2018-09 
+    directory = 'local/'+issue_name + '/konkurs-'+type+'/'
     makedir(directory)
     if type == 'math':
         konkurs_pages = '-f 34 -l 35'
     else:
-        page = input('Введите страницу номера согласно нумерации журнала:')
-        page = int(page)+2
-        konkurs_pages = '-f {0} -l {0}'.format(page)        
+        page = int(input('Введите страницу номера, на которой начинается конкурс, согласно нумерации журнала: '))+2
+        pages = int(input('Сколько страниц занимает конкурс (обычно 1 или 2)? '))
+        konkurs_pages = '-f {0} -l {1}'.format(page, page + pages)        
     print('Extracting images from PDF file...' )
     images = check_output('bash -c "pdfimages {} -list {}"'.format(konkurs_pages, filename), shell=True).split()
     masks = [int(images[i-1]) for i,s in enumerate(images) if s==b'smask'] 
@@ -39,17 +39,20 @@ def extract(filename, type='math'):
         call('bash -c " composite -compose CopyOpacity {1} {0} {2}"'.format(raw_file(m-1), raw_file(m), directory+""+str(m-1)+'.png'), shell=True)
 #        call('bash -c " rm {0} {1}"'.format(raw_file(i), raw_file(i+1)), shell=True)
     
-    text_file = directory+'konkurs.txt'
+    text_file = directory+'tour.yaml'
     if type == 'math':
         call('bash -c "pdf2txt -o {0} -p 34,35 {1} "'.format(text_file,filename), shell=True)
     else:
-        call('bash -c "pdf2txt -o {} -p {} {} "'.format(text_file, page, filename), shell=True)
+        if pages == 1:
+            call('bash -c "pdf2txt -o {} -p {} {} "'.format(text_file, page, filename), shell=True)
+        else:
+            call('bash -c "pdf2txt -o {} -p {},{} {} "'.format(text_file, page, page+1, filename), shell=True)        
     with open(text_file,'r') as text:
         problems = text.readlines()
     if type == 'math':
         tour_string_num = next(i for i, string in enumerate(problems) if ("ТУР" in string))
     else:
-        tour_string_num = [i for i, string in enumerate(problems) if ("тур" in string)][0]
+        tour_string_num = [i for i, string in enumerate(problems) if ("ТУР" in string.strip())][0]
     print(problems[tour_string_num])
     problems = problems[tour_string_num+1:]
     while(bool(re.search(r'\d', problems[0]))==False):
@@ -62,6 +65,7 @@ def extract(filename, type='math'):
     template = ['tour:\n',
                     '  number: {}\n'.format(firstnum//5+1),
                     '  title: {} тур\n'.format(to_roman(firstnum//5+1)),
+                    '  deadline: 1\n',
                     '  problems:\n']    
     for i in range(firstnum, firstnum+5):
             template.append("""
