@@ -40,6 +40,7 @@ def extract(filename, type='math'):
 #        call('bash -c " rm {0} {1}"'.format(raw_file(i), raw_file(i+1)), shell=True)
     
     text_file = directory+'tour.yaml'
+    call('bash -c "touch {}"'.format(text_file), shell=True)
     if type == 'math':
         call('bash -c "pdf2txt -o {0} -p 34,35 {1} "'.format(text_file,filename), shell=True)
     else:
