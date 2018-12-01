@@ -9,9 +9,10 @@ image: nonfiction-logo.jpg
 <summary>Подробности.</summary>
 На стенде «Квантика» вы найдёте все выпуски журнала за 2018 год, 12 выпусков альманаха, наборы плакатов с занимательными задачками, Календарь Загадок на 2019 год и книги из серии «Библиотечка журнала Квантик».
 
-Чтобы не стоять в очереди в кассу на входе в ЦДХ, приобретайте электронные билеты на [сайте Non/fictio№](http://www.moscowbookfair.ru/rus/posetitelyam/buy-ebilet.html)
+Чтобы не стоять в очереди в кассу на входе в ЦДХ, приобретайте электронные билеты на [сайте Non/fictio№20](http://www.moscowbookfair.ru/rus/posetitelyam/buy-ebilet.html)
 </details>
 
-**Обновление**: Как попасть к нам от лестницы или эскалатора на третьем этаже ярмарки, смотрите в [схеме](/img/news/nonfiction-scheme.jpg).
+**Обновление**: Как попасть к нам от лестницы или эскалатора на третьем этаже ярмарки, смотрите в схеме:
 
 
+<a target="_blank" href="/img/news/nonfiction-scheme.jpg" style='display:block;'><img src='/img/news/nonfiction-scheme.jpg' alt='схема' height='600px'/></a>
