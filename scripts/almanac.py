@@ -8,10 +8,16 @@ from subprocess import call, check_call
 import csv
 import requests
 
-CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid=936711077&single=true&output=csv'
+issue = int(input('Введите номер альманаха:\n'))
+
+sheets = {12: 936711077, 13: 990127193, 14: 1725308277}
+
+CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={}&single=true&output=csv'.format(sheets[issue])
 issues_folder='local/pdfs/' # сменить путь к папке, в которой лежат маленькие файлы 2017-07.pdf и т.д.
-year = '2017'
-output_folder='local/almanac12/' # эта папка будет создана, если нужно, и в ней произойдёт сборка в файл almanac.pdf. Должна быть пустой.
+year = str(2012+(issue-1)//2)
+output_folder='local/almanac{}/'.format(issue) # эта папка будет создана, если нужно, и в ней произойдёт сборка в файл almanac.pdf. Должна быть пустой.
+#print(issue, CSV_URL, year, output_folder)
+#exit()
 
 if not os.path.exists(output_folder):
             os.makedirs(output_folder)  
