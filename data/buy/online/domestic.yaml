@@ -8,17 +8,14 @@ store:
     delivery: >
       *   Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва
       и другие регионы России
-    name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
-    sells: >-
-      * [Журналы](http://www.kvantik.ru/collection/zhurnaly)
-
-      * [Альманахи](http://www.kvantik.ru/collection/almanahi)
-
-      * [Календарь загадок на 2017
-      год](http://www.kvantik.ru/collection/kalendar)
-
+    dump: >-
       * [Головоломки Владимира
       Красноухова](http://www.kvantik.ru/collection/golovolomki)
+    name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
+    sells: |
+      * [Журналы](http://www.kvantik.ru/collection/zhurnaly)
+      * [Альманахи](http://www.kvantik.ru/collection/almanahi)
+      * [Календарь загадок](http://www.kvantik.ru/collection/kalendar)
   - available: '1'
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r\n*   Пункты выдачи: Москва, Подмосковье, другие города России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"МИР ШКОЛЬНИКА\" интернет-магазин школьной литературы *](http://www.uchebnik.com/)\r\n"
