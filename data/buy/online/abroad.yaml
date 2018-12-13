@@ -52,7 +52,7 @@ store:
     sells: >
       *  
       [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)
-  - available: '1'
+  - available: '-2'
     delivery: "*   США, Канада и другие страны\r\n"
     dump: ''
     name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
@@ -74,6 +74,12 @@ store:
 
       *   [Набор плакатов с
       задачами](http://www.amazon.com/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482/ref=sr_1_12?ie=UTF8&qid=1446897512&sr=8-12&keywords=kvantik)
+
+      *   [Календарь загадок на 2019
+      год](https://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_4/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-4&keywords=kvantik)
+
+      *   [Календарь загадок на 2018
+      год](https://www.amazon.com/Kalendar-zagadok-spirali-zhurnala-Kvantik/dp/5443925865/ref=sr_1_7/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-7&keywords=kvantik)
 
       *   [Календарь загадок на 2016
       год](http://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13?ie=UTF8&qid=1446897512&sr=8-13&keywords=kvantik)
