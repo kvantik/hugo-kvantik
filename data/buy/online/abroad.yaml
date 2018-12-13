@@ -1,18 +1,26 @@
-order: 3
-title: "Интернет-магазины ЗА РУБЕЖОМ"
+title: Интернет-магазины ЗА РУБЕЖОМ
 store:
   - available: '1'
     delivery: "Доставка по Украине:\r\n\r\n*   Курьерская доставка;\r\n*   Служба доставки \"Новая почта\" (в том числе самовывоз);\r\n*   Доставка почтой Украины\r\nДоставка Авиапочтой за пределы Украины\r\n"
     dump: ''
     name: "[bookshop](http://www.bookshop.ua/)\r\n"
-    sells: >
+    sells: >+
       *   [Журналы и
       Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?D1=4&B1=Go&Find=%EA%E2%E0%ED%F2%E8%EA&Pr1=1&Cr=Catalog&Chstr=)
 
       *   [Плакаты (комплект №2)](http://www.bookshop.ua/a13578098/)
+
+      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14700607/)
+
+      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14673272/)
+
+      *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
+
+
+
   - available: '1'
     delivery: "* Доставка курьером по Минску\n* Доставка автокурьером\_по регионам Республики Беларусь\n* Самовывоз: Минск и другие регионы Беларуси\n* Доставка почтой"
-    name: "[Читатель.by](https://chitatel.by/)"
+    name: '[Читатель.by](https://chitatel.by/)'
     sells: >
       *
       [Альманахи](https://chitatel.by/catalog/?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
@@ -153,17 +161,3 @@ store:
     sells: >-
       *
       [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=kvantik)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
