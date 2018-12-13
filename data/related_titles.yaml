@@ -2,56 +2,58 @@ almanacs:
   title: Альманахи
   description: Материалы всех журналов собраны в альманахи по полугодиям. Каждый альманах содержит материалы 6 журналов.
   issues:
-    - ref: http://biblio.mccme.ru/node/5383/shop
+    - ref: https://biblio.mccme.ru/node/6356/shop
       img: img/related_titles/almanac-1.jpg
-    - ref: http://biblio.mccme.ru/node/5306/shop
+    - ref: https://biblio.mccme.ru/node/5306/shop
       img: img/related_titles/almanac-2.jpg
-    - ref: http://biblio.mccme.ru/node/5384/shop
+    - ref: https://biblio.mccme.ru/node/5384/shop
       img: img/related_titles/almanac-3.jpg
-    - ref: http://biblio.mccme.ru/node/5526/shop
+    - ref: https://biblio.mccme.ru/node/5526/shop
       img: img/related_titles/almanac-4.jpg
-    - ref: http://biblio.mccme.ru/node/5311/shop
+    - ref: https://biblio.mccme.ru/node/5895/shop
       img: img/related_titles/almanac-5.jpg
-    - ref: http://biblio.mccme.ru/node/5394/shop
+    - ref: https://biblio.mccme.ru/node/5910/shop
       img: img/related_titles/almanac-6.jpg
-    - ref: http://biblio.mccme.ru/node/5554/shop
+    - ref: https://biblio.mccme.ru/node/5554/shop
       img: img/related_titles/almanac-7.jpg
-    - ref: http://biblio.mccme.ru/node/5625/shop
+    - ref: https://biblio.mccme.ru/node/5625/shop
       img: img/related_titles/almanac-8.jpg
-    - ref: http://biblio.mccme.ru/node/5767/shop
+    - ref: https://biblio.mccme.ru/node/5767/shop
       img: img/related_titles/almanac-9.jpg
-    - ref: http://biblio.mccme.ru/node/5981/shop
+    - ref: https://biblio.mccme.ru/node/5981/shop
       img: img/related_titles/almanac-10.jpg
-    - ref: http://biblio.mccme.ru/node/6107/shop
+    - ref: https://biblio.mccme.ru/node/6107/shop
       img: img/related_titles/almanac-11.jpg
+    - ref: https://biblio.mccme.ru/node/6364/shop
+      img: img/related_titles/almanac-12.jpg
     
 
 calendars:
   title: Календари
   description: Настенный перекидной календарь загадок с решениями. На каждой странице – календарь на месяц и задача-картинка.
   issues:
-    - ref: http://biblio.mccme.ru/node/3438/shop
+    - ref: https://biblio.mccme.ru/node/3438/shop
       img: img/related_titles/calendar_2014.jpg
-    - ref: http://biblio.mccme.ru/node/5263/shop
+    - ref: https://biblio.mccme.ru/node/5263/shop
       img: img/related_titles/calendar_2015.jpg
-    - ref: http://biblio.mccme.ru/node/5486/shop
+    - ref: https://biblio.mccme.ru/node/5486/shop
       img: img/related_titles/calendar_2016.jpg
-    - ref: http://biblio.mccme.ru/node/5730/shop
+    - ref: https://biblio.mccme.ru/node/5730/shop
       img: img/related_titles/calendar_2017.jpg
-    - ref: http://biblio.mccme.ru/node/6018/shop
+    - ref: https://biblio.mccme.ru/node/6018/shop
       img: img/related_titles/calendar_2018.jpg
-    - ref: http://biblio.mccme.ru/node/6333/shop
+    - ref: https://biblio.mccme.ru/node/6333/shop
       img: img/related_titles/calendar_2019.jpg      
 
 posters:
   title: Плакаты
   description: В каждом комплекте 10 плакатов с занимательными задачами для школьных кабинетов математики и физики.
   issues:
-    - ref: http://biblio.mccme.ru/node/5487/shop
+    - ref: https://biblio.mccme.ru/node/5487/shop
       img: img/related_titles/posters-1.jpg
-    - ref: http://biblio.mccme.ru/node/5506/shop
+    - ref: https://biblio.mccme.ru/node/5506/shop
       img: img/related_titles/posters-2.jpg
-    - ref: http://biblio.mccme.ru/node/5863/shop
+    - ref: https://biblio.mccme.ru/node/5863/shop
       img: img/related_titles/posters-3.jpg
 
 
@@ -59,5 +61,7 @@ biblio:
   title: Библиотечка
   description: Библиотечка «Квантика» --- это книги, выходящие по материалам и в добавление к журналу.
   issues:
-    - ref: http://biblio.mccme.ru/node/6165/shop
-      img: img/related_titles/biblio-1.jpg
+    - ref: https://biblio.mccme.ru/node/6165/shop
+      img: img/related_titles/biblio-100graney.jpg
+    - ref: https://biblio.mccme.ru/node/8014/shop
+      img: img/related_titles/biblio-pereputanica.jpg
