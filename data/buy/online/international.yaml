@@ -150,7 +150,7 @@ store:
 
       *   Экспресс-доставка по России и в Казахстан курьерской службой СДЭК
     name: "[Учёный кот](http://www.intelkot.ru/)\r\n"
-    sells: >+
+    sells: >
       *  
       [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)
 
@@ -160,15 +160,22 @@ store:
       *   [Наборы плакатов с
       задачами](https://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%CA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&event=simple&cl=search)
 
+      *   [Календарь загадок на 201 год]()
+
+      *   [Календарь загадок на 2018
+      год](https://www.intelkot.ru/kalendar-zagadok-na-2018-god-ot-zhurnala-dlya-lyuboznatelnyh-kvantik/)
+
+      *   [Календарь загадок на 2017
+      год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2017-god/)
+
       *   [Календарь загадок на 2016
       год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2016-god/)
-
-      *   [Календарь загадок на 2014
-      год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2014-god/)
 
       *   [Календарь загадок на 2015
       год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)
 
+      *   [Календарь загадок на 2014
+      год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2014-god/)
   - available: '1'
     delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз: Москва, Санкт-Петербург и другие города России;\r\n*   Доставка в постаматы: Балашиха, Красногорск, Лобня, Люберцы, Мытищи, Одинцово, Щербинка\r\n*   Доставка в регионы России: Почтой России, службами EMS Почта России\r\n*   Международная доставка: Почтой России\r\n"
     name: "[books.ru](http://www.books.ru/)\r\n"
