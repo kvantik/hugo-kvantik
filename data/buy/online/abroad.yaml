@@ -123,8 +123,7 @@ store:
       *   [Календарь загадок на 2015
       год](http://www.knigomania.com/productdetail.asp?productid=708228)
     name: "[KNIGOMANIA - сеть магазинов русской книги в Канаде](http://www.knigomania.com/)\r\n"
-    sells: |
-      *   Журналы и Альманахи
+    sells: "*   Журналы и Альманахи\n* [\"Сто граней математики\", М.Евдокимов ](http://www.knigomania.com/Evdokimov_Sto_granei_matematiki_Bibliotechka_zhurnala_kvantik/p1072948)\r\n"
   - available: '1'
     delivery: "*   Великобритания и другие страны\r\n"
     dump: ''
