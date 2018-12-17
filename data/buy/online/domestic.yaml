@@ -16,7 +16,7 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r\n*   Пункты выдачи: Москва, Подмосковье, другие города России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"МИР ШКОЛЬНИКА\" интернет-магазин школьной литературы *](http://www.uchebnik.com/)\r\n"
-    sells: "*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=журнал+Квантик&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=Квантик.+Альманах&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Плакаты](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=Познавательные+плакаты)\r\n"
+    sells: "*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=журнал+Квантик&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=Квантик.+Альманах&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Плакаты](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=Познавательные+плакаты)\r\n*   [\"Сто граней математики\", М.Евдокимов ](http://www.uchebnik.com/katalog/uchebnaya_literatura/dopolnitelnie_materiali/zanimatelnie_nauki/sto_graney_matematiki/)\r\n\n"
   - available: '1'
     delivery: "*   Курьерская доставка: Москва, Санкт-Петербург, другие регионы России (указанные на сайте магазина);\r\n*   Доставка почтой: по России\r\n"
     name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
