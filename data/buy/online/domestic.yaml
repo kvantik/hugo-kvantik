@@ -67,7 +67,7 @@ store:
     delivery: "*   Курьерская доставка в 450 городов России;\r\n*   Самовывоз в 59 городах России;\r\n*   Почтовая доставка по России (во все населённые пункты)\r\n"
     dump: "*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-618675.html)\r"
     name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r\n*   [Календарь загадок на 2019 год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvantik-na-2019-god-383053.html)\r\n\n"
+    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r\n*   [Календарь загадок на 2019 год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvantik-na-2019-god-383053.html)\r\n* [\"Сто граней математики\", М.Евдокимов ](http://www.ukazka.ru/catalog/book-sto-granej-matematiki-581510.html)\r\n\n\n"
   - available: '0'
     delivery: "*   Курьерская доставка: Москва и другие города России;\r\n*   Самовывоз: Москва, Санкт-Петербург и другие города России;\r\n*   Доставка в регионы: Почтой России\r\n"
     name: "[TOTbook.ru Интернет-магазин научной книги](http://www.totbook.ru/)\r\n"
