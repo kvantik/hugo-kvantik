@@ -20,15 +20,7 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва, Санкт-Петербург, другие регионы России (указанные на сайте магазина);\r\n*   Доставка почтой: по России\r\n"
     name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)
-
-      *  
-      [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
-
-      *  
-      [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
+    sells: "*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)\n*   [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)\n*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.combook.ru/product/11877178/)\r\n\n"
   - available: '1'
     delivery: "*   Доставка в розничные книжные магазины «Галилео»\r\n*   Доставка службами PickPoint и IML: по всей России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"Книжная лавка\"](http://www.book-stock.ru/)\r\n"
