@@ -21,33 +21,7 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (метро Лубянка);\r\n*   Доставка почтой: по России;\r\n*   Экспресс-доставка по России компаниями \"TNT\" и \"DHL\";\r\n*   Международная доставка службой «DHL»\r\n"
     name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: >
-      *   [Альманахи и
-      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&page=1)
-
-      *   [Плакаты (комплект
-      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
-
-      *   [Плакаты (комплект
-      №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
-
-      *   [Календарь загадок на 2019
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
-
-      *   [Календарь загадок на 2018
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
-
-      *   [Календарь загадок на 2017
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
-
-      *   [Календарь загадок на 2016
-      год](http://www.bgshop.ru/Details.aspx?id=10228163)
-
-      *   [Календарь загадок на 2015
-      год](http://www.bgshop.ru/Details.aspx?id=10139388)
-
-      *   [Календарь загадок на 2014
-      год](http://www.bgshop.ru/Details.aspx?id=10057359)
+    sells: "*   [Альманахи и журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&page=1)\n*   [Плакаты (комплект №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)\n*   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)\n*   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)\n*   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)\n*   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)\n*   [Календарь загадок на 2016 год](http://www.bgshop.ru/Details.aspx?id=10228163)\n*   [Календарь загадок на 2015 год](http://www.bgshop.ru/Details.aspx?id=10139388)\n*   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.bgshop.ru/Catalog/GetFullDescription?id=10473585&type=1)\r\n* [\"Перепутаница\", С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type=1) \n"
   - available: '1'
     delivery: |
       Доставка по России:
