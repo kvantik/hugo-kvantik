@@ -13,30 +13,7 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (Нахимовский проспект);\r\n*   Доставка Почтой России по всей территории России и за рубеж\r\n"
     name: "[Магазин научной книги URSS.ru *](http://urss.ru/)\r\n"
-    sells: >
-      *   [Журналы и
-      Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=Квантик)
-
-      *   [Наборы плакатов с
-      задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=194866)
-
-      *   [Календарь загадок на 2019
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=244251)
-
-      *   [Календарь загадок на 2018
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=234570)
-
-      *   [Календарь загадок на 2017
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=223682)
-
-      *   [Календарь загадок на 2016
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=209307)
-
-      *   [Календарь загадок на 2015
-      год](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=196098)
-
-      *   [Календарь загадок на 2014
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)
+    sells: "*   [Журналы и Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=Квантик)\n*   [Наборы плакатов с задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=194866)\n*   [Календарь загадок на 2019 год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=244251)\n*   [Календарь загадок на 2018 год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=234570)\n*   [Календарь загадок на 2017 год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=223682)\n*   [Календарь загадок на 2016 год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=209307)\n*   [Календарь загадок на 2015 год](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=196098)\n*   [Календарь загадок на 2014 год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)\n* [\"Сто граней математики\", М.Евдокимов ](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=240521)\r\n* [\"Перепутаница\", С.Федин](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=246225) \n"
   - available: '1'
     delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (ул. Новый Арбат);\r\n*   Доставка почтой: по России;\r\n*   Международная доставка компанией TNT\r\n"
     name: "[Московский Дом Книги *](http://info.mdk-arbat.ru/)\r\n"
