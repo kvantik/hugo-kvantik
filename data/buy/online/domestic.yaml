@@ -62,23 +62,7 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка по Москве, Московской области, Санкт-Петербургу, Нижнему Новгороду, Ростову-на-Дону, Батайску, Аксаю;\r\n*   Самовывоз: более 50 городов России;\r\n*   Почтовая доставка по России\r\n"
     name: "[100book КНИГИ](http://www.100book.ru/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.100book.ru/flaer/?q=%CA%E2%E0%ED%F2%E8%EA)
-
-      *   [Плакаты (комплект №1)](http://www.100book.ru/flaer/?fel=6956877)
-
-      *   [Плакаты (комплект №2)](http://www.100book.ru/flaer/?fel=6197460)
-
-      *   [Плакаты (комплект №3)](http://www.100book.ru/flaer/?fel=7795554)
-
-      *   [Календарь загадок на 2018
-      год](http://www.100book.ru/flaer/?fel=8233821)
-
-      *   [Календарь загадок на 2017
-      год](http://www.100book.ru/flaer/?fel=7216311)
-
-      *   [Календарь загадок на 2016
-      год](http://www.100book.ru/flaer/?fel=6019305)
+    sells: "*   [Альманахи](http://www.100book.ru/flaer/?q=%CA%E2%E0%ED%F2%E8%EA)\n*   [Плакаты (комплект №1)](http://www.100book.ru/flaer/?fel=6956877)\n*   [Плакаты (комплект №2)](http://www.100book.ru/flaer/?fel=6197460)\n*   [Плакаты (комплект №3)](http://www.100book.ru/flaer/?fel=7795554)\n*   [Календарь загадок на 2018 год](http://www.100book.ru/flaer/?fel=8233821)\n*   [Календарь загадок на 2017 год](http://www.100book.ru/flaer/?fel=7216311)\n*   [Календарь загадок на 2016 год](http://www.100book.ru/flaer/?fel=6019305)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.100book.ru/flaer/?fel=8764947)\r\n\n"
   - available: '1'
     delivery: "*   Курьерская доставка в 450 городов России;\r\n*   Самовывоз в 59 городах России;\r\n*   Почтовая доставка по России (во все населённые пункты)\r\n"
     dump: "*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-618675.html)\r"
