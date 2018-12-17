@@ -17,15 +17,7 @@ store:
   - available: '1'
     delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (ул. Новый Арбат);\r\n*   Доставка почтой: по России;\r\n*   Международная доставка компанией TNT\r\n"
     name: "[Московский Дом Книги *](http://info.mdk-arbat.ru/)\r\n"
-    sells: >+
-      *   [Альманахи](http://info.mdk-arbat.ru/catalog?kw=%EA%E2%E0%ED%F2%E8%EA)
-
-      *   [Плакаты (комплект
-      №1)](http://info.mdk-arbat.ru/bookcard?book_id=2430114)
-
-      *   [Плакаты (комплект
-      №2)](http://info.mdk-arbat.ru/bookcard?book_id=2430115/)
-
+    sells: "*   [Альманахи](http://info.mdk-arbat.ru/catalog?kw=%EA%E2%E0%ED%F2%E8%EA)\n*   [Плакаты (комплект №1)](http://info.mdk-arbat.ru/bookcard?book_id=2430114)\n*   [Плакаты (комплект №2)](http://info.mdk-arbat.ru/bookcard?book_id=2430115/)\n* [\"Сто граней математики\", М.Евдокимов ](http://info.mdk-arbat.ru/bookcard?book_id=2446041)\r\n* [\"Перепутаница\", С.Федин](http://info.mdk-arbat.ru/bookcard?book_id=6063) \n\n"
   - available: '1'
     delivery: "*   Курьерская доставка: Москва;\r\n*   Самовывоз: Москва (метро Лубянка);\r\n*   Доставка почтой: по России;\r\n*   Экспресс-доставка по России компаниями \"TNT\" и \"DHL\";\r\n*   Международная доставка службой «DHL»\r\n"
     name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
