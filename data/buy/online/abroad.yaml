@@ -51,10 +51,8 @@ store:
       *   [Календарь загадок на 2015
       год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
     name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)
-  - available: '-2'
+    sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.vasha-kniga.com/productdetail.asp?productid=1074747)\r\n"
+  - available: '0'
     delivery: "*   США, Канада и другие страны\r\n"
     dump: ''
     name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
