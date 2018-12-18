@@ -1,40 +1,26 @@
-order: 1
+title: Российские интернет-магазины с доставкой только по России
 store:
   - available: '1'
-    delivery: "*   Доставка почтой только по России\r\n*   Самовывоз: Москва (Большой Власьевский пер., д.11)\r\n"
+    delivery: "*   Самовывоз: Москва (Большой Власьевский пер., д.11)\r\n*   Доставка Почтой России\r\n*   Курьерская доставка по Москве (внутри МКАД)\n*   Доставка транспортными компаниями: Деловые линии, ПЭК, СДЭК\n\n\n"
     name: " \r\n[Магазин «Математическая книга» издательства МЦНМО](http://biblio.mccme.ru/shop/order)\r\n"
-    sells: "*   [Журналы](http://biblio.mccme.ru/shop/detail/journals/152)\r\n*   [Альманахи](http://biblio.mccme.ru/shop/price/all?field_bookcreators_value=&field_titleplusizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&field_isbn_value=&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n*   [Набор плакатов с задачами](http://biblio.mccme.ru/shop/price/all?field_bookcreators_value=&field_titleplusizdanie_value=%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B&field_isbn_value=&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n*   [Календари загадок Квантика](http://biblio.mccme.ru/shop/price/all?order=field_book_year_value&sort=desc&field_bookcreators_value=&field_titleplusizdanie_value=Календарь&tid_1=All&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n"
+    sells: "*   [Журналы](http://biblio.mccme.ru/shop/detail/journals/152)\r\n*   [Альманахи](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.%20%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&field_book_year_value_op=%3D&field_book_year_value[value]=&field_book_year_value[min]=&field_book_year_value[max]=&field_price_value_op=%3D&field_price_value[value]=&field_price_value[min]=&field_price_value[max]=)\r\n*   [Набор плакатов с задачами](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n*   [Календари загадок Квантика](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D0%BA&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)\r\n* Книги серии \"Библиотечка журнала «Квантик»\":\n  *   [\"Сто граней математики\", М.Евдокимов ](https://biblio.mccme.ru/node/6165/shop)\r\n  *   [\"Перепутаница\", С.Федин](https://biblio.mccme.ru/node/6165/shop)\r\n\n"
   - available: '1'
     delivery: >
       *   Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва
       и другие регионы России
-    name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
-    sells: >-
-      * [Журналы](http://www.kvantik.ru/collection/zhurnaly)
-
-      * [Альманахи](http://www.kvantik.ru/collection/almanahi)
-
-      * [Календарь загадок на 2017
-      год](http://www.kvantik.ru/collection/kalendar)
-
+    dump: >-
       * [Головоломки Владимира
       Красноухова](http://www.kvantik.ru/collection/golovolomki)
+    name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
+    sells: "* [Журналы](http://www.kvantik.ru/collection/zhurnaly)\n* [Альманахи](http://www.kvantik.ru/collection/almanahi)\n* [Календарь загадок](http://www.kvantik.ru/collection/kalendar)\n*   [\"Сто граней математики\", М.Евдокимов](http://www.kvantik.ru/product/100-graney-matematiki-evdokimov-m-a)\r\n"
   - available: '1'
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r\n*   Пункты выдачи: Москва, Подмосковье, другие города России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"МИР ШКОЛЬНИКА\" интернет-магазин школьной литературы *](http://www.uchebnik.com/)\r\n"
-    sells: "*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=журнал+Квантик&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=Квантик.+Альманах&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Плакаты](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=Познавательные+плакаты)\r\n"
+    sells: "*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=журнал+Квантик&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Btitle%5D=Квантик.+Альманах&filter%5B4149aac7%5D=&filter%5Bf40468f2%5D=)\r\n*   [Плакаты](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=Познавательные+плакаты)\r\n*   [\"Сто граней математики\", М.Евдокимов ](http://www.uchebnik.com/katalog/uchebnaya_literatura/dopolnitelnie_materiali/zanimatelnie_nauki/sto_graney_matematiki/)\r\n\n"
   - available: '1'
     delivery: "*   Курьерская доставка: Москва, Санкт-Петербург, другие регионы России (указанные на сайте магазина);\r\n*   Доставка почтой: по России\r\n"
     name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)
-
-      *  
-      [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
-
-      *  
-      [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
+    sells: "*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)\n*   [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED%E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)\n*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.combook.ru/product/11877178/)\r\n\n"
   - available: '1'
     delivery: "*   Доставка в розничные книжные магазины «Галилео»\r\n*   Доставка службами PickPoint и IML: по всей России\r\n*   Доставка почтой: по России\r\n"
     name: "[\"Книжная лавка\"](http://www.book-stock.ru/)\r\n"
@@ -48,8 +34,20 @@ store:
       *   [Плакаты (комплект
       №2)](http://www.book-stock.ru/catalog/9211/2189416.html)
 
-      *   [Календарь загадок на 2017
-      год](http://www.book-stock.ru/catalog/kalendar_zagadok_2017_god_ot_zhurnala_kvantik_moskovskij_centr_nepreryvnogo_2017.html)
+      *   [Плакаты (комплект
+      №3)](http://www.book-stock.ru/catalog/poznavatelnye_plakaty_dlja_shkolnikov_zanimatelnye_zadachi_ot_moskovskij_centr_nepreryvnogo_2017.html)
+
+      *   [Календарь загадок на 2019
+      год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_na_2019_god.html)
+
+      *   [Календарь загадок на 2018
+      год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_na_2018_god_moskovskij_centr_nepreryvnogo_2018.html)
+
+      *   [Календарь загадок на 2016
+      год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_2016_moskovskij_centr_nepreryvnogo_2016.html)
+
+      * ["Перепутаница",
+      С.Федин](http://www.book-stock.ru/catalog/pereputanica_fedin_s_n_moskovskij_centr_2019.html) 
   - available: '0'
     delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r\n*   Самовывоз из офиса \"Библиона\" в Москве и из офиса курьерской компании в Санкт-Петербурге;\r\n*   Почтовая доставка по России;\r\n*   Экспресс-доставка по России через \"ЕМС Гарантпост\"\r\n"
     name: "[Библион](http://www.biblion.ru/)\r\n"
@@ -58,28 +56,19 @@ store:
       Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)
   - available: '1'
     delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской области;\r\n*   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург (Железнодорожный проспект);\r\n*   Почтовая доставка по России\r\n"
+    dump: "*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r"
     name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
-    sells: "*   [Альманахи](http://umlit.ru/search/result?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r\n*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r\n"
+    sells: "*   [Альманахи](http://umlit.ru/search/result?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_system=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r\n* [\"Сто граней математики\", М.Евдокимов ](http://umlit.ru/catalog/view/203946)\r\n* [\"Перепутаница\", С.Федин](http://umlit.ru/catalog/view/222407) \n"
   - available: '1'
     delivery: "*   Курьерская доставка по Москве, Московской области, Санкт-Петербургу, Нижнему Новгороду, Ростову-на-Дону, Батайску, Аксаю;\r\n*   Самовывоз: более 50 городов России;\r\n*   Почтовая доставка по России\r\n"
     name: "[100book КНИГИ](http://www.100book.ru/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.100book.ru/flaer/?q=%CA%E2%E0%ED%F2%E8%EA)
-
-      *   [Плакаты (комплект №1)](http://www.100book.ru/flaer/?fel=6956877)
-
-      *   [Плакаты (комплект №2)](http://www.100book.ru/flaer/?fel=6197460)
-
-      *   [Календарь загадок на 2017
-      год](http://www.100book.ru/flaer/?fel=7216311)
-
-      *   [Календарь загадок на 2016
-      год](http://www.100book.ru/flaer/?fel=6019305)
+    sells: "*   [Альманахи](http://www.100book.ru/flaer/?q=%CA%E2%E0%ED%F2%E8%EA)\n*   [Плакаты (комплект №1)](http://www.100book.ru/flaer/?fel=6956877)\n*   [Плакаты (комплект №2)](http://www.100book.ru/flaer/?fel=6197460)\n*   [Плакаты (комплект №3)](http://www.100book.ru/flaer/?fel=7795554)\n*   [Календарь загадок на 2018 год](http://www.100book.ru/flaer/?fel=8233821)\n*   [Календарь загадок на 2017 год](http://www.100book.ru/flaer/?fel=7216311)\n*   [Календарь загадок на 2016 год](http://www.100book.ru/flaer/?fel=6019305)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.100book.ru/flaer/?fel=8764947)\r\n\n"
   - available: '1'
     delivery: "*   Курьерская доставка в 450 городов России;\r\n*   Самовывоз в 59 городах России;\r\n*   Почтовая доставка по России (во все населённые пункты)\r\n"
+    dump: "*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-618675.html)\r"
     name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r\n*   [Календарь загадок на 2016 год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvantik-2016-235253.html)\r\n*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-618675.html)\r\n"
-  - available: '1'
+    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%EA.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r\n*   [Календарь загадок на 2019 год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvantik-na-2019-god-383053.html)\r\n* [\"Сто граней математики\", М.Евдокимов ](http://www.ukazka.ru/catalog/book-sto-granej-matematiki-581510.html)\r\n\n\n"
+  - available: '0'
     delivery: "*   Курьерская доставка: Москва и другие города России;\r\n*   Самовывоз: Москва, Санкт-Петербург и другие города России;\r\n*   Доставка в регионы: Почтой России\r\n"
     name: "[TOTbook.ru Интернет-магазин научной книги](http://www.totbook.ru/)\r\n"
     sells: >
@@ -92,28 +81,19 @@ store:
       *   [Плакаты (комплект №2)](http://www.totbook.ru/catalog/228/191519/)
   - available: '1'
     delivery: "*   Набор доступных способов доставки зависит от региона доставки (см. на сайте магазина)\r\n"
-    name: "[Спринтер.ру](http://www.sprinter.ru)\r\n"
-    sells: >
+    dump: >-
       *
       [Журналы](http://www.sprinter.ru/catalog/search/?query=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
-
+    name: "[Спринтер.ру](http://www.sprinter.ru)\r\n"
+    sells: >
       *  
       [Альманахи](http://www.sprinter.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
 
       *  
       [Плакаты](http://www.sprinter.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B)
 
-      *   [Календарь загадок на 2017
-      год](http://www.sprinter.ru/shop/goods/kalendar-zagadok-2017-god-ot-zhurnala-kvantik-2557410/)
-title: Российские интернет-магазины с доставкой только по России
-
-
-
-
-
-
-
-
-
-
-
+      *   [Календари
+      загадок](http://www.sprinter.ru/catalog/search/?query=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D0%BA)
+  - delivery: "*   Курьерская доставка: Санкт-Петербург и Ленинградская область, Москва (в пределах МКАД);\r\n*   Пункты выдачи заказов: в Москве, Екатеринбурге, Калуге, Нижнем Новгороде, Орле, Ростове-на-Дону, Твери, Тюмени, Челябинске, Ярославле и многих других городах\r\n*   Доставка в регионы: Почтой России\r"
+    name: "[Буквоед](https://www.bookvoed.ru/)\r"
+    sells: "*   [Альманахи](https://www.bookvoed.ru/books?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)\r\n*   [Календарь загадок на 2019 год](https://www.bookvoed.ru/book?id=9023636)\r"
