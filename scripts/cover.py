@@ -25,4 +25,4 @@ if __name__ == "__main__":
     print('Номер выпуска?')
     num=int(input())
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    get_cover('local/pdfs/2018-{:0>2}.pdf'.format(num))
+    get_cover('local/pdfs/2019-{:0>2}.pdf'.format(num))

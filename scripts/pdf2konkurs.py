@@ -89,4 +89,4 @@ if __name__ == "__main__":
     if type =='':
         type ='math'
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    extract('local/pdfs/2018-{:0>2}.pdf'.format(num), type=type)
+    extract('local/pdfs/2019-{:0>2}.pdf'.format(num), type=type)
