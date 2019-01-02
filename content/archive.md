@@ -14,6 +14,7 @@ tocmenu = true
 
 # Журналы {#issues}
 
+{{<issue-cards 2019>}}
 {{<issue-cards 2018>}}
 {{<issue-cards 2017>}}
 {{<issue-cards 2016>}}
