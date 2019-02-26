@@ -25,7 +25,9 @@ almanacs:
     - ref: https://biblio.mccme.ru/node/6107/shop
       img: img/related_titles/almanac-11.jpg
     - ref: https://biblio.mccme.ru/node/6364/shop
-      img: img/related_titles/almanac-12.jpg
+      img: img/related_titles/almanac-12.jpg    
+    - ref: https://biblio.mccme.ru/node/12162/shop
+      img: img/related_titles/almanac-13.jpg
     
 
 calendars:
