@@ -8,6 +8,8 @@ from subprocess import call, check_call
 import csv
 import requests
 
+import common
+
 sheets = {2018: 1216387229, 2019: 429063026}
 
 CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={}&single=true&output=csv'.format(sheets[2019])
@@ -35,4 +37,4 @@ if __name__ == "__main__":
     print('Номер выпуска?')
     num=int(input())
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    make_sample(num, 'local/pdfs/2019-{:0>2}.pdf'.format(num))
+    make_sample(num, common.pdf(num))

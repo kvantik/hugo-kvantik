@@ -8,6 +8,8 @@ import itertools
 from subprocess import call, check_output
 #import ruamel.yaml as yaml
 
+import common
+
 def makedir(d):
         if not os.path.exists(d):
             os.makedirs(d)        
@@ -89,4 +91,4 @@ if __name__ == "__main__":
     if type =='':
         type ='math'
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    extract('local/pdfs/2019-{:0>2}.pdf'.format(num), type=type)
+    extract(common.pdf(num), type=type)

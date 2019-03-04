@@ -7,6 +7,8 @@ import datetime
 import itertools
 from subprocess import call, check_output
 
+import common
+
 def makedir(d):
         if not os.path.exists(d):
             os.makedirs(d)        
@@ -25,4 +27,4 @@ if __name__ == "__main__":
     print('Номер выпуска?')
     num=int(input())
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    get_cover('local/pdfs/2019-{:0>2}.pdf'.format(num))
+    get_cover(common.pdf(num))
