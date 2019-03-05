@@ -8,14 +8,12 @@ import sample
 
 
 if __name__ == "__main__":
-    year = 2019
 
 # подготовка черновиков для проверки и использования:
-    pdfs = common.pdfs()
-    print('Данный скрипт возьмёт pdf вида local/pdfs/{0}-XX.pdf и выведет обложку, конкурс и сэмпл номера в папку local/{0}-XX'.format(year))
+    print('Данный скрипт возьмёт pdf вида local/pdfs/{0}-XX.pdf и выведет обложку, конкурс и сэмпл номера в папку local/{0}-XX'.format(common.year))
     print('Номер выпуска?')
     num = int(input())
-    pdf = '{0}{1}-{2:0>2}.pdf'.format(common.pdfs(), year, num)
+    pdf = common.pdf(num)
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
     pdf2konkurs.extract(pdf)
     cover.get_cover(pdf)    
