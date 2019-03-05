@@ -11,8 +11,7 @@ if __name__ == "__main__":
 
 # подготовка черновиков для проверки и использования:
     print('Данный скрипт возьмёт pdf вида local/pdfs/{0}-XX.pdf и выведет обложку, конкурс и сэмпл номера в папку local/{0}-XX'.format(common.year))
-    print('Номер выпуска?')
-    num = int(input())
+    num = int(input('Номер выпуска? '))
     pdf = common.pdf(num)
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
     pdf2konkurs.extract(pdf)
