@@ -12,7 +12,7 @@ import common
 
 def makedir(d):
         if not os.path.exists(d):
-            os.makedirs(d)        
+            os.makedirs(d)
 
 def to_roman(i):
     return ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'IV', 'V'][i]
