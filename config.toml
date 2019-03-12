@@ -85,3 +85,6 @@ SectionPagesMenu = "lazy"
 [blackfriday]
   angledQuotes = true
   fractions = false
+  
+[languages.en]
+    weight = 1
