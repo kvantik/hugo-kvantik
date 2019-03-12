@@ -86,5 +86,8 @@ SectionPagesMenu = "lazy"
   angledQuotes = true
   fractions = false
   
+[languages]
+[languages.ru]
+ weight=1
 [languages.en]
-    weight = 1
+    weight = 2
