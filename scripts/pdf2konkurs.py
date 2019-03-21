@@ -5,7 +5,6 @@ import os
 import re
 import datetime
 import itertools
-from subprocess import call, check_output
 #import ruamel.yaml as yaml
 
 import common
@@ -22,40 +21,16 @@ def extract(filename, type='math'):
     directory = 'local/'+issue_name + '/konkurs-'+type+'/'
     makedir(directory)
     if type == 'math':
-        konkurs_pages = '-f 34 -l 35'
+        pages = [34, 35]
     else:
         page = int(input('Введите страницу номера, на которой начинается конкурс, согласно нумерации журнала: '))+2
-        pages = int(input('Сколько страниц занимает конкурс (обычно 1 или 2)? '))
-        konkurs_pages = '-f {0} -l {1}'.format(page, page + pages)        
-    print('Extracting images from PDF file...' )
-    images = check_output('bash -c "pdfimages {} -list {}"'.format(konkurs_pages, filename), shell=True).split()
-    masks = [int(images[i-1]) for i,s in enumerate(images) if s==b'smask'] 
-    print(masks)
-    call('bash -c "pdfimages {} -png {} {}raw"'.format(konkurs_pages, filename,directory), shell=True)
-    raw_file = lambda i : '{0}raw-{1:0>3}.png'.format(directory,i)
-
-    for m in masks:
-        #print(i)
-        if not os.path.exists(raw_file(m)):
-            break
-        call('bash -c " composite -compose CopyOpacity {1} {0} {2}"'.format(raw_file(m-1), raw_file(m), directory+""+str(m-1)+'.png'), shell=True)
-#        call('bash -c " rm {0} {1}"'.format(raw_file(i), raw_file(i+1)), shell=True)
+        pages =  range(page, page + int(input('Сколько страниц занимает конкурс (обычно 1 или 2)? ')))        
     
-    text_file = directory+'tour.yaml'
-    call('bash -c "touch {}"'.format(text_file), shell=True)
-    if type == 'math':
-        call('bash -c "pdf2txt -o {0} -p 34,35 {1} "'.format(text_file,filename), shell=True)
-    else:
-        if pages == 1:
-            call('bash -c "pdf2txt -o {} -p {} {} "'.format(text_file, page, filename), shell=True)
-        else:
-            call('bash -c "pdf2txt -o {} -p {},{} {} "'.format(text_file, page, page+1, filename), shell=True)        
-    with open(text_file,'r') as text:
-        problems = text.readlines()
-    if type == 'math':
-        tour_string_num = next(i for i, string in enumerate(problems) if ("ТУР" in string))
-    else:
-        tour_string_num = [i for i, string in enumerate(problems) if ("ТУР" in string.strip())][0]
+    common.pdf2images(filename, directory, pages)
+    
+    problems = common.pdf2txt(filename, pages)
+    print(problems)
+    tour_string_num = [i for i, string in enumerate(problems) if ("ТУР" in string.strip())][0]
     print(problems[tour_string_num])
     problems = problems[tour_string_num+1:]
     while(bool(re.search(r'\d', problems[0]))==False):
@@ -63,11 +38,12 @@ def extract(filename, type='math'):
     print(problems)
     firstnum = int(re.match( r'\d+', problems[0].strip() ).group(0))
     print(firstnum)
+    tour = firstnum//5+1
 
     
     template = ['tour:\n',
-                    '  number: {}\n'.format(firstnum//5+1),
-                    '  title: {} тур\n'.format(to_roman(firstnum//5+1)),
+                    '  number: {}\n'.format(tour),
+                    '  title: {} тур\n'.format(to_roman(tour)),
                     '  deadline: 1\n',
                     '  problems:\n']    
     for i in range(firstnum, firstnum+5):
@@ -80,7 +56,7 @@ def extract(filename, type='math'):
             """.format(i))
     template.append('\n')
 
-    with open(text_file,'w') as text:        
+    with open(directory+str(tour)+'.yaml','w') as text:        
         text.writelines(template)
         text.writelines(problems)
 
