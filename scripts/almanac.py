@@ -27,10 +27,18 @@ if not os.path.exists(output_folder):
 if len(os.listdir(output_folder)) > 0: # если папка не пуста - удалить из неё все файлы
   input("Папка {} будет очищена. Нажмите Enter для продолжения (ctrl+c для выхода)".format(output_folder))
   call('bash -c "rm {}*"'.format(output_folder), shell=True)
-            
-with requests.Session() as s:
+
+csv_file = input("Введите имя файла таблицы (в csv, ввод для гугл-таблицы): ")
+if csv_file == '':
+  with requests.Session() as s:
     content = s.get(CSV_URL).content.decode('utf-8')
-    table = list(csv.reader(content.splitlines(), delimiter=','))
+    
+else:
+  with open(csv_file, 'r', encoding='utf8') as f:
+    content = f.read()
+table = list(csv.reader(content.splitlines(), delimiter=','))
+
+filler_file = issues_folder+'/../almanacs/alm-12-ed-1.pdf'
 
 for t in table:
   print(t)

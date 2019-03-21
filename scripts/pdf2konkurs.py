@@ -61,10 +61,8 @@ def extract(filename, type='math'):
         text.writelines(problems)
 
 if __name__ == "__main__":
-    print('Номер выпуска?')
-    num=int(input())
+    num=int(input('Номер выпуска: '))
     type = input('Тип конкурса (ввод для math): ')
     if type =='':
         type ='math'
-    #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
     extract(common.pdf(num), type=type)

@@ -13,7 +13,9 @@ def pdfs():
      
 year = 2019
 
-def pdf(num):
+def pdf(num=None):
+  if num == None:
+    num = int(input('Номер выпуска: '))
   return '{0}{1}-{2:02}.pdf'.format(pdfs(), year, num)
   
   
