@@ -6,8 +6,10 @@
 <div class="col-md-12">
                     <div class="text-center">
                         <h2> Журнал №{{trim .Params.month "0-"}} {{.Params.year}}-го года </h2>
+                        <table class="noborder">
+                        {{.Render "slogans-card"}}
+                        </table>
                     </div>
-{{.Render "slogans"}}
 </div>
 </div>
 </section>

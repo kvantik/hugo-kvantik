@@ -35,6 +35,6 @@ text = '''
 другим естественным наукам. Вы узнаете много интересного об окружающем мире!
 
 
-&laquo;Квантик&raquo; также выпускает [альманахи]({{< relref "archive.md#almanacs" >}}), [плакаты с задачами-картинками]({{< relref "archive.md#posters" >}}) и [календари]({{< relref "archive.md#calendars" >}}).
+&laquo;Квантик&raquo; также выпускает [альманахи]({{< relref "archive.md#almanacs" >}}), [плакаты с задачами-картинками]({{< relref "archive.md#posters" >}}), [календари]({{< relref "archive.md#calendars" >}}), а также книги серии ["Библиотечка журнала Квантик"]({{< relref "archive.md#biblio" >}}).
 
  
