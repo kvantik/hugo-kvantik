@@ -1,6 +1,10 @@
 from subprocess import call, check_output
 import os
+from functools import lru_cache
 
+repo_root = '../'  
+
+@lru_cache()
 def pdfs():
     default = '../../small-pdfs/issues/'
     pdfs = input("Введите путь к папке с маленькими файлами журнала (Enter для {}):".format(default))
@@ -13,14 +17,13 @@ def pdfs():
      
 year = 2019
 
-def pdf(num=None):
+
+def pdf(num=None, year=year):
   if num == None:
     num = int(input('Номер выпуска: '))
   return '{0}{1}-{2:02}.pdf'.format(pdfs(), year, num)
   
   
-  
-
 def pdf2images(filename, output_dir, pages):
     print('Extracting images from PDF file...' )
     konkurs_pages = '-f {0} -l {1}'.format(min(pages),max(pages))
