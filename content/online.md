@@ -18,7 +18,7 @@ title: Онлайн-кружок
 </p>
 -->
 <p>
-Ниже архив анонсов занятий. Записи занятий выкладывались на <a href="http://www.youtube.com/user/kvantik12">нашем канале на YouTube</a> (<a href="http://www.youtube.com/subscription_center?add_user=kvantik12">подписаться на канал</a>).
+Ниже архив анонсов занятий. Записи занятий выкладывались на <a href="https://www.youtube.com/user/kvantik12">нашем канале на YouTube</a> (<a href="https://www.youtube.com/subscription_center?add_user=kvantik12">подписаться на канал</a>).
 </p>
 
 <table class="noborder">
@@ -835,7 +835,7 @@ title: Онлайн-кружок
 Видео с чатом можно <a href="http://www.100ege.ru/tasks/video?l=3417">посмотреть тут</a>. <br />
 </td>
 <td class="noborder" align="left">
-<iframe width="420" height="315" src="http://www.youtube.com/embed/WMFqsD-__rs" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/WMFqsD-__rs" frameborder="0" allowfullscreen></iframe>
 </td>
 </tr>
 <tr class="noborder" valign="top">
