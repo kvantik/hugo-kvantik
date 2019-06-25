@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://kvantik.com/rosp"
+  to = "https://press.rosp.ru/publications/view/84252/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
