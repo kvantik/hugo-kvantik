@@ -2,10 +2,48 @@
   from = "https://kvantik.com/rosp"
   to = "https://press.rosp.ru/publications/view/84252/"
   status = 301
-  force = true #COMMENT: ensure that we always redirect
+  force = true 
 
 [[redirects]]
+  # куда ведёт ссылка: индекс Квантика на сайте Роспечати
+  # где размещена ссылка: рекламная страница, Альманах 14, с.214
   from = "https://kvan.tk/rosp"
   to = "https://press.rosp.ru/publications/view/84252/"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: копию сайта TEPCO с фотографиями тепловой электростанции Сендзю в Токио
+  # где размещена ссылка: статья "призрачные трубы", Альманах 14 с.67
+  from = "https://kvan.tk/tepco"
+  to = "http://web.archive.org/web/20090521104632/http://www.adachi.ne.jp:80/users/a.trm/rokusyu.htm"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: ютюб-плейлист Квантика с видео притяжения и отталкивания тел на поверхности воды
+  # где размещена ссылка: статья "ФОТОГРАФИИ СВОБОДНО ПЛАВАЮЩИХ ТЕЛ", Альманах 14 с.132
+  from = "https://kvan.tk/float"
+  to = "https://www.youtube.com/playlist?list=PLrjlKdQ24UtKcroglJPc0jRYK1mRiPqei"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: гугл-документ с инструкцией к математическому конкурсу
+  # где размещена ссылка: Квантики, начиная с 2019-08, с.30
+  from = "https://kvan.tk/matkonkurs"
+  to = "https://docs.google.com/document/u/1/d/e/2PACX-1vS8oQI8oobwf7ZIzcshcBoSyhCtKzF-WXvbPoRNMrioeSvmPbwMfhMQhmzEllWx7izv8OskD3_o4Vo7/pub"
+  status = 301
+  force = true 
+  
+
+
+
+[[redirects]]
+  from = "https://kvan.tk/*"
+  to = "https://kvantik.com/shortener"
   status = 301
   force = true #COMMENT: ensure that we always redirect
