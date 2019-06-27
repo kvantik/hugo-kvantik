@@ -5,8 +5,17 @@
   force = true 
 
 [[redirects]]
+  # куда ведёт ссылка: электронные версии Квантика на сайте интернет-магазина МЦНМО
+  # где размещена ссылка: рекламная страница, все номера с 2019-08
+  from = "https://kvan.tk/e-shop"
+  to = "https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=&field_book_kind_value_many_to_one=1"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
   # куда ведёт ссылка: индекс Квантика на сайте Роспечати
-  # где размещена ссылка: рекламная страница, Альманах 14, с.214
+  # где размещена ссылка: рекламная страница, Альманах 14, с.214, и все номера с 2019-08
   from = "https://kvan.tk/rosp"
   to = "https://press.rosp.ru/publications/view/84252/"
   status = 301
