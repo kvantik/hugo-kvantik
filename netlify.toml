@@ -48,7 +48,13 @@
   status = 301
   force = true 
   
-
+[[redirects]]
+  # куда ведёт ссылка: 3D-модель гексеконтаэдра и триконтаэдра
+  # где размещена ссылка: Квантик 2019-09, с.23
+  from = "https://kvan.tk/hexe-tria"
+  to = "https://3dwarehouse.sketchup.com/model/5147b3d9-7fdc-4a99-9dcf-2cf02b502a19/Rhombic-Hexecontahedron-and-Rhombic-Triacontahedra-clusters-combined-to-form-Quasicrystal"
+  status = 301
+  force = true 
 
 
 [[redirects]]
