@@ -1,8 +1,19 @@
 [[redirects]]
-  from = "https://kvantik.com/rosp"
-  to = "https://press.rosp.ru/publications/view/84252/"
+  # куда ведёт ссылка: фотография NASA западного полушария Земли из космоса, сделанная Suomi NPP
+  # где размещена ссылка: статья "Два фото Земли", Квантик 2019-10
+  from = "https://kvan.tk/big-marble"
+  to = "https://www.nasa.gov/multimedia/imagegallery/image_feature_2159.html"
   status = 301
   force = true 
+  
+[[redirects]]
+  # куда ведёт ссылка: фотография NASA западного полушария Земли из космоса, сделанная MODIS
+  # где размещена ссылка: статья "Два фото Земли", Квантик 2019-10
+  from = "https://kvan.tk/small-marble"
+  to = "https://commons.wikimedia.org/wiki/File:Earth_Western_Hemisphere_2002.png"
+  status = 301
+  force = true 
+  
 
 [[redirects]]
   # куда ведёт ссылка: электронные версии Квантика на сайте интернет-магазина МЦНМО
