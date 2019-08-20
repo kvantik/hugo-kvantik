@@ -1,6 +1,9 @@
 from subprocess import call, check_output
 import os
 from functools import lru_cache
+import re
+import csv
+import requests
 
 repo_root = '../'  
 
@@ -46,3 +49,64 @@ def pdf2images(filename, output_dir, pages):
 def pdf2txt(filename, pages):
     return check_output('bash -c "pdf2txt -p {0} {1} "'.format(','.join(str(p) for p in pages),filename), shell=True).decode('utf8').split('\n')
     
+
+
+
+def sheet_url(sheet):
+  if type(sheet)==int:
+    sheet_id = {
+      2012: 640477208,
+      2013: 1675122960,
+      2014: 1893976624,
+      2015: 155630517,
+      2016: 1051356883,
+      2017: 2108776824,
+      2018: 1216387229, 
+      2019: 429063026,
+      }[sheet]
+  elif sheet.lower().startswith('alm'):
+    alm_num = re.findall(r'\d+',sheet)[0]
+    sheet_id = {
+      12: 936711077, 
+      13: 990127193, 
+      14: 1725308277,
+      }[int(alm_num)]
+  else:
+    raise ValueError
+  return f'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={sheet_id}&single=true&output=csv'
+
+
+def get_table(sheet):
+  csv_file = input(f"Введите имя файла таблицы {sheet} (в csv, ввод для гугл-таблицы): ")
+  if csv_file == '':
+    with requests.Session() as s:
+      content = s.get(sheet_url(sheet)).content.decode('utf-8')
+  else:
+    with open(csv_file, 'r', encoding='utf8') as f:
+      content = f.read()
+  content = content.splitlines()
+  headers = content[0].split(',')
+  headers = [h.lower().split(' ')[0] for h in headers]
+  content[0] = ','.join(headers)
+  return [dict(d) for d in csv.DictReader(content, delimiter=',')]
+
+
+def bash(command):
+  print(command)
+  call(f'bash -c "{command}"', shell=True)
+
+def clear_folder(folder):
+  if not os.path.exists(folder):
+    os.makedirs(folder)  
+  if len(os.listdir(folder)) > 0: # если папка не пуста - удалить из неё все файлы
+    input(f"Папка {folder} будет очищена. Нажмите Enter для продолжения (ctrl+c для выхода)")
+    bash(f"rm {folder}*")
+
+def copy_article(issues_folder, year, issue, firstpage, pages, output_folder, output_name):
+  input_file = f'{issues_folder}{year}-{str(issue).zfill(2)}.pdf'
+  output_file = f'{output_folder}{output_name}.pdf'
+  page_range = f'{int(firstpage)+2}-{int(firstpage)+int(pages)+1}'
+  command = f'pdftk {input_file} cat {page_range} output {output_file}'
+  bash(command)
+
+

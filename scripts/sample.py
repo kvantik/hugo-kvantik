@@ -7,17 +7,14 @@ from subprocess import call, check_call
 
 import csv
 import requests
-
 import common
 
-sheets = {2018: 1216387229, 2019: 429063026}
 
-CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={}&single=true&output=csv'.format(sheets[2019])
 
 
 def get_pages(num):
     with requests.Session() as s:
-        content = s.get(CSV_URL).content.decode('utf-8')
+        content = s.get(common.sheet_url(common.year)).content.decode('utf-8')
         table = list(csv.DictReader(content.splitlines(), delimiter=','))
     articles = [(int(t['Первая страница']), int(t['Всего страниц'])) for t in table if (t['Выпуск']==str(num)) and t['входит в сэмпл?'].strip()=='да']
     pages = [set(range(a[0]+2, a[0]+a[1]+2)) for a in articles]
