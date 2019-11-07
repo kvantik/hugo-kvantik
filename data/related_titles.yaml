@@ -1,6 +1,5 @@
 almanacs:
   title: Альманахи
-  description: Материалы всех журналов собраны в альманахи по полугодиям. Каждый альманах содержит материалы 6 журналов.
   issues:
     - ref: https://biblio.mccme.ru/node/6356/shop
       img: img/related_titles/almanac-1.jpg
@@ -35,7 +34,6 @@ almanacs:
 
 calendars:
   title: Календари
-  description: Настенный перекидной календарь загадок с решениями. На каждой странице – календарь на месяц и задача-картинка.
   issues:
     - ref: https://biblio.mccme.ru/node/3438/shop
       img: img/related_titles/calendar_2014.jpg
@@ -54,7 +52,6 @@ calendars:
 
 posters:
   title: Плакаты
-  description: В каждом комплекте 10 плакатов с занимательными задачами для школьных кабинетов математики и физики.
   issues:
     - ref: https://biblio.mccme.ru/node/5487/shop
       img: img/related_titles/posters-1.jpg
@@ -66,7 +63,6 @@ posters:
 
 biblio:
   title: Библиотечка
-  description: Библиотечка «Квантика» --- это книги, выходящие по материалам и в добавление к журналу.
   issues:
     - ref: https://biblio.mccme.ru/node/6165/shop
       img: img/related_titles/biblio-100graney.jpg

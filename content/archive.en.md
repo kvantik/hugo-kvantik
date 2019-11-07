@@ -39,13 +39,13 @@ tocmenu = true
 {{<related "calendars">}}
 
 
-# Своими руками {#DIY}
+# Do It Yourself {#DIY}
 
-- [Флексор с инструкцией](/extra/flexor.pdf)
-- [Заготовка для флексагона-полоски](/extra/flexagon_short.pdf)
-- [Квадратный флексагон с инструкцией](/extra/flexagon_square.pdf)
+- [A Flexor](/extra/flexor.pdf)
+- [A Line Flexagon](/extra/flexagon_short.pdf)
+- [A Square Flexagon](/extra/flexagon_square.pdf)
 
-# Видео {#video}
+# Video {#video}
 
 - [Архив онлайн-кружка «Квантика»](/online)
 - [Видео](http://www.youtube.com/playlist?list=PLrjlKdQ24UtJOU_hY7W1OVtUhEIgy4Miw) к статьям рубрики «Четыре стихии Эмпедокла»

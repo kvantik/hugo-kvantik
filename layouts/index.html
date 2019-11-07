@@ -6,7 +6,7 @@
                         </div>
         <!-- /#content -->
 
- 
+ {{if eq .Lang "ru"}}
             <div class="heading"><h2>Новости</h2></div>
 
     {{range where .Site.Pages "Section" "news"}}
@@ -25,7 +25,7 @@
                         {{end}}...
                         </h4>
 
-
+  {{end}}
 {{end}}
 
 

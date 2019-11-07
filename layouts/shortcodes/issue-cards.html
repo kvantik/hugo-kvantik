@@ -1,7 +1,7 @@
-{{$pages := .Site.Pages}}
-
-  <h2 style="text-align: center; clear:both; padding-top: 15pt;"> {{.Get 0}} год</h2> 
+{{$pages := where .Site.AllPages "Params.year" (.Get 0)}}
+{{.Scratch.Set "lang" .Page.Lang}}
+  <h2 style="text-align: center; clear:both; padding-top: 15pt;"> {{.Get 0}} {{if eq .Page.Lang "ru"}}год{{else}}year{{end}}</h2> 
   <div class="clearfix">
-    {{range (where $pages "Params.year" (.Get 0) ).Reverse}}{{.Render "card"}}{{end}}
+    {{range $pages.Reverse}}{{.Render "card"}}{{end}}
   </div>
 

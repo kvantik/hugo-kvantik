@@ -6,6 +6,9 @@
         <a {{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .)}}class="active"{{else}}href="{{.URL}}"{{end}}>{{.Name}}</a>
 		{{- end}}{{end -}}		
     </div>
+        {{ range .Translations }}
+        <a href="{{ .Permalink }}">{{if eq .Lang "en"}} English version{{else}} Русская версия{{end}}</a>
+        {{ end }}
 
 
 {{- if eq .Section "konkurs" }}

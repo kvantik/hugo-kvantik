@@ -4,9 +4,9 @@
       <img src="/issue/cover/{{$issue}}.jpg" alt="Обложка" width="150">
     <div class="desc"><b> 
     {{if (and (isset .Params "sample") (eq .Params.sample true) )}}
-    Примеры статей.
+    {{if eq .Page.Lang "ru"}}Примеры статей.{{else}}Selected articles.{{end}}
     {{else}}
-    Полная версия. 
+    {{if eq .Page.Lang "ru"}}Полная версия.{{else}}Complete issue.{{end}}
     {{end}}
     №{{strings.TrimLeft "0" .Params.month}} ({{.Params.year}})
     </b></div>

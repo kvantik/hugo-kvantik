@@ -1,31 +1,8 @@
 +++ 
-title = "Главная" 
+title = "Main" 
 date = "2017-02-09T14:57:52+03:00"
 [menu.main]
  weight = -1
-
-[[boxes]]
-text = "по математике, присылайте решения до 1-го числа!"
-title = "Наш конкурс"
-url = "/konkurs/math/"
-icon = "lightbulb-o"
-[[boxes]]
-text = "Архив занятий прошлых лет"
-title = "Онлайн-кружок"
-url = "http://kvantik.com/online.html"
-[[boxes]]
-title = "Интернет-магазин"
-text = "Здесь вы можете купить свежие номера и все альманахи."
-url = "http://www.kvantik.ru"
-icon = "shopping-basket"
-[[boxes]]
-title = "Издания"
-url = "/related_titles/"
-icon = "book"
-text = '''
-- альманахи
-- плакаты с задачами-картинками
-- календари
 '''
 
 +++

@@ -1,14 +1,14 @@
 {{define "content"}}
 
 {{.Content}}
-
-						<h4 class="text-center"> Все выпуски по годам: 
+{{if eq .Lang "ru"}}{{$year := index (split .URL "/") 2}}{{else}}{{$year := index (split .URL "/") 3}}{{end}}
+{{$year := index (split .URL "/") 2}}
+						<h4 class="text-center"> {{if eq .Lang "ru"}}Все выпуски по годам:{{else}}All issues by year:{{end}}
                         {{range (where (where .Site.Pages "Section" "issue") "Kind" "section") }}
                         {{if in .URL "20"}}<a href="{{.URL}}">{{index (split .URL "/") 2}}</a>,{{end}}
                         {{end}}...
                         </h4>
-
-{{$year := index (split .URL "/") 2}}
+                    
 
 <table class="noborder">
 {{range (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
