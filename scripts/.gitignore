@@ -1,2 +1,4 @@
 /local/
 __pycache__
+.vscode
+*.code-workspace

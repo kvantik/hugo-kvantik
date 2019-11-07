@@ -1,12 +1,16 @@
 {{define "content"}}
 {{.Content}}
 {{$konkurstype :=  index (split .File.Dir "/") 1}}
+{{$latestmath := string (delimit (slice "konkurs/math/" (.Params.latest.year) ".md") "")}}
+{{$latestrus := string (delimit (slice "konkurs/rus/" (.Params.latest.year) ".md") "")}}
+
 
 {{if eq $konkurstype "math"}}
-{{with (.Site.GetPage "page" "konkurs/math/2018-2019.md")}}{{.Render "tours"}}{{end}}
+{{with (.Site.GetPage "page" $latestmath)}}{{.Render "tours"}}{{end}}
 {{else}}
 {{with (.Site.GetPage "page" "konkurs/rus/2019.md")}}{{.Render "tours"}}{{end}}
 {{end}}
+
 
 {{end}}
 

@@ -16,10 +16,10 @@ latest:
 
 Поздравляем [победителей](winners/2018.pdf) конкурса 2018 года!
 Задачи и результаты конкурсов прошлых лет: 
-[2018]({{< ref "konkurs/rus/2018.md" >}}),
-[2017]({{< ref "konkurs/rus/2017.md" >}}),
-[2016]({{< ref "konkurs/rus/2016.md" >}}),
-[2015]({{< ref "konkurs/rus/2015.md" >}}).
+[2018]({{< ref "/konkurs/rus/2018.md" >}}),
+[2017]({{< ref "/konkurs/rus/2017.md" >}}),
+[2016]({{< ref "/konkurs/rus/2016.md" >}}),
+[2015]({{< ref "/konkurs/rus/2015.md" >}}).
 
 
 Решения **{{< konkurs tour >}} тура** ждём по адресу {{< mail ruskonkurs "kvantik.org" >}} не позднее **{{< konkurs deadline >}}**.

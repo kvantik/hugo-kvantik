@@ -6,19 +6,19 @@ title: Онлайн-кружок
 <h1>Онлайн-кружок «Квантика»</h1>
 
 <p>
-Мы открываем бесплатный онлайн-кружок «Квантика» для всех, кому интересно узнавать новые интересные и полезные сюжеты по математике, физике и другим естественным наукам. В первую очередь кружок будет интересен школьникам 4-7 класса.
+Бесплатный онлайн-кружок «Квантика» предназначен для всех, кому интересно узнавать новые интересные и полезные сюжеты по математике, физике и другим естественным наукам. В первую очередь кружок будет интересен школьникам 4-7 класса. Занятия проходили в 2013-2017 годах, сейчас кружок приостановлен.
 </p>
 
+<!--
 <p>
 Занятия проходят по четвергам (с 17:00 до 18:00 по московскому времени). 
 
-<!--
 <p>
 <b>Кружок проходит еженедельно на базе <a href="http://www.100ege.ru">Центра онлайн обучения</a>.</b> 
 </p>
 -->
 <p>
-Записи занятий выкладываются на <a href="http://www.youtube.com/user/kvantik12">нашем канале на YouTube</a> (<a href="http://www.youtube.com/subscription_center?add_user=kvantik12">подписаться на канал</a>).
+Ниже архив анонсов занятий. Записи занятий выкладывались на <a href="https://www.youtube.com/user/kvantik12">нашем канале на YouTube</a> (<a href="https://www.youtube.com/subscription_center?add_user=kvantik12">подписаться на канал</a>).
 </p>
 
 <table class="noborder">
@@ -835,7 +835,7 @@ title: Онлайн-кружок
 Видео с чатом можно <a href="http://www.100ege.ru/tasks/video?l=3417">посмотреть тут</a>. <br />
 </td>
 <td class="noborder" align="left">
-<iframe width="420" height="315" src="http://www.youtube.com/embed/WMFqsD-__rs" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/WMFqsD-__rs" frameborder="0" allowfullscreen></iframe>
 </td>
 </tr>
 <tr class="noborder" valign="top">
@@ -848,7 +848,7 @@ title: Онлайн-кружок
 Видео с чатом можно <a href="http://www.100ege.ru/tasks/video?l=3418">посмотреть тут</a>. <br />
 </td>
 <td class="noborder">
-<iframe width="420" height="315" src="http://www.youtube.com/embed/-tDUzPTYnUE" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/-tDUzPTYnUE" frameborder="0" allowfullscreen></iframe>
 </td>
 </tr>	
 <tr class="noborder" valign="top">
@@ -861,7 +861,7 @@ title: Онлайн-кружок
 Видео с чатом можно <a href="http://www.100ege.ru/tasks/video?l=3419" target="_blank">посмотреть тут</a>.<br />
 </td>
 <td class="noborder">
-<iframe width="420" height="315" src="http://www.youtube.com/embed/1wtgRM7Xmgw?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1wtgRM7Xmgw?rel=0" frameborder="0" allowfullscreen></iframe>
 </td>
 </tr>	
 </table class="noborder">

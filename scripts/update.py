@@ -3,7 +3,7 @@
 
 import common
 import cover
-import pdf2konkurs
+import konkurs
 import sample
 
 
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     num = int(input('Номер выпуска? '))
     pdf = common.pdf(num)
     #print('local/pdfs/2018-{:0>2}.pdf'.format(num))
-    pdf2konkurs.extract(pdf)
+    konkurs.extract(pdf)
     cover.get_cover(pdf)    
     sample.make_sample(num, pdf)
 
