@@ -26,7 +26,7 @@ Social «Kvantik»:
 [![Youtube](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)
 
 # Editorial Board
-*Managing editor:* Сергей Дориченко  
+*Managing editor:* Sergey Dorichenko
 
 *Editors:* Valentina Astashkina, Elena Kotko, Irina Makhovaya, Alexander Perepechko, Maksim Prasolov
 

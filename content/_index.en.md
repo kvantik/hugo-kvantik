@@ -3,8 +3,6 @@ title = "Main"
 date = "2017-02-09T14:57:52+03:00"
 [menu.main]
  weight = -1
-'''
-
 +++
 
 Here is a monthly magazine for curious kids “Kvantik”. The magazine is

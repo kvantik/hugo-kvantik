@@ -1,0 +1,5 @@
+						<h4 class="text-center"> {{if eq .Lang "ru"}}Все выпуски по годам:{{else}}All issues by year:{{end}}
+                        {{range (sort (where (where .Site.Pages "Section" "issue") "Kind" "page") "File.TranslationBaseName" "asc")}}
+                        {{if in .URL "20"}}<a href="{{.URL}}">{{.File.TranslationBaseName}}</a>,{{end}}
+                        {{end}}...
+                        </h4>

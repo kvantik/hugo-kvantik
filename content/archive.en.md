@@ -41,12 +41,12 @@ tocmenu = true
 
 # Do It Yourself {#DIY}
 
-- [A Flexor](/extra/flexor.pdf)
-- [A Line Flexagon](/extra/flexagon_short.pdf)
-- [A Square Flexagon](/extra/flexagon_square.pdf)
+- [The Flexor](/extra/flexor.pdf)
+- [The Line Flexagon](/extra/flexagon_short.pdf)
+- [The Square Flexagon](/extra/flexagon_square.pdf)
 
 # Video {#video}
 
-- [Архив онлайн-кружка «Квантика»](/online)
-- [Видео](http://www.youtube.com/playlist?list=PLrjlKdQ24UtJOU_hY7W1OVtUhEIgy4Miw) к статьям рубрики «Четыре стихии Эмпедокла»
-- [Видео](http://zadachi.mccme.ru/misc/adpk/) о том, как построить электросхему из подручных средств. «Логические кубики» изготовили Михаил Панов и Артемий Шведов. Рассказывает Александр Зайцев.
+- [Archive of "Kvantik"'s online classes](/online)
+- [Video](http://www.youtube.com/playlist?list=PLrjlKdQ24UtJOU_hY7W1OVtUhEIgy4Miw) for the article series «Four elements of Empedocles»
+- [Video](http://zadachi.mccme.ru/misc/adpk/) about a do-it-yourself logical circuit. Constructed by Mikhail Panov and Artemiy Shvedov. Explained by Alexander Zaitsev.

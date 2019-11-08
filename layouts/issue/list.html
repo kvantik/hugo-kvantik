@@ -1,20 +1,15 @@
 {{define "content"}}
 
+
+{{$files := partialCached "issue/issues_list" .}}
 {{.Content}}
-{{if eq .Lang "ru"}}{{$year := index (split .URL "/") 2}}{{else}}{{$year := index (split .URL "/") 3}}{{end}}
-{{$year := index (split .URL "/") 2}}
-						<h4 class="text-center"> {{if eq .Lang "ru"}}Все выпуски по годам:{{else}}All issues by year:{{end}}
-                        {{range (where (where .Site.Pages "Section" "issue") "Kind" "section") }}
-                        {{if in .URL "20"}}<a href="{{.URL}}">{{index (split .URL "/") 2}}</a>,{{end}}
-                        {{end}}...
-                        </h4>
-                    
+{{$lang := .Page.Lang}}
+
+{{partial "issue/nav" .}}                    
 
 <table class="noborder">
-{{range (where (where .Site.Pages "Section" "issue") "Kind" "page")}}
-{{if in .URL $year}}
-{{.Render "slogans-card"}} 
-{{end}}
+{{range $files}}
+{{partial "issue/slogans-card" (merge . (dict "lang" $lang))}} 
 {{end}}
 </table>
 

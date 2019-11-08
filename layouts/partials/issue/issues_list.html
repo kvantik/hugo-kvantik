@@ -1,0 +1,11 @@
+{{$files := slice}}
+
+{{range readDir "/static/issue/pdf"}}
+  {{$year := substr .Name 0 4}}
+  {{$month := substr .Name 5 2}}
+  {{$sample := in (string .Name) "sample"}}
+  {{$issue := string (delimit (slice $year "-" $month) "")}}
+  {{$pdf := .Name}}
+  {{$files = $files | append (dict "year" $year "month" $month "is_sample" $sample "issue" $issue "pdf" $pdf)}} 
+{{end}}
+{{return $files}}

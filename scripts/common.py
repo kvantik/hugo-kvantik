@@ -77,9 +77,11 @@ def sheet_url(sheet):
   return f'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={sheet_id}&single=true&output=csv'
 
 
-def get_table(sheet):
-  csv_file = input(f"Введите имя файла таблицы {sheet} (в csv, ввод для гугл-таблицы): ")
-  if csv_file == '':
+def get_table(sheet, gsheet=False):
+  if not gsheet:
+    csv_file = input(f"Введите имя файла таблицы {sheet} (в csv, ввод для гугл-таблицы): ")
+    gsheet = csv_file == ''
+  if gsheet:
     with requests.Session() as s:
       content = s.get(sheet_url(sheet)).content.decode('utf-8')
   else:

@@ -1,7 +1,17 @@
-{{$pages := where .Site.AllPages "Params.year" (.Get 0)}}
-{{.Scratch.Set "lang" .Page.Lang}}
-  <h2 style="text-align: center; clear:both; padding-top: 15pt;"> {{.Get 0}} {{if eq .Page.Lang "ru"}}год{{else}}year{{end}}</h2> 
-  <div class="clearfix">
-    {{range $pages.Reverse}}{{.Render "card"}}{{end}}
-  </div>
+{{$year:= string (.Get 0)}}
+{{$lang := .Page.Lang}}
+{{$issues := partialCached "issue/issues_list" .}}
+<h2 style="text-align: center; clear:both; padding-top: 15pt;"> {{$year}} {{if eq .Page.Lang "ru"}}год{{else}}year{{end}}</h2> 
+<div class="clearfix">
+{{range (slice "12" "11" "10" "09" "08" "07" "06" "05" "04" "03" "02" "01")}}
+  {{$issue := (where (where $issues "year" $year) "month" .)}}
+  {{$sample := (where $issue "is_sample" true)}}
+  {{$complete :=(where $issue "is_sample" false)}}
+  {{if (eq 1 (len $complete))}} 
+  <div class="responsive">{{partial "issue/card" (merge (index $complete 0) (dict "lang" $lang))}} </div>  
+  {{else if (eq 1 (len $sample))}}
+  <div class="responsive">{{partial "issue/card" (merge (index $sample 0) (dict "lang" $lang))}}</div>
+  {{end}}  
+{{end}}
+</div>
 

@@ -1,0 +1,14 @@
+
+<div class="gallery">
+    <a target="_blank" href="/issue/pdf/{{.pdf}}" style="display:block;">
+      <img src="/issue/cover/{{.issue}}.jpg" alt="Обложка" width="150">
+    <div class="desc"><b> 
+    {{if .is_sample}}
+    {{if eq .lang "ru"}}Примеры статей.{{else}}Selected articles.{{end}}
+    {{else}}
+    {{if eq .lang "ru"}}Полная версия.{{else}}Complete issue.{{end}}
+    {{end}}
+    №{{strings.TrimLeft "0" .month}} ({{.year}})
+    </b></div>
+    </a>
+</div>

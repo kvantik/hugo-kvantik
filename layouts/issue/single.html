@@ -1,19 +1,24 @@
 {{define "content"}}
 
+{{.Content}}
 
-<section class="bar background-white no-mb">
-<div class="container">
-<div class="col-md-12">
-                    <div class="text-center">
-                        <h2> Журнал №{{trim .Params.month "0-"}} {{.Params.year}}-го года </h2>
-                        <table class="noborder">
-                        {{.Render "slogans-card"}}
-                        </table>
-                    </div>
-</div>
-</div>
-</section>
+{{$issues := partialCached "issue/issues_list" .}}
+{{$lang := .Page.Lang}}
+{{$year := .File.TranslationBaseName}}
 
+{{partialCached "issue/nav" .}}                    
 
+<table class="noborder">
+{{range (slice "12" "11" "10" "09" "08" "07" "06" "05" "04" "03" "02" "01")}}
+{{$issue := (where (where $issues "year" $year) "month" .)}}
+  {{$sample := (where $issue "is_sample" true)}}
+  {{$complete :=(where $issue "is_sample" false)}}
+  {{if (eq 1 (len $complete))}} 
+  {{partial "issue/slogans-card" (merge (index $complete 0) (dict "lang" $lang))}} 
+  {{else if (eq 1 (len $sample))}}
+  {{partial "issue/slogans-card" (merge (index $sample 0) (dict "lang" $lang))}} 
+  {{end}}  
+{{end}}
+</table>
 
 {{end}}
