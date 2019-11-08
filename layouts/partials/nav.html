@@ -7,7 +7,7 @@
 		{{- end}}{{end -}}		
     </div>
         {{ range .Translations }}
-        <a href="{{ .Url }}">{{if eq .Lang "en"}} English version{{else}} Русская версия{{end}}</a>
+        <a href="{{ .URL }}">{{if eq .Lang "en"}} English version{{else}} Русская версия{{end}}</a>
         {{ end }}
 
 
