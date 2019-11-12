@@ -1,8 +1,0 @@
-{{if (isset .Params "image")}}
-<div style="margin: 20px 20px 0 0;  overflow: auto;">                
-    <div style="float: left;"><img style="display: block; max-height: 100px;" src="img/news/{{.Params.image}}"/></div>
-    <div><p>{{.Content | markdownify}}</p></div>
-</div>
-{{else}}
-<p>{{.Content | markdownify}}</p>
-{{end}}

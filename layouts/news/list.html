@@ -1,0 +1,8 @@
+{{define "content"}}
+{{.Content}}
+<table class="noborder"> <tbody>
+{{range (sort .Site.Data.news.news "number" "desc")}}
+{{partial "news/li" .}}
+{{end}}
+</tbody></table>
+{{end}}

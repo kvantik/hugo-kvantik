@@ -8,10 +8,12 @@
 
  {{if eq .Lang "ru"}}
             <div class="heading"><h2>Новости</h2></div>
-
-    {{range where .Site.Pages "Section" "news"}}
-    {{.Render "short"}}
-    {{end}}
+        <table class="noborder"> <tbody>
+        {{range (first 3 (sort .Site.Data.news.news "number" "desc"))}}
+        {{partial "news/li" .}}
+        {{end}}
+         </tbody></table>
+        {{"[Остальные новости](/news)" | markdownify}}
   {{end}}
 
             <div class="heading"><h2>{{if eq .Lang "ru"}}Последние выпуски{{else}}Latest issues{{end}}</h2></div>

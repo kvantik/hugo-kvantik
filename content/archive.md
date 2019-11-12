@@ -13,7 +13,7 @@ tocmenu = true
 
 
 # Журналы {#issues}
-
+В [рубрикаторе](http://old.kvantik.com/art/index.html) можно найти статьи журнала, вышедшие не позднее, чем полгода назад.
 {{<issue-cards 2019>}}
 {{<issue-cards 2018>}}
 {{<issue-cards 2017>}}
