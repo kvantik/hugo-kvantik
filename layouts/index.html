@@ -18,9 +18,9 @@
                         <table class="noborder">
                         {{$issues := partialCached "issue/issues_list" .}}
             						{{$latest := (last 3 (where $issues "is_sample" true))}}
-						            {{partial "issue/slogans-card" (index $latest 2)}}
-						            {{partial "issue/slogans-card" (index $latest 1)}}
-						            {{partial "issue/slogans-card" (index $latest 0)}}
+						            {{partial "issue/slogans-card" (merge (index $latest 2) (dict "lang" .Page.Lang))}} 
+						            {{partial "issue/slogans-card" (merge (index $latest 1) (dict "lang" .Page.Lang))}}
+						            {{partial "issue/slogans-card" (merge (index $latest 0) (dict "lang" .Page.Lang))}}
                         </table>
 						{{partialCached "issue/nav" .}}
 
