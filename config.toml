@@ -17,7 +17,6 @@ disqusShortname = ""
 
 SectionPagesMenu = "lazy"
 
-
 [taxonomies]
   author = "authors"
   illustrator = "illustrators"
