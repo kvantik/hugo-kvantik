@@ -1,4 +1,22 @@
 [[redirects]]
+  # куда ведёт ссылка: видео сифона на Викимедиа
+  # где размещена ссылка: статья "Самозапускающийся сифон", Квантик 2020-01
+  from = "https://kvan.tk/siphon"
+  to = "https://upload.wikimedia.org/wikipedia/commons/5/53/Siphon.webm"
+  status = 301
+  force = true 
+  
+[[redirects]]
+  # куда ведёт ссылка: видео самодельной чаши Тантала на Викимедиа
+  # где размещена ссылка: статья "Самозапускающийся сифон", Квантик 2020-01
+  from = "https://kvan.tk/tantalus"
+  to = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tantalus_cup.webm"
+  status = 301
+  force = true 
+  
+
+
+[[redirects]]
   # куда ведёт ссылка: примеры иллюзии Манкера-Уайта на странице Дэвида Новика
   # где размещена ссылка: статья "Какого же цвета сердечки?", Квантик 2019-11
   from = "https://kvan.tk/novick"
