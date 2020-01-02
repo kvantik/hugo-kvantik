@@ -21,7 +21,7 @@
   <div class="media-body">
     <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
     <p>{{.problem | markdownify}}</p>
-    {{with .image_scheme}} <img src="{{$page.URL}}{{.}}" alt="Чертёж" class="media-object" style="max-height:120px; max-width:200px;" />{{end}}
+    {{with .image_scheme}} <img src="{{$page.URL}}{{.}}" alt="Чертёж" class="media-object" style="max-height:160px; max-width:400px;" />{{end}}
   </div>
   {{if (modBool 2 2)}}
   <div class="media-right">

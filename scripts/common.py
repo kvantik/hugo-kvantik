@@ -6,6 +6,8 @@ import csv
 import requests
 
 repo_root = '../'  
+year = 2020
+
 
 @lru_cache()
 def pdfs():
@@ -18,8 +20,6 @@ def pdfs():
     return pdfs
      
      
-year = 2019
-
 
 def pdf(num=None, year=year):
   if num == None:
@@ -63,6 +63,7 @@ def sheet_url(sheet):
       2017: 2108776824,
       2018: 1216387229, 
       2019: 429063026,
+      2020: 589627342,
       }[sheet]
   elif sheet.lower().startswith('alm'):
     alm_num = re.findall(r'\d+',sheet)[0]

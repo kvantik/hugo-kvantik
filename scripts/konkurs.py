@@ -50,25 +50,37 @@ def get_problem(lines, num):
     problem = [s for s in enumerate(lines) if ("{}.".format(num) in string.strip())][0]
     
 
-def skip_until(lines, token):
+def pop_until(lines, token):
     res = ''
     while len(lines)!=0 and (token not in lines[0]):
-        res += lines[0].strip("\n")
+        res += lines[0] + '\n'
         lines.pop(0)
     return res
+    
+def text_finalize(text):
+  text = text.strip()
+  text = text.replace('\ue090','°') # знак градуса
+  text = text.replace('\ue028','×') # знак умножения
+  text = text.replace('-\n','') # перенос
+  text = text.replace('\n','')
+  text = text.replace('\t',' ')
+  return text
        
 def parse_tour(lines, kind="math"):
-    skip_until(lines, "ТУР")
+    pop_until(lines, "ТУР")
     authors = get_authors(lines, kind=kind)
     print(lines)
-    firstnum = int(re.match( r'\d+', next(x for x in lines if bool(re.search(r'\d+.', x))==True)  ).group(0))
+    try:
+      firstnum = int(re.match( r'\d+', next(x for x in lines if bool(re.search(r'\d+.', x))==True)  ).group(0))
+    except:
+      firstnum = 1
     print("Номер первой задачи:", firstnum)
-    skip_until(lines, '{}.'.format(firstnum))
+    pop_until(lines, '{}.'.format(firstnum))
     firstnum = int(re.match( r'\d+.', lines[0].strip() ).group(0)[:-1])
     problems = []
     for i in range(firstnum, firstnum+5):
         problems.append({
-            "problem": skip_until(lines, '{}.'.format(i+1))[3:].strip(),
+            "problem": text_finalize(pop_until(lines, '{}.'.format(i+1))[3:]),
             "author": authors[i] if i in authors.keys() else "",
             "image_art": "{}.png".format(i),
             "image_scheme": "",
@@ -88,43 +100,11 @@ def extract(filename, kind='math'):
     directory = get_directory(filename, kind)
     pages = get_pages(kind)    
     common.pdf2images(filename, directory, pages)    
-    problems = common.pdf2txt(filename, pages)
-    print(problems)
-    lines = problems[:]
+    lines = common.pdf2txt(filename, pages)
+    tour = parse_tour(lines, kind=kind)
+    with open(directory+str(tour['tour']['number'])+'.yaml','w') as text:        
+        text.writelines(yaml.dump(tour, allow_unicode=True, default_flow_style=False, width = 10000))
 
-    # old generation start
-    tour_string_num = [i for i, string in enumerate(problems) if ("ТУР" in string.strip())][0]
-    print(problems[tour_string_num])
-    problems = problems[tour_string_num+1:]
-    while(bool(re.search(r'\d', problems[0]))==False):
-        problems.pop(0)
-    print(problems)
-    firstnum = int(re.match( r'\d+', problems[0].strip() ).group(0))
-    print(firstnum)
-    tour = firstnum//5+1
-
-    template = ['tour:\n',
-                    '  number: {}\n'.format(tour),
-                    '  title: {} тур\n'.format(to_roman(tour)),
-                    '  deadline: 1 (месяц?)\n',
-                    '  problems:\n']    
-    for i in range(firstnum, firstnum+5):
-            template.append("""
-  - author:
-    image_art: {0}.png
-    image_scheme: ''
-    number: {0}
-    problem: ''
-            """.format(i))
-    template.append('\n')
-
-    with open(directory+str(tour)+'.old.yaml','w') as text:        
-        text.writelines(template)
-        text.writelines(problems)
-    # old generation stop
-
-    with open(directory+str(tour)+'.yaml','w') as text:        
-        text.writelines(yaml.dump(parse_tour(lines, kind=kind), allow_unicode=True, default_flow_style=False, width = 10000))
 
 if __name__ == "__main__":
     num=int(input('Номер выпуска: '))

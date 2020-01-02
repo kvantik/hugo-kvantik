@@ -84,6 +84,9 @@ SectionPagesMenu = "lazy"
 [blackfriday]
   angledQuotes = true
   fractions = false
+
+[markup.goldmark.renderer]
+unsafe= true
   
 [languages]
 [languages.ru]
