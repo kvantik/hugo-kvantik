@@ -79,7 +79,7 @@ var layout2 = {
   barmode: "overlay", 
   title: "Распределение сумм", 
   xaxis: {
-    tickvals: [101,102,103,104,105,106],
+    tickvals: [100,101,102,103,104,105],
     fixedrange: true,
   },
 };
