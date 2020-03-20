@@ -1,4 +1,42 @@
 [[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvan.tk/jellyfish4"
+  to = "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cartesian_Jellyfish_4.webm"
+  status = 301
+  force = true 
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvan.tk/jellyfish3"
+  to = "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cartesian_Jellyfish_3.webm"
+  status = 301
+  force = true 
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvan.tk/jellyfish2"
+  to = "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cartesian_Jellyfish_2.webm"
+  status = 301
+  force = true 
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvan.tk/jellyfish1"
+  to = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cartesian_Jellyfish_1.webm"
+  status = 301
+  force = true 
+[[redirects]]
+  # куда ведёт ссылка: видео со всплытием картезианского водолаза
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvan.tk/diver"
+  to = "https://upload.wikimedia.org/wikipedia/commons/0/0a/Картезианский_водолаз.webm"
+  status = 301
+  force = true 
+
+
+
+[[redirects]]
   # куда ведёт ссылка: развёртка тороидального многогранника из семиугольников
   # где размещена ссылка: статья "Многогранник из семиугольников?", с.8, Квантик 2020-04
   from = "https://kvan.tk/7dode-fold"
