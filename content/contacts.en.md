@@ -28,7 +28,7 @@ Social «Kvantik»:
 # Editorial Board
 *Managing editor:* Sergey Dorichenko
 
-*Editors:* Valentina Astashkina, Sergey Dorichenko, Elena Kotko, Irina Makhovaya, Alexander Perepechko, Maksim Prasolov
+*Editors:* Valentina Astashkina, Elena Kotko, Irina Makhovaya, Grigory Merzon, Alexander Perepechko, Maksim Prasolov
 
 *Сhief Artist:* Yustas-07  
 
