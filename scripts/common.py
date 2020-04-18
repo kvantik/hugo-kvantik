@@ -73,6 +73,8 @@ def sheet_url(sheet):
       14: 1725308277,
       15: 2135853335,
       }[int(alm_num)]
+  elif sheet == 'inbox':
+    sheet_id = 1996229940
   else:
     raise ValueError
   return f'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={sheet_id}&single=true&output=csv'
@@ -94,6 +96,13 @@ def get_table(sheet, gsheet=False):
   content[0] = ','.join(headers)
   return [dict(d) for d in csv.DictReader(content, delimiter=',')]
 
+
+  
+def put_table(table, filename = 'table.csv'):
+  with open('local/'+filename, 'w') as file:
+    writer = csv.DictWriter(file, table[0].keys())
+    writer.writerows(table)
+        
 
 def bash(command):
   print(command)
