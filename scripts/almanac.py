@@ -14,6 +14,7 @@ table = common.get_table('almanac'+str(issue))
 
 filler_file = issues_folder+'/../almanacs/alm-12-ed-1.pdf'
 
+
 if issue == 15:
     with open('alm15-ia.txt', 'r') as file:
         ia_order = [line.strip('\n').split('\t') for line in file.readlines()]
