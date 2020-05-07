@@ -6,6 +6,14 @@
   status = 301
   force = true 
 
+[[redirects]]
+  # куда ведёт ссылка: Примеры магических квадратов из полимино
+  # где размещена ссылка: Статья "Как Бусенька украшала торт" в сборнике сказок Кохася
+  from = "https://kvan.tk/sloniki"
+  to = "http://puzzlezapper.com/blog/2011/01/magic-squares-and-polyominoes/"
+  status = 301
+  force = true 
+
 
 [[redirects]]
   # куда ведёт ссылка: видео с задачей Эйнштейна о чаинках
