@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: aperep/hugo-kvantik
+  repo: kvantik/hugo-kvantik
   branch: oldstyle
 
 media_folder: "static/img/partners" # Media files will be stored in the repo under static/images/uploads
