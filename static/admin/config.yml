@@ -55,10 +55,10 @@ collections: # A list of collections the CMS should be able to edit
         name: "store" 
         widget: "list"
         fields:
-          - {label: "Название", name: "name", widget: "markdown"}
-          - {label: "Продаёт", name: "sells", widget: "markdown"}
-          - {label: "Доставка", name: "delivery", widget: "markdown"}
-          - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number"}
+          - {label: "Название", name: "name", widget: "markdown", required: false}
+          - {label: "Продаёт", name: "sells", widget: "markdown", required: false}
+          - {label: "Доставка", name: "delivery", widget: "markdown", required: false}
+          - {label: "Введите 0, чтобы спрятать с сайта", name: "available", widget: "number", required: false}
           - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
 
   - name: "buy-retail" # Used in routes, ie.: /admin/collections/:slug/edit
