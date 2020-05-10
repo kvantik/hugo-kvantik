@@ -377,10 +377,9 @@ store:
     name: |-
       [Белый кролик](https://www.instagram.com/p/B-cO0wzDizT/)
       (https://www.belykrolik.ru/)
-    sells: "* [Журналы] ()\r
-
-      * [Альманахи] ()\r
-
-      * [Календарь загадок на 2020 год] ()\r\n"
+    sells: |
+      * [Журналы] 
+      * [Альманахи] 
+      * [Календарь загадок на 2020 год] 
     delivery: "* [Доставка курьером: Москва и ближайшее
       Подмомсковье](https://www.belykrolik.ru/dostavka/)"
