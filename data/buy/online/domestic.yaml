@@ -359,3 +359,17 @@ store:
       *   Международная доставка службой «DHL»\r\n"
     available: 0
     dump: Международная доставка то появляется, то исчезает
+  - name: "[Читай-город] (https://www.chitai-gorod.ru)"
+    sells: >-
+      * [Альманахи]
+      (https://www.chitai-gorod.ru/search/result/?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&page=1)
+
+      * ["Перепутаница", С.Федин] (https://www.chitai-gorod.ru/catalog/book/1208352/)
+    delivery: >-
+      * Самовывоз: в магазинах «Читай-город», Связной – Заббери, 
+
+      PickPoint, СДЭК, Евросеть, BoxBerry, IML, DPD, 5post: выдача на кассе магазина и постоматах «Пятёрочка»;
+
+      * Курьерская доставка;
+
+      * Почта России
