@@ -13,19 +13,18 @@ store:
       *   Доставка почтой Украины\r
 
       Доставка Авиапочтой за пределы Украины\r\n"
-    dump: ""
+    dump: |-
+      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14700607/)
+      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14673272/)
+      *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
     name: "[bookshop](http://www.bookshop.ua/)"
     sells: >+
-      *   [Журналы и
-      Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?D1=4&B1=Go&Find=%EA%E2%E0%ED%F2%E8%EA&Pr1=1&Cr=Catalog&Chstr=)
+      *   [Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?Find=%EA%E2%E0%ED%F2%E8%EA%2E+%C0%EB%FC%EC%E0%ED%E0%F5&Cr=Catalog&D1=1&pr1=2)
 
-      *   [Плакаты (комплект №2)](http://www.bookshop.ua/a13578098/)
+      * ["Перепутаница", С.Федин] (http://www.bookshop.ua/a15249323/)
 
-      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14700607/)
+      *  ["Сто граней математики", М.Евдокимов ] (http://www.bookshop.ua/a14929562/)
 
-      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14673272/)
-
-      *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
 
 
 
