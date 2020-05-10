@@ -122,13 +122,16 @@ store:
 
       *   [Плакаты (комплект №3)](http://www.book-stock.ru/catalog/poznavatelnye_plakaty_dlja_shkolnikov_zanimatelnye_zadachi_ot_moskovskij_centr_nepreryvnogo_2017.html)
 
-      *   [Календарь загадок на 2019 год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_na_2019_god.html)
-
-      *   [Календарь загадок на 2018 год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_na_2018_god_moskovskij_centr_nepreryvnogo_2018.html)
+      *   [Календарь загадок на 2020 год](http://www.book-stock.ru/catalog/kalendar_zagadok_2020_god_ot_zhurnala_kvantik_moskovskij_centr_nepreryvnogo_2020.html)
 
       *   [Календарь загадок на 2016 год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_2016_moskovskij_centr_nepreryvnogo_2016.html)
 
       * ["Перепутаница", С.Федин](http://www.book-stock.ru/catalog/pereputanica_fedin_s_n_moskovskij_centr_2019.html) 
+    dump: >-
+      *   [Календарь загадок на 2019
+      год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_na_2019_god.html)
+
+      *   [Календарь загадок на 2018 год](http://www.book-stock.ru/catalog/kalendar_zagadok_ot_zhurnala_kvantik_na_2018_god_moskovskij_centr_nepreryvnogo_2018.html)
   - available: "0"
     delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r
 
