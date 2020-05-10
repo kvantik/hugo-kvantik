@@ -134,6 +134,30 @@ store:
 
       *   [\"Перепутаница\",
       С.Федин](https://www.ozon.ru/context/detail/id/148412061/)\r\n"
+  - name: "[Лабиринт](http://www.ozon.ru/)\r"
+    sells: '* ["Перепутаница", С.Федин] (https://www.labirint.ru/books/677170/)'
+    dump: "* [Альманахи]
+      (https://www.labirint.ru/search/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%B\
+      A.%20%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85/?stype=0)"
+    delivery: "Доставка по России:
+
+
+      *   Курьерская доставка Лабиринта;
+
+      *   Самовывоз: \"Boxberry\", постаматы и выдача на кассе магазина
+      «Пятёрочка»;
+
+      *   Курьерские службы \"Dimex\", DHL.\r
+
+      *   Почтой России;
+
+
+      Международная доставка:
+
+
+      * Международная почтовая доставка Spring Global Mail\r
+
+      * Экспресс-доставка DHL\n"
   - available: "1"
     delivery: "*   Курьерская доставка: Москва;\r
 
@@ -143,22 +167,170 @@ store:
 
       *   Международная доставка компанией TNT\r\n"
     name: "[Московский Дом Книги *](http://info.mdk-arbat.ru/)\r\n"
-    sells: "*   [Альманахи](http://info.mdk-arbat.ru/catalog?kw=%EA%E2%E0%ED%F2%E8%\
-      EA)
+    sells: "*   [Журналы](http://mdk-arbat.ru/catalog?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1\
+      %82%D0%B8%D0%BA+%3A+%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB)
 
-      *   [Плакаты (комплект
-      №1)](http://info.mdk-arbat.ru/bookcard?book_id=2430114)
+      *   [Альманахи](http://mdk-arbat.ru/catalog?q=%D0%9A%D0%B2%D0%B0%D0\
+      %BD%D1%82%D0%B8%D0%BA+++%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
 
-      *   [Плакаты (комплект
-      №2)](http://info.mdk-arbat.ru/bookcard?book_id=2430115/)
+      * [Календарь загадок на 2020 год] (http://mdk-arbat.ru/book/2455335)
 
       * [\"Сто граней математики\", М.Евдокимов
-      ](http://info.mdk-arbat.ru/bookcard?book_id=2446041)\r
+      ](http://mdk-arbat.ru/book/59400)\r
 
       * [\"Перепутаница\",
       С.Федин](http://info.mdk-arbat.ru/bookcard?book_id=6063)\ 
 
       \n"
+    dump: >-
+      *   [Плакаты (комплект
+      №1)](http://info.mdk-arbat.ru/bookcard?book_id=2430114)
+
+      *   [Плакаты (комплект №2)](http://info.mdk-arbat.ru/bookcard?book_id=2430115/)
+  - available: "1"
+    delivery: "Доставка по России:
+
+
+      *   Курьерская доставка: Москва и окрестности, Зеленоград,
+      Санкт-Петербург и окрестности, Нижний Новгород;
+
+      *   Самовывоз: Москва, Зеленоград, Московская область,
+      Санкт-Петербург, Нижний Новгород, другие регионы России;
+
+      *   Почтовая доставка по России;
+
+      *   Экспресс-доставка по России и в Казахстан курьерской службой
+      СДЭК
+
+      * Доставка курьером и пункты выдачи Грастин\r: только Белгород,
+      Брянск, Н. Новгород, Орел
+
+      * Транспортная компания \"Деловые линии\"
+
+
+      Доставка по Миру:
+
+
+      * почтой России по тарифу АВИА
+
+
+      \n"
+    name: "[Учёный кот](http://www.intelkot.ru/)\r\n"
+    sells: >
+      *   [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)
+
+      *   [Альманахи](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%C0%EB%FC%EC%E0%ED%E0%F5+%CA%E2%E0%ED%F2%E8%EA&event=simple&cl=search)
+
+      *   [Наборы плакатов с задачами](https://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%CA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&event=simple&cl=search)
+
+      *   [Календарь загадок на 2018 год](https://www.intelkot.ru/kalendar-zagadok-na-2018-god-ot-zhurnala-dlya-lyuboznatelnyh-kvantik/)
+
+      *   [Календарь загадок на 2017 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2017-god/)
+
+      *   [Календарь загадок на 2016 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2016-god/)
+
+      *   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)
+
+      *   [Календарь загадок на 2014 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2014-god/)
+  - available: "1"
+    delivery: "Доставка по России:
+
+
+      *   Курьерская доставка по Москве и Санкт-Петербургу;\r
+
+      *   Получение заказа в пунктах выдачи (самовывоз): Москва,
+      Санкт-Петербург и другие города России;\r
+
+      *   Почтой России и EMS
+
+
+      Международная доставка:\ 
+
+
+      *   Почтой России\r\n"
+    name: "[books.ru](http://www.books.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.books.ru/search.php?s%5Bquery%5D=%D0%BA%D0%B\
+      2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%\
+      B0%D1%85&x=0&y=0&s%5Bgo%5D=1&s%5Btype_of_addon%5D=all)
+
+      *   [Плакаты (комплект
+      №1)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zan\
+      imatelnye-zadachi-ot-zhurnala-kvantik-komplekt--1-4339060/?show=1)
+
+      *   [Календарь загадок на 2020
+      год](https://www.books.ru/books/kalendar-zagadok-2020-god-ot-zhurnala-kva\
+      ntik-5079860/)
+
+      *   [Календарь загадок на 2019
+      год](https://www.books.ru/books/kalendar-zagadok-2019-god-ot-zhurnala-kva\
+      ntik-4933599/)
+
+      *   [Календарь загадок на 2018
+      год](https://www.books.ru/books/kalendar-zagadok-2018-god-ot-zhurnala-kva\
+      ntik-4814554/)
+
+      *   [Календарь загадок на 2016
+      год](https://www.books.ru/books/kalendar-zagadok-ot-zhurnala--kvantik-201\
+      6-4292451/?show=1)
+
+      *   [Календарь загадок на 2015
+      год](https://www.books.ru/books/kalendar-zagadok-2015-na-spirali-4250931/\
+      ?show=1)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](https://www.books.ru/books/sto-granei-matematiki-5117195/)\r
+
+      * [\"Перепутаница\",
+      С.Федин](https://www.books.ru/books/pereputanitsa-4952178/)\ \n"
+    dump: >-
+      *   [Плакаты (комплект
+      №2)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala--kvantik--komplekt-2-4339061/?show=1)
+
+      *   [Плакаты (комплект №3)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt--3-4540272/)
+
+
+      *   [Календарь загадок на 2017 год](https://www.books.ru/books/kalendar-zagadok-2017-god-ot-zhurnala-kvantik-4468381/?show=1)
+  - delivery: >-
+      Доставка по России:
+
+
+      * Курьерская доставка: Москва и Московская обл., Санкт-Петербург, регионы России;
+
+      * Самовывоз: Москва и Московская обл., Санкт-Петербург, регионы России;
+
+      * Доставка почтой: по России;
+
+      * Курьерская доставка дополнительными курьерскими службами: регионы России
+
+
+      Доставка в другие страны: 
+
+
+      * Международной курьерской службой "TNT Express"
+    name: "[Моя книга](http://my-book-shop.ru)\r\n"
+    sells: "*   Альманахи
+
+      *   [Плакаты (комплект
+      №1)](http://my-book-shop.ru/sec/2066/id/2422202.htm)
+
+      *   [Календарь загадок на 2016
+      год](http://my-book-shop.ru/sec/10855/id/2127348.htm)
+
+      *  [\"Сто граней математики\", М.Евдокимов ]
+      (https://my-book-shop.ru/sec/2066/id/3112925.htm)
+
+      *   [\"Перепутаница\",
+      С.Федин](http://my-book-shop.ru/sec/2066/id/3430119.htm)\r\n"
+    dump: >-
+      *   [Плакаты (комплект
+      №2)](http://my-book-shop.ru/sec/9211/id/2189416.htm)
+
+      *   [Плакаты (комплект №3)](http://my-book-shop.ru/sec/9211/id/2766346.htm)
+
+
+      *   [Календарь загадок на 2019 год](http://my-book-shop.ru/sec/10855/id/3295989.htm)
+
+      *   [Календарь загадок на 2018 год](http://my-book-shop.ru/sec/10852/id/2923451.htm)
   - available: 0
     delivery: |
       Доставка по России:
@@ -201,119 +373,3 @@ store:
       С.Федин](https://my-shop.ru/shop/books/3430119.html?b45=1_1)\ 
 
       \n"
-  - available: "1"
-    delivery: >
-      Доставка по России:
-
-
-      *   Курьерская доставка: Москва и окрестности, Зеленоград, Санкт-Петербург и окрестности, Нижний Новгород;
-
-      *   Самовывоз: Москва, Зеленоград, Московская область, Санкт-Петербург, Нижний Новгород, другие регионы России;
-
-      *   Почтовая доставка по России;
-
-      *   Экспресс-доставка по России и в Казахстан курьерской службой СДЭК
-    name: "[Учёный кот](http://www.intelkot.ru/)\r\n"
-    sells: >
-      *   [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)
-
-      *   [Альманахи](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%C0%EB%FC%EC%E0%ED%E0%F5+%CA%E2%E0%ED%F2%E8%EA&event=simple&cl=search)
-
-      *   [Наборы плакатов с задачами](https://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%CA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&event=simple&cl=search)
-
-      *   [Календарь загадок на 2018 год](https://www.intelkot.ru/kalendar-zagadok-na-2018-god-ot-zhurnala-dlya-lyuboznatelnyh-kvantik/)
-
-      *   [Календарь загадок на 2017 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2017-god/)
-
-      *   [Календарь загадок на 2016 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2016-god/)
-
-      *   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)
-
-      *   [Календарь загадок на 2014 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2014-god/)
-  - available: "1"
-    delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r
-
-      *   Самовывоз: Москва, Санкт-Петербург и другие города России;\r
-
-      *   Доставка в постаматы: Балашиха, Красногорск, Лобня, Люберцы,
-      Мытищи, Одинцово, Щербинка\r
-
-      *   Доставка в регионы России: Почтой России, службами EMS Почта
-      России\r
-
-      *   Международная доставка: Почтой России\r\n"
-    name: "[books.ru](http://www.books.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.books.ru/search.php?s%5Bquery%5D=%D0%BA%D0%B\
-      2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%\
-      B0%D1%85&x=0&y=0&s%5Bgo%5D=1&s%5Btype_of_addon%5D=all)
-
-      *   [Плакаты (комплект
-      №1)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zan\
-      imatelnye-zadachi-ot-zhurnala-kvantik-komplekt--1-4339060/?show=1)
-
-      *   [Плакаты (комплект
-      №2)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zan\
-      imatelnye-zadachi-ot-zhurnala--kvantik--komplekt-2-4339061/?show=1)
-
-      *   [Плакаты (комплект
-      №3)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zan\
-      imatelnye-zadachi-ot-zhurnala-kvantik-komplekt--3-4540272/)
-
-      *   [Календарь загадок на 2019
-      год](https://www.books.ru/books/kalendar-zagadok-2019-god-ot-zhurnala-kva\
-      ntik-4933599/)
-
-      *   [Календарь загадок на 2018
-      год](https://www.books.ru/books/kalendar-zagadok-2018-god-ot-zhurnala-kva\
-      ntik-4814554/)
-
-      *   [Календарь загадок на 2017
-      год](https://www.books.ru/books/kalendar-zagadok-2017-god-ot-zhurnala-kva\
-      ntik-4468381/?show=1)
-
-      *   [Календарь загадок на 2016
-      год](https://www.books.ru/books/kalendar-zagadok-ot-zhurnala--kvantik-201\
-      6-4292451/?show=1)
-
-      *   [Календарь загадок на 2015
-      год](https://www.books.ru/books/kalendar-zagadok-2015-na-spirali-4250931/\
-      ?show=1)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](https://www.books.ru/books/sto-granei-matematiki-4864396/)\r
-
-      * [\"Перепутаница\",
-      С.Федин](https://www.books.ru/books/pereputanitsa-4952178/)\ \n"
-  - delivery: "*   Курьерская доставка: Москва и Московская обл., Санкт-Петербург,
-      регионы России;\r
-
-      *   Самовывоз: Москва и Московская обл., Санкт-Петербург, регионы
-      России;\r
-
-      *   Доставка почтой: по России;\r
-
-      *   Доставка в другие страны\r: международной курьерской службой
-      \"TNT Express\"\r"
-    name: "[Моя книга](http://my-book-shop.ru)\r\n"
-    sells: "*   Альманахи
-
-      *   [Плакаты (комплект
-      №1)](http://my-book-shop.ru/sec/2066/id/2422202.htm)
-
-      *   [Плакаты (комплект
-      №2)](http://my-book-shop.ru/sec/9211/id/2189416.htm)
-
-      *   [Плакаты (комплект
-      №3)](http://my-book-shop.ru/sec/9211/id/2766346.htm)
-
-      *   [Календарь загадок на 2019
-      год](http://my-book-shop.ru/sec/10855/id/3295989.htm)
-
-      *   [Календарь загадок на 2018
-      год](http://my-book-shop.ru/sec/10852/id/2923451.htm)
-
-      *   [Календарь загадок на 2016
-      год](http://my-book-shop.ru/sec/10855/id/2127348.htm)
-
-      *   [\"Перепутаница\",
-      С.Федин](http://my-book-shop.ru/sec/2066/id/3430119.htm)\r\n"
