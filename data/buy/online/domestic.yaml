@@ -145,7 +145,7 @@ store:
     sells: >
       *   [Журналы и
       Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)
-  - available: "1"
+  - available: 0
     delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской
       области;\r
 
