@@ -2,6 +2,93 @@ order: 2
 title: Российские интернет-магазины с доставкой по России и МЕЖДУНАРОДНОЙ ДОСТАВКОЙ
 store:
   - available: "1"
+    delivery: "*   Курьерская доставка: Москва;\r
+
+      *   Самовывоз: Москва (Нахимовский проспект);\r
+
+      *   Доставка Почтой России по всей территории России и за рубеж\r
+      (временно не работает)\n"
+    name: "[Магазин научной книги URSS.ru *](http://urss.ru/)\r\n"
+    sells: "*   [Журналы и
+      Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=К\
+      вантик)
+
+      *   [Наборы плакатов с
+      задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=\
+      194866)
+
+      *   [Календарь загадок на 2020
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=257668)
+
+      *   [Календарь загадок на 2019
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=244251)
+
+      *   [Календарь загадок на 2018
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=234570)
+
+      *   [Календарь загадок на 2017
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=223682)
+
+      *   [Календарь загадок на 2016
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=209307)
+
+      *   [Календарь загадок на 2015
+      год](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=19609\
+      8)
+
+      *   [Календарь загадок на 2014
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=240521)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=24622\
+      5)\ \n"
+  - available: 1
+    delivery: "*   Курьерская доставка по Москве, Московской области,
+      Санкт-Петербургу, Ленинградской области;\r
+
+      *   Самовывоз: Москва (метро Лубянка);\r
+
+      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
+
+      *   Доставка почтой: по России;\r
+
+      *   Международная доставка компаниями «TNT Express»\n"
+    name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
+    sells: "*   [Альманахи и
+      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
+      BD%D1%82%D0%B8%D0%BA&page=1)
+
+      *   [Календарь загадок на 2016
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
+
+      *   [Календарь загадок на 2015
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://www.bgshop.ru/Catalog/GetFullDescription?id=10473585&type=1)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
+      =1)\ \n"
+    dump: >-
+      *   [Плакаты (комплект
+      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
+
+      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
+
+      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
+
+      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
+
+      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
+
+      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
+
+      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
+  - available: "1"
     delivery: "*   Курьерская доставка службой Оzon;\r
 
       *   Пункты выдачи (самовывоз) во многих городах России, а также в
@@ -53,46 +140,6 @@ store:
   - available: "1"
     delivery: "*   Курьерская доставка: Москва;\r
 
-      *   Самовывоз: Москва (Нахимовский проспект);\r
-
-      *   Доставка Почтой России по всей территории России и за рубеж\r\n"
-    name: "[Магазин научной книги URSS.ru *](http://urss.ru/)\r\n"
-    sells: "*   [Журналы и
-      Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=К\
-      вантик)
-
-      *   [Наборы плакатов с
-      задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=\
-      194866)
-
-      *   [Календарь загадок на 2019
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=244251)
-
-      *   [Календарь загадок на 2018
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=234570)
-
-      *   [Календарь загадок на 2017
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=223682)
-
-      *   [Календарь загадок на 2016
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=209307)
-
-      *   [Календарь загадок на 2015
-      год](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=19609\
-      8)
-
-      *   [Календарь загадок на 2014
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=240521)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=24622\
-      5)\ \n"
-  - available: "1"
-    delivery: "*   Курьерская доставка: Москва;\r
-
       *   Самовывоз: Москва (ул. Новый Арбат);\r
 
       *   Доставка почтой: по России;\r
@@ -115,49 +162,6 @@ store:
       С.Федин](http://info.mdk-arbat.ru/bookcard?book_id=6063)\ 
 
       \n"
-  - available: 1
-    delivery: "*   Курьерская доставка по Москве, Московской области,
-      Санкт-Петербургу, Ленинградской области;\r
-
-      *   Самовывоз: Москва (метро Лубянка);\r
-
-      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
-
-      *   Доставка почтой: по России;\r
-
-      *   Международная доставка компаниями «TNT Express»\n"
-    name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: "*   [Альманахи и
-      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
-      BD%D1%82%D0%B8%D0%BA&page=1)
-
-      *   [Календарь загадок на 2016
-      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
-
-      *   [Календарь загадок на 2015
-      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://www.bgshop.ru/Catalog/GetFullDescription?id=10473585&type=1)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
-      =1)\ \n"
-    dump: >-
-      *   [Плакаты (комплект
-      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
-
-      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
-
-      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
-
-      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
-
-      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
-
-      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
-
-      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
   - available: 0
     delivery: |
       Доставка по России:
