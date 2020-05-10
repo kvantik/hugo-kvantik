@@ -103,28 +103,24 @@ store:
       службами доставки DHL Express store и TNT Express; EMS Почта России (в
       города Казахстана), SPSR Express (в города Беларуси), DPD (в Республиках
       Беларусь и Казахстан)\r\n"
-    dump: >-
-      *   [Календарь загадок на 2015
-      год](http://www.ozon.ru/context/detail/id/31226148/)
-
-      *   [Календарь загадок на 2014 год](http://www.ozon.ru/context/detail/id/27676491/)
-    name: "[OZON.RU](http://www.ozon.ru/)\r\n"
-    sells: "*   [Журналы, Альманахи](https://www.ozon.ru/search/?text=Квантик)
-
+    dump: >
       *   [Плакаты (комплект
       №1)](https://www.ozon.ru/context/detail/id/135816977/)
 
-      *   [Плакаты (комплект
-      №2)](http://www.ozon.ru/context/detail/id/135816978/)
+      *   [Плакаты (комплект №2)](http://www.ozon.ru/context/detail/id/135816978/)
 
-      *   [Плакаты (комплект
-      №3)](https://www.ozon.ru/context/detail/id/140943928/)
+      *   [Плакаты (комплект №3)]
+
+      (https://www.ozon.ru/context/detail/id/140943928/)
+
+      *   [Календарь загадок на 2018 год](https://www.ozon.ru/context/detail/id/142591284/)
+
+      *   [Календарь загадок на 2015 год](http://www.ozon.ru/context/detail/id/31226148/)
+    name: "[OZON.RU](http://www.ozon.ru/)\r\n"
+    sells: "*   [Журналы, Альманахи](https://www.ozon.ru/search/?text=Квантик)
 
       *   [Календарь загадок на 2019
       год](https://www.ozon.ru/context/detail/id/147954719/)
-
-      *   [Календарь загадок на 2018
-      год](https://www.ozon.ru/context/detail/id/142591284/)
 
       *   [Календарь загадок на 2017
       год](http://www.ozon.ru/context/detail/id/138939394/)
@@ -132,8 +128,11 @@ store:
       *   [Календарь загадок на 2016
       год](http://www.ozon.ru/context/detail/id/34633194/)
 
+      *   [Календарь загадок на 2014
+      год](http://www.ozon.ru/context/detail/id/27676491/)
+
       *   [\"Сто граней математики\", М.Евдокимов
-      ](https://www.ozon.ru/context/detail/id/145642038/)\r
+      ](https://www.ozon.ru/context/detail/id/167075485/)\r
 
       *   [\"Перепутаница\",
       С.Федин](https://www.ozon.ru/context/detail/id/148412061/)\r\n"
