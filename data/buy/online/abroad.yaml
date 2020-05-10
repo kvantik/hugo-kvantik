@@ -37,13 +37,14 @@ store:
     name: "[Читатель.by](https://chitatel.by/)"
     sells: >-
       *
-      [Альманахи](https://chitatel.by/catalog/?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
-
-      * [Календарь загадок на 2018 год](https://chitatel.by/catalog/2587/961510/)
-
-      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
+      [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
 
       * ["Перепутаница", С.Федин](https://chitatel.by/catalog/2480/1099607/) 
+    dump: >-
+      * [Календарь загадок на 2018
+      год](https://chitatel.by/catalog/2587/961510/)
+
+      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
   - available: "1"
     delivery: "*   Финляндия и другие страны\r\n"
     dump: "*   [Календарь загадок на 2016
