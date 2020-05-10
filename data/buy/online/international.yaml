@@ -115,7 +115,7 @@ store:
       С.Федин](http://info.mdk-arbat.ru/bookcard?book_id=6063)\ 
 
       \n"
-  - available: 0
+  - available: 1
     delivery: "*   Курьерская доставка: Москва;\r
 
       *   Самовывоз: Москва (метро Лубянка);\r
@@ -130,29 +130,11 @@ store:
       журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
       BD%D1%82%D0%B8%D0%BA&page=1)
 
-      *   [Плакаты (комплект
-      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
-
-      *   [Плакаты (комплект
-      №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
-
-      *   [Календарь загадок на 2019
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
-
-      *   [Календарь загадок на 2018
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
-
-      *   [Календарь загадок на 2017
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
-
       *   [Календарь загадок на 2016
-      год](http://www.bgshop.ru/Details.aspx?id=10228163)
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
 
       *   [Календарь загадок на 2015
-      год](http://www.bgshop.ru/Details.aspx?id=10139388)
-
-      *   [Календарь загадок на 2014
-      год](http://www.bgshop.ru/Details.aspx?id=10057359)
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
 
       * [\"Сто граней математики\", М.Евдокимов
       ](http://www.bgshop.ru/Catalog/GetFullDescription?id=10473585&type=1)\r
@@ -160,6 +142,21 @@ store:
       * [\"Перепутаница\",
       С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
       =1)\ \n"
+    dump: >-
+      *   [Плакаты (комплект
+      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
+
+      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
+
+      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
+
+      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
+
+      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
+
+      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
+
+      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
   - available: 0
     delivery: |
       Доставка по России:
