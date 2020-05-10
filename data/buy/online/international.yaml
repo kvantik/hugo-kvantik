@@ -373,3 +373,18 @@ store:
       С.Федин](https://my-shop.ru/shop/books/3430119.html?b45=1_1)\ 
 
       \n"
+  - name: "* [МОСКВА] (https://www.moscowbooks.ru/)"
+    sells: "*
+      [Журналы](https://www.moscowbooks.ru/search/?r46_search_query=%D0%9A%D0%B\
+      2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&r46_input_query=%D0%9A%D0%B2%D0%B0%D0%BD%\
+      D1%82%D0%B8%D0%BA)"
+    delivery: "* Курьерская доставка по Москве
+
+      * Самовывоз из магазина\r (г.Москва, ул.Тверская, д.8)\ 
+
+      * Самовывоз из пунктов выдачи заказов компаний Pickpoint, Boxberry и
+      других
+
+      * компания DHL: Московская обл. и другие регионы России
+
+      * Доставка за рубеж (временно не работает)"
