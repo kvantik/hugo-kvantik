@@ -101,9 +101,8 @@ store:
   - available: "1"
     delivery: "*   Канада и другие страны\r\n"
     dump: >-
-      *   [Альманахи](http://www.amazon.ca/s/ref=nb_sb_noss/185-9835538-5694827?url=search-alias%3Daps&field-keywords=kvantik)
-
-      *   [Плакаты (комплект №1)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906356/ref=sr_1_15/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-15&keywords=kvantik)
+      *   [Плакаты (комплект
+      №1)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906356/ref=sr_1_15/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-15&keywords=kvantik)
 
       *   [Плакаты (комплект №2)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906364/ref=sr_1_14/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-14&keywords=kvantik)
     name: "[amazon.ca](http://www.amazon.ca/)\r\n"
