@@ -151,13 +151,7 @@ store:
       *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
 
       *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
-  - available: "0"
-    delivery: "*   Италия и другие страны\r\n"
-    dump: ""
-    name: "[amazon.it](http://www.amazon.it/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
-  - available: "0"
+  - available: ""
     delivery: "*   Испания и другие страны\r\n"
     dump: ""
     name: "[amazon.es](http://www.amazon.es/)\r\n"
@@ -194,3 +188,9 @@ store:
       Канаде](http://www.knigomania.com/)"
     delivery: "* США, Канада и другие страны\r\n"
     available: 0
+  - available: "0"
+    delivery: "*   Италия и другие страны\r\n"
+    dump: ""
+    name: "[amazon.it](http://www.amazon.it/)\r\n"
+    sells: >
+      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
