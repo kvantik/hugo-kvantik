@@ -331,7 +331,7 @@ store:
       * Международная почтовая доставка Spring Global Mail\r
 
       * Экспресс-доставка DHL\n"
-  - name: "* [МОСКВА] (https://www.moscowbooks.ru/)"
+  - name: "[МОСКВА] (https://www.moscowbooks.ru/)"
     sells: "*
       [Журналы](https://www.moscowbooks.ru/search/?r46_search_query=%D0%9A%D0%B\
       2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&r46_input_query=%D0%9A%D0%B2%D0%B0%D0%BD%\
