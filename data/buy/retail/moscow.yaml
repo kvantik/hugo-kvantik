@@ -113,3 +113,8 @@ shops:
       bumperbooks@gmail.com
     available: "0"
     name: БАМПЕР - детский книжный автобус
+  - name: Белый кролик (работает интернет-магазин)
+    address: >
+      тел. +7 (495) 789-39-06, Whatsapp +7 (977) 860-46-95, info@belykrolik.ru,
+      www.belykrolik.ru
+    available: 1
