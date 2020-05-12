@@ -42,12 +42,17 @@ shops:
     name: Магазин «Библио-Глобус»
   - address: |
       5-й этаж, точка 62 тел. 8(903)970-34-46
-    available: "1"
+    available: 0
     name: Спорткомплекс «Олимпийский»,
   - address: |
       тел. 8(495)939-21-76, 8(495)939-22-06, www.arg.ru
     available: "1"
     name: Сеть киосков «Аргумент» в МГУ
+  - name: Белый кролик (работает интернет-магазин)
+    address: >
+      тел. +7 (495) 789-39-06, Whatsapp +7 (977) 860-46-95, info@belykrolik.ru,
+      www.belykrolik.ru
+    available: 1
   - address: |
       (работает интернет-магазин) www.uchebnik.com тел. 8(495)585-10-55
     available: "1"
@@ -113,8 +118,3 @@ shops:
       bumperbooks@gmail.com
     available: "0"
     name: БАМПЕР - детский книжный автобус
-  - name: Белый кролик (работает интернет-магазин)
-    address: >
-      тел. +7 (495) 789-39-06, Whatsapp +7 (977) 860-46-95, info@belykrolik.ru,
-      www.belykrolik.ru
-    available: 1
