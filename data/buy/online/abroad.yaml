@@ -1,173 +1,223 @@
 order: 3
 title: Интернет-магазины ЗА РУБЕЖОМ
 store:
-  - available: '1'
-    delivery: "Доставка по Украине:\r\n\r\n*   Курьерская доставка;\r\n*   Служба доставки \"Новая почта\" (в том числе самовывоз);\r\n*   Доставка почтой Украины\r\nДоставка Авиапочтой за пределы Украины\r\n"
-    dump: ''
-    name: "[bookshop](http://www.bookshop.ua/)\r\n"
-    sells: >+
-      *   [Журналы и
-      Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?D1=4&B1=Go&Find=%EA%E2%E0%ED%F2%E8%EA&Pr1=1&Cr=Catalog&Chstr=)
+  - available: "1"
+    delivery: "Доставка по Украине:\r
 
-      *   [Плакаты (комплект №2)](http://www.bookshop.ua/a13578098/)
+      \r
 
+      *   Курьерская доставка;\r
+
+      *   Служба доставки \"Новая почта\" (в том числе самовывоз);\r
+
+      *   Доставка почтой Украины\r
+
+      Доставка Авиапочтой за пределы Украины\r\n"
+    dump: |-
       *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14700607/)
-
       *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14673272/)
-
       *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
+    name: "[bookshop](http://www.bookshop.ua/)"
+    sells: >+
+      *   [Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?Find=%EA%E2%E0%ED%F2%E8%EA%2E+%C0%EB%FC%EC%E0%ED%E0%F5&Cr=Catalog&D1=1&pr1=2)
+
+      * ["Перепутаница", С.Федин] (http://www.bookshop.ua/a15249323/)
+
+      *  ["Сто граней математики", М.Евдокимов ] (http://www.bookshop.ua/a14929562/)
 
 
 
-  - available: '1'
-    delivery: "* Доставка курьером по Минску\n* Доставка автокурьером\_по регионам Республики Беларусь\n* Самовывоз: Минск и другие регионы Беларуси\n* Доставка почтой"
-    name: '[Читатель.by](https://chitatel.by/)'
+
+  - available: "1"
+    delivery: |-
+      * Доставка курьером по Минску
+      * Доставка автокурьером по регионам Республики Беларусь
+      * Самовывоз: Минск и другие регионы Беларуси
+      * Доставка почтой
+    name: "[Читатель.by](https://chitatel.by/)"
     sells: >-
       *
-      [Альманахи](https://chitatel.by/catalog/?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+      [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
 
+      *  ["Сто граней математики", М.Евдокимов ] (https://chitatel.by/catalog/book/885906)
+
+      * ["Перепутаница", С.Федин](https://chitatel.by/catalog/2480/1099607/) 
+    dump: >-
       * [Календарь загадок на 2018
       год](https://chitatel.by/catalog/2587/961510/)
 
-      * [Календарь загадок на 2017
-      год](https://chitatel.by/catalog/2587/767175/)
-
-      * ["Перепутаница", С.Федин](https://chitatel.by/catalog/2480/1099607/) 
-  - available: '1'
+      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
+  - available: "1"
     delivery: "*   Финляндия и другие страны\r\n"
     dump: >-
-      *   [Календарь загадок на 2016
-      год](https://ruslania.com/books/1113498/kalendar-zagadok-2016-na-spirali)
+      *   [Плакаты (комплект
+      №1)](https://ruslania.com/books/924666/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-1)
+
+      *   [Плакаты (комплект №2)](https://ruslania.com/books/924667/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-2)
+
+      *   [Плакаты (комплект №3)](https://ruslania.com/books/1179726/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-3)
+
+
+      *   [Календарь загадок на 2016 год](https://ruslania.com/books/1113498/kalendar-zagadok-2016-na-spirali)
     name: "[Ruslania](https://ruslania.com/)\r\n"
-    sells: "*   [Альманахи](https://ruslania.com/site/search?q=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&e=0)\n*   [Плакаты (комплект №1)](https://ruslania.com/books/924666/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-1)\n*   [Плакаты (комплект №2)](https://ruslania.com/books/924667/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-2)\n*   [Плакаты (комплект №3)](https://ruslania.com/books/1179726/poznavatelnye-plakaty-dlya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-3)\n*   [Календарь загадок на 2017 год](https://ruslania.com/books/979228/kalendar-zagadok-2017-2018-na-spirali)\n*   [М.Евдокимов \"Сто граней математики\"](https://ruslania.com/books/1425683/sto-granej-matematiki)\r\n\n"
-  - available: '1'
-    delivery: "*   США, Канада и другие страны\r\n"
-    dump: >
-      *  [Плакаты (комплект
-      №2)](http://www.vasha-kniga.com/productdetail.asp?productid=889692)
+    sells: "*   [Альманахи](https://ruslania.com/ru/search/general/?e=10&q=%D0%9A%D\
+      0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%\
+      D0%B0%D1%85&avail=1)
 
       *   [Календарь загадок на 2017
-      год](http://www.vasha-kniga.com/productdetail.asp?productid=970558)
+      год](https://ruslania.com/books/979228/kalendar-zagadok-2017-2018-na-spir\
+      ali)
 
-      *   [Календарь загадок на 2015
-      год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
-    name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
-    sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvantik%20Al%27manakh&view=grid)\n* [\"Сто граней математики\", М.Евдокимов ](http://www.vasha-kniga.com/productdetail.asp?productid=1074747)\r\n"
-  - available: '0'
-    delivery: "*   США, Канада и другие страны\r\n"
-    dump: ''
-    name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
-    sells: >
-      *   Альманахи
+      *   [М.Евдокимов \"Сто граней
+      математики\"](https://ruslania.com/books/1425683/sto-granej-matematiki)\r
 
-      *   [Календарь загадок на 2017
-      год](http://www.bookmazecity.com/productdetail.asp?productid=900834)
+      * [\"Перепутаница\", С.Федин]
+      (https://ruslania.com/ru/knigi/1527103-bibliotechka-zhurnala-kvantik-pere\
+      putanitsa/)
 
-      *   [Календарь загадок на 2015
-      год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
-  - available: '1'
+      \n"
+  - name: "[МУРАВЕЙ](https://murawei.de/)\r\n"
+    sells: "* [Журналы, Альманахи]
+      (https://murawei.de/russian/catalogsearch/result/?q=%D0%9A%D0%B2%D0%B0%D0\
+      %BD%D1%82%D0%B8%D0%BA)"
+    delivery: "* Германия и другие страны Европы"
+  - name: "[Спутник](https://www.sputnik2000.com/)"
+    delivery: "* Германия и другие страны Европы, США, Канада, Израиль"
+    sells: "* [Альманахи]
+      (https://www.sputnik2000.com/search2.asp?subject=%EA%E2%E0%ED%F2%E8%EA%20\
+      %20%E0%EB%FC%EC%E0%ED%E0%F5&p_number=1)
+
+      * [Плакаты (комплект №1)]
+      (https://www.sputnik2000.com/book.asp?sku=710382)
+
+      * [Плакаты (комплект №2)]
+      (https://www.sputnik2000.com/book.asp?sku=710383)\r
+
+      * [Плакаты (комплект №3)]
+      (https://www.sputnik2000.com/book.asp?sku=773808)\r
+
+      *  [\"Сто граней математики\", М.Евдокимов ]
+      (https://www.sputnik2000.com/book.asp?sku=824413)
+
+      * [\"Перепутаница\", С.Федин]
+      (https://www.sputnik2000.com/book.asp?sku=854640)\n"
+  - available: "1"
     delivery: "*   США и другие страны\r\n"
-    dump: ''
+    dump: ""
     name: "[amazon.com](http://www.amazon.com/)\r\n"
     sells: >
       *   [Журналы и
       Альманахи](http://www.amazon.com/s/ref=nb_sb_noss/187-5281220-5834164?url=search-alias%3Daps&field-keywords=kvantik&rh=i%3Aaps%2Ck%3Akvantik)
 
-      *   [Набор плакатов с
-      задачами](http://www.amazon.com/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482/ref=sr_1_12?ie=UTF8&qid=1446897512&sr=8-12&keywords=kvantik)
+      *   [Набор плакатов с задачами](http://www.amazon.com/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482/ref=sr_1_12?ie=UTF8&qid=1446897512&sr=8-12&keywords=kvantik)
 
-      *   [Календарь загадок на 2019
-      год](https://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_4/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-4&keywords=kvantik)
+      *   [Календарь загадок на 2019 год](https://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_4/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-4&keywords=kvantik)
 
-      *   [Календарь загадок на 2018
-      год](https://www.amazon.com/Kalendar-zagadok-spirali-zhurnala-Kvantik/dp/5443925865/ref=sr_1_7/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-7&keywords=kvantik)
+      *   [Календарь загадок на 2018 год](https://www.amazon.com/Kalendar-zagadok-spirali-zhurnala-Kvantik/dp/5443925865/ref=sr_1_7/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-7&keywords=kvantik)
 
-      *   [Календарь загадок на 2016
-      год](http://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13?ie=UTF8&qid=1446897512&sr=8-13&keywords=kvantik)
+      *   [Календарь загадок на 2016 год](http://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13?ie=UTF8&qid=1446897512&sr=8-13&keywords=kvantik)
 
-      *   [Календарь загадок на 2015
-      год](http://www.amazon.com/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X/ref=sr_1_4?ie=UTF8&qid=1446897512&sr=8-4&keywords=kvantik)
-  - available: '1'
+      *   [Календарь загадок на 2015 год](http://www.amazon.com/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X/ref=sr_1_4?ie=UTF8&qid=1446897512&sr=8-4&keywords=kvantik)
+  - available: "1"
     delivery: "*   Канада и другие страны\r\n"
-    dump: ''
-    name: "[amazon.ca](http://www.amazon.ca/)\r\n"
-    sells: >
-      *  
-      [Альманахи](http://www.amazon.ca/s/ref=nb_sb_noss/185-9835538-5694827?url=search-alias%3Daps&field-keywords=kvantik)
-
+    dump: >-
       *   [Плакаты (комплект
       №1)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906356/ref=sr_1_15/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-15&keywords=kvantik)
 
-      *   [Плакаты (комплект
-      №2)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906364/ref=sr_1_14/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-14&keywords=kvantik)
+      *   [Плакаты (комплект №2)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906364/ref=sr_1_14/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-14&keywords=kvantik)
+    name: "[amazon.ca](http://www.amazon.ca/)\r\n"
+    sells: >
+      * [Альманахи]
+      (https://www.amazon.ca/s?k=kvantik&i=stripbooks&dc&qid=1589171268&ref=aw_s_fkmr0)
 
-      *   [Календарь загадок на 2019
-      год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_6/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-6&keywords=kvantik)
+      *  ["Сто граней математики", М.Евдокимов ] (https://www.amazon.ca/Sto-graney-matematiki-Author/dp/5443912690/ref=sr_1_fkmr0_1?keywords=100+graney+matematiki&qid=1589171202&s=books&sr=1-1-fkmr0)
 
-      *   [Календарь загадок на 2018
-      год](https://www.amazon.ca/Kalendar-zagadok-spirali-zhurnala-Kvantik/dp/5443925865/ref=sr_1_9/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-9&keywords=kvantik)
+      * ["Перепутаница", С.Федин] (https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
-      *   [Календарь загадок на 2017
-      год](https://www.amazon.ca/Kalendar-zagadok-2017-zhurnala-Kvantik/dp/5443909665/ref=sr_1_15/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-15&keywords=kvantik)
+      *   [Календарь загадок на 2019 год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_6/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-6&keywords=kvantik)
 
-      *   [Календарь загадок на 2016
-      год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-13&keywords=kvantik)
+      *   [Календарь загадок на 2018 год](https://www.amazon.ca/Kalendar-zagadok-spirali-zhurnala-Kvantik/dp/5443925865/ref=sr_1_9/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-9&keywords=kvantik)
 
-      *   [Календарь загадок на 2015
-      год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
-  - available: '1'
-    delivery: "*   США, Канада и другие страны\r\n"
-    dump: >
-      *   [Календарь загадок на 2017
-      год](http://www.knigomania.com/Kvantik_Kalendar_zagadok_2017/p825725)
+      *   [Календарь загадок на 2017 год](https://www.amazon.ca/Kalendar-zagadok-2017-zhurnala-Kvantik/dp/5443909665/ref=sr_1_15/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-15&keywords=kvantik)
 
-      *   [Календарь загадок на 2015
-      год](http://www.knigomania.com/productdetail.asp?productid=708228)
-    name: "[KNIGOMANIA - сеть магазинов русской книги в Канаде](http://www.knigomania.com/)\r\n"
-    sells: "*   Журналы и Альманахи\n* [\"Сто граней математики\", М.Евдокимов ](http://www.knigomania.com/Evdokimov_Sto_granei_matematiki_Bibliotechka_zhurnala_kvantik/p1072948)\r\n"
-  - available: '1'
+      *   [Календарь загадок на 2016 год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-13&keywords=kvantik)
+
+      *   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
+  - available: "1"
     delivery: "*   Великобритания и другие страны\r\n"
-    dump: ''
+    dump: ""
     name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
     sells: >-
-      *  
-      [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
+      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
 
-      *   [Календарь загадок на 2017
-      год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author-x/dp/5443909665/ref=sr_1_10/259-7837720-6230768?ie=UTF8&qid=1494160832&sr=8-10&keywords=kvantik)
+      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
 
-      *   [Календарь загадок на 2016
-      год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-13&keywords=kvantik)
-  - available: '1'
+      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
+
+      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
+
+      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
+  - available: "1"
     delivery: "*   Германия и другие страны\r\n"
-    dump: ''
+    dump: ""
     name: "[amazon.de](http://www.amazon.de/)\r\n"
     sells: >
-      *  
-      [Альманахи](http://www.amazon.de/s/ref=nb_sb_noss/277-3261851-3496853?__mk_de_DE=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
+      *   [Альманахи](http://www.amazon.de/s/ref=nb_sb_noss/277-3261851-3496853?__mk_de_DE=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
 
-      *   [Календарь загадок на 2017
-      год](https://www.amazon.de/Kvantik-Kalendar-zagadok-2017/dp/5443909665/ref=sr_1_2/257-1780973-0628359?ie=UTF8&qid=1494161052&sr=8-2&keywords=kvantik)
+      *   [Календарь загадок на 2017 год](https://www.amazon.de/Kvantik-Kalendar-zagadok-2017/dp/5443909665/ref=sr_1_2/257-1780973-0628359?ie=UTF8&qid=1494161052&sr=8-2&keywords=kvantik)
 
-      *   [Календарь загадок на 2016
-      год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
+      *   [Календарь загадок на 2016 год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
 
-      *   [Календарь загадок на 2015
-      год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
+      *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
 
-      *   [Календарь загадок на 2014
-      год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
-  - available: '0'
+      *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
+  - available: ""
+    delivery: "*   Испания и другие страны\r\n"
+    dump: ""
+    name: "[amazon.es](http://www.amazon.es/)\r\n"
+    sells: "*
+      [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__m\
+      k_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keyw\
+      ords=kvantik)"
+  - available: 0
+    delivery: "*   США, Канада и другие страны\r\n"
+    dump: >
+      *  [Плакаты (комплект
+      №2)](http://www.vasha-kniga.com/productdetail.asp?productid=889692)
+
+      *   [Календарь загадок на 2017 год](http://www.vasha-kniga.com/productdetail.asp?productid=970558)
+
+      *   [Календарь загадок на 2015 год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
+    name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
+    sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvanti\
+      k%20Al%27manakh&view=grid)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://www.vasha-kniga.com/productdetail.asp?productid=1074747)\r\n"
+  - available: "0"
+    delivery: "*   США, Канада и другие страны\r\n"
+    dump: ""
+    name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
+    sells: >
+      *   Альманахи
+
+      *   [Календарь загадок на 2017 год](http://www.bookmazecity.com/productdetail.asp?productid=900834)
+
+      *   [Календарь загадок на 2015 год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
+  - name: "[КНИГОМАНИЯ - сеть магазинов русской книги в
+      Канаде](http://www.knigomania.com/)"
+    delivery: "* США, Канада и другие страны\r\n"
+    available: 0
+  - available: "0"
     delivery: "*   Италия и другие страны\r\n"
-    dump: ''
+    dump: ""
     name: "[amazon.it](http://www.amazon.it/)\r\n"
     sells: >
-      *  
-      [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
-  - available: '0'
-    delivery: "*   Испания и другие страны\r\n"
-    dump: ''
-    name: "[amazon.es](http://www.amazon.es/)\r\n"
-    sells: >-
-      *
-      [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=kvantik)
+      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
+  - sells: >-
+      * [Альманахи]
+      (https://www.knigi-janzen.de/result_search.php?gsearch=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+
+      *  ["Сто граней математики", М.Евдокимов ] (https://www.knigi-janzen.de/view.php?gid=623508)
+    name: "[JANZEN](https://www.knigi-janzen.de/index.php)"
+    available: 0
