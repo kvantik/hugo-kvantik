@@ -25,7 +25,9 @@ sliders.forEach(function(value) {
   let slider_max = document.getElementById(value+'-max');
   let slider_min = document.getElementById(value+'-min');
   
-  noUiSlider.create(slider, slider_options);
+  let options = slider_options
+  if (value != 'sliderA') options['range']={'min':1,'max':20};
+  noUiSlider.create(slider, options);
   
   slider.noUiSlider.on('update', function (values, handle) {
     var val = values[handle];
@@ -65,17 +67,23 @@ function obj2str(o){
   return Object.keys(o).map(function(k){return k+": "+o[k]}).join(', ')
 }
 
+function emptydiv(div){
+    while (div.firstChild) {
+    div.removeChild(div.lastChild);
+  }
+}
+
 function answers_abc() {
   let div = document.getElementById('answers');
   let units_allowed = document.querySelector('#units').checked;
   let abc = get_abc()
   let min_value = units_allowed? 1:2 ;
   
-  while (div.firstChild) {
-    div.removeChild(div.lastChild);
-  }
+  emptydiv(div)
   
   let single_a = []
+  let abc_several = []
+  let points = []
   
   for (let b = abc['B'][0]; b <= abc['B'][1]; b++) {
       for (let c = abc['C'][0]; c <= abc['C'][1]; c++) {
@@ -102,9 +110,14 @@ function answers_abc() {
         
         if (multiple_decompositions.length == 1){
           a = multiple_decompositions[0]
-          single_a.push({'возраст':a, 'номер автобуса':b, 'детей':c,'возрасты детей':ages[a]})
+          single_a.push({'возраст':a, 'номер автобуса':b, 'детей':c,'возрасты детей':ages[a].join(' и ')})
         }
-          
+        
+        multiple_decompositions.forEach( function(a){
+        //  console.log(ages[a].length)
+          abc_several.push({'возраст':a, 'номер автобуса':b, 'детей':c, 'вариантов': ages[a].length})
+          points.push([a,b,c])
+        });
         
         let div_bc_p = document.createElement("p");
         div_bc.appendChild(div_bc_p);
@@ -114,18 +127,20 @@ function answers_abc() {
         for (a in ages){
           let div_abc = document.createElement("div");
           div_bc.appendChild(div_abc);
-          div_abc.textContent = 'варианты для возраста '+a+':\n' +ages[a].join('\n')
+          div_abc.textContent = 'варианты для возраста '+a+':\n' +ages[a].join(' и ')
         }
   
   
   }};
 
   let div_sum = document.getElementById('summary');
-  div_sum.textContent = 'Подходящие варианты, где для данных номера автобуса и количества детей существует единственный возраст папы с несколькими вариантами для возрастов детей:'
-  for (var triple of single_a){
+  emptydiv(div_sum)
+  div_sum.textContent = 'Подходящие варианты, где для данных номера автобуса, возраста папы и количества детей существует несколько вариантов для возрастов детей:'
+  for (var triple of abc_several){
     let p = document.createElement("p");
     div_sum.appendChild(p);
     p.textContent = obj2str(triple);
   }
   
+  draw(points);
 };

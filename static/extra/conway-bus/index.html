@@ -9,6 +9,8 @@
     <script src="nouislider.min.js"></script>
     <script src="wNumb.min.js"></script>
     <script src="integer-partition.js"></script>
+    <script src="three.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   </head>
   <body>
     Bus: номер автобуса 
@@ -29,11 +31,13 @@
     <input type="number" min="0" max="100" step="1" id="sliderC-max">
     </div>
     <div id="sliderC" class="slider"></div>
-    Допускать единицы: <input type="checkbox" id="units"/>
+    Допускать годовалых детей: <input type="checkbox" id="units" checked/>
     <button id="button_abc" onclick="answers_abc()">Пересчитать варианты</button>
     <div id="summary"></div>
+    <div id="plot"></div>
     <div id="answers"></div>
     
+    <script src="draw.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
