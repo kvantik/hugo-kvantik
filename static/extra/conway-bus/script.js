@@ -65,6 +65,9 @@ function answers_abc() {
   let abc = get_abc()
   let min_value = units_allowed? 1:2 ;
   
+  while (div.firstChild) {
+    div.removeChild(div.lastChild);
+  }
   
   for (let b = abc['B'][0]; b <= abc['B'][1]; b++) {
       for (let c = abc['C'][0]; c <= abc['C'][1]; c++) {
@@ -76,7 +79,7 @@ function answers_abc() {
             zs[i] = i<zs.length ? zs[i]+min_value : min_value
           };
           let a=product(zs);
-          if(abc['A'][0]<=a<=abc['A'][1]){
+          if(abc['A'][0]<=a && a<=abc['A'][1]){
             let tag = document.createElement("div");
             div.appendChild(tag);
             tag.textContent = `автобус №${b}, математику ${a} лет, ${c} детей возрастом: ${zs}`            
