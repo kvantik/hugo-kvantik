@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Задача Конвея про номер автобуса</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="nouislider.min.css" rel="stylesheet" type="text/css" />
+    <script src="nouislider.min.js"></script>
+    <script src="wNumb.min.js"></script>
+    <script src="integer-partition.js"></script>
+  </head>
+  <body>
+    Bus: номер автобуса 
+    <div>
+    <input type="number" min="0" max="100" step="1" id="sliderB-min">
+    <input type="number" min="0" max="100" step="1" id="sliderB-max">
+    </div>
+    <div id="sliderB" class="slider"></div>
+    Age: сколько лет математику
+    <div>
+    <input type="number" min="0" max="100" step="1" id="sliderA-min">
+    <input type="number" min="0" max="100" step="1" id="sliderA-max">
+    </div>
+    <div id="sliderA" class="slider"></div>
+    Children: сколько детей у математика
+    <div>
+    <input type="number" min="0" max="100" step="1" id="sliderC-min">
+    <input type="number" min="0" max="100" step="1" id="sliderC-max">
+    </div>
+    <div id="sliderC" class="slider"></div>
+    Допускать единицы: <input type="checkbox" id="units" checked/>
+    <button id="button_abc" onclick="answers_abc()">Пересчитать варианты</button>
+    <div id="answers"></div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
