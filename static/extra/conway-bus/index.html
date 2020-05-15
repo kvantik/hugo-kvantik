@@ -9,39 +9,20 @@
     <script src="nouislider.min.js"></script>
     <script src="wNumb.min.js"></script>
     <script src="integer-partition.js"></script>
-    <script src="three.min.js"></script>
     <script src="d3.v3.min.js" charset="utf-8"></script>
-    <script src="plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 
   </head>
   <body>
-    Bus: номер автобуса 
-    <div>
-    <input type="number" min="0" max="100" step="1" id="sliderB-min">
-    <input type="number" min="0" max="100" step="1" id="sliderB-max">
-    </div>
-    <div id="sliderB" class="slider"></div>
-    Age: сколько лет математику
-    <div>
-    <input type="number" min="0" max="100" step="1" id="sliderA-min">
-    <input type="number" min="0" max="100" step="1" id="sliderA-max">
-    </div>
-    <div id="sliderA" class="slider"></div>
-    Children: сколько детей у математика
-    <div>
-    <input type="number" min="0" max="100" step="1" id="sliderC-min">
-    <input type="number" min="0" max="100" step="1" id="sliderC-max">
-    </div>
-    <div id="sliderC" class="slider"></div>
-    Допускать годовалых детей: <input type="checkbox" id="units"/>
-    <button id="button_abc" onclick="answers_abc()">Пересчитать варианты</button>
-    <canvas id="heatmap" width="400" height="400"></canvas>
-    <div id="summary"></div>
-    <div id="plot"></div>
-    <div id="answers"></div>
+    <p>Выберите номер автобуса (переменная B): </p>
     
-    <script src="draw.js"></script>
+    <div id="sliderB" class="slider"></div>
+    
+    <p>Нас интересуют такие тройки <b>(А,В,С)</b> - (возраст математика, номер автобуса, количество детей), что есть для неё есть несколько вариантов для возрастов детей. Заметим, что вариант для тройки (А,В,С) при добавлении годовалого ребёнка превращается в вариант для тройки (A, B+1, C+1). Например, [3,2,2,2] - вариант для тройки (24,11,4), а [3,2,2,2,1,1,1] - для тройки (24, 11+3=14, 4+3=7). Поэтому мы будем отслеживать пары (A, B-C), которая не зависит от годовалых детей.</p>
+    <p>Ниже график всех возможных пар (A, B-C) с В, не превышающим заданный на слайдере. По вертикальной оси - возраст математика (предполагаем, что он не может превышать 300), по горизонтальной - разность <b>B-C</b> между номером автобуса и количеством детей. Точка отмечена серым, если существует только один вариант (без годовалых детей), дающий данную пару, красным - если два таких варианта, и зелёным - если больше двух. Если навести на точку, то можно увидеть все варианты, сгруппированные по номеру автобуса, дающие эту пару.</p>
+    <p>Итак, тройке (A,B,C) соответствует несколько вариантов, если в точке (A,B-C) есть хотя бы два варианта с номером автобуса, не превышающим В. Значит, правильной является одна из этих троек (<small>"Возможно, если ты скажешь мне свой возраст и число твоих детей, я смогу вычислить их возрасты? Нет, не сможешь."</small>). Однако все эти тройки (если их несколько) должны находиться на одной горизонтали (<small>"Наконец-то я узнал твой возраст."</small>).</p> <p>Первая подходящая точка появляется на графике при В=13</p>
+    <canvas id="heatmap" width="400px" height="400px"></canvas>
+    
     <script src="script.js"></script>
   </body>
 </html>
