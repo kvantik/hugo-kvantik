@@ -92,7 +92,7 @@ function chart_datasets(b_max){
   points2d.forEach(function (row, a){
     row.forEach(function (solutions, d){
       if (solutions==0) return;
-      solutions = solutions.filter(sol => sol[1]<b_max)
+      solutions = solutions.filter(sol => sol[1]<=b_max)
       if (solutions.length==0) return;
       data.push({
           'x':d,
