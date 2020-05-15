@@ -185,7 +185,7 @@ function draw(points){
     line.type = THREE.Lines;
     scatterPlot.add(line);
 
-    var titleX = createText2D('-X');
+    var titleX = createText2D('-A');
     titleX.position.x = xScale(vpts.xMin) - 12,
     titleX.position.y = 5;
     scatterPlot.add(titleX);
@@ -195,7 +195,7 @@ function draw(points){
     valueX.position.y = -5;
     scatterPlot.add(valueX);
 
-    var titleX = createText2D('X');
+    var titleX = createText2D('A');
     titleX.position.x = xScale(vpts.xMax) + 12;
     titleX.position.y = 5;
     scatterPlot.add(titleX);
@@ -205,7 +205,7 @@ function draw(points){
     valueX.position.y = -5;
     scatterPlot.add(valueX);
 
-    var titleY = createText2D('-Y');
+    var titleY = createText2D('-B');
     titleY.position.y = yScale(vpts.yMin) - 5;
     scatterPlot.add(titleY);
 
@@ -213,7 +213,7 @@ function draw(points){
     valueY.position.y = yScale(vpts.yMin) - 15,
     scatterPlot.add(valueY);
 
-    var titleY = createText2D('Y');
+    var titleY = createText2D('B');
     titleY.position.y = yScale(vpts.yMax) + 15;
     scatterPlot.add(titleY);
 
@@ -221,11 +221,11 @@ function draw(points){
     valueY.position.y = yScale(vpts.yMax) + 5,
     scatterPlot.add(valueY);
 
-    var titleZ = createText2D('-Z ' + format(zExent[0]));
+    var titleZ = createText2D('-C ' + format(zExent[0]));
     titleZ.position.z = zScale(vpts.zMin) + 2;
     scatterPlot.add(titleZ);
 
-    var titleZ = createText2D('Z ' + format(zExent[1]));
+    var titleZ = createText2D('C ' + format(zExent[1]));
     titleZ.position.z = zScale(vpts.zMax) + 2;
     scatterPlot.add(titleZ);
 

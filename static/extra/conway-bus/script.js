@@ -84,6 +84,7 @@ function answers_abc() {
   let single_a = []
   let abc_several = []
   let points = []
+  let points2d = Array.from(Array(200), _ => Array(200).fill(0));
   
   for (let b = abc['B'][0]; b <= abc['B'][1]; b++) {
       for (let c = abc['C'][0]; c <= abc['C'][1]; c++) {
@@ -100,6 +101,7 @@ function answers_abc() {
           if(abc['A'][0]<=a && a<=abc['A'][1]){
             if (a in ages) ages[a].push(zs);
             else ages[a]= [zs];
+            points2d[a][b-c]+=1;
           };
         };
         ages_keys = Object.keys(ages);
@@ -142,5 +144,53 @@ function answers_abc() {
     p.textContent = obj2str(triple);
   }
   
-  draw(points);
+  emptydiv(plot);
+  if (units_allowed) draw(points);
+  else draw2d(points2d);
 };
+
+
+function draw2d(points){
+  var data = []
+  points.forEach(function (pi, i){
+    pi.forEach(function (pj, j){
+      if (pj>0){
+        data.push({
+          'x':i,
+          'y':j,
+          'v':pj,
+          'r':pj*5,
+        })
+      }
+  })});
+  
+  
+  var canvas = document.getElementById('heatmap');
+  var ctx = canvas.getContext("2d");
+
+var scatterChart = new Chart(ctx, {
+    type: 'bubble',
+    data: {
+        datasets: [{
+            label: '1',
+            data: data.filter(d => d.v==1),
+        },{
+            label: '2',
+            data: data.filter(d => d.v==2),
+            "backgroundColor":"rgb(255, 99, 132)"
+        },{
+            label: '3 и больше',
+            data: data.filter(d => d.v>2),
+            "backgroundColor":"rgb(99, 255, 132)"
+        }]
+    },
+    options: {
+        scales: {
+            xAxes: [{
+                type: 'linear',
+                position: 'bottom'
+            }]
+        }
+    }
+});
+}
