@@ -12,7 +12,7 @@ def make_pdf(tag, output_folder = None):
     issues_folder = common.pdfs()
 
     pages_copied = 0
-    for article in get_articles(tag):
+    for t in get_articles(tag):
         common.copy_article(issues_folder, t['год'], 
                     t['выпуск'], t['первая'], t['всего'], 
                     output_folder, str(pages_copied).zfill(3))
