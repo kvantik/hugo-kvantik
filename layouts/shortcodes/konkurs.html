@@ -1,5 +1,11 @@
 {{$konkurstype :=  index (split .Page.File.Dir "/") 1}}
-{{$tours := index (index .Site.Data.konkurs $konkurstype) .Page.Params.latest.year}}
+{{if eq $konkurstype "math"}}
+{{.Scratch.Set "konkursdata" (index (index .Site.Data.konkurs $konkurstype) .Site.Language.Lang)}}
+{{else}}
+{{.Scratch.Set "konkursdata" (index .Site.Data.konkurs $konkurstype)}}
+{{end}}
+{{$tours := index (.Scratch.Get "konkursdata") .Page.Params.latest.year}}
+
 {{$latest := (index (sort $tours "tour.number" "desc") 0).tour}}
 
 {{if eq (.Get 0) "deadline"}}
@@ -7,3 +13,4 @@
 {{else if eq (.Get 0) "tour"}}
 {{- index (slice "0" "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX" "X" "XI" "XII" "XIII" "XIV" "XV" "XVI" "XVII") (int $latest.number) -}}
 {{end}}
+

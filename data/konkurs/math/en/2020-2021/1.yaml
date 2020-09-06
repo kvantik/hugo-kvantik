@@ -1,0 +1,30 @@
+tour:
+  deadline: October, 5th
+  number: 1
+  problems:
+  - author: Gregory Galperin
+    image_art: 1.png
+    image_scheme: ''
+    number: 1
+    problem: Gregory has put three weights of 1/8, 1/9, and 1/10 grams on the left side of pan scales. Is it possible to put two weights equal to rational fractions with numerator 1 to the right side so that they would balance the left side of the scales?
+  - author: Alexander Perepechko
+    image_art: 2.png
+    image_scheme: ''
+    number: 2
+    problem: "There are three houses on a circle at equal distances from each other. Which way from one house to another is the shortest: along the arc of a circle (blue line) or through the center of the circle (green line)?"
+  - author: Nikolay Avilov
+    image_art: 3.png
+    image_scheme: ''
+    number: 3
+    problem: Numbers that correspond to the dates of each month are indicated on the sheets of a 1-year tear-off calendar. A playful boy Peter wants to tear off a few sheets (not necessarily consecutive) so that the remaining sheets would contain no two numbers such that one them is three times larger than the other. What is the smallest number of sheets he has to tear off?
+  - author: Egor Bakaev
+    image_art: 4.png
+    image_scheme: '4-scheme.png'
+    number: 4
+    problem: Given a regular decagon *ABCDEFGHIJ* (all sides are equal, all angles are equal), what part of its area does the triangle *ACD* take up?
+  - author: Pavel Kozhevnikov
+    image_art: 5.png
+    image_scheme: ''
+    number: 5
+    problem: There is a rectangle on the checkered plane (all cells are squares 1 × 1) drawn along grid lines. The rectangle was cut into *N* rectangles along the grid lines by several horizontal and vertical cuts from one side to the other. Prove that it is possible to paint some of these *N* rectangles (maybe only one or all) so that the colored area would be a rectangle of area divisible by *N*.
+  title: Tour I

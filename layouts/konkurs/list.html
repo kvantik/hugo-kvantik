@@ -1,9 +1,15 @@
 {{define "content"}}
 {{.Content}}
-{{$konkurstype :=  index (split .File.Dir "/") 1}}
-{{$latestmath := string (delimit (slice "konkurs/math/" (.Params.latest.year) ".md") "")}}
-{{$latestrus := string (delimit (slice "konkurs/rus/" (.Params.latest.year) ".md") "")}}
 
+{{if eq .Site.Language.Lang "en"}}
+{{.Scratch.Set "lang" ".en"}}
+{{else}}
+{{.Scratch.Set "lang" ""}}
+{{end}}
+
+{{$konkurstype :=  index (split .File.Dir "/") 1}}
+{{$latestmath := string (delimit (slice "konkurs/math/" (.Params.latest.year) (.Scratch.Get "lang") ".md") "")}}
+{{$latestrus := string (delimit (slice "konkurs/rus/" (.Params.latest.year) ".md") "")}}
 
 {{if eq $konkurstype "math"}}
 {{with (.Site.GetPage "page" $latestmath)}}{{.Render "tours"}}{{end}}
