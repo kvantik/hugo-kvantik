@@ -61,6 +61,7 @@ def text_finalize(text):
   text = text.strip()
   text = text.replace('\ue090','°') # знак градуса
   text = text.replace('\ue028','×') # знак умножения
+  text = text.replace('\ue027','·') # точка умножения
   text = text.replace('-\n','') # перенос
   text = text.replace('\n','')
   text = text.replace('\t',' ')
@@ -91,7 +92,7 @@ def parse_tour(lines, kind="math"):
     return {"tour":{
         "number" : tour_num, 
         "title": '{} тур'.format(to_roman(tour_num)),
-        "deadline": '1 (месяц?)',
+        "deadline": '5 (месяц?)',
         "problems": problems
         }}
 
@@ -102,9 +103,27 @@ def extract(filename, kind='math'):
     common.pdf2images(filename, directory, pages)    
     lines = common.pdf2txt(filename, pages)
     tour = parse_tour(lines, kind=kind)
-    with open(directory+str(tour['tour']['number'])+'.yaml','w') as text:        
+    tournum = tour['tour']['number']
+    reuse = False
+    if os.path.exists(directory+str(tournum)+'.yaml'):
+      reuse = input("yaml-файл существует. Взять его за источник (Y/n)?")
+      if (reuse=='' or reuse=='y'):
+        reuse = True
+    
+    if not reuse:
+      with open(directory+str(tournum)+'.yaml','w') as text:
         text.writelines(yaml.dump(tour, allow_unicode=True, default_flow_style=False, width = 10000))
+      input("Поправьте yaml-файл и нажмите ввод.")
 
+    with open(directory+str(tournum)+'.yaml','r') as text:
+        tour_fixed = yaml.full_load(text)
+    print(tour_fixed)
+    with open(directory+str(tournum)+'.md','w') as text:
+        text.write(f"## Наш конкурс, {tour_fixed['tour']['title']} («Квантик» №_, 20__)\n\n")
+        for p in tour_fixed['tour']['problems']:
+          text.write(f'**{p["number"]}.** *{p["problem"]}*\n\n**Ответ:** .\n\n')
+    
+    common.bash(f"pandoc -s -o {directory}{tournum}.docx {directory}{tournum}.md ")    
 
 if __name__ == "__main__":
     num=int(input('Номер выпуска: '))
