@@ -105,6 +105,14 @@ def put_table(table, filename = 'table.csv'):
     writer.writerows(table)
         
 
+def to_csv(filename, list_of_dicts, keys = None):
+    if keys == None:
+        keys = list(set.intersection(*[set(l.keys()) for l in list_of_dicts]))
+    with open('people.csv', 'w', newline='')  as output_file:
+        dict_writer = csv.DictWriter(output_file, list_of_dicts[0].keys())
+        dict_writer.writeheader()
+        dict_writer.writerows(list_of_dicts)
+
 def bash(command):
   print(command)
   call(f'bash -c "{command}"', shell=True)
