@@ -53,6 +53,8 @@ calendars:
       img: img/related_titles/calendar_2019.jpg      
     - ref: https://biblio.mccme.ru/node/23656/shop
       img: img/related_titles/calendar_2020.jpg      
+    - ref: https://biblio.mccme.ru/node/65543/shop
+      img: img/related_titles/calendar_2021.jpg      
 
 posters:
   title: Плакаты
@@ -68,7 +70,7 @@ posters:
 biblio:
   title: Библиотечка
   issues:
-    - ref: https://biblio.mccme.ru/node/6165/shop
+    - ref: https://biblio.mccme.ru/node/25518/shop
       img: img/related_titles/biblio-100graney.jpg
     - ref: https://biblio.mccme.ru/node/8014/shop
       img: img/related_titles/biblio-pereputanica.jpg
