@@ -10,7 +10,7 @@ date = "2020-09-21T14:58:00+03:00"
 
 {{< figure src="3.png" title="Квадраты вокруг треугольника." link="https://www.geogebra.org/geometry/kecvcsec" height="500" target="blank">}}
 
-{{< figure src="4.png" title="Квадраты вокруг ромба." link="https://www.geogebra.org/geometry/rafctsck" height="500" target="blank">}}
+{{< figure src="4.png" title="Квадраты вокруг параллелограмма." link="https://www.geogebra.org/geometry/rafctsck" height="500" target="blank">}}
 
 {{< figure src="5.png" title="Квадраты вокруг пятиугольного параллельника." link="https://www.geogebra.org/geometry/pt3pnqxt" height="500" target="blank">}}
 
