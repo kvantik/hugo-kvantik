@@ -81,6 +81,14 @@ store:
       (https://murawei.de/russian/catalogsearch/result/?q=%D0%9A%D0%B2%D0%B0%D0\
       %BD%D1%82%D0%B8%D0%BA)"
     delivery: "* Германия и другие страны Европы"
+  - name: "[AZON](https://azon.market/)"
+    sells: '*  ["Как Бусенька что-то-там. Математические сказки", К.Кохась ]
+      (https://azon.market/kak-busenka-chto-to-tam-matematicheskie-skazki-%28id-1544583%29)'
+    delivery: "* страны  Европейского  Союза
+
+      * Великобритания\r
+
+      * Израиль"
   - name: "[Спутник](https://www.sputnik2000.com/)"
     delivery: "* Германия и другие страны Европы, США, Канада, Израиль"
     sells: "* [Альманахи]
@@ -221,11 +229,3 @@ store:
       *  ["Сто граней математики", М.Евдокимов ] (https://www.knigi-janzen.de/view.php?gid=623508)
     name: "[JANZEN](https://www.knigi-janzen.de/index.php)"
     available: 0
-  - name: "[AZON](https://azon.market/)"
-    sells: '*  ["Как Бусенька что-то-там. Математические сказки", К.Кохась ]
-      (https://azon.market/kak-busenka-chto-to-tam-matematicheskie-skazki-%28id-1544583%29)'
-    delivery: "* страны  Европейского  Союза
-
-      * Великобритания\r
-
-      * Израиль"
