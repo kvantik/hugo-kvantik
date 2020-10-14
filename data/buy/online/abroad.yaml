@@ -19,9 +19,13 @@ store:
       *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
     name: "[bookshop](http://www.bookshop.ua/)"
     sells: >+
-      *   [Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?Find=%EA%E2%E0%ED%F2%E8%EA%2E+%C0%EB%FC%EC%E0%ED%E0%F5&Cr=Catalog&D1=1&pr1=2)
+      *  [Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?Find=%EA%E2%E0%ED%F2%E8%EA%2E+%C0%EB%FC%EC%E0%ED%E0%F5&Cr=Catalog&D1=1&pr1=1)
 
-      * ["Перепутаница", С.Федин] (http://www.bookshop.ua/a15249323/)
+      *  [Календарь загадок на 2016 год](http://www.bookshop.ua/a13743540/)
+
+      *  [Плакаты (комплект №1)](http://www.bookshop.ua/a14026207/)
+
+      *  ["Перепутаница", С.Федин] (http://www.bookshop.ua/a15249323/)
 
       *  ["Сто граней математики", М.Евдокимов ] (http://www.bookshop.ua/a14929562/)
 
@@ -39,9 +43,15 @@ store:
       *
       [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
 
+      *   [Плакаты (комплект №1)](https://chitatel.by/catalog/book/443695)
+
+      *   [Календарь загадок на 2016 год](https://chitatel.by/catalog/book/393577)
+
       *  ["Сто граней математики", М.Евдокимов ] (https://chitatel.by/catalog/book/885906)
 
       * ["Перепутаница", С.Федин](https://chitatel.by/catalog/2480/1099607/) 
+
+      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://chitatel.by/catalog/book/1509814)
     dump: >-
       * [Календарь загадок на 2018
       год](https://chitatel.by/catalog/2587/961510/)
@@ -81,6 +91,30 @@ store:
       (https://murawei.de/russian/catalogsearch/result/?q=%D0%9A%D0%B2%D0%B0%D0\
       %BD%D1%82%D0%B8%D0%BA)"
     delivery: "* Германия и другие страны Европы"
+  - name: "[AZON](https://azon.market/)"
+    sells: >-
+      *  [Альманахи](https://azon.market/index.php?route=product/search&search=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.%20%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+
+      *   [Плакаты (комплект №1)](https://azon.market/poznavatelnye-plakaty-dlja-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-1)
+
+      *   [Плакаты (комплект №2)](https://azon.market/poznavatelnye-plakaty-dlja-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-2)
+
+      *   [Плакаты (комплект №3)](https://azon.market/poznavatelnye-plakaty-dlja-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-3)
+
+      *   [Календарь загадок на 2020 год](https://azon.market/kalendar-zagadok-2020-god-ot-zhurnala-kvantik-%28id-1285410%29)
+
+      *   [Календарь загадок на 2016 год](https://azon.market/kalendar-zagadok-ot-jurnala-kvantik-2016-mysh2127348)
+
+      * ["Сто граней математики", М.Евдокимов](https://azon.market/sto-granej-matematiki)
+
+      * ["Перепутаница", С.Федин](https://azon.market/pereputanica-%28id-969213%29)
+
+      *  ["Как Бусенька что-то-там. Математические сказки", К.Кохась ] (https://azon.market/kak-busenka-chto-to-tam-matematicheskie-skazki-%28id-1544583%29)
+    delivery: "* страны  Европейского  Союза
+
+      * Великобритания\r
+
+      * Израиль"
   - name: "[Спутник](https://www.sputnik2000.com/)"
     delivery: "* Германия и другие страны Европы, США, Канада, Израиль"
     sells: "* [Альманахи]
