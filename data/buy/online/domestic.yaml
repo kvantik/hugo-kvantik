@@ -37,13 +37,30 @@ store:
 
 
       \n"
+  - name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
+    sells: >-
+      * [Журналы](http://www.kvantik.ru/collection/zhurnaly)
+
+      * [Альманахи](http://www.kvantik.ru/collection/almanahi)
+
+      * [Календарь загадок на 2021 год](http://www.kvantik.ru/collection/kalendar)
+
+      * ["Сто граней математики", М.Евдокимов](http://www.kvantik.ru/product/100-graney-matematiki-evdokimov-m-a)
+
+      * ["Перепутаница", С.Федин](https://www.kvantik.ru/product/pereputanitsa-sfedina)
+
+      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](http://www.kvantik.ru/product/kohas-kp-kak-busenka-chto-to-tam-matematicheskie-skazki)
+    delivery: "* Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы:
+      Москва и другие регионы России"
+    dump: "* [Головоломки Владимира
+      Красноухова](http://www.kvantik.ru/collection/golovolomki)"
   - available: 1
     delivery: >
       *   Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва
       и другие регионы России
     dump: "* [Головоломки Владимира
       Красноухова](http://www.kvantik.ru/collection/golovolomki)"
-    name: "[Интернет-магазин \"КВАНТИК\"](http://www.kvantik.ru)\r\n"
+    name: "[Интернет-магазин \"КВАНТИК 0\"](http://www.kvantik.ru)\r\n"
     sells: >-
       * [Журналы](http://www.kvantik.ru/collection/zhurnaly)
 
