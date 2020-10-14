@@ -69,9 +69,6 @@ store:
       *   [Плакаты (комплект
       №3)](https://my-shop.ru/shop/books/2766346.html)
 
-      *   [Календарь загадок на 2020
-      год](https://my-shop.ru/shop/product/3853155.html?b45=1_2)
-
       *   [Календарь загадок на 2016
       год](https://my-shop.ru/shop/books/2127348.html)
 
@@ -89,6 +86,8 @@ store:
       *   Курьером;
       *   В пункт выдачи;
       *   На почту
+    dump: "*   [Календарь загадок на 2020
+      год](https://my-shop.ru/shop/product/3853155.html?b45=1_2)"
   - available: "1"
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r
 
