@@ -224,9 +224,15 @@ store:
       *   Доставка в регионы: Почтой России\r"
     name: "[Буквоед](https://www.bookvoed.ru/)\r"
     sells: "*   [Альманахи](https://www.bookvoed.ru/books?q=%D0%9A%D0%B2%D0%B0%D0%B\
-      D%D1%82%D0%B8%D0%BA)\r\n"
+      D%D1%82%D0%B8%D0%BA)\r
+
+      * [\"Перепутаница\",
+      С.Федин](https://www.bookvoed.ru/book?id=10048031)\n"
     dump: "*   [Календарь загадок на 2019
-      год](https://www.bookvoed.ru/book?id=9023636)\r"
+      год](https://www.bookvoed.ru/book?id=9023636)\r
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](https://www.bookvoed.ru/book?id=10471936)\r"
   - available: 0
     delivery: "*   Курьерская доставка в 450 городов России;\r
 
@@ -235,17 +241,21 @@ store:
       *   Почтовая доставка по России (во все населённые пункты)\r\n"
     dump: "*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dl\
       ya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-6\
-      18675.html)\r"
-    name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%E\
-      A.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r
+      18675.html)\r
 
       *   [Календарь загадок на 2019
       год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvant\
       ik-na-2019-god-383053.html)\r
 
       * [\"Сто граней математики\", М.Евдокимов
-      ](http://www.ukazka.ru/catalog/book-sto-granej-matematiki-581510.html)\r
+      ](http://www.ukazka.ru/catalog/book-sto-granej-matematiki-581510.html)\r"
+    name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%E\
+      A.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r
+
+      * [\"Перепутаница\",
+      С.Федин](https://www.ukazka.ru/catalog/book-pereputanitca-283493.html)
+
 
 
       \n"
