@@ -221,3 +221,11 @@ store:
       *  ["Сто граней математики", М.Евдокимов ] (https://www.knigi-janzen.de/view.php?gid=623508)
     name: "[JANZEN](https://www.knigi-janzen.de/index.php)"
     available: 0
+  - name: "[AZON](https://azon.market/)"
+    sells: '*  ["Как Бусенька что-то-там. Математические сказки", К.Кохась ]
+      (https://azon.market/kak-busenka-chto-to-tam-matematicheskie-skazki-%28id-1544583%29)'
+    delivery: "* страны  Европейского  Союза
+
+      * Великобритания\r
+
+      * Израиль"
