@@ -136,8 +136,14 @@ store:
 
       * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://www.belykrolik.ru/catalog/kak_busenka_chto_to_tam_matematicheskie_skazki-g19935811/)
 
-    delivery: "* [Доставка курьером: Москва и ближайшее
-      Подмомсковье](https://www.belykrolik.ru/dostavka/)"
+    delivery: "* [Доставка курьером: Москва в пределах МКАД и за
+      МКАД](https://www.belykrolik.ru/dostavka/)
+
+      * Самовывоз
+
+      * Доставка по России службами Почты России и СДЭК\r
+
+      \n"
   - available: "1"
     delivery: "
 
