@@ -322,6 +322,41 @@ store:
       0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%8\
       5&search=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8)"
   - available: 0
+    delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской
+      области;\r
+
+      *   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург
+      (Железнодорожный проспект);\r
+
+      *   Почтовая доставка по России\r\n"
+    dump: "*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты\
+      &what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_syst\
+      em=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r"
+    name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
+    sells: "*   [Альманахи](https://www.tdabris.ru/catalog/?q=%D0%9A%D0%B2%D0%B0%D0\
+      %BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&w\
+      here=name&s=)\r
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://umlit.ru/catalog/view/203946)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://umlit.ru/catalog/view/222407)\ \n"
+  - dump: ""
+    name: "[Белый кролик](https://www.belykrolik.ru/)"
+    sells: >+
+      * [Журналы]
+      (https://www.belykrolik.ru/catalog/search/?query=%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
+
+      * [Альманахи] (https://www.belykrolik.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+
+      * ["Перепутаница", С.Федин](https://www.belykrolik.ru/catalog/bibliotechka_zhurnala_kvantik_pereputanica-g16521911/)
+
+      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://www.belykrolik.ru/catalog/kak_busenka_chto_to_tam_matematicheskie_skazki-g19935811/)
+
+    delivery: "* [Доставка курьером: Москва и ближайшее
+      Подмомсковье](https://www.belykrolik.ru/dostavka/)"
+  - available: 0
     delivery: "*   Набор доступных способов доставки зависит от региона доставки
       (см. на сайте магазина)\r\n"
     dump: "*
@@ -393,34 +428,3 @@ store:
     sells: >
       *   [Журналы и
       Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)
-  - available: 0
-    delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской
-      области;\r
-
-      *   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург
-      (Железнодорожный проспект);\r
-
-      *   Почтовая доставка по России\r\n"
-    dump: "*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты\
-      &what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_syst\
-      em=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r"
-    name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
-    sells: "*   [Альманахи](https://www.tdabris.ru/catalog/?q=%D0%9A%D0%B2%D0%B0%D0\
-      %BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&w\
-      here=name&s=)\r
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://umlit.ru/catalog/view/203946)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://umlit.ru/catalog/view/222407)\ \n"
-  - dump: ""
-    name: |-
-      [Белый кролик](https://www.instagram.com/p/B-cO0wzDizT/)
-      (https://www.belykrolik.ru/)
-    sells: |
-      * Журналы
-      * Альманахи
-      * Календарь загадок на 2020 год
-    delivery: "* [Доставка курьером: Москва и ближайшее
-      Подмомсковье](https://www.belykrolik.ru/dostavka/)"
