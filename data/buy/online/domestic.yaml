@@ -178,6 +178,35 @@ store:
 
 
       *   Доставка в розничные книжные магазины «Галилео»\r"
+  - available: 1
+    delivery: "*   Курьерская доставка в 450 городов России;\r
+
+      *   Самовывоз в 59 городах России;\r
+
+      *   Почтовая доставка по России (во все населённые пункты)\r\n"
+    dump: "*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dl\
+      ya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-6\
+      18675.html)\r
+
+      *   [Календарь загадок на 2019
+      год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvant\
+      ik-na-2019-god-383053.html)\r
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://www.ukazka.ru/catalog/book-sto-granej-matematiki-581510.html)\r"
+    name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%E\
+      A.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r
+
+      * [\"Перепутаница\",
+      С.Федин](https://www.ukazka.ru/catalog/book-pereputanitca-283493.html)
+
+      *   [Календарь загадок на 2019
+      год](https://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvan\
+      tik-na-2019-god-685652.html)\r
+
+
+      \n"
   - available: "1"
     delivery: "* Бесплатный самовывоз м. Новокузнецкая, 30 платных пунктов
       самовывоза в Москве и области.;
@@ -247,35 +276,6 @@ store:
 
       * [\"Сто граней математики\", М.Евдокимов
       ](https://www.bookvoed.ru/book?id=10471936)\r"
-  - available: 1
-    delivery: "*   Курьерская доставка в 450 городов России;\r
-
-      *   Самовывоз в 59 городах России;\r
-
-      *   Почтовая доставка по России (во все населённые пункты)\r\n"
-    dump: "*   [Плакаты](http://www.ukazka.ru/catalog/book-poznavatelnye-plakaty-dl\
-      ya-shkolnikov-zanimatelnye-zadachi-ot-zhurnala-kvantik-komplekt-nomer-2-6\
-      18675.html)\r
-
-      *   [Календарь загадок на 2019
-      год](http://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvant\
-      ik-na-2019-god-383053.html)\r
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://www.ukazka.ru/catalog/book-sto-granej-matematiki-581510.html)\r"
-    name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%E\
-      A.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)\r
-
-      * [\"Перепутаница\",
-      С.Федин](https://www.ukazka.ru/catalog/book-pereputanitca-283493.html)
-
-      *   [Календарь загадок на 2019
-      год](https://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvan\
-      tik-na-2019-god-685652.html)\r
-
-
-      \n"
   - available: 0
     delivery: "*   Курьерская доставка по Москве, Московской области,
       Санкт-Петербургу, Нижнему Новгороду, Ростову-на-Дону, Батайску, Аксаю;\r
