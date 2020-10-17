@@ -1,0 +1,31 @@
+
+tour:
+  deadline: November, 5
+  number: 2
+  problems:
+  - author: Sergey Kostin
+    image_art: 6.png
+    image_scheme: ''
+    number: 6
+    problem: In the spring of a given year, there were fewer Mondays than Thursdays. Which day of week, Tuesday or Friday, was in fewer numbers in the summer of the same year?
+  - author: Grigory Galperin
+    image_art: 7.png
+    image_scheme: ''
+    number: 7
+    problem: "Find all natural numbers *n* such that *n*<sup>2</sup> = *n*! + *n*. (Reminder: *n*! denotes the product 1 · 2 · ... · *n* of the first *n* natural numbers.)"
+  - author: Danila Ivanov
+    image_art: 8.png
+    image_scheme: '8-scheme.png'
+    number: 8
+    problem: Two players play Tic-Tac-Toe on an infinite checkered plane. The player who marks a cross of five cells (see the picture) wins. Can the second player always prevent the first one from winning?
+  - author: Mikhail Evdokimov
+    image_art: 9.png
+    image_scheme: ''
+    number: 9
+    problem: a)  Is it possible to color all natural numbers in three colors so that each color is present and the product of any same colored pair of numbers has the same color?<br/>b) Is it possible to do this with seven colors?
+  - author: ''
+    image_art: 10.png
+    image_scheme: '10-scheme.png'
+    number: 10
+    problem: 'Figure out a way to cut the square into pieces and translate them without rotating or flipping so that you get an equal, but rotated square (for example, as in the picture).'
+  title: Tour II 
