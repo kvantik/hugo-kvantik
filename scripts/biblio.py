@@ -23,5 +23,5 @@ def make_pdf(articles, filename, output_folder = None):
 if __name__ == "__main__":
     tag = input('Введите тег для сбора в pdf: ')
     articles = get_articles(tag)
-    to_csv(f'local/biblio-{tag}.csv', articles)
+    common.to_csv(f'local/biblio-{tag}.csv', articles)
     make_pdf(articles, f'biblio-{tag}')

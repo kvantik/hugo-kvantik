@@ -1,5 +1,55 @@
 
 [[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvan.tk/ugolnik-4"
+  to = "https://upload.wikimedia.org/wikipedia/commons/8/84/Triangle2.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvan.tk/ugolnik-3"
+  to = "https://upload.wikimedia.org/wikipedia/commons/2/21/Triangle1.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvan.tk/ugolnik-2"
+  to = "https://upload.wikimedia.org/wikipedia/commons/8/8d/Triangles2.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvan.tk/ugolnik-1"
+  to = "https://upload.wikimedia.org/wikipedia/commons/8/8e/Triangles1.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео со сфериконами - тетраконом и прочими
+  # где размещена ссылка: статья про сфериконы, Квантик 2020-12
+  from = "https://kvan.tk/tetracon"
+  to = "http://youtu.be/R27xHl_joRw"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео со сфериконом гексаконом
+  # где размещена ссылка: статья про сфериконы, Квантик 2020-12
+  from = "https://kvan.tk/hexacon"
+  to = "youtu.be/YwEG942gLk8"
+  status = 301
+  force = true 
+
+
+
+[[redirects]]
   # куда ведёт ссылка: видео с чёртиком-водолазом на викискладе 
   # где размещена ссылка: ответы к статье "ПОХОЖЕ, НО – КАКАЯ РАЗНИЦА!", Квантик 2020-11
   from = "https://kvan.tk/diver-rot2"

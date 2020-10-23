@@ -109,11 +109,17 @@ def put_table(table, filename = 'table.csv'):
 def to_csv(filename, list_of_dicts, keys = None):
     if keys == None:
         keys = list(set.intersection(*[set(l.keys()) for l in list_of_dicts]))
-    with open('people.csv', 'w', newline='')  as output_file:
-        dict_writer = csv.DictWriter(output_file, list_of_dicts[0].keys())
+    with open(filename, 'w', newline='')  as output_file:
+        dict_writer = csv.DictWriter(output_file, list_of_dicts[0].keys(), extrasaction='ignore')
         dict_writer.writeheader()
         dict_writer.writerows(list_of_dicts)
 
+def read_csv(filename):
+  with open(filename, 'r')  as input_file:
+    reader = csv.DictReader(input_file)
+    return list(reader)
+        
+        
 def bash(command):
   print(command)
   call(f'bash -c "{command}"', shell=True)
