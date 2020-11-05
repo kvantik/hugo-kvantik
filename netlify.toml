@@ -32,9 +32,17 @@
   force = true 
 
 [[redirects]]
-  # куда ведёт ссылка: видео со сфериконами - тетраконом и прочими
+  # куда ведёт ссылка: развёртка тетракона на нашем сайте
   # где размещена ссылка: статья про сфериконы, Квантик 2020-12
   from = "https://kvan.tk/tetracon"
+  to = "https://kvantik.com/extra/tetracon.pdf"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео со сфериконами - тетраконом и прочими
+  # где размещена ссылка: статья про сфериконы, Квантик 2020-12
+  from = "https://kvan.tk/polycons"
   to = "http://youtu.be/R27xHl_joRw"
   status = 301
   force = true 
