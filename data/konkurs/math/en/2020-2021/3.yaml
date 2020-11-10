@@ -1,0 +1,30 @@
+tour:
+  deadline: December, 5
+  number: 3
+  problems:
+  - author: Grigory Galperin
+    image_art: 11.png
+    image_scheme: ''
+    number: 11
+    problem: 'a) Is it possible to make up a 1001-digit number from non-zero digits with the following property: if you cross out several digits in it (not necessarily in a row) so that a **seven**-digit number remains, then this remaining number will not be divisible by 77? <br/> The same question for the following property: if you cross out several digits in it (not necessarily in a row) so that a **six**-digit number remains, then this remaining number will not be divisible by 77.'
+  - author: ''
+    image_art: 12.png
+    image_scheme: ''
+    number: 12
+    problem: "During one day of stay at the Magic School, the amount of a student’s knowledge increases (relative to the previous day) by a percentage equal to the day of the month. For example, on October 31, knowledge will increase by 31%, and on November 1 only by 1%. Dunno studied at the Magic School for 11 days, from October 10 to October 20, and Doono also studied for 11 days, from October 11 to October 21. Who has more knowledge now and by what percentage, if their knowledge was equal before the Magic School?"
+  - author: Alexander Perepechko
+    image_art: 13.png
+    image_scheme: ''
+    number: 13
+    problem: Three bird-watchers, each on its own tower, watch over one heron. Bird-watchers look directly at the heron all the time and turn after it. In the morning, the heron flew out of the nest for a hunt and came back in the evening. Is it possible that, as a result, the first bird-watcher made exactly one turn around himself clockwise, the second did exactly one turn counterclockwise, and the third did not make a single full turn at all?
+  - author: Mikhail Evdokimov
+    image_art: 14.png
+    image_scheme: ''
+    number: 14
+    problem: Is it possible to write a natural number at each vertex of a cube so that all 8 numbers are different, but the product of the numbers at the vertices of each face is the same?
+  - author: Михаил Евдокимов
+    image_art: 15.png
+    image_scheme: '15-scheme.png'
+    number: 15
+    problem: а) A quadrilateral with vertices at the nodes of the grid was drawn on a checkered sheet (see figure). Prove that one of its angles is twice as large as some other.<br/>b) Draw a convex quadrilateral on the checkered sheet with vertices at the nodes of the grid such that one angle of the quadrilateral is four times as large as some other.
+  title: Tour III
