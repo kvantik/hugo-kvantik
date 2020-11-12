@@ -45,7 +45,8 @@ def make_sample(num, issue_pdf, pages=None):
     #pages =  ['1', '2', '3', '4', '5', '6', '25', '18', '19',  '34', '35', '36']
     command = 'pdftk {0} cat {1} output {2}{3}_sample.pdf'.format(issue_pdf, ' '.join(pages), directory, issue_name)
     call('bash -c "{}"'.format(command), shell=True)
-        
+    command_konkurs = 'pdftk {0} cat {1} output {2}{3}_konkurs.pdf'.format(issue_pdf, '34-35', directory, issue_name)
+    call('bash -c "{}"'.format(command_konkurs), shell=True)    
     
 
 if __name__ == "__main__":

@@ -36,14 +36,11 @@
   {{end}}
 </div>
 {{end}}
-
-
+{{$pdf_tour := delimit (slice "/konkurs/" $konkurstype "/" $page.Title "/" .tour.number ".pdf") ""}}
+{{$pdf_tour_static := path.Join "/static" $pdf_tour}}
+{{if (eq $page.Lang "ru")}}{{if (fileExists $pdf_tour_static)}}<p style="margin-top:30px;"><a target="_blank" href="{{$pdf_tour}}">Скачать этот тур в pdf </a></p>{{end}}{{end}}
 </div>
 {{end}}
 
 </div>
 </div>
-
-
-
-
