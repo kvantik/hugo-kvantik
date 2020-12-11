@@ -1,5 +1,13 @@
 
 [[redirects]]
+  # куда ведёт ссылка: брошюра В.Г.Болтянского «Равновеликие и равносоставленные фигуры» 
+  # где размещена ссылка: отсылка к теореме Бойяи-Гервина в статье "Три креста ...", Квантик 2021-01 с.20
+  from = "https://kvan.tk/boltyanski"
+  to = "https://www.mathedu.ru/text/boltyanskiy_ravnovelikie_i_ravnosostavlennye_figury_1956/"
+  status = 301
+  force = true 
+
+[[redirects]]
   # куда ведёт ссылка: видео с гигрометром "Humidity 500%"
   # где размещена ссылка: статья "Нагревание термометра", Альманах 9, изд.2, с.148
   from = "https://kvan.tk/humid500"
