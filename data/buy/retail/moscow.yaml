@@ -63,7 +63,7 @@ shops:
     name: Магазин «Молодая Гвардия»
   - address: |
       (работает интернет-магазин) www.uchebnik.com тел. 8(495)585-10-55
-    available: "1"
+    available: 0
     branches:
       - address: |
           ул. Южнобутовская, д. 81  тел.8(495) 585-10-55
