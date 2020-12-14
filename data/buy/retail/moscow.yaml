@@ -142,3 +142,7 @@ shops:
   - name: Тест
     address: тёст
     available: 1
+    branches:
+      - name: тест подразделения
+        address: тёст подразделения
+        available: 1
