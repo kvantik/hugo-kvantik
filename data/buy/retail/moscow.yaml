@@ -139,10 +139,3 @@ shops:
   - name: «Мир школьника» (работает интернет-магазин)
     address: ул. Южнобутовская, д. 81, тел. 8(495)585-10-55
     available: 1
-  - name: Тест
-    address: тёст
-    available: 1
-    branches:
-      - name: тест подразделения
-        address: тёст подразделения
-        available: 1
