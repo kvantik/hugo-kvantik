@@ -6,22 +6,22 @@
 
 {{range sort ($.Site.Data.buy.retail) "order"}}
 <tr><td colspan="2" bgcolor="#ccddff"><b>{{ .title }}</b></td></tr>
-{{range where .shops "available" "!=" "0"}}
+{{range .shops}}{{if not (and (isset . "available")  (eq (string .available) "0"))}}
 <tr>
-<td>&#9679; {{.name | markdownify}}</td>
+<td>&#9679; {{.name | markdownify}}  </td>  
 <td>{{.address | markdownify}}</td>
 </tr>
 
     {{with .branches}}
-    {{range where . "available" "!=" "0"}}
+    {{range . }}{{if not (and (isset . "available")  (eq (string .available) "0"))}}
     <tr>
     <td> - {{.name | markdownify}}</td>
     <td>{{.address | markdownify}}</td>
     </tr>
-    {{end}}
+    {{end}}{{end}}
     {{end}}
 
-{{end}}
+{{end}}{{end}}
 {{end}}
 
 </table>
