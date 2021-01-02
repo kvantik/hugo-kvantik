@@ -6,7 +6,7 @@ import csv
 import requests
 
 repo_root = '../'  
-year = 2020
+year = 2021
 
 
 @lru_cache()
@@ -53,6 +53,7 @@ def pdf2txt(filename, pages):
 
 
 def sheet_url(sheet):
+  
   if type(sheet)==int:
     sheet_id = {
       2012: 640477208,
@@ -77,6 +78,8 @@ def sheet_url(sheet):
       }[int(alm_num)]
   elif sheet == 'inbox':
     sheet_id = 1996229940
+  elif sheet == 'issues':
+    sheet_id = 1450876382
   else:
     raise ValueError
   return f'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={sheet_id}&single=true&output=csv'
@@ -102,15 +105,15 @@ def get_table(sheet, gsheet=False):
   
 def put_table(table, filename = 'table.csv'):
   with open('local/'+filename, 'w') as file:
-    writer = csv.DictWriter(file, table[0].keys())
+    writer = csv.DictWriter(file, table[0].keys(), delimiter='&')
     writer.writerows(table)
         
 
-def to_csv(filename, list_of_dicts, keys = None):
+def to_csv(filename, list_of_dicts, keys = None, delimiter=','):
     if keys == None:
         keys = list(set.intersection(*[set(l.keys()) for l in list_of_dicts]))
     with open(filename, 'w', newline='')  as output_file:
-        dict_writer = csv.DictWriter(output_file, list_of_dicts[0].keys(), extrasaction='ignore')
+        dict_writer = csv.DictWriter(output_file, list_of_dicts[0].keys(), extrasaction='ignore', delimiter=delimiter)
         dict_writer.writeheader()
         dict_writer.writerows(list_of_dicts)
 

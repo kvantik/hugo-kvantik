@@ -26,9 +26,10 @@ import re
 
 def get_pages(num):
     with requests.Session() as s:
-        content = s.get(common.sheet_url(common.year)).content.decode('utf-8')
+        content = s.get(common.sheet_url('issues')).content.decode('utf-8')
         table = list(csv.DictReader(content.splitlines(), delimiter=','))
-    articles = [(int(t['Первая страница']), int(t['Всего страниц'])) for t in table if (t['Выпуск']==str(num)) and t['входит в сэмпл?'].strip()=='да']
+    print(table[:3])
+    articles = [(int(t['Первая страница']), int(t['Всего страниц'])) for t in table if (t['Год']==str(common.year)) and (t['Выпуск']==str(num)) and t['входит в сэмпл?'].strip()=='да']
     pages = [set(range(a[0]+2, a[0]+a[1]+2)) for a in articles]
     pages = {2,3}.union(*pages)
     return sorted(pages)
