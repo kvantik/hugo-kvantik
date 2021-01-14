@@ -3,7 +3,7 @@
   # куда ведёт ссылка: статья про подлёдные озёра на Марсе, обнаруженные в сентябре 2020
   # где размещена ссылка: ответы к Турниру Ломоносова XLIII, Квантик 2021-02 
   from = "https://kvan.tk/mars-lakes"
-  to = "https://www.gazeta.ru/science/2020/09/29_a_13272301.shtml"
+  to = "https://indicator.ru/astronomy/marse-podlednye-solenye-ozera-28-09-2020.htm"
   status = 301
   force = true 
 
