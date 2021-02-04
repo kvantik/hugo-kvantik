@@ -1,6 +1,7 @@
 ﻿{{ $data := getCSV "," "/resources/csv/issues.csv"}}
 {{$month := strings.TrimLeft "0" .month}}
 {{$year := strings.TrimLeft "0" .year}}
+{{$buy := getCSV "," "/resources/csv/issues-buy.csv"}}
 
 <h4 style="margin-left:20px;">  {{if eq .lang "ru"}}В этом номере: {{else}}In this issue: {{end}}</h4> 
     <ul>
@@ -11,3 +12,9 @@
     <li>  {{.|markdownify}} </li>
 {{end}}{{end}}{{end}}{{end}}
     </ul>
+{{range $buy}}
+{{if ( eq (index . 0) $year )}}
+{{if ( eq (index . 1) $month )}}
+{{with (index . 2)}}
+ <a href="{{.}}" target="blank;" ><p style="padding:20px;">Купить в магазине МЦНМО</p></a>
+{{end}}{{end}}{{end}}{{end}}
