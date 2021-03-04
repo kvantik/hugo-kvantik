@@ -72,11 +72,11 @@ def parse_tour(lines, kind="math"):
     authors = get_authors(lines, kind=kind)
     print(lines)
     try:
-      firstnum = int(re.match( r'\d+', next(x for x in lines if bool(re.search(r'\d+.', x))==True)  ).group(0))
+      firstnum = int(re.match( r'\d+', next(x for x in lines if bool(re.search(r'\d+[.]', x))==True)  ).group(0))
     except:
       firstnum = 1
     print("Номер первой задачи:", firstnum)
-    pop_until(lines, '{}.'.format(firstnum))
+    pop_until(lines, f'{firstnum}.')
     firstnum = int(re.match( r'\d+.', lines[0].strip() ).group(0)[:-1])
     problems = []
     for i in range(firstnum, firstnum+5):
