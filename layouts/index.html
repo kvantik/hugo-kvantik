@@ -9,7 +9,7 @@
  {{if eq .Lang "ru"}}
             <div class="heading"><h2>Новости</h2></div>
         <table class="noborder"> <tbody>
-        {{range (first 3 (sort .Site.Data.news.news "number" "desc"))}}
+        {{range (first 3 (where (sort .Site.Data.news.news "number" "desc") "hide" "==" nil) )}}
         {{partial "news/li" .}}
         {{end}}
          </tbody></table>
