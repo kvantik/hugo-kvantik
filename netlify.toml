@@ -1,5 +1,11 @@
 
-
+[[redirects]]
+  # куда ведёт ссылка: python-скрипт с вычислением 
+  # где размещена ссылка: статья "Косые квадраты", Квантик 2021-07, с.3
+  from = "https://kvan.tk/squares-py"
+  to = "https://replit.com/@GrigoryMerzon/SumTwoSquares"
+  status = 301
+  force = true 
 
 [[redirects]]
   # куда ведёт ссылка: pdf-файл с развёрткой половинок тетраэдра на нашем сайте
