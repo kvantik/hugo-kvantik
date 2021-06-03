@@ -146,10 +146,9 @@
   # куда ведёт ссылка: видео со сфериконом гексаконом
   # где размещена ссылка: статья про сфериконы, Квантик 2020-12
   from = "https://kvan.tk/hexacon"
-  to = "youtu.be/YwEG942gLk8"
+  to = "https://youtu.be/YwEG942gLk8"
   status = 301
   force = true 
-
 
 
 [[redirects]]
