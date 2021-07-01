@@ -6,6 +6,7 @@ import re
 import datetime
 import itertools
 import yaml
+from subprocess import call, check_call
 
 import common
 
@@ -124,6 +125,10 @@ def extract(filename, kind='math'):
           text.write(f'**{p["number"]}.** *{p["problem"]}*\n\n**Ответ:** .\n\n')
     
     common.bash(f"pandoc -s -o {directory}{tournum}.docx {directory}{tournum}.md ")    
+    command_pdf = 'pdftk {0} cat {1} output {2}{3}.pdf'.format(filename, f'{pages[0]}-{pages[-1]}', directory, tournum)
+    print(command_pdf)
+    call('bash -c "{}"'.format(command_pdf), shell=True)    
+    
 
 if __name__ == "__main__":
     num=int(input('Номер выпуска: '))

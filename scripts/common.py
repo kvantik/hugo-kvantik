@@ -4,9 +4,16 @@ from functools import lru_cache
 import re
 import csv
 import requests
+from pathlib import Path
 
 repo_root = '../'  
 year = 2021
+
+
+csv_to_update = {
+    'issues': 'issues.csv',
+    'issues-buy': 'issues-buy.csv',
+    }
 
 
 @lru_cache()
@@ -81,24 +88,24 @@ def sheet_url(sheet):
     sheet_id = 1996229940
   elif sheet == 'issues':
     sheet_id = 1450876382
+  elif sheet == 'issues-buy':
+    sheet_id = 1310471733
   else:
     raise ValueError
   return f'https://docs.google.com/spreadsheets/d/e/2PACX-1vTBts-EQ8H1rU283Ur7PG09GYqHwVQB7hnums3gEM6bGeH9DDSJnbrtg8Gv9x5lVTD4oRoFUFWDaKmo/pub?gid={sheet_id}&single=true&output=csv'
 
 
-def get_table(sheet, gsheet=False):
-  if not gsheet:
-    csv_file = input(f"Введите имя файла таблицы {sheet} (в csv, ввод для гугл-таблицы): ")
-    gsheet = csv_file == ''
-  if gsheet:
-    with requests.Session() as s:
-      content = s.get(sheet_url(sheet)).content.decode('utf-8')
-  else:
+def get_table(sheet, csv_file=None, gsheet=False, full_header = False): # TODO: убрать gsheet=False
+  if csv_file:
     with open(csv_file, 'r', encoding='utf8') as f:
       content = f.read()
+  else:
+    with requests.Session() as s:
+      content = s.get(sheet_url(sheet)).content.decode('utf-8')
   content = content.splitlines()
   headers = content[0].split(',')
-  headers = [h.lower().split(' ')[0] for h in headers]
+  if not full_header:
+    headers = [h.lower().split(' ')[0] for h in headers]
   content[0] = ','.join(headers)
   return [dict(d) for d in csv.DictReader(content, delimiter=',')]
 
@@ -123,6 +130,11 @@ def read_csv(filename):
     reader = csv.DictReader(input_file)
     return list(reader)
         
+        
+def update_csv(dest_folder = Path('local/')):    
+    for sheet_name, filename in csv_to_update.items():
+        table = get_table(sheet_name, full_header = True)
+        to_csv(dest_folder/filename, table)
         
 def bash(command):
   print(command)

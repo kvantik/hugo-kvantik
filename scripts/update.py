@@ -17,6 +17,8 @@ if __name__ == "__main__":
     konkurs.extract(pdf)
     cover.get_cover(pdf)    
     sample.make_sample(num, pdf)
+    print('а также обновит csv-файлы в папке local')
+    common.update_csv()
 
 # fetch issue info from spreadsheet and generate .md
 
