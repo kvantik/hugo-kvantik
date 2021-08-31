@@ -8,6 +8,7 @@ menu:
     weight: 1
 aliases:
   - /concurs/
+  - /konkurs/
 latest: 
   year: "2020-2021"
 ---

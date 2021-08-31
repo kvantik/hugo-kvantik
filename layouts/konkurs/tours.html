@@ -25,7 +25,7 @@
   </div>
   {{end}}
   <div class="media-body">
-    <h4 class="media-heading">Задача {{.number}}. {{if (string .author | chomp) "!=" ""}}<small>({{.author}})</small> {{end}} </h4>
+    <h4 class="media-heading">Задача {{.number}}. {{if (ne (string .author | chomp)  "")}}<small>({{.author}})</small> {{end}} </h4>
     <p>{{.problem | markdownify}}</p>
     {{with .image_scheme}} <img src="{{$url}}{{.}}" alt="Чертёж" class="media-object" style="max-height:160px; max-width:400px;" />{{end}}
   </div>

@@ -3,7 +3,11 @@
         {{$page := . -}}    
         {{- range .Site.Menus.main.ByWeight -}}
 		      {{- if ne .Identifier "test" -}}        
-        <a {{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .)}}class="active"{{else}}href="{{.URL}}"{{end}}>{{.Name}}</a>
+           <a {{if or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) -}}
+            class="active"
+            {{- else -}}
+            href="{{if eq .ConfiguredURL ""}}{{.URL}}{{else}}{{.ConfiguredURL}}{{end}}"
+            {{- end}}>{{.Name}}</a>
 		{{- end}}{{end -}}		
     </div>
         {{ range .Translations }}
@@ -20,4 +24,3 @@
 		{{- end}}{{end -}}{{end -}}
 </div>    
 {{end}}
-

@@ -11,15 +11,14 @@
 <td>&#9679; {{.name | markdownify}}  </td>  
 <td>{{.address | markdownify}}</td>
 </tr>
-
-    {{with .branches}}
-    {{range . }}{{if not (and (isset . "available")  (eq (string .available) "0"))}}
+    {{- with .branches -}}
+    {{- range . -}}{{- if not (and (isset . "available")  (eq (string .available) "0")) -}}
     <tr>
     <td> - {{.name | markdownify}}</td>
     <td>{{.address | markdownify}}</td>
     </tr>
-    {{end}}{{end}}
-    {{end}}
+    {{- end -}}{{- end -}}
+    {{- end -}}
 
 {{end}}{{end}}
 {{end}}

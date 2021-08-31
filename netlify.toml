@@ -477,3 +477,13 @@
   to = "https://kvantik.com/shortener"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+
+
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.87.0"
