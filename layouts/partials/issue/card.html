@@ -7,7 +7,8 @@
     {{- if eq .lang "ru" -}}Примеры статей.{{- else -}}Selected articles.{{- end -}}
     {{- else -}}
     {{- if eq .lang "ru" -}}Полная версия.{{- else -}}Complete issue.{{- end -}}
-    {{- end -}}
+    {{- end }}
+    №{{strings.TrimLeft "0" .month}} ({{.year}})
     </b></div>
     </a>
 </div>

@@ -79,7 +79,9 @@ SectionPagesMenu = "lazy"
     tags = true
     search = true
 
-
+[markup]
+  defaultMarkdownHandler = 'blackfriday'
+  
 [blackfriday]
   angledQuotes = true
   fractions = false
