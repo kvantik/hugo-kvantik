@@ -24,6 +24,7 @@ date = "2017-02-09T14:58:00+03:00"
 [![Твиттер](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)
 [![Инстаграм](/img/social/ig_h.png "Инстаграм")](http://instagram.com/kvantik12/)
 [![Ютуб](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)
+[![Телеграм](/img/social/tg_h.png "Telegram")](http://t.me/kvantik12)
 
 # Выходная информация
 *Главный редактор:* Сергей Дориченко  
