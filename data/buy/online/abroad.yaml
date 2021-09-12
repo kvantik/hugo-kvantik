@@ -191,14 +191,6 @@ store:
       №1)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906356/ref=sr_1_15/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-15&keywords=kvantik)
 
       *   [Плакаты (комплект №2)](https://www.amazon.ca/Poznavatelnye-shkolnikov-Zanimatelnye-zhurnala-Komplekt/dp/5443906364/ref=sr_1_14/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-14&keywords=kvantik)
-    name: "[amazon.ca](http://www.amazon.ca/)\r\n"
-    sells: >
-      *
-      [Альманахи](https://www.amazon.ca/s?k=kvantik&i=stripbooks&dc&qid=1589171268&ref=aw_s_fkmr0)
-
-      *  ["Сто граней математики", М.Евдокимов ](https://www.amazon.ca/Sto-graney-matematiki-Author/dp/5443912690/ref=sr_1_fkmr0_1?keywords=100+graney+matematiki&qid=1589171202&s=books&sr=1-1-fkmr0)
-
-      * ["Перепутаница", С.Федин](https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
       *   [Календарь загадок на 2019 год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_6/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-6&keywords=kvantik)
 
@@ -207,6 +199,14 @@ store:
       *   [Календарь загадок на 2017 год](https://www.amazon.ca/Kalendar-zagadok-2017-zhurnala-Kvantik/dp/5443909665/ref=sr_1_15/138-4770700-7546845?ie=UTF8&qid=1544707585&sr=8-15&keywords=kvantik)
 
       *   [Календарь загадок на 2016 год](https://www.amazon.ca/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13/131-9146167-3131869?ie=UTF8&qid=1494160627&sr=8-13&keywords=kvantik)
+    name: "[amazon.ca](http://www.amazon.ca/)\r\n"
+    sells: >
+      *
+      [Альманахи](https://www.amazon.ca/s?k=kvantik&i=stripbooks&dc&qid=1589171268&ref=aw_s_fkmr0)
+
+      *  ["Сто граней математики", М.Евдокимов ](https://www.amazon.ca/Sto-graney-matematiki-Author/dp/5443912690/ref=sr_1_fkmr0_1?keywords=100+graney+matematiki&qid=1589171202&s=books&sr=1-1-fkmr0)
+
+      * ["Перепутаница", С.Федин](https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
       *   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
   - available: "1"
