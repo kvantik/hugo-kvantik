@@ -47,7 +47,7 @@ store:
 
       * ["Сто граней математики", М.Евдокимов](http://www.kvantik.ru/product/100-graney-matematiki-evdokimov-m-a)
 
-      * ["Перепутаница", С.Федин](https://www.kvantik.ru/product/pereputanitsa-sfedina)
+      * ["Перепутаница", С.Федин](http://www.kvantik.ru/product/pereputanitsa-sfedina)
 
       * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](http://www.kvantik.ru/product/kohas-kp-kak-busenka-chto-to-tam-matematicheskie-skazki)
     delivery: "* Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы:
@@ -59,9 +59,6 @@ store:
       39=0&f14_16=6&f14_6=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B0%D\
       0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&t=0&next=1&kp=2&flags=19&menu_ca\
       tid=0)
-
-      *   [Календарь загадок на 2016
-      год](https://my-shop.ru/shop/books/2127348.html)
 
       *   [\"Сто граней математики\", М.Евдокимов
       ](https://my-shop.ru/shop/books/3112925.html?b45=1_1)\r
@@ -86,6 +83,8 @@ store:
       *   [Плакаты (комплект №2)](http://my-shop.ru/shop/books/2189416.html?b45=1_12)
 
       *   [Плакаты (комплект №3)](https://my-shop.ru/shop/books/2766346.html)
+
+      *   [Календарь загадок на 2016 год](https://my-shop.ru/shop/books/2127348.html)
   - available: "1"
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r
 
@@ -127,7 +126,8 @@ store:
   - dump: ""
     name: "[Белый кролик](https://www.belykrolik.ru/)"
     sells: >+
-      * [Журналы](https://www.belykrolik.ru/catalog/search/?query=%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
+      *
+      [Журналы](https://www.belykrolik.ru/catalog/search/?query=%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
 
       * [Альманахи](https://www.belykrolik.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
 
@@ -244,13 +244,15 @@ store:
 
       \n"
   - name: "[Читай-город](https://www.chitai-gorod.ru)"
-    sells: "* [Альманахи](https://www.chitai-gorod.ru/search/result/?q=%D0%9A%D0%B2%D0%B0%D0%BD%D1\
-      %82%D0%B8%D0%BA&page=1)
+    sells: "*
+      [Альманахи](https://www.chitai-gorod.ru/search/result/?q=%D0%9A%D0%B2%D0%\
+      B0%D0%BD%D1%82%D0%B8%D0%BA&page=1)
 
       * [\"Сто граней математики\", М.Евдокимов
       ](https://www.chitai-gorod.ru/catalog/book/1256937/)\r
 
-      * [\"Перепутаница\", С.Федин](https://www.chitai-gorod.ru/catalog/book/1208352/)\n"
+      * [\"Перепутаница\",
+      С.Федин](https://www.chitai-gorod.ru/catalog/book/1208352/)\n"
     delivery: >-
       * Самовывоз: в магазинах «Читай-город», Связной – Заббери, 
 
@@ -329,7 +331,8 @@ store:
 
       *  [Плакаты (комплект №3)](https://totbook.ru/catalog/223/566221/)\r
 
-      *  [\"Сто граней математики\", М.Евдокимов ](https://totbook.ru/catalog/165/1178838/)\r
+      *  [\"Сто граней математики\", М.Евдокимов
+      ](https://totbook.ru/catalog/165/1178838/)\r
 
       \n"
     dump: "*   [Альманахи](https://totbook.ru/search/?sections=&q=%D0%9A%D0%B2%D0%B\
@@ -351,9 +354,11 @@ store:
       %BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&w\
       here=name&s=)\r
 
-      * [\"Сто граней математики\", М.Евдокимов](http://umlit.ru/catalog/view/203946)\r
+      * [\"Сто граней математики\",
+      М.Евдокимов](http://umlit.ru/catalog/view/203946)\r
 
-      * [\"Перепутаница\", С.Федин](http://umlit.ru/catalog/view/222407)\ \n"
+      * [\"Перепутаница\",
+      С.Федин](http://umlit.ru/catalog/view/222407)\ \n"
   - available: 0
     delivery: "*   Набор доступных способов доставки зависит от региона доставки
       (см. на сайте магазина)\r\n"
