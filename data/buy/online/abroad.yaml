@@ -164,12 +164,9 @@ store:
       ](https://www.sputnik2000.com/book.asp?sku=1043510)\n"
   - available: "1"
     delivery: "*   США и другие страны\r\n"
-    dump: ""
-    name: "[amazon.com](http://www.amazon.com/)\r\n"
-    sells: >
-      *   [Альманахи](https://www.amazon.com/s?k=Kvantik.+Almanah&ref=nb_sb_noss)
-
-      *   [Набор плакатов с задачами](http://www.amazon.com/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482/ref=sr_1_12?ie=UTF8&qid=1446897512&sr=8-12&keywords=kvantik)
+    dump: >-
+      *   [Набор плакатов с
+      задачами](http://www.amazon.com/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482/ref=sr_1_12?ie=UTF8&qid=1446897512&sr=8-12&keywords=kvantik)
 
       *   [Календарь загадок на 2019 год](https://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2019/dp/5443928031/ref=sr_1_4/132-4896542-9015632?ie=UTF8&qid=1544707425&sr=8-4&keywords=kvantik)
 
@@ -178,6 +175,9 @@ store:
       *   [Календарь загадок на 2016 год](http://www.amazon.com/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_13?ie=UTF8&qid=1446897512&sr=8-13&keywords=kvantik)
 
       *   [Календарь загадок на 2015 год](http://www.amazon.com/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X/ref=sr_1_4?ie=UTF8&qid=1446897512&sr=8-4&keywords=kvantik)
+    name: "[amazon.com](http://www.amazon.com/)\r\n"
+    sells: >
+      *   [Альманахи](https://www.amazon.com/s?k=Kvantik.+Almanah&ref=nb_sb_noss)
 
       *  ["Сто граней математики", М.Евдокимов ](https://www.amazon.com/Sto-graney-matematiki-Author/dp/5443912690/ref=sr_1_3?dchild=1&keywords=sto+graney&qid=1607850222&sr=8-3)
 
