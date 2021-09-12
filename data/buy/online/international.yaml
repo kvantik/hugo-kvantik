@@ -71,9 +71,6 @@ store:
       *   [Календарь загадок на 2021
       год](https://www.bgshop.ru/catalog/getfulldescription?id=10721102)
 
-      *   [Календарь загадок на 2016
-      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
-
       *   [Календарь загадок на 2015
       год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
 
@@ -103,6 +100,8 @@ store:
       *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
 
       *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
+
+      *   [Календарь загадок на 2016 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
   - available: "1"
     delivery: "*   Курьерская доставка службой Оzon (в том числе \"Доставка до
       двери\");\r
@@ -116,7 +115,7 @@ store:
       *   Международная доставка: службами доставки UPS\r, DPD, DHL
       Express, TNT Express, Pony Express, Spring Global Mail, Алем ТАТ, EMS
       Почта России\n"
-    dump: >
+    dump: >-
       *   [Плакаты (комплект
       №1)](https://www.ozon.ru/context/detail/id/135816977/)
 
@@ -129,20 +128,25 @@ store:
       *   [Календарь загадок на 2018 год](https://www.ozon.ru/context/detail/id/142591284/)
 
       *   [Календарь загадок на 2015 год](http://www.ozon.ru/context/detail/id/31226148/)
+
+      *   [Календарь загадок на 2016 год](http://www.ozon.ru/context/detail/id/34633194/)
+
+      *   [Календарь загадок на 2014 год](http://www.ozon.ru/context/detail/id/27676491/)
     name: "[OZON.RU](http://www.ozon.ru/)\r\n"
     sells: "*   [Журналы, Альманахи](https://www.ozon.ru/search/?text=Квантик)
+
+      *   [Календарь загадок на 2021
+      год](https://www.ozon.ru/product/kalendar-zagadok-ot-zhurnala-kvantik-na-\
+      2021-god-202470753/?asb=%252BHQ6Ko568Lg0cNqX2PW2GoPS7Xucc7vqBcbiqRr2hHo%2\
+      53D&asb2=pS-30L5an8nNoj23EP-LtMUoSEqF-ayYSGfNf_qdLFo&keywords=%D0%9A%D0%B\
+      0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B\
+      4%D0%BE%D0%BA&sh=Du3g2h6Q)
 
       *   [Календарь загадок на 2019
       год](https://www.ozon.ru/context/detail/id/147954719/)
 
       *   [Календарь загадок на 2017
       год](http://www.ozon.ru/context/detail/id/138939394/)
-
-      *   [Календарь загадок на 2016
-      год](http://www.ozon.ru/context/detail/id/34633194/)
-
-      *   [Календарь загадок на 2014
-      год](http://www.ozon.ru/context/detail/id/27676491/)
 
       *   [\"Сто граней математики\", М.Евдокимов
       ](https://www.ozon.ru/context/detail/id/167075485/)\r
@@ -164,7 +168,7 @@ store:
       *   [Альманахи](http://mdk-arbat.ru/catalog?q=%D0%9A%D0%B2%D0%B0%D0\
       %BD%D1%82%D0%B8%D0%BA+++%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
 
-      * [Календарь загадок на 2020 год](http://mdk-arbat.ru/book/2455335)
+      * [Календарь загадок на 2021 год](https://mdk-arbat.ru/book/90628)
 
       * [\"Сто граней математики\", М.Евдокимов
       ](http://mdk-arbat.ru/book/59400)\r
@@ -181,6 +185,8 @@ store:
       №1)](http://info.mdk-arbat.ru/bookcard?book_id=2430114)
 
       *   [Плакаты (комплект №2)](http://info.mdk-arbat.ru/bookcard?book_id=2430115/)
+
+      * [Календарь загадок на 2020 год](http://mdk-arbat.ru/book/2455335)
   - available: "1"
     delivery: "Доставка по России:
 
