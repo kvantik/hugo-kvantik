@@ -126,8 +126,6 @@ store:
 
       *   [Календарь загадок на 2020 год](https://azon.market/kalendar-zagadok-2020-god-ot-zhurnala-kvantik-%28id-1285410%29)
 
-      *   [Календарь загадок на 2016 год](https://azon.market/kalendar-zagadok-ot-jurnala-kvantik-2016-mysh2127348)
-
       * ["Сто граней математики", М.Евдокимов](https://azon.market/sto-granej-matematiki)
 
       * ["Перепутаница", С.Федин](https://azon.market/pereputanica-%28id-969213%29)
@@ -138,6 +136,9 @@ store:
       * Великобритания\r
 
       * Израиль"
+    dump: "*   [Календарь загадок на 2016
+      год](https://azon.market/kalendar-zagadok-ot-jurnala-kvantik-2016-mysh212\
+      7348)"
   - name: "[Спутник](https://www.sputnik2000.com/)"
     delivery: "* Германия и другие страны Европы, США, Канада, Израиль"
     sells: "*
@@ -157,14 +158,16 @@ store:
       ](https://www.sputnik2000.com/book.asp?sku=963651)
 
       * [\"Перепутаница\",
-      С.Федин](https://www.sputnik2000.com/book.asp?sku=854640)\n"
+      С.Федин](https://www.sputnik2000.com/book.asp?sku=854640)
+
+      *  [\"Как Бусенька что-то-там. Математические сказки\", К.Кохась
+      ](https://www.sputnik2000.com/book.asp?sku=1043510)\n"
   - available: "1"
     delivery: "*   США и другие страны\r\n"
     dump: ""
     name: "[amazon.com](http://www.amazon.com/)\r\n"
     sells: >
-      *   [Журналы и
-      Альманахи](http://www.amazon.com/s/ref=nb_sb_noss/187-5281220-5834164?url=search-alias%3Daps&field-keywords=kvantik&rh=i%3Aaps%2Ck%3Akvantik)
+      *   [Альманахи](https://www.amazon.com/s?k=Kvantik.+Almanah&ref=nb_sb_noss)
 
       *   [Набор плакатов с задачами](http://www.amazon.com/Poznavatelnye-plakaty-shkolnikov-Zanimatelnye-zhurnala/dp/5443902482/ref=sr_1_12?ie=UTF8&qid=1446897512&sr=8-12&keywords=kvantik)
 
