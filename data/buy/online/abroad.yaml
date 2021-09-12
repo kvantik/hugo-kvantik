@@ -210,7 +210,7 @@ store:
       * ["Перепутаница", С.Федин](https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
       *   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
-  - available: "1"
+  - available: 0
     delivery: "*   Германия и другие страны\r\n"
     dump: ""
     name: "[amazon.de](http://www.amazon.de/)\r\n"
@@ -224,7 +224,7 @@ store:
       *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
 
       *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
-  - available: ""
+  - available: 0
     delivery: "*   Испания и другие страны\r\n"
     dump: ""
     name: "[amazon.es](http://www.amazon.es/)\r\n"
