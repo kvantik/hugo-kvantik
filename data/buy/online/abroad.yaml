@@ -209,7 +209,7 @@ store:
       * ["Перепутаница", С.Федин](https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
       *   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
-  - available: "1"
+  - available: 0
     delivery: "*   Великобритания и другие страны\r\n"
     dump: ""
     name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
