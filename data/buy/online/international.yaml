@@ -13,6 +13,17 @@ store:
       Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=К\
       вантик)
 
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=240521)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=24622\
+      5)\ 
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=2672\
+      58)
+
       *   [Наборы плакатов с
       задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=\
       194866)
@@ -37,14 +48,7 @@ store:
       8)
 
       *   [Календарь загадок на 2014
-      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=240521)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=24622\
-      5)\ \n"
+      год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)\n"
   - available: ""
     delivery: "*   Курьерская доставка по Москве, Московской области,
       Санкт-Петербургу, Ленинградской области;\r
@@ -77,7 +81,8 @@ store:
       С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
       =1)\ 
 
-      * [\"Как Бусенька что-то-там. Математические сказки\", К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
 
       \n"
     dump: >-
@@ -164,7 +169,8 @@ store:
       * [\"Перепутаница\",
       С.Федин](http://info.mdk-arbat.ru/bookcard?book_id=6063)\ 
 
-      * [\"Как Бусенька что-то-там. Математические сказки\", К.Кохась](http://mdk-arbat.ru/book/3374327)
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](http://mdk-arbat.ru/book/3374327)
 
       \n"
     dump: >-
@@ -301,7 +307,8 @@ store:
       *   [Календарь загадок на 2016
       год](http://my-book-shop.ru/sec/10855/id/2127348.htm)
 
-      *  [\"Сто граней математики\", М.Евдокимов ](https://my-book-shop.ru/sec/2066/id/3112925.htm)
+      *  [\"Сто граней математики\", М.Евдокимов
+      ](https://my-book-shop.ru/sec/2066/id/3112925.htm)
 
       *   [\"Перепутаница\",
       С.Федин](http://my-book-shop.ru/sec/2066/id/3430119.htm)\r\n"
