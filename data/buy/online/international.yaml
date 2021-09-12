@@ -187,7 +187,7 @@ store:
       *   [Плакаты (комплект №2)](http://info.mdk-arbat.ru/bookcard?book_id=2430115/)
 
       * [Календарь загадок на 2020 год](http://mdk-arbat.ru/book/2455335)
-  - available: "1"
+  - available: 0
     delivery: "Доставка по России:
 
 
@@ -217,10 +217,7 @@ store:
       \n"
     name: "[Учёный кот](http://www.intelkot.ru/)\r\n"
     sells: >
-      *   [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)
-
-      *   [Альманахи](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%C0%EB%FC%EC%E0%ED%E0%F5+%CA%E2%E0%ED%F2%E8%EA&event=simple&cl=search)
-
+      
       *   [Наборы плакатов с задачами](https://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%CA%E2%E0%ED%F2%E8%EA+%EF%EB%E0%EA%E0%F2%FB&event=simple&cl=search)
 
       *   [Календарь загадок на 2018 год](https://www.intelkot.ru/kalendar-zagadok-na-2018-god-ot-zhurnala-dlya-lyuboznatelnyh-kvantik/)
@@ -232,6 +229,10 @@ store:
       *   [Календарь загадок на 2015 год](http://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik/)
 
       *   [Календарь загадок на 2014 год](https://www.intelkot.ru/kalendar-zagadok-ot-zhurnala-kvantik-2014-god/)
+    dump: >-
+      *   [Журналы](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=+%C6%F3%F0%ED%E0%EB+%22%CA%E2%E0%ED%F2%E8%EA%22&event=simple&cl=search)
+
+      *   [Альманахи](http://www.intelkot.ru/cgi-bin/dsp.pl?search_string=%C0%EB%FC%EC%E0%ED%E0%F5+%CA%E2%E0%ED%F2%E8%EA&event=simple&cl=search)
   - available: "1"
     delivery: "Доставка по России:
 
