@@ -209,20 +209,6 @@ store:
       * ["Перепутаница", С.Федин](https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
       *   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
-  - available: 0
-    delivery: "*   Великобритания и другие страны\r\n"
-    dump: ""
-    name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
-    sells: >-
-      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
-
-      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
-
-      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
-
-      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
-
-      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
   - available: "1"
     delivery: "*   Германия и другие страны\r\n"
     dump: ""
@@ -274,6 +260,20 @@ store:
       Канаде](http://www.knigomania.com/)"
     delivery: "* США, Канада и другие страны\r\n"
     available: 0
+  - available: 0
+    delivery: "*   Великобритания и другие страны\r\n"
+    dump: ""
+    name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
+    sells: >-
+      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
+
+      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
+
+      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
+
+      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
+
+      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
   - available: "0"
     delivery: "*   Италия и другие страны\r\n"
     dump: ""
