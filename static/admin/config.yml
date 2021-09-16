@@ -69,18 +69,19 @@ collections: # A list of collections the CMS should be able to edit
       - { label: 'Description', name: 'description', widget: 'string', required: false}
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
-    extension: "yaml"
-    label: "Новости" 
-    label_singular: "Новость" 
-    file: "data/news.yaml"
-    create: true 
-    fields:
-      - label: "Список новостей"
-        name: "news" 
-        widget: "list"
+  - label: "Новости" 
+    name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
+    files:
+      - file: "data/news.yaml"
+        extension: "yaml"
+        create: true 
         fields:
-          - {label: "Содержание", name: "body", widget: "markdown"}
-          - {label: "Порядковый номер", name: "number", widget: "number"}
-          - {label: "Спрятать с главной?", name: "hide", widget: "boolean", required: false}
-          - {label: "Дата", name: "date", widget: "date"}
+          - label: "Список новостей"
+            label_singular: "Новость" 
+            name: "news" 
+            widget: "list"
+            fields:
+              - {label: "Содержание", name: "body", widget: "markdown"}
+              - {label: "Порядковый номер", name: "number", widget: "number"}
+              - {label: "Спрятать с главной?", name: "hide", widget: "boolean", required: false}
+              - {label: "Дата", name: "date", widget: "date"}
