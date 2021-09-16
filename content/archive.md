@@ -55,8 +55,13 @@ tocmenu = true
 - [Флексор с инструкцией](/extra/flexor.pdf)
 - [Заготовка для флексагона-полоски](/extra/flexagon_short.pdf)
 - [Квадратный флексагон с инструкцией](/extra/flexagon_square.pdf)
-- [Куб из трубочек с инструкцией](/extra/straw-cube.pdf)
-
+- [Развертки половинок тетраэдра](/extra/tetrahedron-halves.pdf)
+- [Развертка календаря-додекаэдра на 2021 год](/extra/calendar-dodecahedron-2021.pdf)
+- [Развертка тетракона](/extra/tetracon.pdf)
+- [Развёртка тороидального многогранника из семиугольников](extra/heptadodecahedron-fold.pdf)
+- [Пилотируемая полоска](/extra/poloska.pdf)
+- [Куб из трубочек](/extra/straw-cube.pdf)
+- 
 # Видео {#video}
 
 - [Архив онлайн-кружка «Квантика»](/online)
