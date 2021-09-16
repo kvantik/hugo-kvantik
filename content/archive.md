@@ -60,7 +60,8 @@ tocmenu = true
 - [Развертка тетракона](/extra/tetracon.pdf)
 - [Развёртка тороидального многогранника из семиугольников](extra/heptadodecahedron-fold.pdf)
 - [Пилотируемая полоска](/extra/poloska.pdf)
-
+- [Куб из трубочек](/extra/straw-cube.pdf)
+- 
 # Видео {#video}
 
 - [Архив онлайн-кружка «Квантика»](/online)
