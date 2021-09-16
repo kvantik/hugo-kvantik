@@ -1,45 +1,16 @@
 backend:
   name: github
   repo: kvantik/hugo-kvantik
-  branch: oldstyle
+  branch: admin
 
-media_folder: "static/img/partners" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/img/partners"
+media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/uploads"
 
 publish_mode: editorial_workflow
 
-display_url: http://kvantik.org
+display_url: http://kvantik.com
 
 collections: # A list of collections the CMS should be able to edit
-
-  - name: "news"
-    extension: "md"
-    label: "Новости"
-    label_singular: "новость"
-    folder: "content/news" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-       - {label: "Название", name: "title", widget: "string"}
-       - {label: "Содержание", name: "body", widget: "markdown"}
-
-  - name: "partners"
-    label: "Партнёры"
-    label_singular: "Партнёр"
-    media_folder: "static/img/partners"
-    public_folder: "/img/partners"
-    files:
-      - label: "Список партнёров"
-        name: "partners"
-        file: "data/partners.yaml"
-        fields:
-          - label: "Партнёры"
-            label_singular: "Партнёр"
-            name: "partner"
-            widget: "list"
-            fields:
-              - {label: "Ссылка", name: "url", widget: "string"}
-              - {label: "Логотип", name: "logo", widget: "image"}
-              - {label: "Название", name: "name", widget: "string", required: false}
 
 
 
@@ -87,26 +58,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Введите 1, чтобы отобразить на сайте", name: "available", widget: "number"}
               - {label: "Архив: здесь хранится ненужное", name: "dump", widget: "markdown", required: false}
 
-  - name: "pages"
-    label: "Страницы"
+  - name: "allpages"
+    label: "Все страницы"
     editor:
       preview: false
-    files:
-      - name: "subscription"
-        label: "Подписка"
-        description: "Подписка!"
-        file: "content/subscription.md"
-        fields: # The fields each document in this collection have
-           - {label: "содержимое", name: "body", widget: "markdown"}
-
-  - name: "carousel"
-    label: "Карусель"
-    extension: "yaml"
-    folder: "data/carousel"
-    create: true
-    media_folder: "static/img/carousel"
+    folder: 'content'
     fields: # The fields each document in this collection have
-      - {label: "Заголовок", name: "title", widget: "string"}
-      - {label: "Описание", name: "description", widget: "string"}
-      - {label: "Картинка", name: "image", widget: "image"}
-      - {label: "Порядок", name: "weight", widget: "number"}
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
