@@ -66,6 +66,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false}
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
