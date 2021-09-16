@@ -55,6 +55,7 @@ tocmenu = true
 - [Флексор с инструкцией](/extra/flexor.pdf)
 - [Заготовка для флексагона-полоски](/extra/flexagon_short.pdf)
 - [Квадратный флексагон с инструкцией](/extra/flexagon_square.pdf)
+- [Куб из трубочек с инструкцией](/extra/straw-cube.pdf)
 
 # Видео {#video}
 
