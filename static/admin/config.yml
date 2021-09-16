@@ -73,6 +73,8 @@ collections: # A list of collections the CMS should be able to edit
     name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
     files:
       - file: "data/news.yaml"
+        label: "Файл с новостями"
+        name: 'news'
         extension: "yaml"
         create: true 
         fields:
