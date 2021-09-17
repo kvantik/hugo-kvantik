@@ -122,9 +122,9 @@ hr		{
 		font-size:22px;
 		color:#0172ca;
 		padding:4px;
-		margin:0 210px;
+		margin-right:35px;
 		line-height:2.8;
-		margin-left:-155px;
+		#margin-left:-155px;
 		margin-top:200px;
 		margin-bottom:200px;
 		}
