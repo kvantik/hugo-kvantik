@@ -1,6 +1,15 @@
 
 
 [[redirects]]
+  # куда ведёт ссылка: Квантик в магазине «Математическая книга»
+  # где размещена ссылка: рекламный пост о Квантике
+  from = "https://kvan.tk/biblio"
+  to = "https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=&field_book_kind_value_many_to_one=All"
+  status = 301
+  force = true 
+
+
+[[redirects]]
   # куда ведёт ссылка: pdf для распечатки головоломки
   # где размещена ссылка: статья Красноухова "Семь семёрок", Квантик 2021-10, с.23
   from = "https://kvan.tk/7-7"
