@@ -10,10 +10,10 @@ tocmenu = true
     weight = 2
 +++
 
-
+# Статьи {#articles}
+В [рубрикаторе](http://old.kvantik.com/art/index.html) можно найти статьи журнала, вышедшие не позднее, чем полгода назад.
 
 # Журналы {#issues}
-В [рубрикаторе](http://old.kvantik.com/art/index.html) можно найти статьи журнала, вышедшие не позднее, чем полгода назад.
 {{<issue-cards 2021>}}
 {{<issue-cards 2020>}}
 {{<issue-cards 2019>}}

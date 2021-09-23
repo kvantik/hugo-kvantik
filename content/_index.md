@@ -37,4 +37,4 @@ text = '''
 
 &laquo;Квантик&raquo; выпускает [альманахи]({{< relref "archive.md#almanacs" >}}), [плакаты с задачами-картинками]({{< relref "archive.md#posters" >}}), [календари]({{< relref "archive.md#calendars" >}}), а также книги серии ["Библиотечка журнала Квантик"]({{< relref "archive.md#biblio" >}}).
 
- 
+Содержание номеров можно посмотреть в [рубрикаторе](https://old.kvantik.com/art).
