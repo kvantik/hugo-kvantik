@@ -58,7 +58,7 @@ tocmenu = true
 - [Развертки половинок тетраэдра](/extra/tetrahedron-halves.pdf)
 - [Развертка календаря-додекаэдра на 2021 год](/extra/calendar-dodecahedron-2021.pdf)
 - [Развертка тетракона](/extra/tetracon.pdf)
-- [Развёртка тороидального многогранника из семиугольников](extra/heptadodecahedron-fold.pdf)
+- [Развёртка тороидального многогранника из семиугольников](/extra/heptadodecahedron-fold.pdf)
 - [Пилотируемая полоска](/extra/poloska.pdf)
 - [Куб из трубочек](/extra/straw-cube.pdf)
 - 
