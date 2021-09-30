@@ -61,7 +61,10 @@ tocmenu = true
 - [Развёртка тороидального многогранника из семиугольников](/extra/heptadodecahedron-fold.pdf)
 - [Пилотируемая полоска](/extra/poloska.pdf)
 - [Куб из трубочек](/extra/straw-cube.pdf)
-- 
+- [Головоломка «Антислайд с кирпичами»](/extra/antislide.pdf)
+
+
+
 # Видео {#video}
 
 - [Архив онлайн-кружка «Квантика»](/online)
