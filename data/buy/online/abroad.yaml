@@ -343,19 +343,70 @@ store:
       *   Курьерская доставка;\r
 
       *   Пункты выдачи Wildberries"
-    name: "[WILDBERRIES ()]()"
-    sells: "* [Альманахи]()"
+    name: "[WILDBERRIES (Польша)](https://pl.wildberries.eu/)"
+    sells: "*
+      [Альманахи](https://pl.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
   - name: "[WILDBERRIES ()]()"
     sells: "* [Альманахи]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
   - name: "[WILDBERRIES ()]()"
     sells: "* [Альманахи]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
   - name: "[WILDBERRIES ()]()"
     sells: "* [Альманахи]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
   - name: "[WILDBERRIES ()]()"
     sells: "* [Альманахи]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
   - sells: "* [Альманахи]()"
     name: "[WILDBERRIES ()]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
   - name: "[WILDBERRIES ()]()"
     sells: "* [Альманахи]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
   - name: "[WILDBERRIES ()]()"
     sells: "* [Альманахи]()"
+    delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
