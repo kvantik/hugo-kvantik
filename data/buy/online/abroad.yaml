@@ -151,6 +151,30 @@ store:
       *   [Календарь загадок на 2019
       год](https://ruslania.com/ru/knigi/1526850-kalendar-zagadok-ot-zhurnala-k\
       vantik-na-2019-god/)\n"
+  - delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской компанией InPost;\r
+
+      *   Доставка международной курьерской компанией DHL"
+    name: "[WILDBERRIES (Польша)](https://pl.wildberries.eu/)"
+    sells: "*
+      [Альманахи](https://pl.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
+  - name: "[WILDBERRIES (Словакия)](https://sk.wildberries.eu/)"
+    sells: "*
+      [Альманахи](https://sk.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской компанией Zásielkovňa;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
   - name: "[МУРАВЕЙ](https://murawei.de/)\r\n"
     sells: "*   [М.Евдокимов \"Сто граней
       математики\"](https://murawei.de/russian/r009172.html)\r
@@ -161,6 +185,96 @@ store:
     dump: "* [Журналы, Альманахи,
       Календари](https://murawei.de/russian/catalogsearch/result/?q=%D0%9A%D0%B\
       2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)"
+  - name: "[WILDBERRIES (Германия)](https://de.wildberries.eu/)"
+    sells: "*
+      [Альманахи](https://de.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской компанией Hermes и Почтой Германии;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
+  - available: 0
+    delivery: "*   Германия и другие страны\r\n"
+    dump: ""
+    name: "[amazon.de](http://www.amazon.de/)\r\n"
+    sells: >
+      *   [Альманахи](http://www.amazon.de/s/ref=nb_sb_noss/277-3261851-3496853?__mk_de_DE=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
+
+      *   [Календарь загадок на 2017 год](https://www.amazon.de/Kvantik-Kalendar-zagadok-2017/dp/5443909665/ref=sr_1_2/257-1780973-0628359?ie=UTF8&qid=1494161052&sr=8-2&keywords=kvantik)
+
+      *   [Календарь загадок на 2016 год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
+
+      *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
+
+      *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
+  - name: "[WILDBERRIES (Франция)](https://wildberries.fr/)"
+    sells: "*
+      [Альманахи](https://wildberries.fr/catalog?search=%D0%BA%D0%B2%D0%B0%D0%B\
+      D%D1%82%D0%B8%D0%BA)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с Colis Prive и La Poste;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
+  - sells: "*
+      [Альманахи](https://it.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
+    name: "[WILDBERRIES (Италия)](https://it.wildberries.eu/)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской службой SAILPOST;\r
+
+      *   Доставка международной курьерской компанией DHL"
+  - available: "0"
+    delivery: "*   Италия и другие страны\r\n"
+    dump: ""
+    name: "[amazon.it](http://www.amazon.it/)\r\n"
+    sells: >
+      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
+  - name: "[WILDBERRIES (Испания)](https://wildberries.es/)"
+    sells: "*
+      [Альманахи](https://wildberries.es/catalog?search=%D0%BA%D0%B2%D0%B0%D0%B\
+      D%D1%82%D0%B8%D0%BA)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской компанией Post Express & Mondial Relay;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
+  - available: 0
+    delivery: "*   Испания и другие страны\r\n"
+    dump: ""
+    name: "[amazon.es](http://www.amazon.es/)\r\n"
+    sells: "*
+      [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__m\
+      k_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keyw\
+      ords=kvantik)"
+  - available: 0
+    delivery: "*   Великобритания и другие страны\r\n"
+    dump: ""
+    name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
+    sells: >-
+      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
+
+      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
+
+      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
+
+      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
+
+      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
   - name: "[AZON](https://azon.market/)"
     sells: >-
       *  [Альманахи](https://azon.market/index.php?route=product/search&search=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.%20%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
@@ -211,6 +325,33 @@ store:
 
       *  [\"Как Бусенька что-то-там. Математические сказки\", К.Кохась
       ](https://www.sputnik2000.com/book.asp?sku=1043510)\n"
+  - name: "[WILDBERRIES (Израиль)](https://wildberries.co.il/)"
+    sells: "*
+      [Альманахи](https://wildberries.co.il/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской компанией Bar Group and HFD;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
+  - available: 0
+    delivery: "*   США, Канада и другие страны\r\n"
+    dump: >
+      *  [Плакаты (комплект
+      №2)](http://www.vasha-kniga.com/productdetail.asp?productid=889692)
+
+      *   [Календарь загадок на 2017 год](http://www.vasha-kniga.com/productdetail.asp?productid=970558)
+
+      *   [Календарь загадок на 2015 год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
+    name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
+    sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvanti\
+      k%20Al%27manakh&view=grid)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://www.vasha-kniga.com/productdetail.asp?productid=1074747)\r\n"
   - available: "1"
     delivery: "*   США и другие страны\r\n"
     dump: >-
@@ -233,6 +374,28 @@ store:
       * ["Перепутаница", С.Федин](https://www.amazon.com/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?dchild=1&keywords=pereputanitsa&qid=1607850132&sr=8-1)
 
       *  ["Как Бусенька что-то-там. Математические сказки", К.Кохась ](https://www.amazon.com/Bibliotechka-zhurnala-Kvantik-Busenka-Matematicheskie/dp/5443915010/ref=sr_1_1?dchild=1&keywords=Kokhas&qid=1631437169&sr=8-1)
+  - name: "[WILDBERRIES (США)](https://us.wildberries.ru/)"
+    sells: "*
+      [Альманахи](https://us.wildberries.ru/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с USPS;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
+  - available: "0"
+    delivery: "*   США, Канада и другие страны\r\n"
+    dump: ""
+    name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
+    sells: >
+      *   Альманахи
+
+      *   [Календарь загадок на 2017 год](http://www.bookmazecity.com/productdetail.asp?productid=900834)
+
+      *   [Календарь загадок на 2015 год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
   - available: "1"
     delivery: "*   Канада и другие страны\r\n"
     dump: >-
@@ -258,77 +421,10 @@ store:
       * ["Перепутаница", С.Федин](https://www.amazon.ca/Pereputanitsa-Fedin-S-N/dp/5443913638/ref=sr_1_1?keywords=Pereputanitsa&qid=1589171055&s=books&sr=1-1)
 
       *   [Календарь загадок на 2015 год](http://www.amazon.ca/Kvantik-Kalendar-zagadok-2015-Author/dp/544390261X)
-  - available: 0
-    delivery: "*   Германия и другие страны\r\n"
-    dump: ""
-    name: "[amazon.de](http://www.amazon.de/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.amazon.de/s/ref=nb_sb_noss/277-3261851-3496853?__mk_de_DE=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
-
-      *   [Календарь загадок на 2017 год](https://www.amazon.de/Kvantik-Kalendar-zagadok-2017/dp/5443909665/ref=sr_1_2/257-1780973-0628359?ie=UTF8&qid=1494161052&sr=8-2&keywords=kvantik)
-
-      *   [Календарь загадок на 2016 год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
-
-      *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
-
-      *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
-  - available: 0
-    delivery: "*   Испания и другие страны\r\n"
-    dump: ""
-    name: "[amazon.es](http://www.amazon.es/)\r\n"
-    sells: "*
-      [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__m\
-      k_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keyw\
-      ords=kvantik)"
-  - available: 0
-    delivery: "*   США, Канада и другие страны\r\n"
-    dump: >
-      *  [Плакаты (комплект
-      №2)](http://www.vasha-kniga.com/productdetail.asp?productid=889692)
-
-      *   [Календарь загадок на 2017 год](http://www.vasha-kniga.com/productdetail.asp?productid=970558)
-
-      *   [Календарь загадок на 2015 год](http://www.vasha-kniga.com/productdetail.asp?productid=844718)
-    name: "[Vasha-Kniga](http://www.vasha-kniga.com/)\r\n"
-    sells: "*   [Альманахи](http://www.vasha-kniga.com/search.asp?SearchText=Kvanti\
-      k%20Al%27manakh&view=grid)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://www.vasha-kniga.com/productdetail.asp?productid=1074747)\r\n"
-  - available: "0"
-    delivery: "*   США, Канада и другие страны\r\n"
-    dump: ""
-    name: "[Book-Maze](http://www.bookmazecity.com/ )\r\n"
-    sells: >
-      *   Альманахи
-
-      *   [Календарь загадок на 2017 год](http://www.bookmazecity.com/productdetail.asp?productid=900834)
-
-      *   [Календарь загадок на 2015 год](http://www.bookmazecity.com/productdetail.asp?productid=884111)
   - name: "[КНИГОМАНИЯ - сеть магазинов русской книги в
       Канаде](http://www.knigomania.com/)"
     delivery: "* США, Канада и другие страны\r\n"
     available: 0
-  - available: 0
-    delivery: "*   Великобритания и другие страны\r\n"
-    dump: ""
-    name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
-    sells: >-
-      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
-
-      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
-
-      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
-
-      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
-
-      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
-  - available: "0"
-    delivery: "*   Италия и другие страны\r\n"
-    dump: ""
-    name: "[amazon.it](http://www.amazon.it/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
   - sells: >-
       *
       [Альманахи](https://www.knigi-janzen.de/result_search.php?gsearch=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
@@ -336,99 +432,3 @@ store:
       *  ["Сто граней математики", М.Евдокимов ](https://www.knigi-janzen.de/view.php?gid=623508)
     name: "[JANZEN](https://www.knigi-janzen.de/index.php)"
     available: 0
-  - delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской компанией InPost;\r
-
-      *   Доставка международной курьерской компанией DHL"
-    name: "[WILDBERRIES (Польша)](https://pl.wildberries.eu/)"
-    sells: "*
-      [Альманахи](https://pl.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-  - name: "[WILDBERRIES (Словакия)](https://sk.wildberries.eu/)"
-    sells: "*
-      [Альманахи](https://sk.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской компанией Zásielkovňa;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
-  - name: "[WILDBERRIES (Израиль)](https://wildberries.co.il/)"
-    sells: "*
-      [Альманахи](https://wildberries.co.il/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской компанией Bar Group and HFD;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
-  - name: "[WILDBERRIES (Германия)](https://de.wildberries.eu/)"
-    sells: "*
-      [Альманахи](https://de.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской компанией Hermes и Почтой Германии;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
-  - name: "[WILDBERRIES (Испания)](https://wildberries.es/)"
-    sells: "*
-      [Альманахи](https://wildberries.es/catalog?search=%D0%BA%D0%B2%D0%B0%D0%B\
-      D%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской компанией Post Express & Mondial Relay;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
-  - sells: "*
-      [Альманахи](https://it.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-    name: "[WILDBERRIES (Италия)](https://it.wildberries.eu/)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской службой SAILPOST;\r
-
-      *   Доставка международной курьерской компанией DHL"
-  - name: "[WILDBERRIES (Франция)](https://wildberries.fr/)"
-    sells: "*
-      [Альманахи](https://wildberries.fr/catalog?search=%D0%BA%D0%B2%D0%B0%D0%B\
-      D%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с Colis Prive и La Poste;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
-  - name: "[WILDBERRIES (США)](https://us.wildberries.ru/)"
-    sells: "*
-      [Альманахи](https://us.wildberries.ru/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с USPS;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
