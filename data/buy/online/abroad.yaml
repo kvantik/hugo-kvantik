@@ -336,3 +336,18 @@ store:
       *  ["Сто граней математики", М.Евдокимов ](https://www.knigi-janzen.de/view.php?gid=623508)
     name: "[JANZEN](https://www.knigi-janzen.de/index.php)"
     available: 0
+  - delivery: "Доставка по :\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Пункты выдачи Wildberries"
+    name: "[WILDBERRIES ()]()"
+  - name: "[WILDBERRIES ()]()"
+  - name: "[WILDBERRIES ()]()"
+  - name: "[WILDBERRIES ()]()"
+  - name: "[WILDBERRIES ()]()"
+  - {}
+  - name: "[WILDBERRIES ()]()"
+  - name: "[WILDBERRIES ()]()"
