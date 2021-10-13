@@ -1,3 +1,10 @@
+[[redirects]]
+  # куда ведёт ссылка: pdf для распечатки головоломки
+  # где размещена ссылка: статья Красноухова "Трансформация пустоты", Квантик 2021-11
+  from = "https://kvan.tk/pustota"
+  to = "https://kvantik.com/extra/pustota.pdf"
+  status = 301
+  force = true 
 
 
 [[redirects]]
