@@ -20,7 +20,7 @@
   # куда ведёт ссылка: xls-файл для рассчета вероятности нужного числа куролюбов
   # где размещена ссылка: самостоятельные эксперименты к статье «ПРИКЛЮЧЕНИЯ СТАСА Fish or сhicken?», Квантик 2021-12
   from = "https://kvan.tk/chicken"
-  to = "https://docs.google.com/spreadsheets/d/1tr8RNI1pCeeFZmJTjwesA0_IETZ-FhXSYKAHhIwJVeM/edit?usp=sharing"
+  to = "https://kvantik.com/issue/extras/2021-12 Fish or сhicken.xlsx"
   status = 301
   force = true 
 
