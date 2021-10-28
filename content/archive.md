@@ -64,7 +64,9 @@ tocmenu = true
 - [Куб из трубочек](/extra/straw-cube.pdf)
 - [Головоломка «Антислайд с кирпичами»](/extra/antislide.pdf)
 - [Комната Эймса](https://old.kvantik.com/art/files/pdf/2012-02.12-18.pdf)
-
+- [Оптическая иллюзия — Квантик вертит головой](https://old.kvantik.com/art/files/pdf/2012-09.16-18.pdf)
+- [Головоломка «Исчезающий клоун»](https://old.kvantik.com/art/files/pdf/2012-07.15-18.pdf)
+- [Развертки невозможных фигур](https://old.kvantik.com/art/files/pdf/2012-10.14-19.pdf)
 
 
 # Видео {#video}
