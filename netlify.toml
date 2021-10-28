@@ -1,8 +1,17 @@
 [[redirects]]
+  # куда ведёт ссылка: распечатка для головоломки Ёлочка
+  # где размещена ссылка: статья Красноухова «Ёлочка-2022», Квантик 2021-12
+  from = "https://kvan.tk/elka"
+  to = "https://kvantik.com/extra/elochka2022.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
   # куда ведёт ссылка: xls-файл для рассчета вероятности нужного числа куролюбов
-  # где размещена ссылка: самостоятельные эксперименты к статье «ПРИКЛЮЧЕНИЯ СТАСА Fish or сhicken?», Квантик 2021-11
-  from = "https://kvan.tk/fishorchicken"
-  to = ""
+  # где размещена ссылка: самостоятельные эксперименты к статье «ПРИКЛЮЧЕНИЯ СТАСА Fish or сhicken?», Квантик 2021-12
+  from = "https://kvan.tk/chicken"
+  to = "https://docs.google.com/spreadsheets/d/1tr8RNI1pCeeFZmJTjwesA0_IETZ-FhXSYKAHhIwJVeM/edit?usp=sharing"
   status = 301
   force = true 
 
