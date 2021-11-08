@@ -10,7 +10,7 @@
   # куда ведёт ссылка: видеоролик, на котором ходит многоножка из класса губоногих
   # где размещена ссылка: ответ к статье «Две многоножки», Квантик 2021-12
   from = "https://kvan.tk/mnogonog2"
-  to = "https://youtu.be/OoAV0V8mdKQ"
+  to = "https://youtu.be/ivWcwgfWR7Y"
   status = 301
   force = true 
 
