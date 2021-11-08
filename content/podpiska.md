@@ -122,7 +122,7 @@ http://www.crimea-post.ru/service/podpiska/
 
 ### Другие страны {#other}
 
-Жители дальнего зарубежья могут воспользоваться сервисом [nasha-pressa.de](http://nasha-pressa.de/index.php?com=items&task=show&item=4246).
+Жители дальнего зарубежья могут воспользоваться сервисом [nasha-pressa.de](https://nasha-pressa.de/products/84252-kvantik).
 
 
 
