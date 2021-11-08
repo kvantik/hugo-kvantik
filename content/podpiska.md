@@ -12,7 +12,8 @@ aliases:
 # Хотите подписаться на «Квантик»? Легко!
 
 Быстрее всего — на сайте Почты России https://podpiska.pochta.ru/press/ПМ068
-<р> </р>
+
+
 
 Журнал выходит 1 раз в месяц.
 Подписка оформляется только через подписные агентства.
@@ -76,7 +77,7 @@ aliases:
 
 Можно подписаться через подписное агентство [«ПРЕСЦЕНТР КИЕВ»](http://www.prescentr.kiev.ua):
 
-- онлайн: http://www.prescentr.kiev.ua/kvantik-rosya-105972
+- на сайте: http://www.prescentr.kiev.ua/kvantik-rosya-105972
 - по телефону: 044-451-51-61,
 - по e-mail: {{<mail "podpiska1" "prescentr.kiev.ua">}}.
 
