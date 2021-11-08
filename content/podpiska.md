@@ -76,6 +76,7 @@ aliases:
 
 Можно подписаться через подписное агентство [«ПРЕСЦЕНТР КИЕВ»](http://www.prescentr.kiev.ua):
 
+- онлайн: http://www.prescentr.kiev.ua/kvantik-rosya-105972
 - по телефону: 044-451-51-61,
 - по e-mail: {{<mail "podpiska1" "prescentr.kiev.ua">}}.
 
