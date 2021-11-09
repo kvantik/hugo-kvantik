@@ -52,8 +52,11 @@ store:
       * ["Перепутаница", С.Федин](http://www.kvantik.ru/product/pereputanitsa-sfedina)
 
       * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](http://www.kvantik.ru/product/kohas-kp-kak-busenka-chto-to-tam-matematicheskie-skazki)
-    delivery: "* Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы:
-      Москва и другие регионы России"
+    delivery: >-
+      * Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва и
+      другие регионы России
+
+      * **Доставка за рубеж по договоренности и полной предоплате**
     dump: "* [Головоломки Владимира
       Красноухова](http://www.kvantik.ru/collection/golovolomki)"
   - name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
@@ -86,14 +89,57 @@ store:
       \n"
     delivery: |-
       *   Курьером;
-      *   В пункт выдачи;
-      *   На почту
+      *   В пункты выдачи
     dump: >-
       *   [Календарь загадок на 2020
       год](https://my-shop.ru/shop/product/3853155.html?b45=1_2)
 
 
       *   [Календарь загадок на 2016 год](https://my-shop.ru/shop/books/2127348.html)
+  - sells: >-
+      * [Журналы и
+      альманахи](https://market.yandex.ru/search?text=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&cvredirect=2&onstock=0&local-offers-first=0)
+      (введите в поисковой строке нужный номер)
+
+      * [Календарь загадок на 2022 год](https://market.yandex.ru/product--kalendar-zagadok-ot-zhurnala-kvantik-na-2022-god/1440536504?cpc=b9Z3RkZW-j_FirLinKQ36QU4mmdozTgjOOjY-_gHK45ENeDRUcJTheXwrezx7zqW3knG6ilzayEs0Hs5HRDfZe6R_4D7Tg6pA83GIMaXuFF4LbfaJzeYZ0-yDpD2RyJlTnmApJPfnBrDpw9mHTzJ9RwOKWUWrJKO9Q52xeRSqNH5lA4Vad0qMA%2C%2C&sku=101449843403&do-waremd5=WxU3Io34JirXiCE204uurQ&cpa=1&nid=55237)
+
+      * [Календари загадок за все годы](https://market.yandex.ru/catalog--kalendari/55237/list?glfilter=7893318%3A16815811&hid=91008&no-product-line=1&onstock=0&local-offers-first=0)
+
+      * ["Сто граней математики", М.Евдокимов](https://market.yandex.ru/product--evdokimov-m-sto-granei-matematiki/836841413?text=%D1%81%D1%82%D0%BE%20%D0%B3%D1%80%D0%B0%D0%BD%D0%B5%D0%B9%20%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8&cpc=hxgaFqNw_V2SuZBR1LGatMt-pmdMFlTrXlndnxGp4u5Muu75kvHOvTWywAcSkHTlMHXm_EJc-cOXwZAwlH3s6IokpGJovuWBxEiPrHK0W8aFI6x8nUkfF1_u-qS-6yHw4xzkOqGbBOZSA2u2Q2D-N1R4IjLFTNSCwsW7vmwvfUJM2fb8PW1Wqw%2C%2C&sku=836841413&do-waremd5=AnEq9D5gR-hAAjY4WeQEhA&cpa=1&nid=20598950)
+
+      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://market.yandex.ru/product--kak-busenka-chto-to-tam-matematicheskie-skazki/934317359)
+    name: "[Яндекс.маркет](https://market.yandex.ru/)\r\n"
+    dump: '* ["Перепутаница", С.Федин]()'
+    delivery: "*   Курьером;\r
+
+      *   Самовывоз из фирменных пунктов выдачи и постаматов
+      Яндекс.Маркета;
+
+      *   Cамовывоз из пунктов партнёров;\r
+
+      *   Доставка Почтой"
+  - name: "[Читай-город](https://www.chitai-gorod.ru)"
+    sells: "*
+      [Альманахи](https://www.chitai-gorod.ru/search/result/?q=%D0%9A%D0%B2%D0%\
+      B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1\
+      %85&page=1)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](https://www.chitai-gorod.ru/catalog/book/1256937/)\r
+
+      * [\"Перепутаница\",
+      С.Федин](https://www.chitai-gorod.ru/catalog/book/1208352/)
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](https://www.chitai-gorod.ru/catalog/book/2830940/)"
+    delivery: >-
+      * Самовывоз: в магазинах «Читай-город», Связной – Заббери, 
+
+      PickPoint, СДЭК, Евросеть, BoxBerry, IML, DPD, 5post: выдача на кассе магазина и постоматах «Пятёрочка»;
+
+      * Курьерская доставка;
+
+      * Почта России
   - available: "1"
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r
 
@@ -124,26 +170,6 @@ store:
       *  [Как Бусенька что-то-там. Математические сказки\r,
       К.Кохась](http://www.uchebnik.com/katalog/uchebnaya_literatura/zanimateln\
       ie_nauki/zhurnal_kvantik/kak_busenka_chto_to_tam_matem/)"
-  - dump: ""
-    name: "[Белый кролик](https://www.belykrolik.ru/)"
-    sells: >+
-      *
-      [Журналы](https://www.belykrolik.ru/catalog/search/?query=%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
-
-      * [Альманахи](https://www.belykrolik.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
-
-      * ["Перепутаница", С.Федин](https://www.belykrolik.ru/catalog/bibliotechka_zhurnala_kvantik_pereputanica-g16521911/)
-
-      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://www.belykrolik.ru/catalog/kak_busenka_chto_to_tam_matematicheskie_skazki-g19935811/)
-
-    delivery: "* [Доставка курьером: Москва в пределах МКАД и за
-      МКАД](https://www.belykrolik.ru/dostavka/)
-
-      * Самовывоз
-
-      * Доставка по России службами Почты России и СДЭК\r
-
-      \n"
   - available: "1"
     delivery: "
 
@@ -188,7 +214,65 @@ store:
       k_2016_moskovskij_centr_nepreryvnogo_2016.html)
 
       *   Доставка в розничные книжные магазины «Галилео»\r"
-  - available: 1
+  - name: "[WILDBERRIES](https://www.wildberries.ru/)\r\n"
+    sells: "*   [Альманахи](https://www.wildberries.ru/catalog/0/search.aspx?search\
+      =%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)"
+    delivery: |-
+      * Курьерская доставка;
+      * Пункты выдачи заказов Wildberries;
+      * Постаматы
+  - dump: ""
+    name: "[Белый кролик](https://www.belykrolik.ru/)"
+    sells: >+
+      *
+      [Журналы](https://www.belykrolik.ru/catalog/search/?query=%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
+
+      * [Альманахи](https://www.belykrolik.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+
+      * ["Перепутаница", С.Федин](https://www.belykrolik.ru/catalog/bibliotechka_zhurnala_kvantik_pereputanica-g16521911/)
+
+      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://www.belykrolik.ru/catalog/kak_busenka_chto_to_tam_matematicheskie_skazki-g19935811/)
+
+    delivery: "* [Доставка курьером: Москва в пределах МКАД и за
+      МКАД](https://www.belykrolik.ru/dostavka/)
+
+      * Самовывоз
+
+      * Доставка по России службами Почты России и СДЭК\r
+
+      \n"
+  - available: "1"
+    delivery: "* Бесплатный самовывоз м. Новокузнецкая, 30 платных пунктов
+      самовывоза в Москве и области.;
+
+      \r* Курьером по Москве в пределах МКАД\ 
+
+      *  Курьерская доставка во все регионы России через компании СПСР,
+      ПЭК, Деловые Линии;\r
+
+      *   Доставка почтой: по России\r\n"
+    name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
+    sells: "*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E\
+      0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)
+
+      *   [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED\
+      %E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
+
+      *   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%\
+      E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://www.combook.ru/product/11877178/)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://www.combook.ru/product/11899235/)
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](http://www.combook.ru/search/?search_str=%C1%F3%F1%E5%ED%FC%EA%\
+      E0)
+
+      \n"
+  - available: 0
     delivery: "*   Курьерская доставка в 450 городов России;\r
 
       *   Самовывоз в 59 городах России;\r
@@ -227,56 +311,6 @@ store:
 
 
       \n"
-  - available: "1"
-    delivery: "* Бесплатный самовывоз м. Новокузнецкая, 30 платных пунктов
-      самовывоза в Москве и области.;
-
-      \r* Курьером по Москве в пределах МКАД\ 
-
-      *  Курьерская доставка во все регионы России через компании СПСР,
-      ПЭК, Деловые Линии;\r
-
-      *   Доставка почтой: по России\r\n"
-    name: "[COMBOOK.RU](http://www.combook.ru/)\r\n"
-    sells: "*   [Альманахи](http://www.combook.ru/search/?search_str=%C0%EB%FC%EC%E\
-      0%ED%E0%F5+%E4%EB%FF+%EB%FE%E1%EE%E7%ED%E0%F2%E5%EB%FC%ED%FB%F5)
-
-      *   [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED\
-      %E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
-
-      *   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%\
-      E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://www.combook.ru/product/11877178/)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://www.combook.ru/product/11899235/)
-
-      * [\"Как Бусенька что-то-там. Математические сказки\",
-      К.Кохась](http://www.combook.ru/search/?search_str=%C1%F3%F1%E5%ED%FC%EA%\
-      E0)
-
-      \n"
-  - name: "[Читай-город](https://www.chitai-gorod.ru)"
-    sells: "*
-      [Альманахи](https://www.chitai-gorod.ru/search/result/?q=%D0%9A%D0%B2%D0%\
-      B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1\
-      %85&page=1)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](https://www.chitai-gorod.ru/catalog/book/1256937/)\r
-
-      * [\"Перепутаница\",
-      С.Федин](https://www.chitai-gorod.ru/catalog/book/1208352/)\n"
-    delivery: >-
-      * Самовывоз: в магазинах «Читай-город», Связной – Заббери, 
-
-      PickPoint, СДЭК, Евросеть, BoxBerry, IML, DPD, 5post: выдача на кассе магазина и постоматах «Пятёрочка»;
-
-      * Курьерская доставка;
-
-      * Почта России
   - delivery: "*   Курьерская доставка: по Санкт-Петербургу и Москве, а также
       по ряду регионов: Ленинградской, Московской, Архангельской, Вологодской,
       Мурманской, Нижегородской, Новгородской областям и в республике Карелия.
@@ -329,7 +363,7 @@ store:
       год](http://www.100book.ru/flaer/?fel=7216311)
 
       *   [Календарь загадок на 2016 год](http://www.100book.ru/flaer/?fel=6019305)
-  - available: 1
+  - available: 0
     delivery: "*   Курьерская доставка: Москва и другие города России;\r
 
       *   Самовывоз: Москва, Санкт-Петербург и другие города России;\r
@@ -355,40 +389,6 @@ store:
     dump: "*   [Альманахи](https://totbook.ru/search/?sections=&q=%D0%9A%D0%B2%D0%B\
       0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%8\
       5&search=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8)"
-  - available: 0
-    delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской
-      области;\r
-
-      *   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург
-      (Железнодорожный проспект);\r
-
-      *   Почтовая доставка по России\r\n"
-    dump: "*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты\
-      &what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_syst\
-      em=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r"
-    name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
-    sells: "*   [Альманахи](https://www.tdabris.ru/catalog/?q=%D0%9A%D0%B2%D0%B0%D0\
-      %BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&w\
-      here=name&s=)\r
-
-      * [\"Сто граней математики\",
-      М.Евдокимов](http://umlit.ru/catalog/view/203946)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://umlit.ru/catalog/view/222407)\ \n"
-  - available: 0
-    delivery: "*   Набор доступных способов доставки зависит от региона доставки
-      (см. на сайте магазина)\r\n"
-    dump: "*
-      [Журналы](http://www.sprinter.ru/catalog/search/?query=%D0%96%D1%83%D1%80\
-      %D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)"
-    name: "[Спринтер.ру](http://www.sprinter.ru)\r\n"
-    sells: >
-      *   [Альманахи](http://www.sprinter.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
-
-      *   [Плакаты](http://www.sprinter.ru/catalog/search/?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B)
-
-      *   [Календари загадок](http://www.sprinter.ru/catalog/search/?query=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D0%BA)
   - name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
     sells: "*   [Альманахи и
       журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
@@ -435,23 +435,24 @@ store:
       *   Международная доставка службой «DHL»\r\n"
     available: 0
     dump: Международная доставка то появляется, то исчезает
-  - available: "0"
-    delivery: "*   Курьерская доставка по Москве и Санкт-Петербургу;\r
+  - available: 0
+    delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской
+      области;\r
 
-      *   Самовывоз из офиса \"Библиона\" в Москве и из офиса курьерской
-      компании в Санкт-Петербурге;\r
+      *   Самовывоз: Москва (Калибровская ул.),Санкт-Петербург
+      (Железнодорожный проспект);\r
 
-      *   Почтовая доставка по России;\r
+      *   Почтовая доставка по России\r\n"
+    dump: "*   [Плакаты](http://umlit.ru/search/result?query=Познавательные+плакаты\
+      &what=book_name&short=1&x=0&y=0&book_author=&book_federal_code=&book_syst\
+      em=&book_umk=&book_dop_umk=&book_vid=&book_class=&book_lesson=)\r"
+    name: "[УМЛИТ (учебно-методическая литература) *](http://umlit.ru/)\r\n"
+    sells: "*   [Альманахи](https://www.tdabris.ru/catalog/?q=%D0%9A%D0%B2%D0%B0%D0\
+      %BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&w\
+      here=name&s=)\r
 
-      *   Экспресс-доставка по России через \"ЕМС Гарантпост\"\r\n"
-    name: "[Библион](http://www.biblion.ru/)\r\n"
-    sells: >
-      *   [Журналы и
-      Альманахи](http://www.biblion.ru/search/?query=%EA%E2%E0%ED%F2%E8%EA&nonstrong=false&sortField=relevance&direction=desc&productType=any&priceFrom=&priceTo=&availability=any)
-  - name: "[WILDBERRIES](https://www.wildberries.ru/)\r\n"
-    sells: "*   [Альманахи](https://www.wildberries.ru/catalog/0/search.aspx?search\
-      =%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)"
-    delivery: |-
-      * Курьерская доставка;
-      * Пункты выдачи заказов Wildberries;
-      * Постаматы
+      * [\"Сто граней математики\",
+      М.Евдокимов](http://umlit.ru/catalog/view/203946)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://umlit.ru/catalog/view/222407)\ \n"
