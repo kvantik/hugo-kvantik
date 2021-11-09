@@ -52,8 +52,11 @@ store:
       * ["Перепутаница", С.Федин](http://www.kvantik.ru/product/pereputanitsa-sfedina)
 
       * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](http://www.kvantik.ru/product/kohas-kp-kak-busenka-chto-to-tam-matematicheskie-skazki)
-    delivery: "* Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы:
-      Москва и другие регионы России"
+    delivery: >-
+      * Доставка службой «СДЭК» в пункты выдачи заказов или почтоматы: Москва и
+      другие регионы России
+
+      * **Доставка за рубеж по договоренности и полной предоплате**
     dump: "* [Головоломки Владимира
       Красноухова](http://www.kvantik.ru/collection/golovolomki)"
   - name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
