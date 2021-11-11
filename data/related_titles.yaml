@@ -35,6 +35,8 @@ almanacs:
       img: img/related_titles/almanac-16.jpg
     - ref: https://biblio.mccme.ru/node/82526/shop
       img: img/related_titles/almanac-17.jpg
+    - ref: https://biblio.mccme.ru/node/110158/shop
+      img: img/related_titles/almanac-18.jpg
       
     
 
@@ -57,6 +59,8 @@ calendars:
       img: img/related_titles/calendar_2020.jpg      
     - ref: https://biblio.mccme.ru/node/65543/shop
       img: img/related_titles/calendar_2021.jpg      
+    - ref: https://biblio.mccme.ru/node/109648/shop
+      img: img/related_titles/calendar_2022.jpg      
 
 posters:
   title: Плакаты
