@@ -63,6 +63,8 @@ tocmenu = true
 - [Пилотируемая полоска](/extra/poloska.pdf)
 - [Куб из трубочек](/extra/straw-cube.pdf)
 - [Головоломка «Антислайд с кирпичами»](/extra/antislide.pdf)
+- [Головоломка «Семь семёрок»](/extra/7-7.pdf)
+- [Головоломка «Трансформация пустоты»](/extra/pustota.pdf)
 - [Комната Эймса](https://old.kvantik.com/art/files/pdf/2012-02.12-18.pdf)
 - [Оптическая иллюзия — Квантик вертит головой](https://old.kvantik.com/art/files/pdf/2012-09.16-18.pdf)
 - [Головоломка «Исчезающий клоун»](https://old.kvantik.com/art/files/pdf/2012-07.15-18.pdf)
