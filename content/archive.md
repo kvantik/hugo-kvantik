@@ -69,6 +69,8 @@ tocmenu = true
 - [Оптическая иллюзия — Квантик вертит головой](https://old.kvantik.com/art/files/pdf/2012-09.16-18.pdf)
 - [Головоломка «Исчезающий клоун»](https://old.kvantik.com/art/files/pdf/2012-07.15-18.pdf)
 - [Развертки невозможных фигур](https://old.kvantik.com/art/files/pdf/2012-10.14-19.pdf)
+- [Развертка календаря-пентагондодекаэдра на 2022 год](https://kvantik.com/extra/pentagon.pdf)
+- [Головоломка «Ёлочка-2022»](https://kvantik.com/extra/elochka2022.pdf)
 
 
 # Видео {#video}
