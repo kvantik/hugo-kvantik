@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: распечатка для логарифмической линейки
+  # где размещена ссылка: статья Виктора Клепцына, Квантик 2022-2
+  from = "https://kvan.tk/rule"
+  to = "https://kvantik.com/extra/rule.pdf"
+  status = 301
+  force = true 
+
+[[redirects]]
   # куда ведёт ссылка: подборки журнала в магазине
   # где размещена ссылка: соцсети
   from = "https://kvan.tk/podborki"
