@@ -2,6 +2,108 @@ order: 2
 title: Российские интернет-магазины с доставкой по России и МЕЖДУНАРОДНОЙ ДОСТАВКОЙ
 store:
   - available: "1"
+    delivery: "*   Курьерская доставка службой Оzon (в том числе \"Доставка до
+      двери\");\r
+
+      *   Пункты выдачи (самовывоз) во многих городах России;\r
+
+      *   Доставка в постаматы  Ozon Box;\r
+
+      *   Доставка в регионы России: Почтой России и EMS;\r
+
+      *   Международная доставка: службами доставки UPS\r, DPD, DHL
+      Express, TNT Express, Pony Express, Spring Global Mail, Алем ТАТ, EMS
+      Почта России\n"
+    dump: >-
+      *   [Плакаты (комплект
+      №1)](https://www.ozon.ru/context/detail/id/135816977/)
+
+      *   [Плакаты (комплект №2)](http://www.ozon.ru/context/detail/id/135816978/)
+
+      *   [Плакаты (комплект №3)]
+
+      (https://www.ozon.ru/context/detail/id/140943928/)
+
+      *   [Календарь загадок на 2021 год](https://www.ozon.ru/product/kalendar-zagadok-ot-zhurnala-kvantik-na-2021-god-202470753/?asb=%252BHQ6Ko568Lg0cNqX2PW2GoPS7Xucc7vqBcbiqRr2hHo%253D&asb2=pS-30L5an8nNoj23EP-LtMUoSEqF-ayYSGfNf_qdLFo&keywords=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D0%BA&sh=Du3g2h6Q)
+
+      *   [Календарь загадок на 2019 год](https://www.ozon.ru/context/detail/id/147954719/)
+
+      *   [Календарь загадок на 2017 год](http://www.ozon.ru/context/detail/id/138939394/)
+
+      *   [Календарь загадок на 2018 год](https://www.ozon.ru/context/detail/id/142591284/)
+
+      *   [Календарь загадок на 2015 год](http://www.ozon.ru/context/detail/id/31226148/)
+
+      *   [Календарь загадок на 2016 год](http://www.ozon.ru/context/detail/id/34633194/)
+
+      *   [Календарь загадок на 2014 год](http://www.ozon.ru/context/detail/id/27676491/)
+    name: "[OZON.RU](http://www.ozon.ru/)\r\n"
+    sells: "*   [Журналы, Альманахи](https://www.ozon.ru/search/?text=Квантик)
+
+      *   [Календарь загадок на 2022
+      год](https://www.ozon.ru/product/kalendar-zagadok-ot-zhurnala-kvantik-na-\
+      2022-god-383756924/)
+
+      *   [\"Сто граней математики\", М.Евдокимов
+      ](https://www.ozon.ru/product/sto-graney-matematiki-2-e-ispravlennoe-evdo\
+      kimov-m-a-387091647/)\r
+
+      *   [\"Перепутаница\",
+      С.Федин](https://www.ozon.ru/product/pereputanitsa-383776329/)\r\n"
+  - available: ""
+    delivery: "*   Курьерская доставка по Москве, Московской области,
+      Санкт-Петербургу, Ленинградской области;\r
+
+      *   Самовывоз: Москва (метро Лубянка);\r
+
+      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
+
+      *   Доставка почтой: по России;\r
+
+      *   Международная доставка компаниями «TNT Express»\n"
+    name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
+    sells: "*   [Альманахи и
+      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
+      BD%D1%82%D0%B8%D0%BA&page=1)
+
+      *   [Календарь загадок на 2022
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10801192&type=1)
+
+      *   [Календарь загадок на 2021
+      год](https://www.bgshop.ru/catalog/getfulldescription?id=10721102)
+
+      *   [Календарь загадок на 2015
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](https://www.bgshop.ru/Catalog/GetFullDescription?id=10634900&type=1)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
+      =1)\ 
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
+
+      \n"
+    dump: >-
+      *   [Плакаты (комплект
+      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
+
+      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
+
+      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
+
+      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
+
+      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
+
+      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
+
+      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
+
+      *   [Календарь загадок на 2016 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
+  - available: "1"
     delivery: "*   Курьерская доставка: Москва;\r
 
       *   Самовывоз: Москва (Нахимовский проспект);\r
@@ -83,110 +185,6 @@ store:
       * Международная почтовая доставка Spring Global Mail\r
 
       * Экспресс-доставка DHL\n"
-  - available: "1"
-    delivery: "*   Курьерская доставка службой Оzon (в том числе \"Доставка до
-      двери\");\r
-
-      *   Пункты выдачи (самовывоз) во многих городах России;\r
-
-      *   Доставка в постаматы  Ozon Box;\r
-
-      *   Доставка в регионы России: Почтой России и EMS;\r
-
-      *   Международная доставка: службами доставки UPS\r, DPD, DHL
-      Express, TNT Express, Pony Express, Spring Global Mail, Алем ТАТ, EMS
-      Почта России\n"
-    dump: >-
-      *   [Плакаты (комплект
-      №1)](https://www.ozon.ru/context/detail/id/135816977/)
-
-      *   [Плакаты (комплект №2)](http://www.ozon.ru/context/detail/id/135816978/)
-
-      *   [Плакаты (комплект №3)]
-
-      (https://www.ozon.ru/context/detail/id/140943928/)
-
-      *   [Календарь загадок на 2018 год](https://www.ozon.ru/context/detail/id/142591284/)
-
-      *   [Календарь загадок на 2015 год](http://www.ozon.ru/context/detail/id/31226148/)
-
-      *   [Календарь загадок на 2016 год](http://www.ozon.ru/context/detail/id/34633194/)
-
-      *   [Календарь загадок на 2014 год](http://www.ozon.ru/context/detail/id/27676491/)
-    name: "[OZON.RU](http://www.ozon.ru/)\r\n"
-    sells: "*   [Журналы, Альманахи](https://www.ozon.ru/search/?text=Квантик)
-
-      *   [Календарь загадок на 2021
-      год](https://www.ozon.ru/product/kalendar-zagadok-ot-zhurnala-kvantik-na-\
-      2021-god-202470753/?asb=%252BHQ6Ko568Lg0cNqX2PW2GoPS7Xucc7vqBcbiqRr2hHo%2\
-      53D&asb2=pS-30L5an8nNoj23EP-LtMUoSEqF-ayYSGfNf_qdLFo&keywords=%D0%9A%D0%B\
-      0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B\
-      4%D0%BE%D0%BA&sh=Du3g2h6Q)
-
-      *   [Календарь загадок на 2019
-      год](https://www.ozon.ru/context/detail/id/147954719/)
-
-      *   [Календарь загадок на 2017
-      год](http://www.ozon.ru/context/detail/id/138939394/)
-
-      *   [\"Сто граней математики\", М.Евдокимов
-      ](https://www.ozon.ru/context/detail/id/167075485/)\r
-
-      *   [\"Перепутаница\",
-      С.Федин](https://www.ozon.ru/context/detail/id/148412061/)\r\n"
-  - available: ""
-    delivery: "*   Курьерская доставка по Москве, Московской области,
-      Санкт-Петербургу, Ленинградской области;\r
-
-      *   Самовывоз: Москва (метро Лубянка);\r
-
-      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
-
-      *   Доставка почтой: по России;\r
-
-      *   Международная доставка компаниями «TNT Express»\n"
-    name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: "*   [Альманахи и
-      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
-      BD%D1%82%D0%B8%D0%BA&page=1)
-
-      *   [Календарь загадок на 2022
-      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10801192&type=1)
-
-      *   [Календарь загадок на 2021
-      год](https://www.bgshop.ru/catalog/getfulldescription?id=10721102)
-
-      *   [Календарь загадок на 2015
-      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](https://www.bgshop.ru/Catalog/GetFullDescription?id=10634900&type=1)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
-      =1)\ 
-
-      * [\"Как Бусенька что-то-там. Математические сказки\",
-      К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
-
-      \n"
-    dump: >-
-      *   [Плакаты (комплект
-      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
-
-      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
-
-      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
-
-      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
-
-      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
-
-      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
-
-      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
-
-      *   [Календарь загадок на 2016 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
   - available: "1"
     delivery: "*   Курьерская доставка: Москва;\r
 
