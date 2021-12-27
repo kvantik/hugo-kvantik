@@ -19,20 +19,23 @@ store:
 
       [Магазин «Математическая книга» издательства
       МЦНМО](http://biblio.mccme.ru/shop)\r\n"
-    sells: >-
+    sells: >
       * [Журналы](http://biblio.mccme.ru/shop/detail/journals/152)
+
+      * [Годовые подборки журналов] (https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=&field_book_kind_value_many_to_one=All)
+
+      * [Журналы (электронная версия)](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=&field_book_kind_value_many_to_one=1)
 
       * [Альманахи](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.%20%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&field_book_year_value_op=%3D&field_book_year_value[value]=&field_book_year_value[min]=&field_book_year_value[max]=&field_price_value_op=%3D&field_price_value[value]=&field_price_value[min]=&field_price_value[max]=)
 
-      * [Набор плакатов с задачами](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)
-
       * [Календари загадок Квантика](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D0%BA&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=) 
+
+      * [Набор плакатов с задачами](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9F%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D1%8B&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=)
 
       * Книги серии "Библиотечка журнала "Квантик"
         * ["Сто граней математики", М.Евдокимов](https://biblio.mccme.ru/node/25518/shop)
         * ["Перепутаница", С.Федин](https://biblio.mccme.ru/node/8014/shop)
         * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://biblio.mccme.ru/node/58494/shop)
-      * [Журналы (электронная версия)](https://biblio.mccme.ru/shop/order?field_authorstitleizdanie_value=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA&field_book_year_value_op=%3D&field_book_year_value%5Bvalue%5D=&field_book_year_value%5Bmin%5D=&field_book_year_value%5Bmax%5D=&field_price_value_op=%3D&field_price_value%5Bvalue%5D=&field_price_value%5Bmin%5D=&field_price_value%5Bmax%5D=&field_book_kind_value_many_to_one=1)
     dump: "*   Самовывоз: Москва (Большой Власьевский пер., д.11)\r
 
       *   Доставка Почтой России\r
@@ -50,6 +53,8 @@ store:
       * [Альманахи](http://www.kvantik.ru/collection/almanahi)
 
       * [Календарь загадок на 2022 год](http://www.kvantik.ru/product/kalendar-zagadok-na-2022-god-ot-zhurnala-kvantik)
+
+      * [Набор календарей загадок на 2022 год - 20 штук](https://www.kvantik.ru/product/kalendar-zagadok-na-2022-god-ot-zhurnala-kvantik-2)
 
       * [Календарь загадок на 2021 год](http://www.kvantik.ru/product/kalendar-zagadok-na-2021-god-ot-zhurnala-kvantik)
 
@@ -116,7 +121,8 @@ store:
 
       * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://market.yandex.ru/product--kak-busenka-chto-to-tam-matematicheskie-skazki/934317359)
     name: "[Яндекс.маркет](https://market.yandex.ru/)\r\n"
-    dump: '* ["Перепутаница", С.Федин]()'
+    dump: '* ["Перепутаница",
+      С.Федин](https://market.yandex.ru/product--pereputanitsa/2000460624961?text=%EF%E5%F0%E5%EF%F3%F2%E0%ED%E8%F6%E0&cpc=0L_M1dXWsRvZV2TG9EMbH8qD4NzOwEVrQMgO0kqrq_qPx0oY91MgOeIiZwtL1wWpCENsWNaB-iJi32Syk_ZQ1-0zq1h-eZpV_Q9I1VM3jEwbjc26iTPBP_ujbCBb49Kbx3AXh2CvhximZB0LKgArx0E5fp_GTFyswDvd0rWhiDtb74qA4JIJwA%2C%2C&sku=2000460624961&do-waremd5=Vm4owHXDc8m0QBJaonaBxQ&cpa=1&nid=56454)'
     delivery: "*   Курьером;\r
 
       *   Самовывоз из фирменных пунктов выдачи и постаматов
