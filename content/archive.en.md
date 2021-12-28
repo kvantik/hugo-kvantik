@@ -15,6 +15,7 @@ tocmenu = true
 # Magazines {#issues}
 See also the [interactive table](http://old.kvantik.com/art/index.html) of all articles that are at least six months old.
 
+{{<issue-cards 2022>}}
 {{<issue-cards 2021>}}
 {{<issue-cards 2020>}}
 {{<issue-cards 2019>}}

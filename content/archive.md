@@ -14,6 +14,7 @@ tocmenu = true
 [В рубрикаторе](http://old.kvantik.com/art/index.html) можно найти статьи журнала, вышедшие не позднее, чем полгода назад.
 
 # Журналы {#issues}
+{{<issue-cards 2022>}}
 {{<issue-cards 2021>}}
 {{<issue-cards 2020>}}
 {{<issue-cards 2019>}}
