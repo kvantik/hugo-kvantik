@@ -1,21 +1,21 @@
-<table class="table table-striped table-responsive table-bordered" style="table-layout:fixed;">
-<tr>
-<th>Магазин</th>
-<th>Контактная информация</th>
+<table class="buy table table-striped table-responsive table-bordered" style="table-layout:fixed;">
+<tr class="buy">
+<th class="buy">Магазин</th>
+<th class="buy">Контактная информация</th>
 </tr>
 
 {{range sort ($.Site.Data.buy.retail) "order"}}
-<tr><td colspan="2" bgcolor="#ccddff"><b>{{ .title }}</b></td></tr>
+<tr class="buy"><td colspan="2" bgcolor="#ccddff" class="buy"><b>{{ .title }}</b></td></tr>
 {{range .shops}}{{if not (and (isset . "available")  (eq (string .available) "0"))}}
-<tr>
-<td>&#9679; {{.name | markdownify}}  </td>  
-<td>{{.address | markdownify}}</td>
+<tr class="buy">
+<td class="buy">&#9679; {{.name | markdownify}}  </td>  
+<td class="buy">{{.address | markdownify}}</td>
 </tr>
     {{- with .branches -}}
     {{- range . -}}{{- if not (and (isset . "available")  (eq (string .available) "0")) -}}
-    <tr>
-    <td> - {{.name | markdownify}}</td>
-    <td>{{.address | markdownify}}</td>
+    <tr class="buy">
+    <td class="buy"> - {{.name | markdownify}}</td>
+    <td class="buy">{{.address | markdownify}}</td>
     </tr>
     {{- end -}}{{- end -}}
     {{- end -}}

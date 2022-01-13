@@ -26,18 +26,17 @@ a:hover {  	color:#fc7c0b; 	}
 	
 i 		{ 	color:#666;}
 
-table 	{	width:95%;			
+table.buy 	{	width:95%;			
 		}
 
-table, th, td {
+table.buy, th.buy, td.buy {
     border: 1px solid black;
     border-collapse: collapse;
 }
-th, td {
+th.buy, td.buy {
     padding: 5px;
 }
 
-.noborder {border:0;}
 
 td		{	width:400px;}
 td.img	{	width:33%; 
@@ -311,3 +310,4 @@ hr		{
   padding: 5px 12px;
   border-radius: 5px;
 }
+
