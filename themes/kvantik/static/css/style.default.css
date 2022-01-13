@@ -26,18 +26,17 @@ a:hover {  	color:#fc7c0b; 	}
 	
 i 		{ 	color:#666;}
 
-table 	{	width:95%;			
+table.buy 	{	width:95%;			
 		}
 
-table, th, td {
+table.buy, th.buy, td.buy {
     border: 1px solid black;
     border-collapse: collapse;
 }
-th, td {
+th.buy, td.buy {
     padding: 5px;
 }
 
-.noborder {border:0;}
 
 td		{	width:400px;}
 td.img	{	width:33%; 
@@ -122,11 +121,11 @@ hr		{
 		font-size:22px;
 		color:#0172ca;
 		padding:4px;
-		margin:0 210px;
+		margin:0 17px;
 		line-height:2.8;
-		margin-left:-155px;
-		margin-top:200px;
-		margin-bottom:200px;
+		#margin-left:-155px;
+		#margin-top:200px;
+		#margin-bottom:200px;
 		}
 	
 .menu span 
@@ -138,7 +137,9 @@ hr		{
 	
 .menu a:hover {	color:#fc7c0b; }
 
-.menu a.active {text-decoration:none; color:#fff; background:#fc7c0b; font-weight:900;}
+.menu a.active {text-decoration:none; color:#ffffff; background:#fc7c0b; font-weight:900;}
+
+.menu a:last-child {font-weight:normal;}
 
 .menusmall   {
 		width:910px;
@@ -311,3 +312,4 @@ hr		{
   padding: 5px 12px;
   border-radius: 5px;
 }
+
