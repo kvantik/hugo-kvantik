@@ -1,5 +1,5 @@
 # hugo-kvantik
-Source and content for a future site of Kvantik.
+Source and content for the site of the mаgazine "Kvantik".
 
 Это исходный код будущего сайта журнала для любознательных «Квантик».
 
