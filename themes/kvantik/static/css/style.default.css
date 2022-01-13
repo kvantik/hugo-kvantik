@@ -137,7 +137,9 @@ hr		{
 	
 .menu a:hover {	color:#fc7c0b; }
 
-.menu a.active {text-decoration:none; color:#fff; background:#fc7c0b; font-weight:900;}
+.menu a.active {text-decoration:none; color:#ffffff; background:#fc7c0b; font-weight:900;}
+
+.menu a:last-child {font-weight:normal;}
 
 .menusmall   {
 		width:910px;
