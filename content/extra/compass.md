@@ -12,6 +12,15 @@ date = "2022-01-11"
 
 Попробуйте перетащить компасы и увидите, как меняют положение стрелки.
 
+
+<link href="style.css" rel="stylesheet">
+<link href="nouislider.min.css" rel="stylesheet">
+<script src="nouislider.min.js"></script>
+<div id="Compass" style="width: 100%; max-width: 2000px;"></div>
+<script src="main.js"  type="module"></script>
+
+
+<!--
 Заряд иглы: 
 <div id="needle_q" class="slider"></div>
 
@@ -25,9 +34,4 @@ date = "2022-01-11"
 Максимальная сила: 
 <div id="max_force" class="slider"></div>
 </div>
-
-<link href="style.css" rel="stylesheet">
-<link href="nouislider.min.css" rel="stylesheet">
-<script src="nouislider.min.js"></script>
-<div id="Compass" style="width: 100%; max-width: 2000px;"></div>
-<script src="main.js"  type="module"></script>
+-->
