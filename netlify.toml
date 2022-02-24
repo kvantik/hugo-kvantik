@@ -74,7 +74,7 @@
   # куда ведёт ссылка: распечатка для головоломки «Снежинка»
   # где размещена ссылка: статья Красноухова «Снежинка-2022», Квантик 2022-1
   from = "https://kvan.tk/sneg"
-  to = "https://kvantik.com/extra/sneg2022.pdf"
+  to = "https://kvantik.com/extra/sneg.pdf"
   status = 301
   force = true 
 
