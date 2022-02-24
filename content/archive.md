@@ -72,7 +72,7 @@ tocmenu = true
 - [Развертки невозможных фигур](https://old.kvantik.com/art/files/pdf/2012-10.14-19.pdf)
 - [Развертка календаря-пентагондодекаэдра на 2022 год](https://kvantik.com/extra/pentagon.pdf)
 - [Головоломка «Ёлочка-2022»](https://kvantik.com/extra/elochka2022.pdf)
-- [Головоломка «Снежинка-2022»](https://kvantik.com/extra/sneg2022.pdf)
+- [Головоломка «Снежинка-2022»](https://kvantik.com/extra/sneg.pdf)
 - [Логарифмическая линейка](https://kvantik.com/extra/rule.pdf)
 - [Головоломка «Два куба из пентамино»](https://kvantik.com/extra/2-kuba.pdf)
 
