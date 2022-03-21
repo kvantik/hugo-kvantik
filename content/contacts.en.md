@@ -19,10 +19,7 @@ Social «Kvantik»:
 
 [![LJ](/img/social/lj_h.png "Живой журнал")](http://kvantik12.livejournal.com/)
 [![VK](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)
-[![Facebook](/img/social/fb_h.png "Фейсбук")](http://facebook.com/kvantik12)
-[![OK](/img/social/ok_h.png "Одноклассники")](http://ok.ru/kvantik12)
 [![Twitter](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)
-[![Instagram](/img/social/ig_h.png "Инстаграм")](http://instagram.com/kvantik12/)
 [![Youtube](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)
 
 # Editorial Board

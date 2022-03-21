@@ -19,10 +19,7 @@ date = "2017-02-09T14:58:00+03:00"
 
 [![ЖЖ](/img/social/lj_h.png "Живой журнал")](http://kvantik12.livejournal.com/)
 [![ВКонтакте](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)
-[![Фейсбук](/img/social/fb_h.png "Фейсбук")](http://facebook.com/kvantik12)
-[![Одноклассники](/img/social/ok_h.png "Одноклассники")](http://ok.ru/kvantik12)
 [![Твиттер](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)
-[![Инстаграм](/img/social/ig_h.png "Инстаграм")](http://instagram.com/kvantik12/)
 [![Ютуб](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)
 [![Телеграм](/img/social/tg_h.png "Telegram")](http://t.me/kvantik12)
 
