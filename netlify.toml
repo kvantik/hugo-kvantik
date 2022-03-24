@@ -1,6 +1,14 @@
 [[redirects]]
   # куда ведёт ссылка: решение головоломки «Флексотримино»
   # где размещена ссылка: статья Сергея Полозвкова, Квантик 2022-5
+  from = "https://kvan.tk/flexotrimino-a4"
+  to = "https://kvantik.com/extra/flexotrimino-a4.pdf"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: решение головоломки «Флексотримино»
+  # где размещена ссылка: статья Сергея Полозвкова, Квантик 2022-5
   from = "https://kvan.tk/flexotrimino"
   to = "https://youtu.be/kkyjf8_6kjU"
   status = 301
