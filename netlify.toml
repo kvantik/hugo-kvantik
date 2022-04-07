@@ -9,8 +9,8 @@
 [[redirects]]
   # куда ведёт ссылка: решение головоломки «Флексотримино»
   # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-5
-  from = "https://kvan.tk/flexotrimino-a4"
-  to = "https://kvantik.com/extra/trimino-a4.pdf"
+  from = "https://kvan.tk/trimino-a4"
+  to = "https://kvantik.com/extra/flexotrimino-a4.pdf"
   status = 301
   force = true
   
