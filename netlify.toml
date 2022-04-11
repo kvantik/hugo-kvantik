@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: видео BBC про раков
+  # где размещена ссылка: задача про раков, Квантик 2022-5
+  from = "https://kvan.tk/crabs"
+  to = "https://youtu.be/f1dnocPQXDQ"
+  status = 301
+  force = true
+  
+[[redirects]]
   # куда ведёт ссылка: текст Спивака
   # где размещена ссылка: Крылатые квадраты, Квантик 2022-5
   from = "https://kvan.tk/spivak-sq"
