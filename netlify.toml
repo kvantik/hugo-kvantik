@@ -25,7 +25,7 @@
 [[redirects]]
   # куда ведёт ссылка: решение головоломки «Флексотримино»
   # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-5
-  from = "https://kvan.tk/trimino"
+  from = "https://kvan.tk/trimino-video"
   to = "https://youtu.be/kkyjf8_6kjU"
   status = 301
   force = true
