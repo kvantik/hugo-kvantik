@@ -1,7 +1,7 @@
 [[redirects]]
   # куда ведёт ссылка: книга «Перестановки» Шеня
   # где размещена ссылка: статья Николая Авилоа, Квантик 2022-7
-  from = "https://kvan.tk/shen/perm"
+  from = "https://kvan.tk/shen-perm"
   to = "https://mccme.ru/free-books/shen/perm.pdf"
   status = 301
   force = true
