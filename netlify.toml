@@ -1,6 +1,15 @@
 [[redirects]]
+  # куда ведёт ссылка: интерактивное построение диаграмм Вороного
+  # где размещена ссылка: статья Артемия Соколова, Квантик 2022-7
+  from = "https://kvan.tk/voronoi-demo"
+  to = "http://cfbrasz.github.io/Voronoi"
+  status = 301
+  force = true
+
+
+[[redirects]]
   # куда ведёт ссылка: книга «Перестановки» Шеня
-  # где размещена ссылка: статья Николая Авилоа, Квантик 2022-7
+  # где размещена ссылка: статья Николая Авилова, Квантик 2022-7
   from = "https://kvan.tk/shen-perm"
   to = "https://mccme.ru/free-books/shen/perm.pdf"
   status = 301
