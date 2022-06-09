@@ -1,4 +1,13 @@
 [[redirects]]
+  # куда ведёт ссылка: видеолекции Квашенко по драконистике
+  # где размещена ссылка: статья «Сколько лап у дракона?», Квантик 2022-7
+  from = "https://kvan.tk/drakonistika"
+  to = "https://www.youtube.com/playlist?list=PL1JJ1jVZ9z5C438PIAsrpb2EZscC6NWLR"
+  status = 301
+  force = true
+
+
+[[redirects]]
   # куда ведёт ссылка: интерактивное построение диаграмм Вороного
   # где размещена ссылка: статья Артемия Соколова, Квантик 2022-7
   from = "https://kvan.tk/voronoi-demo"
