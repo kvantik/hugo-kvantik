@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: временно добавленная ссылка
+  # где размещена ссылка: 
+  from = "https://kvan.tk/wrapping"
+  to = "https://kvantik.com/extra/WrappingVideo.gif"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: видеолекции Квашенко по драконистике
   # где размещена ссылка: статья «Сколько лап у дракона?», Квантик 2022-7
   from = "https://kvan.tk/drakonistika"
