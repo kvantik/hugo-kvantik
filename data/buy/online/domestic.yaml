@@ -284,9 +284,6 @@ store:
       *   [Плакаты](http://www.combook.ru/search/?search_str=%CF%EE%E7%ED\
       %E0%E2%E0%F2%E5%EB%FC%ED%FB%E5+%EF%EB%E0%EA%E0%F2%FB)
 
-      *   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%\
-      E5%ED%E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)
-
       * [\"Сто граней математики\", М.Евдокимов
       ](http://www.combook.ru/product/11877178/)\r
 
@@ -298,6 +295,8 @@ store:
       E0)
 
       \n"
+    dump: "*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED\
+      %E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)"
   - available: 0
     delivery: "*   Курьерская доставка в 450 городов России;\r
 
