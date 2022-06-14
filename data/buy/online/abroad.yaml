@@ -2,40 +2,6 @@ order: 3
 title: Интернет-магазины ЗА РУБЕЖОМ
 store:
   - available: "1"
-    delivery: "Доставка по Украине:\r
-
-      \r
-
-      *   Курьерская доставка;\r
-
-      *   Служба доставки \"Новая почта\" (в том числе самовывоз);\r
-
-      *   Доставка почтой Украины\r
-
-      Доставка Авиапочтой за пределы Украины\r\n"
-    dump: >-
-      *  [Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?Find=%EA%E2%E0%ED%F2%E8%EA%2E+%C0%EB%FC%EC%E0%ED%E0%F5&Cr=Catalog&D1=1&pr1=1)
-
-
-      *  [Календарь загадок на 2016 год](http://www.bookshop.ua/a13743540/)
-
-      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14700607/)
-
-      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14673272/)
-
-      *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
-    name: "[bookshop](http://www.bookshop.ua/)"
-    sells: >+
-      *  [Плакаты (комплект №1)](http://www.bookshop.ua/a14026207/)
-
-      *  ["Перепутаница", С.Федин](http://www.bookshop.ua/a15249323/)
-
-      *  ["Сто граней математики", М.Евдокимов ](http://www.bookshop.ua/a14929562/)
-
-
-
-
-  - available: "1"
     delivery: |-
       * Доставка курьером по Минску
       * Доставка автокурьером по регионам Республики Беларусь
@@ -45,14 +11,21 @@ store:
       [Читатель.by](https://chitatel.by/) / 
       [Учитель.by](https://uchitel.by/)
     sells: >
-      *
-      [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+      * ["Как Бусенька что-то-там. Математические сказки", К.
+      Кохась](https://chitatel.by/catalog/book/1509814)
+    dump: >+
+      * [Календарь загадок на 2018
+      год](https://chitatel.by/catalog/2587/961510/)
+
+      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
+
+      *   [Календарь загадок на 2016 год](https://chitatel.by/catalog/book/393577)
+
+      * [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
 
       *  ["Сто граней математики", М. Евдокимов ](https://chitatel.by/catalog/book/885906)
 
       * ["Перепутаница", С. Федин](https://chitatel.by/catalog/2480/1099607/) 
-
-      * ["Как Бусенька что-то-там. Математические сказки", К. Кохась](https://chitatel.by/catalog/book/1509814)
 
       *   [Плакаты (комплект №1)](https://chitatel.by/catalog/book/443695)
 
@@ -65,13 +38,7 @@ store:
       *  [Календарь загадок на 2021 год](https://chitatel.by/catalog/book/1530382)
 
       *  [Календарь загадок на 2020 год](https://chitatel.by/catalog/book/1555022)
-    dump: >-
-      * [Календарь загадок на 2018
-      год](https://chitatel.by/catalog/2587/961510/)
 
-      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
-
-      *   [Календарь загадок на 2016 год](https://chitatel.by/catalog/book/393577)
   - name: "[WILDBERRIES (Беларусь)](https://by.wildberries.ru/)"
     sells: "*
       [Альманахи](https://by.wildberries.ru/catalog/0/search.aspx?search=%D0%9A\
@@ -440,3 +407,37 @@ store:
       *  ["Сто граней математики", М.Евдокимов ](https://www.knigi-janzen.de/view.php?gid=623508)
     name: "[JANZEN](https://www.knigi-janzen.de/index.php)"
     available: 0
+  - available: 0
+    delivery: "Доставка по Украине:\r
+
+      \r
+
+      *   Курьерская доставка;\r
+
+      *   Служба доставки \"Новая почта\" (в том числе самовывоз);\r
+
+      *   Доставка почтой Украины\r
+
+      Доставка Авиапочтой за пределы Украины\r\n"
+    dump: >-
+      *  [Альманахи](http://www.bookshop.ua/asp/k_view_1.asp?Find=%EA%E2%E0%ED%F2%E8%EA%2E+%C0%EB%FC%EC%E0%ED%E0%F5&Cr=Catalog&D1=1&pr1=1)
+
+
+      *  [Календарь загадок на 2016 год](http://www.bookshop.ua/a13743540/)
+
+      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14700607/)
+
+      *   [Календарь загадок на 2018 год](http://www.bookshop.ua/a14673272/)
+
+      *   [Календарь загадок на 2017 год](http://www.bookshop.ua/a14180827/)
+    name: "[bookshop](http://www.bookshop.ua/)"
+    sells: >+
+      *  [Плакаты (комплект №1)](http://www.bookshop.ua/a14026207/)
+
+      *  ["Перепутаница", С.Федин](http://www.bookshop.ua/a15249323/)
+
+      *  ["Сто граней математики", М.Евдокимов ](http://www.bookshop.ua/a14929562/)
+
+
+
+
