@@ -164,13 +164,12 @@ store:
       *   Доставка почтой: по России\r\n"
     name: "[\"МИР ШКОЛЬНИКА\" интернет-магазин школьной литературы
       *](http://www.uchebnik.com/)\r\n"
-    sells: "*   [Журналы](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D=%D0%9\
-      6%D1%83%D1%80%D0%BD%D0%B0%D0%BB+%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%B\
-      A)
+    sells: "*   [Журналы](https://www.uchebnik.com/search/?term=%D0%9A%D0%B2%D0%B0%\
+      D0%BD%D1%82%D0%B8%D0%BA)
 
-      *   [Альманахи](http://www.uchebnik.com/katalog/?filter%5Bsearch%5D\
-      =%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B\
-      0%D0%BD%D0%B0%D1%85)
+      *   [Альманахи](https://www.uchebnik.com/search/?term=%D0%90%D0%BB%\
+      D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85+%D0%B4%D0%BB%D1%8F+%D0%BB%D1%8E%D0%B1\
+      %D0%BE%D0%B7%D0%BD%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85)
 
       * [\"Сто граней математики\", М.Евдокимов
       ](http://www.uchebnik.com/katalog/uchebnaya_literatura/zanimatelnie_nauki\
@@ -178,7 +177,12 @@ store:
 
       * [\"Перепутаница\",
       С.Федин](http://www.uchebnik.com/katalog/uchebnaya_literatura/zanimatelni\
-      e_nauki/zhurnal_kvantik/pereputanitsa/)\ \n"
+      e_nauki/zhurnal_kvantik/pereputanitsa/)\ 
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](https://www.uchebnik.com/katalog/uchebnaya-literatura/zanimatel\
+      nie-nauki/zanimatelnie-nauki_2/kak-busenka-chto-to-tam-matematicheskie-sk\
+      azki-bibliotechka-kvantika-nomer-3/)\n"
     dump: "*   [Плакаты (комплект
       №1)](http://www.uchebnik.com/katalog/uchebnaya_literatura/zanimatelnie_na\
       uki/zhurnal_kvantik/poznavatelnie_plakati_dlya_shko/)
