@@ -163,48 +163,6 @@ store:
       *   [Календарь загадок на 2021 год](https://azon.market/kalendar-zagadok-ot-zhurnala-kvantik-na-2021-god-%28id-1662336%29)
 
       *   [Календарь загадок на 2020 год](https://azon.market/kalendar-zagadok-2020-god-ot-zhurnala-kvantik-%28id-1285410%29)
-  - available: 0
-    delivery: "*   Германия и другие страны\r\n"
-    dump: ""
-    name: "[amazon.de](http://www.amazon.de/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.amazon.de/s/ref=nb_sb_noss/277-3261851-3496853?__mk_de_DE=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
-
-      *   [Календарь загадок на 2017 год](https://www.amazon.de/Kvantik-Kalendar-zagadok-2017/dp/5443909665/ref=sr_1_2/257-1780973-0628359?ie=UTF8&qid=1494161052&sr=8-2&keywords=kvantik)
-
-      *   [Календарь загадок на 2016 год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
-
-      *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
-
-      *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
-  - available: "0"
-    delivery: "*   Италия и другие страны\r\n"
-    dump: ""
-    name: "[amazon.it](http://www.amazon.it/)\r\n"
-    sells: >
-      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
-  - available: 0
-    delivery: "*   Испания и другие страны\r\n"
-    dump: ""
-    name: "[amazon.es](http://www.amazon.es/)\r\n"
-    sells: "*
-      [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__m\
-      k_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keyw\
-      ords=kvantik)"
-  - available: 0
-    delivery: "*   Великобритания и другие страны\r\n"
-    dump: ""
-    name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
-    sells: >-
-      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
-
-      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
-
-      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
-
-      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
-
-      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
   - name: "[Спутник](https://www.sputnik2000.com/)"
     delivery: "* Германия и другие страны Европы, США, Канада, Израиль"
     sells: "*
@@ -448,3 +406,45 @@ store:
 
       *   Доставка международной компанией экспресс-доставки DHL"
     available: 0
+  - available: 0
+    delivery: "*   Германия и другие страны\r\n"
+    dump: ""
+    name: "[amazon.de](http://www.amazon.de/)\r\n"
+    sells: >
+      *   [Альманахи](http://www.amazon.de/s/ref=nb_sb_noss/277-3261851-3496853?__mk_de_DE=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
+
+      *   [Календарь загадок на 2017 год](https://www.amazon.de/Kvantik-Kalendar-zagadok-2017/dp/5443909665/ref=sr_1_2/257-1780973-0628359?ie=UTF8&qid=1494161052&sr=8-2&keywords=kvantik)
+
+      *   [Календарь загадок на 2016 год](https://www.amazon.de/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_17/257-1780973-0628359?ie=UTF8&qid=1494161067&sr=8-17&keywords=kvantik)
+
+      *   [Календарь загадок на 2015 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?ie=UTF8&qid=1544707935&sr=8-3&keywords=Kalendar+zagadok)
+
+      *   [Календарь загадок на 2014 год](https://www.amazon.de/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?ie=UTF8&qid=1544707935&sr=8-4&keywords=Kalendar+zagadok)
+  - available: "0"
+    delivery: "*   Италия и другие страны\r\n"
+    dump: ""
+    name: "[amazon.it](http://www.amazon.it/)\r\n"
+    sells: >
+      *   [Альманахи](http://www.amazon.it/s/ref=nb_sb_noss/277-1795946-8606448?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords=kvantik)
+  - available: 0
+    delivery: "*   Испания и другие страны\r\n"
+    dump: ""
+    name: "[amazon.es](http://www.amazon.es/)\r\n"
+    sells: "*
+      [Альманахи](http://www.amazon.es/s/ref=nb_sb_noss/276-6678897-6866233?__m\
+      k_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keyw\
+      ords=kvantik)"
+  - available: 0
+    delivery: "*   Великобритания и другие страны\r\n"
+    dump: ""
+    name: "[amazon.co.uk](http://www.amazon.co.uk/)\r\n"
+    sells: >-
+      *   [Альманахи](http://www.amazon.co.uk/s/ref=nb_sb_noss/278-2660976-8872745?url=search-alias%3Daps&field-keywords=kvantik)
+
+      *   [Календарь загадок на 2017 год](https://www.amazon.co.uk/Kvantik-Kalendar-zagadok-2017-Author/dp/5443909665/ref=sr_1_5?dchild=1&keywords=kvantik&qid=1589173131&sr=8-5)
+
+      *   [Календарь загадок на 2016 год](https://www.amazon.co.uk/Kalendar-zagadok-zhurnala-Kvantik-2016/dp/5443906348/ref=sr_1_1?dchild=1&keywords=Kalendar+zagadok+ot+zhurnala&qid=1589173096&sr=8-1)
+
+      *   [Календарь загадок на 2015 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/544390261X/ref=sr_1_3?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-3)
+
+      *   [Календарь загадок на 2014 год](https://www.amazon.co.uk/Kalendar-zagadok-2015-na-spirali/dp/5443901192/ref=sr_1_4?dchild=1&keywords=Kalendar+zagadok&qid=1589173197&sr=8-4)
