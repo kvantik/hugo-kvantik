@@ -145,6 +145,7 @@ store:
       в сотрудничестве с курьерской компанией Zásielkovňa;\r
 
       *   Доставка международной компанией экспресс-доставки DHL"
+    available: 0
   - name: "[МУРАВЕЙ](https://murawei.de/)\r\n"
     sells: "*
       [Альманахи](https://murawei.de/russian/catalogsearch/result/?q=%D0%9A%D0%\
@@ -171,6 +172,7 @@ store:
       в сотрудничестве с курьерской компанией Hermes и Почтой Германии;\r
 
       *   Доставка международной компанией экспресс-доставки DHL"
+    available: 0
   - available: 0
     delivery: "*   Германия и другие страны\r\n"
     dump: ""
@@ -197,6 +199,7 @@ store:
       в сотрудничестве с Colis Prive и La Poste;\r
 
       *   Доставка международной компанией экспресс-доставки DHL"
+    available: 0
   - sells: "*
       [Альманахи](https://it.wildberries.eu/catalog?search=%D0%BA%D0%B2%D0%B0%D\
       0%BD%D1%82%D0%B8%D0%BA)"
@@ -209,6 +212,7 @@ store:
       в сотрудничестве с курьерской службой SAILPOST;\r
 
       *   Доставка международной курьерской компанией DHL"
+    available: 0
   - available: "0"
     delivery: "*   Италия и другие страны\r\n"
     dump: ""
@@ -227,6 +231,7 @@ store:
       в сотрудничестве с курьерской компанией Post Express & Mondial Relay;\r
 
       *   Доставка международной компанией экспресс-доставки DHL"
+    available: 0
   - available: 0
     delivery: "*   Испания и другие страны\r\n"
     dump: ""
@@ -362,6 +367,7 @@ store:
       в сотрудничестве с USPS;\r
 
       *   Доставка международной компанией экспресс-доставки DHL"
+    available: 0
   - available: "0"
     delivery: "*   США, Канада и другие страны\r\n"
     dump: ""
