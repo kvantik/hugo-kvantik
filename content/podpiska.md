@@ -77,13 +77,7 @@ aliases:
 
 ## Подписка в других странах {#abroad}
 
-### Украина {#ukraine}
 
-Можно подписаться через подписное агентство [«ПРЕСЦЕНТР КИЕВ»](http://www.prescentr.kiev.ua):
-
-- на сайте: http://www.prescentr.kiev.ua/kvantik-rosya-105972
-- по телефону: 044-451-51-61
-- по e-mail: {{<mail "podpiska1" "prescentr.kiev.ua">}}
 
 ### Казахстан {#kazakhstan}
 Подписное агентство «ЭКСПРЕСС-ПРЕСС» (ТОО «Express Press Astana»):
