@@ -235,8 +235,14 @@ store:
 
       *   Доставка в розничные книжные магазины «Галилео»\r"
   - name: "[WILDBERRIES](https://www.wildberries.ru/)\r\n"
-    sells: "*   [Альманахи](https://www.wildberries.ru/catalog/0/search.aspx?search\
-      =%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)"
+    sells: >
+      *   [Альманахи](https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
+
+      * ["Сто граней математики", М.Евдокимов](https://www.wildberries.ru/catalog/48608429/detail.aspx?targetUrl=XS)
+
+      * ["Перепутаница", С.Федин](https://www.wildberries.ru/catalog/48608366/detail.aspx?targetUrl=XS) 
+
+      * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://www.wildberries.ru/catalog/48608372/detail.aspx?targetUrl=XS)
     delivery: |-
       * Курьерская доставка;
       * Пункты выдачи заказов Wildberries;
