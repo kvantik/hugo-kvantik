@@ -1,8 +1,11 @@
 order: 4
-title: Украина
+title: Грузия
 shops:
+  - name: Книжный магазин «Аудитория»
+    address: " г. Тбилиси, ул. Симона Джанашия, 22-26"
+    available: 1
   - name: Александр Елисаветский (рассылка книг наложенным платежом по Украине)
-    available: '1'
-    address: >
-      тел. 067-136-37-35, 
-      e-mail: [df-al-el@bk.ru](mailto:df-al-el@bk.ru)
+    available: 0
+    address: |
+      тел. 067-136-37-35,  e-mail: [df-al-el@bk.ru](mailto:df-al-el@bk.ru)
+    dump: Это был раздел Украина
