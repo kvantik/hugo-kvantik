@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: видео «The Assassin's Teapot Is Weird»
+  # где размещена ссылка: статья «Загадочный чайник», Квантика 2022-8 (?)
+  from = "https://kvan.tk/strange-teapot"
+  to = "https://youtu.be/jJL0XoNBaac"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: перевод Заболотского рассказа «Idol words»
   # где размещена ссылка: статья «Слова статуй», Квантик 2022-8 (?)
   from = "https://kvan.tk/idol-words"
