@@ -1,4 +1,13 @@
 [[redirects]]
+  # куда ведёт ссылка: инструкция по сборке бумажного вертолёта
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-8
+  from = "https://kvan.tk/copter-video"
+  to = "https://youtu.be/3nWiPd_9KCQ"
+  status = 301
+  force = true
+
+
+[[redirects]]
   # куда ведёт ссылка: видео «The Assassin's Teapot Is Weird»
   # где размещена ссылка: статья «Загадочный чайник», Квантика 2022-8 (?)
   from = "https://kvan.tk/strange-teapot"
