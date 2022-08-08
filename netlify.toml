@@ -1,7 +1,7 @@
 [[redirects]]
   # куда ведёт ссылка: инструкция по сборке волчка с колпачком
   # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-?
-  from = "https://kvan.tk/whirligig"
+  from = "https://kvan.tk/spinning-top"
   to = "https://youtu.be/Z77JolR6OEQ"
   status = 301
   force = true
