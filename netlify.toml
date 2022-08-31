@@ -10,7 +10,7 @@
   # куда ведёт ссылка: видео-инструкция по сборке волчка с колпачком
   # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-10
   from = "https://kvan.tk/spincap"
-  to = "https://youtu.be/Z77JolR6OEQ"
+  to = "https://youtu.be/uxMYeSnf0oM"
   status = 301
   force = true
 
