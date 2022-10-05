@@ -159,6 +159,7 @@ news:
       альманах")](https://biblio.mccme.ru/node/139040/shop)
     number: 29
     date: 2022-04-22
+    hide: true
   - date: 2022-06-14T08:51:20.414Z
     number: 30
     body: 'Журналы и альманахи "Квантик" теперь можно купить в Тбилиси в  книжном
@@ -167,3 +168,10 @@ news:
       года](/konkurs/math)!
     number: 31
     date: 2022-09-06
+  - body: Вышел 20-й альманах! В нём собраны материалы шести номеров журнала
+      «Квантик» за второе полугодие 2021 года. Его можно купить в [магазине
+      МЦНМО](https://biblio.mccme.ru/node/155318/shop).<br/> [![Обложка
+      альманаха](https://kvantik.com/img/related_titles/almanac-20.jpg "Купить
+      альманах")](https://biblio.mccme.ru/node/155318/shop)
+    number: 29
+    date: 2022-04-22
