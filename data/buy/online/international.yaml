@@ -102,13 +102,14 @@ store:
 
       *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
 
-      *   Доставка почтой: по России;\r
-
-      *   Международная доставка компаниями «TNT Express»\n"
+      *   Доставка почтой: по России\r\n"
     name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: "*   [Альманахи и
-      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
-      BD%D1%82%D0%B8%D0%BA&page=1)
+    sells: "*   [Альманахи, журналы,
+      календари](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA&page=1)
+
+      * [Календарь загадок на 2023
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10868166&type=1)
 
       * [\"Сто граней математики\", М.Евдокимов
       ](https://www.bgshop.ru/Catalog/GetFullDescription?id=10634900&type=1)\r
@@ -145,6 +146,10 @@ store:
       *   [Календарь загадок на 2021 год](https://www.bgshop.ru/catalog/getfulldescription?id=10721102)
 
       *   [Календарь загадок на 2015 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
+
+
+
+      *   Международная доставка компаниями «TNT Express»
   - available: "1"
     delivery: "*   Курьерская доставка: Москва;\r
 
