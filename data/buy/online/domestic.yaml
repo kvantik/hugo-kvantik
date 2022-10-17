@@ -307,7 +307,7 @@ store:
       \n"
     dump: "*   [Календари](http://www.combook.ru/search/?search_str=%CA%E0%EB%E5%ED\
       %E4%E0%F0%FC+%E7%E0%E3%E0%E4%EE%EA)"
-  - available: 1
+  - available: ""
     delivery: "*   Курьерская доставка в 450 городов России;\r
 
       *   Самовывоз в 59 городах России;\r
@@ -381,7 +381,7 @@ store:
       год](https://www.bookvoed.ru/book?id=9023636)\r
 
       \r"
-    available: 1
+    available: ""
   - available: 0
     delivery: "*   Курьерская доставка по Москве, Московской области,
       Санкт-Петербургу, Нижнему Новгороду, Ростову-на-Дону, Батайску, Аксаю;\r
