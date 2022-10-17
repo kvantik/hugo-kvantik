@@ -170,6 +170,83 @@ store:
       * Курьерская доставка;
 
       * Почта России
+  - name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
+    sells: "*   [Альманахи, журналы,
+      календари](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA&page=1)
+
+      * [Календарь загадок на 2023
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10868166&type=1)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](https://www.bgshop.ru/Catalog/GetFullDescription?id=10634900&type=1)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
+      =1)\ 
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
+
+      \n"
+    delivery: "*   Курьерская доставка по Москве, Московской области,
+      Санкт-Петербургу, Ленинградской области;\r
+
+      *   Самовывоз: Москва (метро Лубянка);\r
+
+      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
+
+      *   Доставка почтой: по России\r\n"
+    available: ""
+    dump: "Международная доставка то появляется, то исчезает
+
+
+      *   Курьерская доставка: Москва;\r
+
+      *   Самовывоз: Москва (метро Лубянка);\r
+
+      *   Доставка почтой: по России;\r
+
+      *   Экспресс-доставка по России компаниями \"TNT\" и \"DHL\";\r
+
+      *   Международная доставка службой «DHL»\r
+
+
+
+      *   [Альманахи и
+      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
+      BD%D1%82%D0%B8%D0%BA&page=1)
+
+      *   [Плакаты (комплект
+      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
+
+      *   [Плакаты (комплект
+      №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
+
+      *   [Календарь загадок на 2019
+      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
+
+      *   [Календарь загадок на 2018
+      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
+
+      *   [Календарь загадок на 2017
+      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
+
+      *   [Календарь загадок на 2016
+      год](http://www.bgshop.ru/Details.aspx?id=10228163)
+
+      *   [Календарь загадок на 2015
+      год](http://www.bgshop.ru/Details.aspx?id=10139388)
+
+      *   [Календарь загадок на 2014
+      год](http://www.bgshop.ru/Details.aspx?id=10057359)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](http://www.bgshop.ru/Catalog/GetFullDescription?id=10473585&type=1)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
+      =1)\ \n"
   - available: "1"
     delivery: "*   Курьерская доставка: Москва и ближайшее Подмосковье\r
 
@@ -441,52 +518,6 @@ store:
     dump: "*   [Альманахи](https://totbook.ru/search/?sections=&q=%D0%9A%D0%B2%D0%B\
       0%D0%BD%D1%82%D0%B8%D0%BA+%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%8\
       5&search=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8)"
-  - name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: "*   [Альманахи и
-      журналы](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D0%\
-      BD%D1%82%D0%B8%D0%BA&page=1)
-
-      *   [Плакаты (комплект
-      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
-
-      *   [Плакаты (комплект
-      №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
-
-      *   [Календарь загадок на 2019
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
-
-      *   [Календарь загадок на 2018
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
-
-      *   [Календарь загадок на 2017
-      год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
-
-      *   [Календарь загадок на 2016
-      год](http://www.bgshop.ru/Details.aspx?id=10228163)
-
-      *   [Календарь загадок на 2015
-      год](http://www.bgshop.ru/Details.aspx?id=10139388)
-
-      *   [Календарь загадок на 2014
-      год](http://www.bgshop.ru/Details.aspx?id=10057359)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](http://www.bgshop.ru/Catalog/GetFullDescription?id=10473585&type=1)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
-      =1)\ \n"
-    delivery: "*   Курьерская доставка: Москва;\r
-
-      *   Самовывоз: Москва (метро Лубянка);\r
-
-      *   Доставка почтой: по России;\r
-
-      *   Экспресс-доставка по России компаниями \"TNT\" и \"DHL\";\r
-
-      *   Международная доставка службой «DHL»\r\n"
-    available: 0
-    dump: Международная доставка то появляется, то исчезает
   - available: 0
     delivery: "*   Курьерская доставка по Москве, Санкт-Петербургу и Ленинградской
       области;\r
