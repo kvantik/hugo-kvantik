@@ -73,13 +73,51 @@ store:
 
 
       * [Набор календарей загадок на 2022 год - 20 штук](https://www.kvantik.ru/product/kalendar-zagadok-na-2022-god-ot-zhurnala-kvantik-2)
+    available: 0
+  - name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
+    sells: "*   [Альманахи](http://my-shop.ru/shop/search/a/sort/z/page/1.html?f14_\
+      39=0&f14_16=6&f14_6=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B0%D\
+      0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&t=0&next=1&kp=2&flags=19&menu_ca\
+      tid=0)
+
+      *   [\"Сто граней математики\", М.Евдокимов
+      ](https://my-shop.ru/shop/books/3112925.html?b45=1_1)\r
+
+      *  [\"Перепутаница\",
+      С.Федин](https://my-shop.ru/shop/product/4854320.html)\ 
+
+      *  [Как Бусенька что-то-там. Математические сказки\r,
+      К.Кохась](https://my-shop.ru/shop/product/4185421.html)
+
+
+      \n"
+    delivery: |-
+      *   Курьером;
+      *   В пункты выдачи
+    dump: >-
+      * [Календарь загадок на 2022
+      год](https://my-shop.ru/shop/product/4701620.html)
+
+
+      *   [Календарь загадок на 2020 год](https://my-shop.ru/shop/product/3853155.html?b45=1_2)
+
+
+      *   [Календарь загадок на 2016 год](https://my-shop.ru/shop/books/2127348.html)
+
+
+      *   [Плакаты (комплект №1)](http://my-shop.ru/shop/books/2422202.html?b45=1_11)
+
+      *   [Плакаты (комплект №2)](http://my-shop.ru/shop/books/2189416.html?b45=1_12)
+
+      *   [Плакаты (комплект №3)](https://my-shop.ru/shop/books/2766346.html)
   - name: "[WILDBERRIES](https://www.wildberries.ru/)\r\n"
     sells: >
-      *   [Альманахи](https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
+      *
+      [Альманахи](https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA)
 
-      * ["Сто граней математики", М.Евдокимов](https://www.wildberries.ru/catalog/48608429/detail.aspx?targetUrl=XS)
+      * [Календарь загадок на 2023 год](https://www.wildberries.ru/catalog/93296520/detail.aspx) 
 
-      * ["Перепутаница", С.Федин](https://www.wildberries.ru/catalog/48608366/detail.aspx?targetUrl=XS) 
+      * ["Сто граней математики", М.Евдокимов](https://www.wildberries.ru/catalog/48608429/detail.aspx?targetUrl=XS) ["Перепутаница", С.Федин](https://www.wildberries.ru/catalog/48608366/detail.aspx?targetUrl=XS)
 
       * ["Как Бусенька что-то-там. Математические сказки", К.Кохась](https://www.wildberries.ru/catalog/48608372/detail.aspx?targetUrl=XS)
     delivery: |-
@@ -110,43 +148,6 @@ store:
       *   Cамовывоз из пунктов партнёров;\r
 
       *   Доставка Почтой"
-  - name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
-    sells: "*   [Альманахи](http://my-shop.ru/shop/search/a/sort/z/page/1.html?f14_\
-      39=0&f14_16=6&f14_6=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B0%D\
-      0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85&t=0&next=1&kp=2&flags=19&menu_ca\
-      tid=0)
-
-      *   [\"Сто граней математики\", М.Евдокимов
-      ](https://my-shop.ru/shop/books/3112925.html?b45=1_1)\r
-
-      *  [\"Перепутаница\",
-      С.Федин](https://my-shop.ru/shop/books/3430119.html?b45=1_1)\ 
-
-      *  [Как Бусенька что-то-там. Математические сказки\r,
-      К.Кохась](https://my-shop.ru/shop/product/4185421.html)
-
-      *   [Плакаты (комплект
-      №1)](http://my-shop.ru/shop/books/2422202.html?b45=1_11)
-
-      *   [Плакаты (комплект
-      №2)](http://my-shop.ru/shop/books/2189416.html?b45=1_12)
-
-      *   [Плакаты (комплект
-      №3)](https://my-shop.ru/shop/books/2766346.html)
-
-      \n"
-    delivery: |-
-      *   Курьером;
-      *   В пункты выдачи
-    dump: >-
-      * [Календарь загадок на 2022
-      год](https://my-shop.ru/shop/product/4701620.html)
-
-
-      *   [Календарь загадок на 2020 год](https://my-shop.ru/shop/product/3853155.html?b45=1_2)
-
-
-      *   [Календарь загадок на 2016 год](https://my-shop.ru/shop/books/2127348.html)
   - name: "[Читай-город](https://www.chitai-gorod.ru)"
     sells: "*
       [Альманахи](https://www.chitai-gorod.ru/search/result/?q=%D0%9A%D0%B2%D0%\
@@ -164,7 +165,7 @@ store:
     delivery: >-
       * Самовывоз: в магазинах «Читай-город», Связной – Заббери, 
 
-      PickPoint, СДЭК, Евросеть, BoxBerry, IML, DPD, 5post: выдача на кассе магазина и постоматах «Пятёрочка»;
+      PickPoint, СДЭК, Евросеть, BoxBerry, IML, DPD,  «Гоголь-Моголь», GURU, СберЛогистика, 5post: выдача на кассе магазина и постоматах «Пятёрочка»; 
 
       * Курьерская доставка;
 
@@ -325,6 +326,10 @@ store:
     name: "[Книжный магазин Указка](http://www.ukazka.ru/)\r\n"
     sells: "*   [Альманахи](http://www.ukazka.ru/search/?query=%CA%E2%E0%ED%F2%E8%E\
       A.+%C0%EB%FC%EC%E0%ED%E0%F5&search_type=and)
+
+      * [Календарь загадок на 2023
+      год](https://www.ukazka.ru/catalog/book-kalendar-zagadok-ot-zhurnala-kvan\
+      tik-na-2023-god-117776.html)\ 
 
       * [\"Как Бусенька что-то-там. Математические сказки\",
       К.Кохась](https://www.ukazka.ru/catalog/book-bibliotechka-zhurnala-kvanti\
