@@ -58,7 +58,7 @@ store:
       *   Курьерская доставка;\r
 
       *   Пункты выдачи Wildberries"
-    available: ""
+    available: 1
   - name: "[WILDBERRIES (Казахстан)](https://kz.wildberries.ru/)"
     sells: "*
       [Альманахи](https://kz.wildberries.ru/catalog/0/search.aspx?search=%D0%9A\
