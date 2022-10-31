@@ -115,6 +115,18 @@ store:
       *   Пункты выдачи Wildberries
 
       \ "
+  - name: "[WILDBERRIES (Израиль)](https://wildberries.co.il/)"
+    sells: "*
+      [Альманахи](https://wildberries.co.il/catalog?search=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA.%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)"
+    delivery: "\r
+
+      \r
+
+      *   Доставка международным почтовым и логистическим оператором Meest
+      в сотрудничестве с курьерской компанией Bar Group and HFD;\r
+
+      *   Доставка международной компанией экспресс-доставки DHL"
   - available: "1"
     delivery: "*   Финляндия и другие страны\r\n"
     dump: >-
@@ -214,18 +226,6 @@ store:
 
       *  [\"Как Бусенька что-то-там. Математические сказки\", К.Кохась
       ](https://www.sputnik2000.com/book.asp?sku=1043510)\n"
-  - name: "[WILDBERRIES (Израиль)](https://wildberries.co.il/)"
-    sells: "*
-      [Альманахи](https://wildberries.co.il/catalog?search=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA)"
-    delivery: "\r
-
-      \r
-
-      *   Доставка международным почтовым и логистическим оператором Meest
-      в сотрудничестве с курьерской компанией Bar Group and HFD;\r
-
-      *   Доставка международной компанией экспресс-доставки DHL"
   - available: 0
     delivery: "*   США, Канада и другие страны\r\n"
     dump: >
