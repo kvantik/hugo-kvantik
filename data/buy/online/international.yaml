@@ -152,9 +152,6 @@ store:
       *   [Календарь загадок на 2023
       год](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=293298)
 
-      *   [Календарь загадок на 2022
-      год](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=283674)
-
       *   [Календарь загадок на 2021
       год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=268954)
 
@@ -179,6 +176,9 @@ store:
 
       *   [Календарь загадок на 2014
       год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=188159)\n"
+    dump: >-
+      
+      *   [Календарь загадок на 2022 год](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=283674)
   - available: "1"
     delivery: "*  Курьерская доставка: Москва;\r
 
@@ -260,6 +260,14 @@ store:
       *   [Плакаты (комплект
       №3)](https://www.books.ru/books/poznavatelnye-plakaty-dlya-shkolnikov-zan\
       imatelnye-zadachi-ot-zhurnala-kvantik-komplekt--3-4540272/)
+
+      *   [Календарь загадок на 2023
+      год](https://www.books.ru/books/kalendar-zagadok-ot-zhurnala-kvantik-na-2\
+      023-god-5363665/)
+
+      *   [Календарь загадок на 2021
+      год](https://www.books.ru/books/kalendar-zagadok-ot-zhurnala-kvantik-na-2\
+      021-god-5217084/)
 
 
       \n"
