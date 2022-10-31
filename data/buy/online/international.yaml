@@ -2,18 +2,27 @@ order: 2
 title: Российские интернет-магазины с доставкой по России и МЕЖДУНАРОДНОЙ ДОСТАВКОЙ
 store:
   - available: "1"
-    delivery: "*   Курьерская доставка службой Оzon (в том числе \"Доставка до
+    delivery: "Доставка по России:
+
+
+      *  Курьерская доставка службой Оzon (в том числе \"Доставка до
       двери\");\r
 
-      *   Пункты выдачи (самовывоз) во многих городах России;\r
+      *  Пункты выдачи (самовывоз) во многих городах России;\r
 
-      *   Доставка в постаматы  Ozon Box;\r
+      *  Доставка в постаматы  Ozon Box;\r
 
-      *   Доставка в регионы России: Почтой России и EMS;\r
+      *  Доставка в регионы России: Почтой России и EMS;
 
-      *   Международная доставка: службами доставки UPS\r, DPD, DHL
-      Express, TNT Express, Pony Express, Spring Global Mail, Алем ТАТ, EMS
-      Почта России\n"
+
+      Международная доставка:\ 
+
+
+      \r
+
+      * в Казахстан (службами доставки Алем ТАТ, \rКазПочта, \rSpark)
+
+      * Беларусь (DPD Bel, \rЕвропочта, Белпочта)"
     dump: >-
       
       *   [Календарь загадок на 2021 год](https://www.ozon.ru/product/kalendar-zagadok-ot-zhurnala-kvantik-na-2021-god-202470753/?asb=%252BHQ6Ko568Lg0cNqX2PW2GoPS7Xucc7vqBcbiqRr2hHo%253D&asb2=pS-30L5an8nNoj23EP-LtMUoSEqF-ayYSGfNf_qdLFo&keywords=%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C+%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BE%D0%BA&sh=Du3g2h6Q)
@@ -94,69 +103,32 @@ store:
       * Международная почтовая доставка Spring Global Mail\r
 
       * Экспресс-доставка DHL\n"
-  - available: 0
-    delivery: "*   Курьерская доставка по Москве, Московской области,
-      Санкт-Петербургу, Ленинградской области;\r
-
-      *   Самовывоз: Москва (метро Лубянка);\r
-
-      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
-
-      *   Доставка почтой: по России\r\n"
-    name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
-    sells: "*   [Альманахи, журналы,
-      календари](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D\
-      0%BD%D1%82%D0%B8%D0%BA&page=1)
-
-      * [Календарь загадок на 2023
-      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10868166&type=1)
-
-      * [\"Сто граней математики\", М.Евдокимов
-      ](https://www.bgshop.ru/Catalog/GetFullDescription?id=10634900&type=1)\r
-
-      * [\"Перепутаница\",
-      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
-      =1)\ 
-
-      * [\"Как Бусенька что-то-там. Математические сказки\",
-      К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
-
-      \n"
-    dump: >-
-      *   [Плакаты (комплект
-      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
-
-      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
-
-      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
-
-      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
-
-      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
-
-      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
-
-      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
-
-      *   [Календарь загадок на 2016 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
-
-
-      *   [Календарь загадок на 2022 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10801192&type=1)
-
-      *   [Календарь загадок на 2021 год](https://www.bgshop.ru/catalog/getfulldescription?id=10721102)
-
-      *   [Календарь загадок на 2015 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
-
-
-
-      *   Международная доставка компаниями «TNT Express»
   - available: "1"
-    delivery: "*   Курьерская доставка: Москва;\r
+    delivery: "Доставка по России:
 
-      *   Самовывоз: Москва (Нахимовский проспект);\r
 
-      *   Доставка Почтой России по всей территории России и за рубеж\r
-      (временно не работает)\n"
+      * Курьерская доставка: Москва;\r
+
+      * Самовывоз: Москва (Нахимовский проспект);
+
+      * Доставка Boxberry до пункта выдачи;
+
+      \r
+
+      * Доставка Почтой России по всей территории России и за рубеж
+
+      \r
+
+
+      Международная доставка:
+
+
+      *  Доставка до пункта выдачи заказов Boxberry в Армению, Беларусь,
+      Казахстан и Киргизию;\ 
+
+      \r
+
+      *  Почтой России за рубеж"
     name: "[Магазин научной книги URSS.ru *](http://urss.ru/)\r\n"
     sells: "*   [Журналы и
       Альманахи](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Search&re=К\
@@ -176,6 +148,12 @@ store:
       *   [Наборы плакатов с
       задачами](http://www.urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=\
       194866)
+
+      *   [Календарь загадок на 2023
+      год](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=293298)
+
+      *   [Календарь загадок на 2022
+      год](https://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=283674)
 
       *   [Календарь загадок на 2021
       год](http://urss.ru/cgi-bin/db.pl?lang=Ru&blang=ru&page=Book&id=268954)
@@ -349,6 +327,62 @@ store:
 
 
       \r\n"
+  - available: 0
+    delivery: "*   Курьерская доставка по Москве, Московской области,
+      Санкт-Петербургу, Ленинградской области;\r
+
+      *   Самовывоз: Москва (метро Лубянка);\r
+
+      *   Пункты выдачи заказов в салонах связи «Евросеть» и «Связной»
+
+      *   Доставка почтой: по России\r\n"
+    name: "[БИБЛИО-ГЛОБУС *](http://www.bgshop.ru/)\r\n"
+    sells: "*   [Альманахи, журналы,
+      календари](http://www.bgshop.ru/Catalog/Search?query=%D0%BA%D0%B2%D0%B0%D\
+      0%BD%D1%82%D0%B8%D0%BA&page=1)
+
+      * [Календарь загадок на 2023
+      год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10868166&type=1)
+
+      * [\"Сто граней математики\", М.Евдокимов
+      ](https://www.bgshop.ru/Catalog/GetFullDescription?id=10634900&type=1)\r
+
+      * [\"Перепутаница\",
+      С.Федин](http://www.bgshop.ru/Catalog/GetFullDescription?id=10535180&type\
+      =1)\ 
+
+      * [\"Как Бусенька что-то-там. Математические сказки\",
+      К.Кохась](https://www.bgshop.ru/catalog/getfulldescription?id=10708279)
+
+      \n"
+    dump: >-
+      *   [Плакаты (комплект
+      №1)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10247418&type=1)
+
+      *   [Плакаты (комплект №2)](http://www.bgshop.ru/Catalog/GetFullDescription?id=10239848&type=1/)
+
+      *   [Календарь загадок на 2020 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10608474&type=1)
+
+      *   [Календарь загадок на 2019 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10509214)
+
+      *   [Календарь загадок на 2018 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10426525&type=1)
+
+      *   [Календарь загадок на 2017 год](http://www.bgshop.ru/Catalog/GetFullDescription?id=10325682&type=1)
+
+      *   [Календарь загадок на 2014 год](http://www.bgshop.ru/Details.aspx?id=10057359)
+
+      *   [Календарь загадок на 2016 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10228163&type=1)
+
+
+      *   [Календарь загадок на 2022 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10801192&type=1)
+
+      *   [Календарь загадок на 2021 год](https://www.bgshop.ru/catalog/getfulldescription?id=10721102)
+
+      *   [Календарь загадок на 2015 год](https://www.bgshop.ru/Catalog/GetFullDescription?id=10139388&type=1)
+
+
+
+      *   Международная доставка компаниями «TNT Express»
   - name: "[МОСКВА](https://www.moscowbooks.ru/)"
     sells: >-
       * [Альманах
