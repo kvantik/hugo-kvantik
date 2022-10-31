@@ -1,44 +1,6 @@
 order: 3
 title: Интернет-магазины ЗА РУБЕЖОМ
 store:
-  - available: "1"
-    delivery: |-
-      * Доставка курьером по Минску
-      * Доставка автокурьером по регионам Республики Беларусь
-      * Самовывоз: Минск и другие регионы Беларуси
-      * Доставка почтой
-    name: |-
-      [Читатель.by](https://chitatel.by/) / 
-      [Учитель.by](https://uchitel.by/)
-    sells: >
-      * ["Как Бусенька что-то-там. Математические сказки", К.
-      Кохась](https://chitatel.by/catalog/book/1509814)
-    dump: >+
-      * [Календарь загадок на 2018
-      год](https://chitatel.by/catalog/2587/961510/)
-
-      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
-
-      *   [Календарь загадок на 2016 год](https://chitatel.by/catalog/book/393577)
-
-      * [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
-
-      *  ["Сто граней математики", М. Евдокимов ](https://chitatel.by/catalog/book/885906)
-
-      * ["Перепутаница", С. Федин](https://chitatel.by/catalog/2480/1099607/) 
-
-      *   [Плакаты (комплект №1)](https://chitatel.by/catalog/book/443695)
-
-      *   [Плакаты (комплект №2)](https://uchitel.by/catalog/book/401249)
-
-      *   [Плакаты (комплект №3)](https://uchitel.by/catalog/book/518520)
-
-      *  [Календарь загадок на 2022 год](https://chitatel.by/catalog/book/1748380)
-
-      *  [Календарь загадок на 2021 год](https://chitatel.by/catalog/book/1530382)
-
-      *  [Календарь загадок на 2020 год](https://chitatel.by/catalog/book/1555022)
-
   - name: "[WILDBERRIES (Беларусь)](https://by.wildberries.ru/)"
     sells: "*
       [Альманахи](https://by.wildberries.ru/catalog/0/search.aspx?search=%D0%9A\
@@ -265,6 +227,44 @@ store:
       Канаде](http://www.knigomania.com/)"
     delivery: "* США, Канада и другие страны\r\n"
     available: 0
+  - available: 0
+    delivery: |-
+      * Доставка курьером по Минску
+      * Доставка автокурьером по регионам Республики Беларусь
+      * Самовывоз: Минск и другие регионы Беларуси
+      * Доставка почтой
+    name: |-
+      [Читатель.by](https://chitatel.by/) / 
+      [Учитель.by](https://uchitel.by/)
+    sells: >
+      * ["Как Бусенька что-то-там. Математические сказки", К.
+      Кохась](https://chitatel.by/catalog/book/1509814)
+    dump: >+
+      * [Календарь загадок на 2018
+      год](https://chitatel.by/catalog/2587/961510/)
+
+      * [Календарь загадок на 2017 год](https://chitatel.by/catalog/2587/767175/)
+
+      *   [Календарь загадок на 2016 год](https://chitatel.by/catalog/book/393577)
+
+      * [Альманахи](https://chitatel.by/searchnew?query=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
+
+      *  ["Сто граней математики", М. Евдокимов ](https://chitatel.by/catalog/book/885906)
+
+      * ["Перепутаница", С. Федин](https://chitatel.by/catalog/2480/1099607/) 
+
+      *   [Плакаты (комплект №1)](https://chitatel.by/catalog/book/443695)
+
+      *   [Плакаты (комплект №2)](https://uchitel.by/catalog/book/401249)
+
+      *   [Плакаты (комплект №3)](https://uchitel.by/catalog/book/518520)
+
+      *  [Календарь загадок на 2022 год](https://chitatel.by/catalog/book/1748380)
+
+      *  [Календарь загадок на 2021 год](https://chitatel.by/catalog/book/1530382)
+
+      *  [Календарь загадок на 2020 год](https://chitatel.by/catalog/book/1555022)
+
   - sells: >-
       *
       [Альманахи](https://www.knigi-janzen.de/result_search.php?gsearch=%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA.+%D0%90%D0%BB%D1%8C%D0%BC%D0%B0%D0%BD%D0%B0%D1%85)
