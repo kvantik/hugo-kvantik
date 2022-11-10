@@ -72,7 +72,7 @@ store:
 
 
       *﻿ * **Доставка за рубеж по договоренности и полной предоплате**
-    available: 1
+    available: ""
   - name: "[MY-SHOP.RU](http://my-shop.ru/)\r\n"
     sells: "*   [Альманахи](http://my-shop.ru/shop/search/a/sort/z/page/1.html?f14_\
       39=0&f14_16=6&f14_6=%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%20%D0%B0%D\
