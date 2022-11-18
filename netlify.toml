@@ -1,4 +1,29 @@
 [[redirects]]
+  # куда ведёт ссылка: подборка Щетникова про движение против ветра / быстрее ветра
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2022-1
+  from = "https://kvan.tk/wind3"
+  to = "https://youtu.be/h0RWvIyfsUM?list=PLeOlm2kq0HcsLMNFQhh8m-Rhe8Jde7hjD"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео про движение против ветра / быстрее ветра (современное)
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2022-1
+  from = "https://kvan.tk/wind2"
+  to = "https://youtu.be/jyQwgBAaBag"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео про движение против ветра / быстрее ветра (историческое)
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2022-1
+  from = "https://kvan.tk/wind1"
+  to = "https://youtu.be/dAkJ_QVbloQ"
+  status = 301
+  force = true
+
+
+[[redirects]]
   # куда ведёт ссылка: распечатка для волчка
   # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-10
   from = "https://kvan.tk/volchok"
