@@ -1,6 +1,14 @@
 [[redirects]]
+  # куда ведёт ссылка: распечатка для волчка
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2023-1
+  from = "https://kvan.tk/spinball"
+  to = "https://youtu.be/8yEwphAFPSc"
+  status = 301
+  force = true
+  
+[[redirects]]
   # куда ведёт ссылка: подборка Щетникова про движение против ветра / быстрее ветра
-  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2022-1
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2023-1
   from = "https://kvan.tk/wind3"
   to = "https://youtu.be/h0RWvIyfsUM?list=PLeOlm2kq0HcsLMNFQhh8m-Rhe8Jde7hjD"
   status = 301
@@ -77,14 +85,6 @@
   # где размещена ссылка: статья «Слова статуй», Квантик 2022-8 (?)
   from = "https://kvan.tk/idol-words"
   to = "https://colt-browning.livejournal.com/8795.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  # куда ведёт ссылка: временно добавленная ссылка
-  # где размещена ссылка: 
-  from = "https://kvan.tk/wrapping"
-  to = "https://kvantik.com/extra/WrappingVideo.gif"
   status = 301
   force = true
 
