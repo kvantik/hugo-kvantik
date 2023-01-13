@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: распечатка для волчка
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2023-02
+  from = "https://kvan.tk/8trimino"
+  to = "https://kvantik.com/extra/8ugolkov.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: Б.А.Розенфельд. Аполлоний Пергский
   # где размещена ссылка: статья Ф.Нилова, Квантик 2023-2
   from = "https://kvan.tk/apollonius"
