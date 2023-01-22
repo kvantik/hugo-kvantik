@@ -14,7 +14,7 @@
 <div class="row" style="max-width:900px; margin:auto;">
 {{range $year, $val := $konkurs}}
 <h1>{{$year}}</h1>
-{{range .}}
+{{range (sort . "tour.number" "asc")}}
 
 {{$problems := (sort .tour.problems "number" "asc")}}
 <div style="width:900px;" class="clearfix"/>
@@ -31,8 +31,8 @@
     <p>{{.problem | markdownify}}</p>
     {{with .image_scheme}} <img src="{{$url}}{{$year}}/{{.}}" alt="Чертёж" class="media-object" style="max-height:160px; max-width:400px;" />{{end}}
   </div>
-    <div class="media-right">
-    {{with .image_art}}<img src="{{$url}}{{$year}}/{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}
+  <div class="media-right">
+    {{if $page.Params.art}}{{with .image_art}}<img src="{{$url}}{{$year}}/{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}{{end}}
   </div>
 </div>
 {{end}}
