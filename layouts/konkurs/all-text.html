@@ -31,9 +31,6 @@
     <p>{{.problem | markdownify}}</p>
     {{with .image_scheme}} <img src="{{$url}}{{$year}}/{{.}}" alt="Чертёж" class="media-object" style="max-height:160px; max-width:400px;" />{{end}}
   </div>
-    <div class="media-right">
-    {{with .image_art}}<img src="{{$url}}{{$year}}/{{.}}" alt="Иллюстрация" class="media-object" style="max-height:220px" />{{end}}
-  </div>
 </div>
 {{end}}
 
