@@ -2,7 +2,7 @@
   # куда ведёт ссылка: коники в сечениях однополостного гиперболоида
   # где размещена ссылка: статья Фёдора Нилова, Квантик 2023-03
   from = "https://kvan.tk/dandelin-etudes1"
-  to = "https://etudes.ru/etudes/Dandelin-spheres/37/"
+  to = "https://old.kvantik.com/art/files/pdf/2021-09.2-5.pdf"
   status = 301
   force = true
   
