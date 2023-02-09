@@ -1,4 +1,28 @@
 [[redirects]]
+  # куда ведёт ссылка: коники в сечениях однополостного гиперболоида
+  # где размещена ссылка: статья Фёдора Нилова, Квантик 2023-03
+  from = "https://kvan.tk/dandelin-etudes1"
+  to = "https://etudes.ru/etudes/Dandelin-spheres/37/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: образующие однополостного гиперболоида
+  # где размещена ссылка: статья Фёдора Нилова, Квантик 2023-03
+  from = "https://kvan.tk/dandelin-etudes2"
+  to = "https://etudes.ru/models/conic-sections-hyperboloid-generatix-rotation/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: анимации Данделена
+  # где размещена ссылка: статья Фёдора Нилова, Квантик 2023-03
+  from = "https://kvan.tk/dandelin-etudes3"
+  to = "https://etudes.ru/etudes/Dandelin-spheres/"
+  status = 301
+  force = true
+  
+[[redirects]]
   # куда ведёт ссылка: распечатка для волчка
   # где размещена ссылка: статья Сергея Полозкова, Квантик 2023-02
   from = "https://kvan.tk/8trimino"
