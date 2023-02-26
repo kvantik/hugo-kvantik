@@ -1,9 +1,10 @@
-+++
-title = "Контакты"
-date = "2017-02-09T14:58:00+03:00"
-[menu.main]
-  weight = 7
-+++
+---
+title: Контакты
+date: 2017-02-09T14:58:00+03:00
+menu:
+  main:
+    weight: 7
+---
 
 
 # С нами просто связаться 
@@ -17,11 +18,9 @@ date = "2017-02-09T14:58:00+03:00"
 
 «Квантик» в социальных сетях: 
 
-[![ЖЖ](/img/social/lj_h.png "Живой журнал")](http://kvantik12.livejournal.com/)
-[![ВКонтакте](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)
-[![Твиттер](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)
-[![Ютуб](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)
-[![Телеграм](/img/social/tg_h.png "Telegram")](http://t.me/kvantik12)
+
+[![ВКонтакте](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)  [![Телеграм](/img/social/tg_h.png "Telegram")](http://t.me/kvantik12)  [![Ютуб](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)  [![Твиттер](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)  [![ЖЖ](/img/social/lj_h.png "Живой журнал")](http://kvantik12.livejournal.com/) 
+
 
 # Выходная информация
 *Главный редактор:* Сергей Дориченко  
