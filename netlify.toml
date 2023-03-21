@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: многогранник Силашши на Этюдах
+  # где размещена ссылка: статья про этот многогранник, Квантик 2023-05
+  from = "https://kvan.tk/etudes-szilassi"
+  to = "https://etudes.ru/sketches/szilassi-polyhedron/"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: коники в сечениях однополостного гиперболоида
   # где размещена ссылка: статья Фёдора Нилова, Квантик 2023-03
   from = "https://kvan.tk/dandelin-etudes1"
