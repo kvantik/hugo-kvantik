@@ -2,7 +2,7 @@
   # куда ведёт ссылка: многогранник Силашши на Этюдах
   # где размещена ссылка: статья про этот многогранник, Квантик 2023-05
   from = "https://kvan.tk/upr-kv"
-  to = ""
+  to = "https://kvantik.com/extra/upr-kv.pdf"
   status = 301
   force = true
   
