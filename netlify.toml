@@ -1,5 +1,13 @@
 [[redirects]]
-  # куда ведёт ссылка: многогранник Силашши на Этюдах
+  # куда ведёт ссылка: развертка многогранника Силаши
+  # где размещена ссылка: статья про этот многогранник, Квантик 2023-06
+  from = "https://kvan.tk/szilassi"
+  to = "https://kvantik.com/extra/szilassi.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: упрямый квадрат
   # где размещена ссылка: статья про этот многогранник, Квантик 2023-05
   from = "https://kvan.tk/upr-kv"
   to = "https://kvantik.com/extra/upr-kv.pdf"
