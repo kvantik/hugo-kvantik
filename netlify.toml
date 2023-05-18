@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: теорема Шаля на Этюдах
+  # где размещена ссылка: Загадочные круги, Квантик 2023-07
+  from = "https://kvan.tk/etudes-chasles"
+  to = "https://etudes.ru/models/chasles-theorem/"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: случайно расположенные точки
   # где размещена ссылка: Загадочные круги, Квантик 2023-07
   from = "https://kvan.tk/chasles"
