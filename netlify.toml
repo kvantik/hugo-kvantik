@@ -1,4 +1,28 @@
 [[redirects]]
+  # куда ведёт ссылка: видео по сборке тора из пластинок (2)
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvan.tk/villarceau-vid2"
+  to = "https://youtu.be/W50J-tgBJ2M"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео по сборке тора из пластинок (1)
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvan.tk/villarceau-vid1"
+  to = "https://youtu.be/rft4EJkVZ9Y"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: выкройка для сборке тора из пластниокв
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvan.tk/villarceau"
+  to = "https://kvantik.com/extra/villarceau.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: теорема Шаля на Этюдах
   # где размещена ссылка: Загадочные круги, Квантик 2023-07
   from = "https://kvan.tk/etudes-chasles"
