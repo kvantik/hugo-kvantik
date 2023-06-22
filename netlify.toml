@@ -1,4 +1,12 @@
 [[redirects]]
+  # куда ведёт ссылка: выкройка для тора из окружностей Вилларсо
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvan.tk/villarceau"
+  to = "https://kvantik.com/extra/villarceau.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: видео по сборке тора из пластинок (2)
   # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
   from = "https://kvan.tk/villarceau-vid2"
