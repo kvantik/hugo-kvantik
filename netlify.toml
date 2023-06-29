@@ -1,7 +1,7 @@
 [[redirects]]
   # куда ведёт ссылка: статья А.Акопяна про Вилларсо в Кванте
   # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
-  from = "https://kvan.tk/villarcea-kvant"
+  from = "https://kvan.tk/villarceau-kvant"
   to = "https://etudes.ru/.data/localdocs/Villarceau_akopyan.pdf"
   status = 301
   force = true
@@ -9,7 +9,7 @@
 [[redirects]]
   # куда ведёт ссылка: Мат. этюды про Вилларсо
   # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
-  from = "https://kvan.tk/villarcea-etudes"
+  from = "https://kvan.tk/villarceau-etudes"
   to = "https://etudes.ru/models/Villarceau-circles/"
   status = 301
   force = true
