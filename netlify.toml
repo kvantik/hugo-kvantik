@@ -578,9 +578,9 @@
 
 [[redirects]]
   # куда ведёт ссылка: видео с гигрометром "Humidity 500%"
-  # где размещена ссылка: статья "Нагревание термометра", Альманах 9, изд.2, с.148
+  # где размещена ссылка: статья "Две задачи турнира «Шунт»", Альманах 9, изд.2, с.148
   from = "https://kvan.tk/humid500"
-  to = "https://upload.wikimedia.org/wikipedia/commons/8/84/Triangle2.webm"
+  to = "https://youtu.be/Y5gQy9LMFbE"
   status = 301
   force = true 
 
