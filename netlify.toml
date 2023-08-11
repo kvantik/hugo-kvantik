@@ -1,4 +1,20 @@
 [[redirects]]
+  # куда ведёт ссылка: развертка изгибаемого многогранника Штеффена
+  # где размещена ссылка: Изгибаемый многогранник, Квантик 2023-10
+  from = "https://kvan.tk/flexible"
+  to = "https://kvantik.com/extra/flexible.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: Долбилин. Жемчужины теории многогранников
+  # где размещена ссылка: Изгибаемый многогранник, Квантик 2023-10
+  from = "https://kvan.tk/dolbilin"
+  to = "https://mccme.ru/free-books/mmmf-lectures/book.5.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: статья А.Акопяна про Вилларсо в Кванте
   # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
   from = "https://kvan.tk/villarceau-kvant"
@@ -31,7 +47,7 @@
   force = true
 
 [[redirects]]
-  # куда ведёт ссылка: выкройка для сборке тора из пластинок
+  # куда ведёт ссылка: выкройка для сборки тора из пластинок
   # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
   from = "https://kvan.tk/villarceau"
   to = "https://kvantik.com/extra/villarceau.pdf"
