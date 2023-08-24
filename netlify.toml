@@ -1,4 +1,20 @@
 [[redirects]]
+  # куда ведёт ссылка: анимации движения частичек в волнах
+  # где размещена ссылка: Комментарий в ответах к Бороде Гесиода, Квантик 2023-10
+  from = "https://kvan.tk/waves1"
+  to = "https://www.acs.psu.edu/drussell/Demos/waves/wavemotion.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: анимации движения частичек в волнах
+  # где размещена ссылка: Комментарий в ответах к Бороде Гесиода, Квантик 2023-10
+  from = "https://kvan.tk/waves2"
+  to = "https://en.wikipedia.org/wiki/Stokes_drift"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: развертка изгибаемого многогранника Штеффена
   # где размещена ссылка: Изгибаемый многогранник, Квантик 2023-10
   from = "https://kvan.tk/flexible"
