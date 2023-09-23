@@ -1,12 +1,18 @@
 [[redirects]]
+  # куда ведёт ссылка: информация про и регистрация на фестиваль Квантика в Новой школе
+  # где размещена ссылка: пока нигде
+  from = "https://kvan.tk/fest2023"
+  to = "https://home.n.school/quantica_festival"
+  status = 301
+  force = true
+  
+[[redirects]]
   # куда ведёт ссылка: ответ на задания к статье
   # где размещена ссылка: Новая ромбическая флексотрубка, Квантик 2023-11
   from = "https://kvan.tk/flextube"
   to = "https://youtu.be/hOf759tVaDA"
   status = 301
   force = true
-
-
 
 [[redirects]]
   # куда ведёт ссылка: анимации движения частичек в волнах
