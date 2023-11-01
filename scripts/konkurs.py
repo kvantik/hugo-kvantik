@@ -24,7 +24,7 @@ def to_roman(i):
 def get_authors(lines, kind="math"):
     if kind!="math":
         return dict()
-    line_num = [i for i, string in enumerate(lines) if ("Авторы задач:" in string.strip())][0]
+    line_num = [i for i, string in enumerate(lines) if ("Авторы:" in string.strip())][0]
     authors_line = lines[line_num][7:]
     while (bool(re.search(r'\(\d+\)', lines[line_num+1]))==True):
         line_num+=1
