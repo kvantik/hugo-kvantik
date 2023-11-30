@@ -212,7 +212,7 @@ news:
       [«Математическая книга»](https://biblio.mccme.ru/node/211867) и других.
       <br/> [![Обложка
       календаря](https://biblio.mccme.ru/sites/default/files/books/oblozhka_kalendarya_2024_.jpg
-      "Купить календарь")](https://biblio.mccme.ru/node/211867)
+      "Купить календарь" =500x)](https://biblio.mccme.ru/node/211867)
     number: 37
     date: 2023-11-09
   - body: С 30 ноября по 3 декабря в Гостином дворе (ул. Ильинка, д. 4) проходит
@@ -223,5 +223,5 @@ news:
       <br/>Доступны [электронные билеты](https://moscowbookfair.ru/kupit-bilet.html).
       <br/>До 2 декабря ярмарка работает с 11:00 до 21:00, 2 декабря ярмарка завершает работу
       в 20:00. Ждём вас!
-    number: 36
+    number: 38
     date: 2023-11-27
