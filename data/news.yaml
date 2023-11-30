@@ -176,6 +176,7 @@ news:
       альманах")](https://biblio.mccme.ru/node/155318/shop)
     number: 32
     date: 2022-10-05
+    hide: true
   - body: Календарь загадок от журнала «Квантик» на 2023 год в продаже — в магазинах
       [«Математическая книга»](https://biblio.mccme.ru/node/153590/shop),
       [«Озон»]
@@ -187,6 +188,7 @@ news:
       "Купить альманах")](https://biblio.mccme.ru/node/153590/shop)
     number: 33
     date: 2022-10-06
+    hide: true
   - body: С 1 по 5 декабря в Гостином дворе (ул. Ильинка, д. 4) пройдёт
       Международная ярмарка интеллектуальной литературы
       [non/fictio№24](https://moscowbookfair.ru). Стенд «Квантика» № Р-6
@@ -206,6 +208,13 @@ news:
       проекта»).
     number: 35
     date: 2022-12-29
+  - body: Календарь загадок от журнала «Квантик» на 2023 год в продаже — в магазинах
+      [«Математическая книга»](https://biblio.mccme.ru/node/211867) и других.
+      <br/> [![Обложка
+      календаря](https://biblio.mccme.ru/sites/default/files/books/oblozhka_kalendarya_2024_.jpg
+      "Купить календарь")](https://biblio.mccme.ru/node/211867)
+    number: 37
+    date: 2023-11-09
   - body: С 30 ноября по 3 декабря в Гостином дворе (ул. Ильинка, д. 4) проходит
       Международная ярмарка интеллектуальной литературы
       [non/fictio№25](https://moscowbookfair.ru). Стенд «Квантика» № Н-6
