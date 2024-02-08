@@ -1048,6 +1048,1048 @@
   force = true #COMMENT: ensure that we always redirect
 
 
+[[redirects]]
+  # куда ведёт ссылка: запуск программы для черепахи, рисующей снежинку
+  # где размещена ссылка: Справедливый делёж, последовательность Туэ – Морса и снежинка Коха, Квантик 2023-12
+  from = "https://kvantik.com/short/turtle"
+  to = "https://www.pythonsandbox.com/code/pythonsandbox_u63957_b8fA2GfyfwZHvrm3kk2YCsg0_v2.py"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: «Треугольная бумага» на сайте Жени Кац
+  # где размещена ссылка: Справедливый делёж, последовательность Туэ – Морса и снежинка Коха, Квантик 2023-12
+  from = "https://kvantik.com/short/mouse-paper"
+  to = "https://mousemath.ru/%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D1%81%D0%B5%D1%82%D0%BA%D0%B8/"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: Заготовка головоломки для печати
+  # где размещена ссылка: Змейки из шести уголков, Квантик 2024-1
+  from = "https://kvantik.com/short/6corners"
+  to = "https://kvantik.com/extra/6ugolkov-trihex.pdf"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: информация про и регистрация на фестиваль Квантика в Новой школе
+  # где размещена ссылка: пока нигде
+  from = "https://kvantik.com/short/fest2023"
+  to = "https://home.n.school/quantica_festival"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: ответ на задания к статье
+  # где размещена ссылка: Новая ромбическая флексотрубка, Квантик 2023-11
+  from = "https://kvantik.com/short/flextube"
+  to = "https://youtu.be/hOf759tVaDA"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: анимации движения частичек в волнах
+  # где размещена ссылка: Комментарий в ответах к Бороде Гесиода, Квантик 2023-10
+  from = "https://kvantik.com/short/waves1"
+  to = "https://www.acs.psu.edu/drussell/Demos/waves/wavemotion.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: анимации движения частичек в волнах
+  # где размещена ссылка: Комментарий в ответах к Бороде Гесиода, Квантик 2023-10
+  from = "https://kvantik.com/short/waves2"
+  to = "https://en.wikipedia.org/wiki/Stokes_drift"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: развертка изгибаемого многогранника Штеффена
+  # где размещена ссылка: Изгибаемый многогранник, Квантик 2023-10
+  from = "https://kvantik.com/short/flexible"
+  to = "https://kvantik.com/extra/flexible.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: Долбилин. Жемчужины теории многогранников
+  # где размещена ссылка: Изгибаемый многогранник, Квантик 2023-10
+  from = "https://kvantik.com/short/dolbilin"
+  to = "https://mccme.ru/free-books/mmmf-lectures/book.5.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: статья А.Акопяна про Вилларсо в Кванте
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvantik.com/short/villarceau-kvant"
+  to = "https://etudes.ru/.data/localdocs/Villarceau_akopyan.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: Мат. этюды про Вилларсо
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvantik.com/short/villarceau-etudes"
+  to = "https://etudes.ru/models/Villarceau-circles/"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео по сборке тора из пластинок (2)
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvantik.com/short/villarceau-vid2"
+  to = "https://youtu.be/W50J-tgBJ2M"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео по сборке тора из пластинок (1)
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvantik.com/short/villarceau-vid1"
+  to = "https://youtu.be/rft4EJkVZ9Y"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: выкройка для сборки тора из пластинок
+  # где размещена ссылка: Окружности Вилларсо…, Квантик 2023-08
+  from = "https://kvantik.com/short/villarceau"
+  to = "https://kvantik.com/extra/villarceau.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: теорема Шаля на Этюдах
+  # где размещена ссылка: Загадочные круги, Квантик 2023-07
+  from = "https://kvantik.com/short/etudes-chasles"
+  to = "https://etudes.ru/models/chasles-theorem/"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: случайно расположенные точки
+  # где размещена ссылка: Загадочные круги, Квантик 2023-07
+  from = "https://kvantik.com/short/chasles"
+  to = "https://kvantik.com/extra/mysterious-circles-2sides.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: разбор решения задачи про 80 дней
+  # где размещена ссылка: статья про эту задачу, Квантик 2023-07
+  from = "https://kvantik.com/short/80days"
+  to = "http://www.youtube.com/watch?v=E4UjUmYxA_I"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: развертка многогранника Силаши
+  # где размещена ссылка: статья про этот многогранник, Квантик 2023-06
+  from = "https://kvantik.com/short/szilassi"
+  to = "https://kvantik.com/extra/szilassi.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: упрямый квадрат
+  # где размещена ссылка: статья про головоломку, Квантик 2023-05
+  from = "https://kvantik.com/short/upr-kv"
+  to = "https://kvantik.com/extra/upr-kv.pdf"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: многогранник Силашши на Этюдах
+  # где размещена ссылка: статья про этот многогранник, Квантик 2023-05
+  from = "https://kvantik.com/short/etudes-szilassi"
+  to = "https://etudes.ru/sketches/szilassi-polyhedron/"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: коники в сечениях однополостного гиперболоида
+  # где размещена ссылка: (upd: НИГДЕ) статья Фёдора Нилова, Квантик 2023-03
+  from = "https://kvantik.com/short/dandelin-etudes1"
+  to = "https://old.kvantik.com/art/files/pdf/2021-09.2-5.pdf"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: образующие однополостного гиперболоида
+  # где размещена ссылка: (upd: НИГДЕ) статья Фёдора Нилова, Квантик 2023-03
+  from = "https://kvantik.com/short/dandelin-etudes2"
+  to = "https://etudes.ru/models/conic-sections-hyperboloid-generatix-rotation/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: анимации Данделена
+  # где размещена ссылка: статья Фёдора Нилова, Квантик 2023-03
+  from = "https://kvantik.com/short/dandelin-etudes"
+  to = "https://etudes.ru/etudes/Dandelin-spheres/"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: распечатка для волчка
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2023-02
+  from = "https://kvantik.com/short/8trimino"
+  to = "https://kvantik.com/extra/8ugolkov.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: Б.А.Розенфельд. Аполлоний Пергский
+  # где размещена ссылка: статья Ф.Нилова, Квантик 2023-2
+  from = "https://kvantik.com/short/apollonius"
+  to = "https://mccme.ru/free-books/pdf/ap_of_pe.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для волчка
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2023-1
+  from = "https://kvantik.com/short/spinball"
+  to = "https://youtu.be/8yEwphAFPSc"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: подборка Щетникова про движение против ветра / быстрее ветра
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2023-1
+  from = "https://kvantik.com/short/wind3"
+  to = "https://youtu.be/h0RWvIyfsUM?list=PLeOlm2kq0HcsLMNFQhh8m-Rhe8Jde7hjD"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео про движение против ветра / быстрее ветра (современное)
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2022-1
+  from = "https://kvantik.com/short/wind2"
+  to = "https://youtu.be/jyQwgBAaBag"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео про движение против ветра / быстрее ветра (историческое)
+  # где размещена ссылка: статья Михаила Гарбуза, Квантик 2022-1
+  from = "https://kvantik.com/short/wind1"
+  to = "https://youtu.be/dAkJ_QVbloQ"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для волчка
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-10
+  from = "https://kvantik.com/short/volchok"
+  to = "https://kvantik.com/extra/volchok.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видео-инструкция по сборке волчка с колпачком
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-10
+  from = "https://kvantik.com/short/spincap"
+  to = "https://youtu.be/uxMYeSnf0oM"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: спутниковское видео урагана
+  # где размещена ссылка: статья Карта осадков: ответ, Квантик 2022-9
+  from = "https://kvantik.com/short/hurricane"
+  to = "https://youtu.be/hcYeZMNAbNs"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: схема бумажного вертолёта
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-8
+  from = "https://kvantik.com/short/copter-a4"
+  to = "https://kvantik.com/extra/copter-a4.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: инструкция по сборке бумажного вертолёта
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-8
+  from = "https://kvantik.com/short/copter-video"
+  to = "https://youtu.be/3nWiPd_9KCQ"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео «The Assassin's Teapot Is Weird»
+  # где размещена ссылка: статья «Загадочный чайник», Квантика 2022-8 (?)
+  from = "https://kvantik.com/short/strange-teapot"
+  to = "https://youtu.be/jJL0XoNBaac"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: перевод Заболотского рассказа «Idol words»
+  # где размещена ссылка: статья «Слова статуй», Квантик 2022-8 (?)
+  from = "https://kvantik.com/short/idol-words"
+  to = "https://colt-browning.livejournal.com/8795.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: видеолекции Квашенко по драконистике
+  # где размещена ссылка: статья «Сколько лап у дракона?», Квантик 2022-7
+  from = "https://kvantik.com/short/drakonistika"
+  to = "https://www.youtube.com/playlist?list=PL1JJ1jVZ9z5C438PIAsrpb2EZscC6NWLR"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: интерактивное построение диаграмм Вороного
+  # где размещена ссылка: статья Артемия Соколова, Квантик 2022-7
+  from = "https://kvantik.com/short/voronoi-demo"
+  to = "http://cfbrasz.github.io/Voronoi"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: книга «Перестановки» Шеня
+  # где размещена ссылка: статья Николая Авилова, Квантик 2022-7
+  from = "https://kvantik.com/short/shen-perm"
+  to = "https://mccme.ru/free-books/shen/perm.pdf"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для головоломки «Морское путешествие»
+  # где размещена ссылка: статья Владимира Красноухова, Квантик 2022-6
+  from = "https://kvantik.com/short/sea-trip"
+  to = "https://kvantik.com/extra/sea-trip.pdf"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео BBC про раков
+  # где размещена ссылка: задача про раков, Квантик 2022-5
+  from = "https://kvantik.com/short/crabs"
+  to = "https://youtu.be/f1dnocPQXDQ"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: текст Спивака
+  # где размещена ссылка: Крылатые квадраты, Квантик 2022-5
+  from = "https://kvantik.com/short/spivak-sq"
+  to = "http://mmmf.msu.ru/lect/spivak/summa_sq.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: решение головоломки «Флексотримино»
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-5
+  from = "https://kvantik.com/short/trimino-a4"
+  to = "https://kvantik.com/extra/flexotrimino-a4.pdf"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: решение головоломки «Флексотримино»
+  # где размещена ссылка: статья Сергея Полозкова, Квантик 2022-5
+  from = "https://kvantik.com/short/trimino-video"
+  to = "https://youtu.be/kkyjf8_6kjU"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для головоломки «Горшок Евклида»
+  # где размещена ссылка: статья Владимира Красноухова, Квантик 2022-4
+  from = "https://kvantik.com/short/gorshok"
+  to = "https://kvantik.com/extra/gorshok.pdf"
+  status = 301
+  force = true
+  
+
+[[redirects]]
+  # куда ведёт ссылка: видеозапись к задаче-картинке «Куда пропала тень?»
+  # где размещена ссылка: задача-картинка Александра Бердникова, Квантик 2022-4
+  from = "https://kvantik.com/short/no-shadow"
+  to = "https://youtu.be/jWjqWI7cC8c"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для карандашиков в коробочке
+  # где размещена ссылка: статья Владимира Красноухова, Квантик 2022-3
+  from = "https://kvantik.com/short/kar-v-kor"
+  to = "https://kvantik.com/extra/kar-v-kor.pdf"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  # куда ведёт ссылка: js-визуализация трёх компасов от Шашкова
+  # где размещена ссылка: ответ к статье "Три компаса", Квантик 2022-3
+  from = "https://kvantik.com/short/3-kompasa"
+  to = "https://kvantik.com/extra/compass"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: Математический этюд «Площади фигур»
+  # где размещена ссылка: статья Виктора Клепцына, Квантик 2022-2
+  from = "https://kvantik.com/short/etudes-area"
+  to = "https://etudes.ru/etudes/figures-area/"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для двух кубов и пентамино
+  # где размещена ссылка: статья Александра Домашенко, Квантик 2022-2
+  from = "https://kvantik.com/short/2-kuba"
+  to = "https://kvantik.com/extra/2-kuba.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для логарифмической линейки
+  # где размещена ссылка: статья Виктора Клепцына, Квантик 2022-2
+  from = "https://kvantik.com/short/rule"
+  to = "https://kvantik.com/extra/rule.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: подборки журнала в магазине
+  # где размещена ссылка: соцсети
+  # FIXME
+  from = "https://kvantik.com/short/podborki"
+  to = "https://biblio.mccme.ru/catalog?title=подборка"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для головоломки «Снежинка»
+  # где размещена ссылка: статья Красноухова «Снежинка-2022», Квантик 2022-1
+  from = "https://kvantik.com/short/sneg"
+  to = "https://kvantik.com/extra/sneg.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка к задаче «Сом Али»
+  # где размещена ссылка: одноименная задача М.Иомдина, журнал «Квантик» №12-2021
+  from = "https://kvantik.com/short/somali"
+  to = "https://kvantik.com/extra/somali.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: подписка на почте Беларуси
+  # где размещена ссылка: блок подписки, журнал «Квантик» №12-2021 — планировалась, но так и не была дана
+  from = "https://kvantik.com/short/belpost"
+  to = "http://www.belpost.by/onlinesubscription/items/46528"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видеоролик, на котором ходит многоножка из класса двупарноногих
+  # где размещена ссылка: ответ к статье «Две многоножки», Квантик 2021-12
+  from = "https://kvantik.com/short/mnogonog1"
+  to = "https://youtu.be/SGyntwuNu9k"
+  status = 301
+  force = true 
+  
+ [[redirects]]
+  # куда ведёт ссылка: видеоролик, на котором ходит многоножка из класса губоногих
+  # где размещена ссылка: ответ к статье «Две многоножки», Квантик 2021-12
+  from = "https://kvantik.com/short/mnogonog2"
+  to = "https://youtu.be/ivWcwgfWR7Y"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: Пентагондодекаэдр — календарь 2022
+  # где размещена ссылка: статья Нетрусовой «Пентагондодекаэдр — календарь 2022», Квантик 2021-12
+  from = "https://kvantik.com/short/pentagon"
+  to = "https://kvantik.com/extra/pentagon.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: распечатка для головоломки Ёлочка
+  # где размещена ссылка: статья Красноухова «Ёлочка-2022», Квантик 2021-12
+  from = "https://kvantik.com/short/elka"
+  to = "https://kvantik.com/extra/elochka2022.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: xls-файл для рассчета вероятности нужного числа куролюбов
+  # где размещена ссылка: самостоятельные эксперименты к статье «ПРИКЛЮЧЕНИЯ СТАСА Fish or сhicken?», Квантик 2021-12
+  from = "https://kvantik.com/short/chicken"
+  to = "https://kvantik.com/issue/extras/2021-12 Fish or сhicken.xlsx"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видеоролик с горением свечи на космической станции
+  # где размещена ссылка: ответ к статье "На планетах, спутниках и орбитальных станциях", Квантик 2021-11
+  from = "https://kvantik.com/short/space-fire"
+  to = "https://youtu.be/Gecui7ygtjY"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видеоролик от Mathologer "The Moessner Miracle"
+  # где размещена ссылка: статья "СТЕПЕНИ КАК СУММЫ, или МАГИЯ МЁССНЕРА", Квантик 2021-11
+  from = "https://kvantik.com/short/moessner"
+  to = "https://youtu.be/rGlpyFHfMgI"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: pdf для распечатки головоломки
+  # где размещена ссылка: статья Красноухова "Трансформация пустоты", Квантик 2021-11
+  from = "https://kvantik.com/short/pustota"
+  to = "https://kvantik.com/extra/pustota.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: Квантик в магазине «Математическая книга»
+  # где размещена ссылка: рекламный пост о Квантике
+  from = "https://kvantik.com/short/biblio"
+  to = "https://biblio.mccme.ru/catalog?title=Квантик"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: pdf для распечатки головоломки
+  # где размещена ссылка: статья Красноухова "Семь семёрок", Квантик 2021-10, с.23
+  from = "https://kvantik.com/short/7-7"
+  to = "https://kvantik.com/extra/7-7.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: pdf с теоремой о линолеуме на сайте ММО
+  # где размещена ссылка: статья Сабуровой "Три леммы о площадях", Квантик 2021-10
+  from = "https://kvantik.com/short/linoleum"
+  to = "https://math.mosolymp.ru/upload/files/2020/other/444/mv/8/mega/2020-05-10-Mega8-Teorema_o_linoliume.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: фотография Шуховской башни, фото Родченко, 1929 год
+  # где размещена ссылка: статья "Линейчатые, но не плоские", Квантик 2021-09, с.2
+  from = "https://kvantik.com/short/shukhov"
+  to = "https://club.foto.ru/classics/photo/894"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: пост ВК о школьных моделях от "математических этюдов"
+  # где размещена ссылка: статья "Линейчатые, но не плоские", Квантик 2021-09, с.5
+  from = "https://kvantik.com/short/etudes-vk"
+  to = "https://vk.com/etudesru?w=wall-192547232_2732"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: python-скрипт с вычислением 
+  # где размещена ссылка: статья "Косые квадраты", Квантик 2021-07, с.3
+  from = "https://kvantik.com/short/squares-py"
+  to = "https://replit.com/@GrigoryMerzon/SumTwoSquares"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: pdf-файл с развёрткой половинок тетраэдра на нашем сайте
+  # где размещена ссылка: статья "Половинки тетраэдра", Квантик 2021-06, с.24
+  from = "https://kvantik.com/short/tetra-halves"
+  to = "https://kvantik.com/extra/tetrahedron-halves.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: статья Википедии об эксперименте Бедфорда 
+  # где размещена ссылка: статья "Как древние греки опередили Коперника. Окончание", Квантик 2021-04, с.7
+  from = "https://kvantik.com/short/bedford"
+  to = "https://en.wikipedia.org/wiki/Bedford_Level_experiment"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: записи радиопередач математического радиокружка Сигма
+  # где размещена ссылка: статья "У нас в гостях – математический радиокружок", Квантик 2021-04, с.8
+  from = "https://kvantik.com/short/sigma"
+  to = "http://www.csmath.org/school/sigma"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: Видео «проседающего» на горизонте корабля
+  # где размещена ссылка: статья "Как древние греки опередили Коперника", Квантик 2021-03, с.2
+  from = "https://kvantik.com/short/horizon-ship"
+  to = "https://youtu.be/i0ObTd7DLMw"
+  status = 301
+  force = true 
+
+
+
+[[redirects]]
+  # куда ведёт ссылка: развёртка календаря-додекаэдра на 2021 год на нашем сайте
+  # где размещена ссылка: в соцсетях 2021-02
+  from = "https://kvantik.com/short/calendar2021"
+  to = "https://kvantik.com/extra/calendar-dodecahedron-2021.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: интерактивный чертёж Гриши Мерзона в Геогебре c пространством треугольников
+  # где размещена ссылка: к окончанию статьи "Треугольный мир", Квантик 2021-03, либо в соцсетях
+  from = "https://kvantik.com/short/treug-geogebra"
+  to = "https://www.geogebra.org/m/pnnmcqwt"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: статья про подлёдные озёра на Марсе, обнаруженные в сентябре 2020
+  # где размещена ссылка: ответы к Турниру Ломоносова XLIII, Квантик 2021-02 
+  from = "https://kvantik.com/short/mars-lakes"
+  to = "https://indicator.ru/astronomy/marse-podlednye-solenye-ozera-28-09-2020.htm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: брошюра В.Г.Болтянского «Равновеликие и равносоставленные фигуры» 
+  # где размещена ссылка: отсылка к теореме Бойяи-Гервина в статье "Три креста ...", Квантик 2021-01 с.20
+  from = "https://kvantik.com/short/boltyanski"
+  to = "https://www.mathedu.ru/text/boltyanskiy_ravnovelikie_i_ravnosostavlennye_figury_1956/"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с гигрометром "Humidity 500%"
+  # где размещена ссылка: статья "Две задачи турнира «Шунт»", Альманах 9, изд.2, с.148
+  from = "https://kvantik.com/short/humid500"
+  to = "https://youtu.be/Y5gQy9LMFbE"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео "Плавание тел: вода с пузырями"
+  # где размещена ссылка: статья "Дробь и пузыри", Альманах 9, изд.2, с.145
+  from = "https://kvantik.com/short/bubbles"
+  to = "https://youtu.be/vtK04CsGHhc"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvantik.com/short/ugolnik-4"
+  to = "https://upload.wikimedia.org/wikipedia/commons/8/84/Triangle2.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvantik.com/short/ugolnik-3"
+  to = "https://upload.wikimedia.org/wikipedia/commons/2/21/Triangle1.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvantik.com/short/ugolnik-2"
+  to = "https://upload.wikimedia.org/wikipedia/commons/8/8d/Triangles2.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео с угольниками
+  # где размещена ссылка: статья "Измерение углов", Квантик 2020-12
+  from = "https://kvantik.com/short/ugolnik-1"
+  to = "https://upload.wikimedia.org/wikipedia/commons/8/8e/Triangles1.webm"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: развёртка тетракона на нашем сайте
+  # где размещена ссылка: статья про сфериконы, Квантик 2020-12
+  from = "https://kvantik.com/short/tetracon"
+  to = "https://kvantik.com/extra/tetracon.pdf"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео со сфериконами - тетраконом и прочими
+  # где размещена ссылка: статья про сфериконы, Квантик 2020-12
+  from = "https://kvantik.com/short/polycons"
+  to = "http://youtu.be/R27xHl_joRw"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео со сфериконом гексаконом
+  # где размещена ссылка: статья про сфериконы, Квантик 2020-12
+  from = "https://kvantik.com/short/hexacon"
+  to = "https://youtu.be/YwEG942gLk8"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с чёртиком-водолазом на викискладе 
+  # где размещена ссылка: ответы к статье "ПОХОЖЕ, НО – КАКАЯ РАЗНИЦА!", Квантик 2020-11
+  from = "https://kvantik.com/short/diver-rot2"
+  to = "https://upload.wikimedia.org/wikipedia/commons/1/10/Чертик_в_бутылке.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с трубочкой-водолазом на викискладе 
+  # где размещена ссылка: ответы к статье "ПОХОЖЕ, НО – КАКАЯ РАЗНИЦА!", Квантик 2020-11
+  from = "https://kvantik.com/short/diver-rot1"
+  to = "https://upload.wikimedia.org/wikipedia/commons/a/a2/Водолаз_из_трубки.webm"
+  status = 301
+  force = true 
+
+
+
+[[redirects]]
+  # куда ведёт ссылка: страничка на сайте Квантика с Geogebra-чертежами параллельников
+  # где размещена ссылка: сноска в конце статьи "Параллельники ...", Квантик 2020-11
+  from = "https://kvantik.com/short/parall"
+  to = "https://kvantik.com/extra/parall"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: статья Панова про пространства модулей треугольников, с картинками
+  # где размещена ссылка: сноска в первой части статьи "Пространство треугольников", Квантик 2020-12?
+  from = "https://kvantik.com/short/treugmir"
+  to = "https://arxiv.org/ftp/arxiv/papers/2007/2007.14231.pdf"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: статья про алгебраические стэки и пространства модулей треугольников, с картинками
+  # где размещена ссылка: сноска в первой части статьи "Пространство треугольников", Квантик 2020-12?
+  from = "https://kvantik.com/short/stacks"
+  to = "https://www.math.ubc.ca/~behrend/math615A/stacksintro.pdf"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео на ютюбе про 
+  # где размещена ссылка: задача 4 в статье "Пузырьки", Квантик 2020-10, с.6
+  from = "https://kvantik.com/short/bounce-cola"
+  to = "https://youtu.be/_zqdQ-kgUuM"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео на ютюбе про подпрыгивание капель на воде
+  # где размещена ссылка: задача 4 в статье "Пузырьки", Квантик 2020-10, с.6
+  from = "https://kvantik.com/short/bounce"
+  to = "https://youtu.be/ynk4vJa-VaQ"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео на ютюбе про зависание песочных часов в воде
+  # где размещена ссылка: статья "Опыты в воде с сахаром и песочными часами", Альманах 16, с.119
+  from = "https://kvantik.com/short/hourglass"
+  to = "https://youtu.be/xI9W015eAsM"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео на ютюбе про подкрашенный сахар в воде
+  # где размещена ссылка: статья "Опыты в воде с сахаром и песочными часами", Альманах 16, с.119
+  from = "https://kvantik.com/short/sugar2"
+  to = "https://youtu.be/EfnXVpJJqEI"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео на ютюбе про сахар в подкрашенной воде
+  # где размещена ссылка: статья "Опыты в воде с сахаром и песочными часами", Альманах 16, с.119
+  from = "https://kvantik.com/short/sugar1"
+  to = "https://youtu.be/4yok1f4nKis"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: видео на ютюбе про сахар в подкрашенной воде
+  # где размещена ссылка: статья "Опыты в воде с сахаром и песочными часами", Альманах 16, с.119
+  from = "https://kvantik.com/short/sugar"
+  to = "https://youtu.be/4yok1f4nKis"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: список литературы к статье Клепцына «Слова на ленте» про число Фибоначчи
+  # где размещена ссылка: Квантик 2020-06, с.6.
+  from = "https://kvantik.com/short/fib-lit"
+  to = "https://docs.google.com/document/d/e/2PACX-1vS4QT8cQodXdkR7sYlHdUIVR-8lj13A4PWcJrGBUMG1w3LHlzxFGUlkVDWtYG1ZWGpFL10W5lITdzxi/pub"
+  status = 301
+  force = true 
+
+[[redirects]]
+  # куда ведёт ссылка: электронные версии Квантика на сайте ЛитРес
+  # где размещена ссылка: рекламная страница, все номера с 2020-06
+  from = "https://kvantik.com/short/litres"
+  to = "https://www.litres.ru/pages/rmd_search/?q=Квантик"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: Примеры магических квадратов из полимино
+  # где размещена ссылка: Статья "Как Бусенька украшала торт" в сборнике сказок Кохася
+  from = "https://kvantik.com/short/sloniki"
+  to = "http://puzzlezapper.com/blog/2011/01/magic-squares-and-polyominoes/"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с задачей Эйнштейна о чаинках
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvantik.com/short/tealeaf"
+  to = "https://www.youtube.com/watch?v=lQuKmZi7zvs"
+  status = 301
+  force = true 
+  
+  
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvantik.com/short/jellyfish4"
+  to = "https://upload.wikimedia.org/wikipedia/commons/a/a9/Cartesian_Jellyfish_4.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvantik.com/short/jellyfish3"
+  to = "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cartesian_Jellyfish_3.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvantik.com/short/jellyfish2"
+  to = "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cartesian_Jellyfish_2.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео с картезианской медузой
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvantik.com/short/jellyfish1"
+  to = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cartesian_Jellyfish_1.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео со всплытием картезианского водолаза
+  # где размещена ссылка: статья "Эйнштейн, чашка чая и Картезианская медуза", с.8-10, Квантик 2020-05
+  from = "https://kvantik.com/short/diver"
+  to = "https://upload.wikimedia.org/wikipedia/commons/0/0a/Картезианский_водолаз.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: развёртка тороидального многогранника из семиугольников
+  # где размещена ссылка: статья "Многогранник из семиугольников?", с.8, Квантик 2020-04
+  from = "https://kvantik.com/short/7dode-fold"
+  to = "https://kvantik.com/extra/heptadodecahedron-fold.pdf"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: объёмное изображение тороидального многогранника из семиугольников
+  # где размещена ссылка: статья "Многогранник из семиугольников?", с.8, Квантик 2020-04
+  from = "https://kvantik.com/short/7dode"
+  to = "http://dmccooey.com/polyhedra/HeptagonalDodecahedronC1.html"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: объёмное изображение тороидального многогранника из шестиугольников
+  # где размещена ссылка: ответы к "Многогранник из семиугольников?", с.31, Квантик 2020-04
+  from = "https://kvantik.com/short/6-toroid"
+  to = "http://dmccooey.com/polyhedra/RegularHexagonalToroid12C1.html"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: на симулятор бросков кубика для парадокса последнего броска
+  # где размещена ссылка: статья "Парадокс последней ручки", с.130, Квантик 2020-03
+  from = "https://kvantik.com/short/lastpen"
+  to = "https://kvantik.com/extra/lastpen/"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: на схему упрямоугольника на нашем сайте 
+  # где размещена ссылка: статья "Упрямоугольник-8", с.130, Альманах 15
+  # нет в разделе «Своими руками»
+  from = "https://kvantik.com/short/upr-8"
+  to = "https://kvantik.com/extra/upr8.pdf"
+  status = 301
+  force = true 
+
+
+  [[redirects]]
+  # куда ведёт ссылка: видео сифона на Викимедиа
+  # где размещена ссылка: статья "Самозапускающийся сифон", Квантик 2020-01
+  from = "https://kvantik.com/short/siphon"
+  to = "https://upload.wikimedia.org/wikipedia/commons/5/53/Siphon.webm"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: видео самодельной чаши Тантала на Викимедиа
+  # где размещена ссылка: статья "Самозапускающийся сифон", Квантик 2020-01
+  from = "https://kvantik.com/short/tantalus"
+  to = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tantalus_cup.webm"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: примеры иллюзии Манкера-Уайта на странице Дэвида Новика
+  # где размещена ссылка: статья "Какого же цвета сердечки?", Квантик 2019-11
+  from = "https://kvantik.com/short/novick"
+  to = "http://engineering.utep.edu/novick/colors/"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: фотография NASA западного полушария Земли из космоса, сделанная Suomi NPP
+  # где размещена ссылка: статья "Два фото Земли", Квантик 2019-10
+  from = "https://kvantik.com/short/big-marble"
+  to = "https://www.nasa.gov/multimedia/imagegallery/image_feature_2159.html"
+  status = 301
+  force = true 
+
+
+[[redirects]]
+  # куда ведёт ссылка: фотография NASA западного полушария Земли из космоса, сделанная MODIS
+  # где размещена ссылка: статья "Два фото Земли", Квантик 2019-10
+  from = "https://kvantik.com/short/small-marble"
+  to = "https://commons.wikimedia.org/wiki/File:Earth_Western_Hemisphere_2002.png"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: электронные версии Квантика на сайте интернет-магазина МЦНМО
+  # FIXME!
+  # где размещена ссылка: рекламная страница, все номера с 2019-08
+  from = "https://kvantik.com/short/e-shop"
+  to = "https://biblio.mccme.ru/catalog?title=Квантик"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: индекс Квантика на сайте Роспечати
+  # где размещена ссылка: рекламная страница, Альманах 14, с.214, и все номера с 2019-08
+  from = "https://kvantik.com/short/rosp"
+  to = "https://press.rosp.ru/publications/view/84252/"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: копию сайта TEPCO с фотографиями тепловой электростанции Сендзю в Токио
+  # где размещена ссылка: статья "призрачные трубы", Альманах 14 с.67
+  from = "https://kvantik.com/short/tepco"
+  to = "http://web.archive.org/web/20090521104632/http://www.adachi.ne.jp:80/users/a.trm/rokusyu.htm"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: ютюб-плейлист Квантика с видео притяжения и отталкивания тел на поверхности воды
+  # где размещена ссылка: статья "ФОТОГРАФИИ СВОБОДНО ПЛАВАЮЩИХ ТЕЛ", Альманах 14 с.132
+  from = "https://kvantik.com/short/float"
+  to = "https://www.youtube.com/playlist?list=PLrjlKdQ24UtKcroglJPc0jRYK1mRiPqei"
+  status = 301
+  force = true 
+  
+
+[[redirects]]
+  # куда ведёт ссылка: гугл-документ с инструкцией к математическому конкурсу
+  # где размещена ссылка: Квантики, начиная с 2019-08, с.30
+  from = "https://kvantik.com/short/matkonkurs"
+  to = "https://docs.google.com/document/u/1/d/e/2PACX-1vS8oQI8oobwf7ZIzcshcBoSyhCtKzF-WXvbPoRNMrioeSvmPbwMfhMQhmzEllWx7izv8OskD3_o4Vo7/pub"
+  status = 301
+  force = true 
+  
+  
+[[redirects]]
+  # куда ведёт ссылка: 3D-модель гексаконтаэдра и триаконтаэдра
+  # где размещена ссылка: Квантик 2019-09, с.23
+  from = "https://kvantik.com/short/hexa-tria"
+  to = "https://3dwarehouse.sketchup.com/model/5147b3d9-7fdc-4a99-9dcf-2cf02b502a19/Rhombic-Hexecontahedron-and-Rhombic-Triacontahedra-clusters-combined-to-form-Quasicrystal"
+  status = 301
+  force = true 
+
 
 
 [build]
