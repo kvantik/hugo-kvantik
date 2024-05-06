@@ -1,8 +1,8 @@
 tour:
-  deadline: 5 (месяц?)
+  deadline: 5 июня
   number: 9
   problems:
-  - author: 'задач: Егор Бакаев'
+  - author: 'Егор Бакаев'
     image_art: 41.png
     image_scheme: ''
     number: 41
