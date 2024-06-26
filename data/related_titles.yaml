@@ -45,6 +45,8 @@ almanacs:
       img: img/related_titles/almanac-21.jpg
     - ref: https://biblio.mccme.ru/node/225087
       img: img/related_titles/almanac-22.jpg
+    - ref: https://biblio.mccme.ru/node/243783
+      img: img/related_titles/almanac-23.jpg
 
 calendars:
   title: Календари
