@@ -11,7 +11,7 @@ tour:
     image_art: 17.png
     image_scheme: ''
     number: 17
-    problem: 'Слово <span style="font-variant-caps: small-caps">альфа</a> обозначает часть тела, которая бывает верхней и нижней. Слово <span style="font-variant-caps: small-caps">Альфа</a> обозначает объект, который, как это ни удивительно, находится слева... От чего?'
+    problem: 'Слово <span style="font-variant-caps: small-caps">альфа</span> обозначает часть тела, которая бывает верхней и нижней. Слово <span style="font-variant-caps: small-caps">Альфа</span> обозначает объект, который, как это ни удивительно, находится слева... От чего?'
   - author: 'Я. С. Елисеева'
     image_art: 18.png
     image_scheme: ''
