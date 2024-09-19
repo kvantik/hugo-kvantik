@@ -7,6 +7,14 @@
 [[redirects]]
   # куда ведёт ссылка: развёртка многогранника Шёнхардта
   # где размещена ссылка: МНОГОГРАННИК БЕЗ ДИАГОНАЛЕЙ, Квантик 2024-05
+  from = "https://kvantik.com/short/heart-a4"
+  to = "https://kvantik.com/extra/heart-a4.pdf"
+  status = 301
+  force = true  
+
+[[redirects]]
+  # куда ведёт ссылка: развёртка многогранника Шёнхардта
+  # где размещена ссылка: МНОГОГРАННИК БЕЗ ДИАГОНАЛЕЙ, Квантик 2024-05
   from = "https://kvantik.com/short/no-diag"
   to = "https://kvantik.com/extra/no-diag.pdf"
   status = 301
