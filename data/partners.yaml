@@ -5,14 +5,26 @@ partner:
     url: 'http://www.etudes.ru/'
   - logo: /img/partners/nkj-logo.gif
     url: 'http://www.nkj.ru/subscribe/'
-  - logo: /img/partners/ileo.png
-    url: 'http://www.ileonardo.ru/'
-  - logo: /img/partners/Robot-logo.png
-    url: 'http://robots.croc.ru/junior/'
   - logo: /img/partners/formulo_org.png
     url: 'http://www.formulo.org/'
   - logo: /img/partners/lan.jpg
     url: 'http://www.e.lanbook.com/'
   - logo: /img/partners/osdlogo.png
     url: 'http://www.osd.ru/'
+  - logo: /img/partners/naukaplus.png
+    url: 'https://festivalnauki.ru'
+  - logo: /img/partners/nonfiction.png
+    url: 'https://moscowbookfair.ru'
+  - logo: /img/partners/kvantlandia.png
+    url: 'https://kvantland.com'
+  - logo: /img/partners/matprazdnik.png
+    url: 'https://olympiads.mccme.ru/matprazdnik/'
+  - logo: /img/partners/muzeiparkiusadby.png
+    url: 'https://museum.cpm.moscow'
+  - logo: /img/partners/mousemath.png
+    url: 'https://mousemath.ru'
+  - logo: /img/partners/newschool.png
+    url: 'https://home.n.school'
+  - logo: /img/partners/osennijolymp.png
+    url: 'https://olimpiada.ru/activity/38'
 
