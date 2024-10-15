@@ -1,9 +1,13 @@
 award:
   - logo: /img/awards/science-2017.png
     url: 'https://rg.ru/2018/02/06/v-moskve-vruchili-premiiu-za-vernost-nauke.html'
+    text: 'Лауреат IV Всероссийской премии «За верность науке» в номинации «Лучший детский проект о науке»'
   - logo: /img/awards/belyaev.png
     url: 'https://www.nkj.ru/info/46535/'
+    text: 'Литературная премия имени Александра Беляева (Беляевская премия) 2021 — присуждена за плодотворную работу и просветительскую деятельность в 2021 году'
   - logo: /img/awards/ran.png
     url: 'https://new.ras.ru/activities/news/nazvany-laureaty-premii-ran-2022-goda-za-luchshie-raboty-po-populyarizatsii-nauki/'
+    text: 'Премия Российской академии наук 2022 — за лучшие работы в области популяризации науки в номинации «Лучший художник, иллюстратор, дизайнер научно-популярного проекта» за иллюстрации, оформление и дизайн журнала'
   - logo: /img/awards/volshebnoe.png
     url: 'https://gipp.ru/news/competitions-awards/yubilejnyj-festival-detskikh-smi-volshebnoe-slovo-proshel-v-moskve-na-mmkya'
+    text: 'Конкурс «Волшебное слово» 2024 — победитель конкурса в номинации «Лучший журнал для среднего школьного возраста» и в специальной номинации «Лучшее дизайнерское решение»'
