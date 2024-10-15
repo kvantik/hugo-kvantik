@@ -1,3 +1,3 @@
 {{range $.Site.Data.awards.award }}
-<div><div style="float:left;"><a href="{{.url}}"><img src="{{.logo}}" alt="{{with .name}}{{.}}{{else}}Награда{{end}}" style="margin:4pt"></a></div><div style="float:right;"><p> {{.text}}</p></div></div>
+<div><div style="float:left;"><a href="{{.url}}"><img src="{{.logo}}" alt="{{with .name}}{{.}}{{else}}Награда{{end}}" style="margin:4pt"></a></div><div style="float:right;">{{.text}}</div></div>
 {{ end}}
