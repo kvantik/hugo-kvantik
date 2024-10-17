@@ -9,6 +9,8 @@ partner:
     url: 'https://moscowbookfair.ru'
   - logo: /img/partners/kvantlandia.png
     url: 'https://kvantland.com'
+  - logo: /img/partners/osennijolymp.png
+    url: 'https://olimpiada.ru/activity/38'
   - logo: /img/partners/muzeiparkiusadby.png
     url: 'https://museum.cpm.moscow'
   - logo: /img/partners/matprazdnik.png
@@ -19,8 +21,6 @@ partner:
     url: 'http://www.formulo.org/'
   - logo: /img/partners/newschool.png
     url: 'https://home.n.school'
-  - logo: /img/partners/osennijolymp.png
-    url: 'https://olimpiada.ru/activity/38'
   - logo: /img/partners/nkj-logo.gif
     url: 'http://www.nkj.ru/subscribe/'
   - logo: /img/partners/lan.jpg
