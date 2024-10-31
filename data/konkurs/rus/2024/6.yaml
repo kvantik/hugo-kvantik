@@ -1,0 +1,62 @@
+tour:
+  deadline: 20 декабря
+  number: 6
+  problems:
+  - author: 'В. Н. Авраменко'
+    image_art: 26.png
+    image_scheme: ''
+    number: 21
+    problem: 'Хулиган Вовочка в кои-то веки сделал домашнее задание по русскому языку и попросил маму его проверить. Дойдя до словосочетания «_____ лица», мама остановилась:<br>— Вовочка, здесь ошибка! <br>— Но почему?! — изумился мальчик. — Проверочное слово — «___», синоним к слову «лицо»!<br>Мама не выдержала и расхохоталась.<br>Заполните пропуски.'
+  - author: 'О. А. Горбачёва'
+    image_art: 27.png
+    image_scheme: ''
+    number: 27
+    problem: '
+    <span style="font-size:80%">а</span>
+    <span style="font-size:100%">а</span>
+    <span style="font-size:120%">а</span>
+    <span style="font-size:110%">д</span>
+    <span style="font-size:130%">з</span>
+    <span style="font-size:90%">ч</span><br><br>
+    <span style="font-size:130%">к</span>
+    <span style="font-size:100%">к</span>
+    <span style="font-size:110%">н</span>
+    <span style="font-size:120%">о</span>
+    <span style="font-size:80%">р</span>
+    <span style="font-size:70%">с</span>
+    <span style="font-size:90%">у</span><br>
+    <span style="font-size:70%">а</span>
+    <span style="font-size:90%">в</span>
+    <span style="font-size:130%">и</span>
+    <span style="font-size:80%">к</span>
+    <span style="font-size:100%">о</span>
+    <span style="font-size:110%">р</span>
+    <span style="font-size:120%">ф</span>
+    <span style="font-size:140%">ш</span><br>
+    Всё понятно? Тогда прочитайте:<br>
+    <span style="font-size:120%">а</span>
+    <span style="font-size:90%">е</span>
+    <span style="font-size:100%">к</span>
+    <span style="font-size:110%">с</span>
+    <span style="font-size:80%">т</span><br>
+    <span style="font-size:110%">к</span>
+    <span style="font-size:100%">л</span>
+    <span style="font-size:80%">н</span>
+    <span style="font-size:90%">о</span>
+    <span style="font-size:120%">у</span>'
+  - author: 'И. Б. Иткин'
+    image_art: 28.png
+    image_scheme: ''
+    number: 28
+    problem: 'Скорее всего, ОНА получила своё название за способность стремительно менять форму поверхности, в том числе вы гибаться вверх. Назовите ЕЁ.'
+  - author: 'О. А. Кузнецова'
+    image_art: 29.png
+    image_scheme: ''
+    number: 29
+    problem: 'Этими мини-версиями не копают и не черпают: две из них расположены сзади, а одна — спереди. Назовите эти мини-версии.'
+  - author: 'С. И. Переверзева'
+    image_art: 30.png
+    image_scheme: ''
+    number: 30
+    problem: '– Как всё сложно, – вздохнула Настя. <br>– Вроде бы слово X<sub>2</sub> получается, если добавить приставку к слову X<sub>1</sub>. Но разве они связаны между собой? Слово X<sub>2</sub> означает «судьба», а слово X<sub>1</sub> — совсем другое...<br>— Конечно, связаны, — отозвалась отличница Маша. — Вот, например, слово Y может быть синонимом и к слову X<sub>1</sub>, и к слову X<sub>2</sub>.<br>Какие слова мы заменили на X<sub>1</sub>, X<sub>2</sub> и Y?'
+  title: VI тур
