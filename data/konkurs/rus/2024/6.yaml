@@ -12,38 +12,12 @@ tour:
     image_scheme: ''
     number: 27
     problem: '
-    <span style="font-size:70%">а</span>
-    <span style="font-size:100%">а</span>
-    <span style="font-size:130%">а</span>
-    <span style="font-size:115%">д</span>
-    <span style="font-size:145%">з</span>
-    <span style="font-size:85%">ч</span><br>
-    <span style="font-size:145%">к</span>
-    <span style="font-size:100%">к</span>
-    <span style="font-size:115%">н</span>
-    <span style="font-size:130%">о</span>
-    <span style="font-size:70%">р</span>
-    <span style="font-size:55%">с</span>
-    <span style="font-size:85%">у</span><br>
-    <span style="font-size:55%">а</span>
-    <span style="font-size:85%">в</span>
-    <span style="font-size:145%">и</span>
-    <span style="font-size:70%">к</span>
-    <span style="font-size:100%">о</span>
-    <span style="font-size:115%">р</span>
-    <span style="font-size:130%">ф</span>
-    <span style="font-size:160%">ш</span><br><br>
+    <span style="font-size:70%">а</span><span style="font-size:100%">а</span><span style="font-size:130%">а</span><span style="font-size:115%">д</span><span style="font-size:145%">з</span><span style="font-size:85%">ч</span><br>
+    <span style="font-size:145%">к</span><span style="font-size:100%">к</span><span style="font-size:115%">н</span><span style="font-size:130%">о</span><span style="font-size:70%">р</span><span style="font-size:55%">с</span><span style="font-size:85%">у</span><br>
+    <span style="font-size:55%">а</span><span style="font-size:85%">в</span><span style="font-size:145%">и</span><span style="font-size:70%">к</span><span style="font-size:100%">о</span><span style="font-size:115%">р</span><span style="font-size:130%">ф</span><span style="font-size:160%">ш</span><br><br>
     Всё понятно? Тогда прочитайте:<br><br>
-    <span style="font-size:130%">а</span>
-    <span style="font-size:85%">е</span>
-    <span style="font-size:100%">к</span>
-    <span style="font-size:115%">с</span>
-    <span style="font-size:70%">т</span><br>
-    <span style="font-size:115%">к</span>
-    <span style="font-size:100%">л</span>
-    <span style="font-size:70%">н</span>
-    <span style="font-size:85%">о</span>
-    <span style="font-size:130%">у</span>'
+    <span style="font-size:130%">а</span><span style="font-size:85%">е</span><span style="font-size:100%">к</span><span style="font-size:115%">с</span><span style="font-size:70%">т</span><br>
+    <span style="font-size:115%">к</span><span style="font-size:100%">л</span><span style="font-size:70%">н</span><span style="font-size:85%">о</span><span style="font-size:130%">у</span>'
   - author: 'И. Б. Иткин'
     image_art: 28.png
     image_scheme: ''
