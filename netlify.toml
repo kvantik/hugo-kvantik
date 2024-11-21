@@ -5,6 +5,14 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: заготовка для датского сердца
+  # где размещена ссылка: Датские сердечки, Квантик 2024-12
+  from = "https://kvantik.com/short/danish"
+  to = "https://kvantik.com/extra/danish.pdf"
+  status = 301
+  force = true  
+
+[[redirects]]
   # куда ведёт ссылка: развёртка многогранника Шёнхардта
   # где размещена ссылка: МНОГОГРАННИК БЕЗ ДИАГОНАЛЕЙ, Квантик 2024-05
   from = "https://kvantik.com/short/heart-a4"
