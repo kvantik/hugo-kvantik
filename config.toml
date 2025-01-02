@@ -29,7 +29,7 @@ SectionPagesMenu = "lazy"
 
 
 [params]
-    copyright = "(c) 2012-2021 Квантик, [МЦНМО](http://mccme.ru)"
+    copyright = "(c) 2012-2025 Квантик, [МЦНМО](http://mccme.ru)"
 # counters and validation
     metrika = 42527479 # does not work well, see partial template
     google = "gpnmRBIcASh3f0jqFcHwKTpb3L3N2yC19zi9kxdRF6A"
