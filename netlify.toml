@@ -5,6 +5,14 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: видео о том, как астронавты взвешиваются
+  # где размещена ссылка: ответ к "Как взвеситься в невесомости?", Квантик 2025-03
+  from = "https://kvantik.com/short/weigh"
+  to = "https://youtu.be/oU3pp_4n84U"
+  status = 301
+  force = true  
+
+[[redirects]]
   # куда ведёт ссылка: заготовка для датского сердца
   # где размещена ссылка: Датские сердечки, Квантик 2024-12
   from = "https://kvantik.com/short/danish"
