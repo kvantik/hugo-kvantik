@@ -5,6 +5,14 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: формулировка задачи
+  # где размещена ссылка: задача-картинка "Шесть бутылок в термосе", Квантик 2025-04
+  from = "https://kvantik.com/short/six-pack"
+  to = "https://math.stackexchange.com/questions/4939737/geometry-question-about-a-six-pack-of-beer"
+  status = 301
+  force = true  
+  
+[[redirects]]
   # куда ведёт ссылка: видео о том, как астронавты взвешиваются
   # где размещена ссылка: ответ к "Как взвеситься в невесомости?", Квантик 2025-03
   from = "https://kvantik.com/short/weigh"
