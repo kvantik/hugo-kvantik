@@ -5,6 +5,14 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: книга С. Смирнова "Прогулки по замкнутым поверхностям"
+  # где размещена ссылка: статья "Дом без окон без дверей", Квантик 2025-04
+  from = "https://kvantik.com/short/progulki"
+  to = "https://mccme.ru/free-books/mmmf-lectures/book.27.pdf"
+  status = 301
+  force = true  
+  
+[[redirects]]
   # куда ведёт ссылка: формулировка задачи
   # где размещена ссылка: задача-картинка "Шесть бутылок в термосе", Квантик 2025-04
   from = "https://kvantik.com/short/six-pack"
