@@ -6,6 +6,14 @@
 
 [[redirects]]
   # куда ведёт ссылка: заготовка для рождественской звезды
+  # где размещена ссылка: статья "Головоломка лесная 2025", Квантик 2025-08
+  from = "https://kvantik.com/short/hex-grid"
+  to = "https://kvantik.com/extra/hexagonal.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: заготовка для рождественской звезды
   # где размещена ссылка: статья "Рождественская звезда", Квантик 2025-04
   from = "https://kvantik.com/short/Christmas_Star"
   to = "https://kvantik.com/extra/Christmas-Star.pdf"
