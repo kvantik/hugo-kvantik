@@ -9,7 +9,7 @@
   # куда ведёт ссылка: изгибание 9угольника из палок с дырками
   # где размещена ссылка: статья "Жёсткие многоугльники из конструктора", Квантик 2025-??
   from = "https://kvantik.com/short/9flexible"
-  to = "https://kvantik.com/extra/IMG_20250724_145638_404.mp4"
+  to = "https://kvantik.com/extra/9anim.gif"
   status = 301
   force = true
   
