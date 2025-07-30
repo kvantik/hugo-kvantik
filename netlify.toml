@@ -4,6 +4,13 @@
   status = 301
   force = true
 
+[[redirects]]
+  # куда ведёт ссылка: описание апериодического замощения призраками
+  # где размещена ссылка: решения ТЛ-2023 в Альманахе-25
+  from = "https://kvantik.com/short/aperiodic"
+  to = "https://cs.uwaterloo.ca/~csk/spectre/"
+  status = 301
+  force = true
 
 [[redirects]]
   # куда ведёт ссылка: изгибание 9угольника из палок с дырками
