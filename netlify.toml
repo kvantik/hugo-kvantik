@@ -5,6 +5,22 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: видео с изготовлением балансирующей птицы
+  # где размещена ссылка: Балансирующая птица в клеточку, Квантик №10, 2025
+  from = "https://kvantik.com/short/birdvideo"
+  to = ""
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: схема для печати балансирующей птицы
+  # где размещена ссылка: Балансирующая птица в клеточку, Квантик №10, 2025
+  from = "https://kvantik.com/short/birdprint"
+  to = "https://kvantik.com/extra/birdprint.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: описание апериодического замощения призраками
   # где размещена ссылка: решения ТЛ-2023 в Альманахе-25
   from = "https://kvantik.com/short/aperiodic"
@@ -2184,3 +2200,4 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
