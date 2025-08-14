@@ -4,6 +4,27 @@
   status = 301
   force = true
 
+  # куда ведёт ссылка: анимация с шестерёнками
+  # где размещена ссылка: Шестерёнки в коробёнке, Квантик №11, 2025
+  from = "https://kvantik.com/short/cogs2"
+  to = "https://kvantik.com/extra/cogs2.gif"
+  status = 301
+  force = true
+
+  # куда ведёт ссылка: анимация с шестерёнками
+  # где размещена ссылка: Шестерёнки в коробёнке, Квантик №11, 2025
+  from = "https://kvantik.com/short/cogs3"
+  to = "https://kvantik.com/extra/cogs3.gif"
+  status = 301
+  force = true
+
+  # куда ведёт ссылка: анимация с шестерёнками
+  # где размещена ссылка: Шестерёнки в коробёнке, Квантик №11, 2025
+  from = "https://kvantik.com/short/cogs4"
+  to = "https://kvantik.com/extra/cogs4.gif"
+  status = 301
+  force = true
+  
 [[redirects]]
   # куда ведёт ссылка: видео с изготовлением балансирующей птицы
   # где размещена ссылка: Балансирующая птица в клеточку, Квантик №10, 2025
@@ -2200,4 +2221,5 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
