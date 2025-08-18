@@ -29,7 +29,7 @@
   # куда ведёт ссылка: видео с изготовлением балансирующей птицы
   # где размещена ссылка: Балансирующая птица в клеточку, Квантик №10, 2025
   from = "https://kvantik.com/short/birdvideo"
-  to = ""
+  to = "https://youtu.be/qwUf6lizVM8"
   status = 301
   force = true
 
@@ -2221,5 +2221,6 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
 
