@@ -65,7 +65,7 @@ tocmenu = true
 - [Развертка тетракона](/extra/tetracon.pdf)
 - [Развёртка тороидального многогранника из семиугольников](/extra/heptadodecahedron-fold.pdf)
 - [Пилотируемая полоска](/extra/poloska.pdf)
-- [Куб из трубочек](https://kub-iz-trubochek.netlify.app/), [pdf-файл](/extra/straw-cube.pdf)
+- [Куб из трубочек](/extra/poloska/index.html)
 - [Головоломка «Антислайд с кирпичами»](/extra/antislide.pdf)
 - [Головоломка «Семь семёрок»](/extra/7-7.pdf)
 - [Головоломка «Трансформация пустоты»](/extra/pustota.pdf)
