@@ -5,6 +5,22 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: заготовка для игры с пузырьками Грамши
+  # где размещена ссылка: Пузырьки, Квантик №12, 2025
+  from = "https://kvantik.com/short/bubblesprint"
+  to = "https://kvantik.com/extra/bubblesprint.pdf"
+  status = 301
+  force = true
+  
+[[redirects]]
+  # куда ведёт ссылка: онлайн-игра с пузырьками
+  # где размещена ссылка: Пузырьки, Квантик №12, 2025
+  from = "https://kvantik.com/short/bubblesplay"
+  to = "https://polozkov.github.io/bubbles/"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: анимация с шестерёнками
   # где размещена ссылка: Шестерёнки в коробёнке, Квантик №11, 2025
   from = "https://kvantik.com/short/cogs2"
@@ -2224,6 +2240,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
 
 
