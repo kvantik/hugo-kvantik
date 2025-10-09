@@ -5,6 +5,15 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: конкурс Савина
+  # где размещена ссылка: Наш конкурс, Квантик №12, 2025
+  from = "kvantik.com/short/savin/"
+  to = "https://sites.google.com/view/savin-contest/"
+  status = 301
+  force = true
+
+
+[[redirects]]
   # куда ведёт ссылка: заготовка для игры с пузырьками Грамши
   # где размещена ссылка: Пузырьки, Квантик №12, 2025
   from = "https://kvantik.com/short/bubblesprint"
@@ -2240,6 +2249,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
 
 
