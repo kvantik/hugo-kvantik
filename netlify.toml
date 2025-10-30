@@ -5,6 +5,22 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: файл для печати календаря и деталей
+  # где размещена ссылка: Календари-головоломки, Квантик №1, 2026
+  from = "https://kvantik.com/short/calenderprint"
+  to = "https://kvantik.com/extra/calenderprint.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  # куда ведёт ссылка: таблица с количеством решений для каждой даты
+  # где размещена ссылка: Календари-головоломки, Квантик №1, 2026
+  from = "https://kvantik.com/short/calendar-table"
+  to = "https://kvantik.com/extra/calendar-table.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
   # куда ведёт ссылка: конкурс Савина
   # где размещена ссылка: Наш конкурс, Квантик №12, 2025
   from = "kvantik.com/short/savin/"
@@ -2249,6 +2265,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
 
 
