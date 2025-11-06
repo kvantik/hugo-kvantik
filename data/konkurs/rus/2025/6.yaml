@@ -7,11 +7,11 @@ tour:
     image_scheme: ''
     number: 26
     problem: 'С <i>кт</i> — сверху вниз. А с какими двумя буквами — снизу вверх?'
-  - author: 'И. Б Иткин'
+  - author: 'И. Б. Иткин'
     image_art: 27.png
     image_scheme: ''
     number: 27
-    problem: '&nbsp;&nbsp;на разные<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на разные<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br> Напишите те, которые на разные.'
+    problem: '&nbsp;&nbsp;на разные<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на разные<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br>&nbsp;&nbsp;на одну и ту же<br><br> Напишите те, которые на разные.'
   - author: 'О. А. Кузнецова'
     image_art: 28.png
     image_scheme: ''
