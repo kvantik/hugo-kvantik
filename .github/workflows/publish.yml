@@ -22,5 +22,6 @@ jobs:
           path: ./public
           remote_path: /opt/kvantik/webserver/
           remote_host: 185.54.136.137
+          remote_port: 21043
           remote_user: perepechko
           remote_key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
