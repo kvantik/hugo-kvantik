@@ -1,0 +1,26 @@
+name: Publish site
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.87.0"
+
+      - name: Build
+        run: hugo
+
+      - name: upload to VPS
+        uses: burnett01/rsync-deployments@7.1.0
+        with:
+          switches: -avzr --delete
+          path: ./public
+          remote_path: /opt/kvantik/
+          remote_host: 185.54.136.137
+          remote_user: perepechko
+          remote_key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
