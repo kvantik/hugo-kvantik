@@ -5,6 +5,14 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: видео с деформацией ленты Мёбиуса в вырожденную
+  # где размещена ссылка: Лента Мёбиуса из бумаги, Квантик №2, 2026
+  from = "https://kvantik.com/short/moebvideo/"
+  to = "https://kvantik.com/extra/mobius-warp.mp4"
+  status = 301
+  force = true
+  
+[[redirects]]
   # куда ведёт ссылка: файл для печати календаря и деталей
   # где размещена ссылка: Ответ к окружностям, Квантик №1, 2026
   from = "https://kvantik.com/short/inflate"
@@ -2273,6 +2281,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
 
 
