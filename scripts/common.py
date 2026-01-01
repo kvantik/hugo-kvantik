@@ -7,7 +7,7 @@ import requests
 from pathlib import Path
 
 repo_root = '../'  
-year = 2025
+year = 2026
 
 
 csv_to_update = {
