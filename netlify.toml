@@ -5,6 +5,14 @@
   force = true
 
 [[redirects]]
+  # куда ведёт ссылка: видео с фонтаном Герона
+  # где размещена ссылка: Фонтан без электричества, Квантик №3, 2026
+  from = "kvantik.com/short/fountain"
+  to = "https://kvantik.com/extra/fountain.mp4"
+  status = 301
+  force = true
+  
+[[redirects]]
   # куда ведёт ссылка: видео с деформацией ленты Мёбиуса в вырожденную
   # где размещена ссылка: Лента Мёбиуса из бумаги, Квантик №2, 2026
   from = "kvantik.com/short/moebvideo/"
@@ -2281,6 +2289,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.87.0"
+
 
 
 
