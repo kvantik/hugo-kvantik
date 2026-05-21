@@ -48,7 +48,9 @@ almanacs:
     - ref: https://biblio.mccme.ru/node/243783
       img: img/related_titles/almanac-23.jpg    
     - ref: https://biblio.mccme.ru/node/289628
-      img: img/related_titles/almanac-24.jpg
+      img: img/related_titles/almanac-24.jpg    
+    - ref: https://biblio.mccme.ru/node/305185
+      img: img/related_titles/almanac-25.jpg
 
 calendars:
   title: Календари
@@ -97,7 +99,7 @@ biblio:
   issues:
     - ref: https://biblio.mccme.ru/node/25518/shop
       img: img/related_titles/biblio-100graney.jpg
-    - ref: https://biblio.mccme.ru/node/8014/shop
+    - ref: https://biblio.mccme.ru/node/330143/shop
       img: img/related_titles/biblio-pereputanica.jpg
     - ref: https://biblio.mccme.ru/node/58494/shop
       img: img/related_titles/biblio-busenka.jpg    
