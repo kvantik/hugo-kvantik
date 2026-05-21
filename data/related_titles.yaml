@@ -97,11 +97,13 @@ posters:
 biblio:
   title: Библиотечка
   issues:
-    - ref: https://biblio.mccme.ru/node/25518/shop
+    - ref: https://biblio.mccme.ru/node/308055
       img: img/related_titles/biblio-100graney.jpg
-    - ref: https://biblio.mccme.ru/node/330143/shop
+    - ref: https://biblio.mccme.ru/node/330143
       img: img/related_titles/biblio-pereputanica.jpg
-    - ref: https://biblio.mccme.ru/node/58494/shop
+    - ref: https://biblio.mccme.ru/node/58494
       img: img/related_titles/biblio-busenka.jpg    
     - ref: https://biblio.mccme.ru/node/281447
       img: img/related_titles/biblio-upramougol.jpg
+    - ref: https://biblio.mccme.ru/node/316082
+      img: img/related_titles/grani.webp
