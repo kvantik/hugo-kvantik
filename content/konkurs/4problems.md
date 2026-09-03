@@ -2,11 +2,6 @@
 title: "4 задачи"
 date: 2018-03-06T17:59:57+03:00
 no_tours: true
-menu:
-  main:
-    parent: konkurs
-    name: "четыре задачи"
-    weight: 3
 ---
 
 <div class="content">

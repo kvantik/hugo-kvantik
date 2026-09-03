@@ -2,11 +2,6 @@
 title: "Тест-задачи"
 date: 2018-03-06T17:59:57+03:00
 no_tours: true
-menu:
-  main:
-    parent: konkurs
-    name: "тест-задачи"
-    weight: 4
 ---
 
 
