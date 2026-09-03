@@ -313,3 +313,12 @@ hr		{
   border-radius: 5px;
 }
 
+.home-search .gsc-control-cse {
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.home-search form.gsc-search-box {
+  margin: 0 0 12px !important;
+  max-width: none !important;
+}

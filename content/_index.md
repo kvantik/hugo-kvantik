@@ -39,4 +39,6 @@ text = '''
 
 Список всех статей можно посмотреть [в рубрикаторе](https://old.kvantik.com/art). Поиск по сайту и статьям:
 
-<div class="gcse-search"></div>
+<div class="home-search">
+  <div class="gcse-search"></div>
+</div>
