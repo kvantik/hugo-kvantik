@@ -51,6 +51,8 @@ almanacs:
       img: img/related_titles/almanac-24.jpg    
     - ref: https://biblio.mccme.ru/node/305185
       img: img/related_titles/almanac-25.jpg
+    - ref: https://biblio.mccme.ru/node/334333
+      img: img/related_titles/almanac-26.jpg
 
 calendars:
   title: Календари
@@ -80,8 +82,9 @@ calendars:
     - ref: https://biblio.mccme.ru/node/249940
       img: img/related_titles/calendar_2025.jpg   
     - ref: https://biblio.mccme.ru/node/296216
-      img: img/related_titles/calendar_2026.jpg
-   
+      img: img/related_titles/calendar_2026.jpg 
+    - ref: https://biblio.mccme.ru/node/340156
+      img: img/related_titles/calendar_2027.jpg
       
 posters:
   title: Плакаты
