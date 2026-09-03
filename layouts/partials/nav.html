@@ -9,11 +9,6 @@
             {{- end}}>{{.Name}}</a>
 		{{- end}}{{end -}}		
     </div>
-        {{ range .Translations }}
-        <a href="{{ .URL }}">{{if eq .Lang "en"}} English version{{else}} Русская версия{{end}}</a>
-        {{ end }}
-
-
 {{- if eq .Section "konkurs" }}
 <div class="menusmall" style="width:909px;">
 
