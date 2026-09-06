@@ -4,6 +4,7 @@
 from pathlib import Path
 import argparse
 import json
+import math
 import re
 import subprocess
 import tempfile
@@ -17,6 +18,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--web-source-dir", type=Path,
                         help="Directory containing downloaded files listed in retina-related-web.json")
+    parser.add_argument("--poster-source-dir", type=Path,
+                        help="Directory containing poster-1.pdf, poster-2.pdf, poster-3-hq.pdf")
+    parser.add_argument("--only", nargs="+", help="Generate only these image stems")
+    parser.add_argument("--almanac-one-cover", type=Path,
+                        help="PDF spread for almanac 1 (453 mm wide, front cover is the rightmost 220 mm)")
     args = parser.parse_args()
     web = json.loads((ROOT / "scripts/retina-related-web.json").read_text())
     images = re.findall(r"img: (\S+)", (ROOT / "data/related_titles.yaml").read_text())
@@ -24,13 +30,24 @@ def main():
         for image in images:
             original = ROOT / "static" / image
             name = original.stem
+            if args.only and name not in args.only:
+                continue
+            rotation = 0
+            front_cover = name == "almanac-1" and args.almanac_one_cover is not None
             web_source = (args.web_source_dir / web[name].rsplit("/", 1)[1]
                           if args.web_source_dir and name in web else None)
-            if name == "almanac-1":
+            if name == "almanac-1" and not front_cover:
                 print("Skipped almanac-1: PDF has no front cover")
                 continue
-            if web_source:
+            if front_cover:
+                source = args.almanac_one_cover
+            elif web_source:
                 source = web_source
+            elif name.startswith("posters-") and args.poster_source_dir:
+                number = name.split("-")[1]
+                filename = "poster-3-hq.pdf" if number == "3" else f"poster-{number}.pdf"
+                source = args.poster_source_dir / filename
+                rotation = 90 if number in ("2", "3") else 0
             elif name.startswith("almanac-"):
                 source = PDFS / (name.replace("-", "") + ".pdf")
             elif name.startswith("calendar_"):
@@ -50,15 +67,17 @@ def main():
             if web_source:
                 rendered = source
             else:
+                render_width = math.ceil(width * 453 / 220) if front_cover else (height if rotation else width)
                 subprocess.run([
-                    "pdftoppm", "-f", "1", "-singlefile", "-scale-to-x", str(width),
+                    "pdftoppm", "-f", "1", "-singlefile", "-scale-to-x", str(render_width),
                     "-scale-to-y", "-1", "-png", str(source), str(prefix),
                 ], check=True)
                 rendered = prefix.with_suffix(".png")
             output = original.with_name(name + "@2x.jpg")
             # Fit without distortion; retain the original image's layout dimensions.
+            crop = ["-gravity", "east", "-crop", f"{width}x0+0+0", "+repage"] if front_cover else []
             subprocess.run([
-                "magick", str(rendered), "-resize", f"{width}x{height}",
+                "magick", str(rendered), *crop, "-rotate", str(rotation), "-resize", f"{width}x{height}",
                 "-background", "white", "-gravity", "center", "-extent", f"{width}x{height}",
                 "-quality", "90", str(output),
             ], check=True)
