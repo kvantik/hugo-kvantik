@@ -18,7 +18,7 @@
   {{end}}
 
             <div class="heading"><h2>{{if eq .Lang "ru"}}Последние выпуски{{else}}Latest issues{{end}}</h2></div>
-                        <table class="noborder">
+                        <table class="noborder latest-issues">
                         {{$issues := partialCached "issue/issues_list" .}}
             						{{$latest := (last 3 (where $issues "is_sample" true))}}
 						            {{partial "issue/slogans-card" (merge (index $latest 2) (dict "lang" .Page.Lang))}} 

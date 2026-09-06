@@ -330,6 +330,34 @@ hr		{
   max-width: none !important;
 }
 
+@media only screen and (max-width: 500px) {
+  .latest-issues {
+    margin-left: -10px;
+    width: calc(100% + 10px);
+  }
+
+  .latest-issues td.img {
+    width: 40%;
+  }
+
+  .latest-issues td.ogl {
+    width: 60%;
+  }
+
+  .latest-issues .ogl ul {
+    padding-left: 16px;
+  }
+
+  .latest-issues .ogl h4 {
+    margin-left: 4px !important;
+  }
+
+  .latest-issues .ogl a > p {
+    padding-left: 4px !important;
+    padding-right: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 990px) {
   .containr {
     padding: 0 20px;
