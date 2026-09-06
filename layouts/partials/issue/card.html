@@ -1,7 +1,8 @@
 
 <div class="gallery">
     <a target="_blank" href="/issue/pdf/{{.pdf}}" style="display:block;"> <!--https://cdn.statically.io/gh/kvantik/hugo-kvantik/oldstyle/static -->
-    <img src="/issue/cover/{{.issue}}.jpg" alt="Обложка" width="150">
+    {{ $retina := printf "/issue/cover/%s@2x.jpg" .issue }}
+    <img src="/issue/cover/{{.issue}}.jpg"{{ if fileExists (printf "static%s" $retina) }} srcset="{{ $retina }} 2x"{{ end }} alt="Обложка" width="150">
     <div class="desc"><b> 
     {{- if .is_sample -}}
     {{- if eq .lang "ru" -}}Примеры статей.{{- else -}}Selected articles.{{- end -}}

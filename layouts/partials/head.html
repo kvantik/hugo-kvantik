@@ -47,13 +47,11 @@
 
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
-  <!-- Facebook OpenGraph tags -->
+  <!-- OpenGraph tags -->
   <meta property="og:title" content="{{ .Title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="/{{ .Site.Params.logo }}" />
-
-  {{partial "facebook_pixel" .}}
 
 <script async src="https://cse.google.com/cse.js?cx=015852157525219945674:tumvbg_mmjo"></script>
 </head>
