@@ -1,6 +1,7 @@
 /public/
 /INFRASTRUCTURE.md
 /test-build/
+/static-old/
 
 # macOS
 .DS_Store
