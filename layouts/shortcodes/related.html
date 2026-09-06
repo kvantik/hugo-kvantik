@@ -1,15 +1,21 @@
+{{$grid := eq (.Get 1) "grid"}}
 {{$collection := (index .Site.Data.related_titles (.Get 0))}}
 
 
-<div class="clearfix" style=" margin-bottom: 10px;">
+<div class="clearfix{{ if $grid }} related-grid{{ end }}" style=" margin-bottom: 10px;">
 
 {{range (index $collection "issues")}}
 
+{{ if $grid }}
+<div class="responsive"><div class="gallery">
+{{ else }}
 <div style="float:left; margin:20px; height:300px;">
+{{ end }}
     <a href="{{.ref}}">
    {{ $retina := replace .img ".jpg" "@2x.jpg" }}
    <img class="img-fluid" src="/{{.img}}"{{ if fileExists (printf "static/%s" $retina) }} srcset="/{{ $retina }} 2x"{{ end }} alt="{{.img}}">
     </a>
+{{ if $grid }}</div>{{ end }}
 </div>
 
 {{end}}

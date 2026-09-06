@@ -30,6 +30,16 @@ div.desc {
     width: 24.99999%;
 }
 
+.related-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.related-grid > .responsive {
+    margin: 0 0 20px;
+}
+
 @media only screen and (max-width: 700px){
     .responsive {
         width: 49.99999%;

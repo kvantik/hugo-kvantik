@@ -30,7 +30,7 @@ See also the [interactive table](http://old.kvantik.com/art/index.html) of all a
 
 # Almanacs {#almanacs}
 
-{{<related "almanacs">}}
+{{<related "almanacs" "grid">}}
 
 # Library {#biblio}
 
@@ -41,7 +41,7 @@ See also the [interactive table](http://old.kvantik.com/art/index.html) of all a
 {{<related "posters">}}
 
 # Calendars {#calendars}
-{{<related "calendars">}}
+{{<related "calendars" "grid">}}
 
 
 # Do It Yourself {#DIY}
