@@ -46,6 +46,13 @@ td.ogl	{	width:65%;	}
 td.top	{	vertical-align: top;
 			width:20%;  }
 
+td.news-date {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: top;
+    padding-right: 0.75em;
+}
+
 
 .clearfix:after {
     content: "";
