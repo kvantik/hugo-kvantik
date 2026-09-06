@@ -19,13 +19,13 @@ menu:
 «Квантик» в социальных сетях: 
 
 
-[![ВКонтакте](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)  [![Телеграм](/img/social/tg_h.png "Telegram")](http://t.me/kvantik12)  [![Ютуб](/img/social/yt_h.png "Ютуб")](http://www.youtube.com/user/kvantik12)  [![Твиттер](/img/social/tw_h.png "Твиттер")](http://twitter.com/kvantik_journal)  [![ЖЖ](/img/social/lj_h.png "Живой журнал")](http://kvantik12.livejournal.com/) 
+[![ВКонтакте](/img/social/vk_h.png "ВКонтакте")](http://vk.com/kvantik12)  [![Телеграм](/img/social/tg_h.png "Telegram")](http://t.me/kvantik12)
 
 
 # Выходная информация
 *Главный редактор:* Сергей Дориченко  
 
-*Редакция:* Валентина Асташкина, Татьяна Корчемкина, Алёна Котко, Григорий Мерзон, Александр Перепечко, Максим Прасолов, Никита Солодовников
+*Редакция:* Валентина Асташкина, Татьяна Корчемкина, Алёна Котко, Ирина Маховая, Григорий Мерзон, Максим Прасолов, Иван Русских, Никита Солодовников
 
 *Главный художник:* Yustas
 
