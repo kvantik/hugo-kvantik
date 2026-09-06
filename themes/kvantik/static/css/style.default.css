@@ -62,13 +62,12 @@ hr		{
 
 .containr{
 		width:990px;
+		max-width:100%;
 		height:inherit;
 		position:relative;
 		top:0;
-		left:50%;
-		margin:0;
+		margin:0 auto;
 		margin-bottom: 0;
-		margin-left:-495px;
 		padding:0 40px;
 		}
 		
@@ -322,4 +321,62 @@ hr		{
 .home-search form.gsc-search-box {
   margin: 0 0 12px !important;
   max-width: none !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .containr {
+    padding: 0 20px;
+    overflow-wrap: anywhere;
+  }
+
+  .head, .menu, .menusmall, .content, .footer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .head, .menu, .menusmall {
+    height: auto;
+  }
+
+  .containr img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    white-space: normal;
+    margin-bottom: 16px;
+  }
+
+  .menu a {
+    margin: 0 8px;
+    line-height: 1.8;
+    white-space: nowrap;
+  }
+
+  #TableOfContents ul {
+    flex-wrap: wrap;
+  }
+
+  .footer p {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .containr {
+    width: 1390px;
+  }
+
+  .head, .menu, .menusmall, .content, .footer {
+    width: 100%;
+  }
+
+  .head img {
+    margin: 0 auto;
+  }
 }

@@ -40,6 +40,18 @@ div.desc {
     margin: 0 0 20px;
 }
 
+@media only screen and (min-width: 1600px){
+    .responsive {
+        width: 16.66666%;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .responsive {
+        width: 33.33333%;
+    }
+}
+
 @media only screen and (max-width: 700px){
     .responsive {
         width: 49.99999%;
@@ -47,7 +59,7 @@ div.desc {
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 420px){
     .responsive {
         width: 100%;
     }
