@@ -7,13 +7,13 @@
 {{$tours := index (.Scratch.Get "konkursdata") .Title}}
 {{$page := .}}
 
-<div class="container">
+<div class="container konkurs-tours">
 <div class="row" style="max-width:900px; margin:auto;">
 {{range (sort $tours "tour.number" "desc")}}
 {{$problems := (sort .tour.problems "number" "asc")}}
-<div style="width:900px;" class="clearfix">
+<div style="width:100%;" class="clearfix">
 <h1 style="text-align:center;">{{.tour.title}} </h1>
-{{with .tour.image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация к туру" style="float: right; height:400px;"/>{{end}}
+{{with .tour.image_art}}<img src="{{$page.URL}}{{.}}" alt="Иллюстрация к туру" class="konkurs-tour-art"/>{{end}}
 
 {{$url := strings.TrimPrefix "/en" $page.URL }}
 
@@ -27,7 +27,7 @@
   <div class="media-body">
     <h4 class="media-heading">Задача {{.number}}. {{if (ne (string .author | chomp)  "")}}<small>({{.author}})</small> {{end}} </h4>
     <p>{{.problem | markdownify}}</p>
-    {{with .image_scheme}} <img src="{{$url}}{{.}}" alt="Чертёж" class="media-object" style="max-height:160px; max-width:400px;" />{{end}}
+    {{with .image_scheme}} <img src="{{$url}}{{.}}" alt="Чертёж" class="media-object" style="max-height:160px; max-width:min(400px, 100%);" />{{end}}
   </div>
   {{if (modBool 2 2)}}
   <div class="media-right">
