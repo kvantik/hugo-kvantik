@@ -14,10 +14,10 @@
         {{partial "news/li" .}}
         {{end}}
          </tbody></table>
-        {{"[Остальные новости](/news)" | markdownify}}
+        {{"[Архив новостей](/news)" | markdownify}}
   {{end}}
 
-            <div class="heading"><h2>{{if eq .Lang "ru"}}Последние выпуски{{else}}Latest issues{{end}}</h2></div>
+            <div class="heading"><h2>{{if eq .Lang "ru"}}Последние номера{{else}}Latest issues{{end}}</h2></div>
                         <table class="noborder latest-issues">
                         {{$issues := partialCached "issue/issues_list" .}}
             						{{$latest := (last 3 (where $issues "is_sample" true))}}
